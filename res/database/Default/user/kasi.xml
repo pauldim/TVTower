@@ -13,18 +13,18 @@
 			<title>
 				<de>%HERO%</de>
 				<en>%HERO%</en>
-				<pl></pl>
+				<pl>%HERO%</pl>
 			</title>
 			<description>
 				<de>Heldenverfilmung aus den bekannten Moval-Comics. %HERO% kämpft gegen einen neuen Superschurken und rettet die Welt.</de>
 				<en>A Superhero-movie from the well-known Moval-Comics. %HERO% is fighting a new super villain and is saving the world.</en>
-				<pl></pl>
+				<pl>Superbohaterski film ze znanego Moval-Comics. %HERO% walczy z nowym zagrożeniem i ratuje świat.</pl>
 			</description>
 			<variables>
 				<hero>
 					<de>Herculesman|Insectboy|Uranman|Sensationboy|Ms Superpower|Powergirl|The-beautiful-flying-superstrong-Woman</de>
 					<en>Herculesman|Insectboy|Uranman|Sensationboy|Ms Superpower|Powergirl|The-beautiful-flying-superstrong-Woman</en>
-					<pl></pl>
+					<pl>Herkules|Insektboy|Uranman|Sensationboy|Ms Superpower|Powergirl|Superstrong-Woman</pl>
 				</hero>
 			</variables>
 			<jobs>
@@ -52,72 +52,72 @@
 			<title>
 				<de>Typentausch</de>
 				<en>Change your Boyfriend</en>
-				<pl></pl>
+				<pl>Zmień swojego chłopaka</pl>
 			</title>
 			<description>
 				<de>Männer werden in fremde Familien gesteckt und müssen eine Woche alles tun, was der andere gemacht hätte. Trash-TV vom feinsten.</de>
 				<en>Men are put into other families and have to do everything the other would have done for a week. Trash TV at its finest.</en>
-				<pl></pl>
+				<pl>Mężczyźni są umieszczani w innych rodzinach i muszą robić wszystko, co inni mężczyźni robiliby przez tydzień. Śmieciowa telewizja w najlepszym wydaniu.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Typentausch-Ep1">
 					<title>
 						<de>Der erste Tausch</de>
 						<en>The first exchange</en>
-						<pl></pl>
+						<pl>Pierwsza wymiana</pl>
 					</title>
 					<description>
 						<de>Der arbeitslose %Name1% tauscht mit dem Multimilionär %Name2%. Während %Name1% die teuren Weine von %Name2% austrinkt und merkt, dass ein Multimillionär genauso hart arbeiten muss wie er selbst, wundert sich %Name2%, dass nicht alle Toiletten aus Gold sind.</de>
 						<en>The unemployed %Name1% swaps places with the multimilionaire %Name2%. While %Name1% drinks up %Name2%'s expensive wines and realizes that a multimillionaire has to work just as hard as he does, %Name2% wonders why not all toilets are made of gold.</en>
-						<pl></pl>
+						<pl>Bezrobotny %Name1% zamienia się miejscami z multimilionerem %Name2%. %Name1% pijąc drogie wina zdaje sobie sprawę, że multimilioner musi pracować tak samo ciężko jak on. %Name2% zastanawia się, dlaczego nie wszystkie toalety są ze złota.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Typentausch-Ep2">
 					<title>
 						<de>%Name3% und die Truckerbräute</de>
-						<en>%Name3% an the trucker brides</en>
-						<pl></pl>
+						<en>%Name3% and the trucker brides</en>
+						<pl>Kierowca ciężarówki %Name3% i kierowca rajdowy %Name4%</pl>
 					</title>
 					<description>
 						<de>Der Satanist %Name3% und der Truckfahrer %Name4% tauschen die Plätze. Während sich %Name4% schnell daran gewöhnt in einem Sarg zu schlafen, erkennt %Name3% beim Truckfahren seine Liebe zur Umweltzerstörung und Truckerbräuten.</de>
 						<en>The satanist %Name3% and the truckdriver %Name4% swap places. While %Name4% quickly gets used to sleeping in a coffin, %Name3% discovers his love of environmental destruction and trucker brides while driving a truck.</en>
-						<pl></pl>
+						<pl>Kierowca ciężarówki - %Name3%, zamienia się z kierowcą rajdowym. %Name4% - kierowca rajdowy łapie mandaty za szybką jazdę, a %Name3% zajmuje ostatnią pozycję w rajdzie.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Typentausch-Ep3">
 					<title>
 						<de>Hart ist das Leben</de>
 						<en>It's a hard life</en>
-						<pl></pl>
+						<pl>To ciężkie życie</pl>
 					</title>
 					<description>
 						<de>Der Dachdecker %Name5% tauscht mit der aus Zufall in die Sendung geratenen %Name6%. Während %Name5% vollkommen überfordert ist mit der Hausarbeit, die %Name6% jeden Tag erledigt, genießt %Name6% die Zeit biertinkend auf einem Dach.</de>
 						<en>The roofer %Name5% swaps places with %Name6%, who got into the show by accident. While %Name5% is completely overwhelmed with the housework %Name6% does every day, %Name6% enjoys her time drinking beer on a roof.</en>
-						<pl></pl>
+						<pl>Dekarz %Name5% zamienia się miejscami z gościem, który dostał się do programu przez przypadek. Podczas gdy %Name5% jest całkowicie przytłoczony pracami domowymi, które %Name6% wykonuje każdego dnia, %Name6% lubi pić piwo na dachu.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Typentausch-Ep4">
 					<title>
 						<de>Der Fütterer</de>
 						<en>A Feeder's Life</en>
-						<pl></pl>
+						<pl>Życie karmiciela</pl>
 					</title>
 					<description>
 						<de>Der übergewichtige %Name7% tauscht mit dem Soziopathen und Frisör %Name8%. Da %Name7% auf Grund seine Gewichtes das Bett nicht mehr verlassen kann, verbringt er die ganze Sendung gemeinsam mit %Name8%, der %Name7% seine Bauchhaare stylt und ihm leckeres, fettiges Essen kocht.</de>
 						<en>The overweight %Name7% swaps with the sociopath and hairdresser %Name8%. Since %Name7% can not leave the bed because of his weight, he spends the whole show together with %Name8%, who styles %Name7%'s abdominal hair and cooks him delicious greasy food.</en>
-						<pl></pl>
+						<pl>Otyły %Name7% zamienia się z socjopatą i fryzjerem o imieniu %Name8%. Ponieważ %Name7% nie może opuścić łóżka z powodu swojej wagi, spędza cały program razem ze zmiennikiem, który układa mu włosy na brzuchu i gotuje mu pyszne tłuste jedzenie.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Typentausch-Ep5">
 					<title>
 						<de>Alle Typen vereint</de>
 						<en>All Together</en>
-						<pl></pl>
+						<pl>Wszyscy razem</pl>
 					</title>
 					<description>
 						<de>Im großen Staffelfinale treffen sich %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%, %Name7% und %Name8% und trinken gemeinsam Bier und veranstalten einen Furzwettbewerb, den %Name6% gewinnt.</de>
 						<en>In the big season finale, %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% and %Name8% meet, and drink beer together and organize a fart competition which %Name6% wins.</en>
-						<pl></pl>
+						<pl>W wielkim finale sezonu, %Name1%, %Name2%, %Name3%, %Name4%, %Name5%, %Name6%,%Name7% i %Name8% spotykają się, piją razem piwo i organizują konkurs pierdzenia. Wygrywa %Name6%.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -125,42 +125,42 @@
 				<name1>
 					<de>Jens|Bruno|Kevin|Holga|Jeremie|Thorsten|Zohan</de>
 					<en>Jens|Bruno|Kevin|Holga|Jeremie|Thorsten|Zohan</en>
-					<pl></pl>
+					<pl>Jens|Bruno|Kewin|Henryk|Jeremie|Thorsten|Zbigniew</pl>
 				</name1>
 				<name2>
 					<de>Karsten|Andreas|Jessie|Walter|Robert|Sebastian|Sascha</de>
 					<en>Karsten|Andreas|Jessie|Walter|Robert|Sebastian|Sascha</en>
-					<pl></pl>
+					<pl>Krzysztof|Andreas|Jan|Walter|Robert|Sebastian|Sasza</pl>
 				</name2>
 				<name3>
 					<de>Ben|Jonas|Paul|Leon|Henry|Finn|Felix</de>
 					<en>Ben|Jonas|Paul|Leon|Henry|Finn|Felix</en>
-					<pl></pl>
+					<pl>Ben|Łukasz|Paweł|Leon|Harry|Fryderyk|Feliks</pl>
 				</name3>
 				<name4>
 					<de>Luis|Elias|Noah|Luka|Max|Emil|Theo</de>
 					<en>Luis|Elias|Noah|Luka|Max|Emil|Theo</en>
-					<pl></pl>
+					<pl>Luis|Eliasz|Noah|Luka|Maks|Emil|Teodor</pl>
 				</name4>
 				<name5>
 					<de>Oskar|Leo|Milan|David|Matteo|Linus|Jonah</de>
 					<en>Oskar|Leo|Milan|David|Matteo|Linus|Jonah</en>
-					<pl></pl>
+					<pl>Oskar|Leon|Milan|Dawid|Matteo|Leszek|Jacek</pl>
 				</name5>
 				<name6>
 					<de>Lara|Viola|Caro|Nathalie|Sophia|Greta|Ermtrude</de>
 					<en>Lara|Viola|Caro|Nathalie|Sophia|Greta|Ermtrude</en>
-					<pl></pl>
+					<pl>Borys|Wiktor|Karl|Natan|Syd|Grzegorz|Erazm</pl>
 				</name6>
 				<name7>
 					<de>Tom|Mika|Jonathan|Fabian|Phillip|Till|Valentin</de>
 					<en>Tom|Mika|Jonathan|Fabian|Phillip|Till|Valentin</en>
-					<pl></pl>
+					<pl>Tom|Mika|Jonatan|Fabian|Fillip|Till|Walentin</pl>
 				</name7>
 				<name8>
 					<de>Damian|Mateo|Nils|Phil|Ludwig|Erich|Daniel</de>
 					<en>Damian|Mateo|Nils|Phil|Ludwig|Erich|Daniel</en>
-					<pl></pl>
+					<pl>Damian|Mateo|Nils|Phil|Ludwig|Eryk|Daniel</pl>
 				</name8>
 			</variables>
 			<jobs>
@@ -182,23 +182,23 @@
 			<title>
 				<de>Das Livekonzert von %Name1% %Name2%</de>
 				<en>%Name1% %Name2% Live</en>
-				<pl></pl>
+				<pl>%Name1% %Name2% Na Żywo</pl>
 			</title>
 			<description>
 				<de>Live in Stereo, Farbe und Bunt: %Name1% %Name2%</de>
 				<en>Live and in stereo: %Name1% %Name2%</en>
-				<pl></pl>
+				<pl>Na Żywo i w stereo: %Name1% %Name2%</pl>
 			</description>
 			<variables>
 				<name1>
 					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
 					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
-					<pl></pl>
+					<pl>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</pl>
 				</name1>
 				<name2>
 					<de>Miller|Jackobson|Smith|Bloomberg|Gate|Johnson|Petersen</de>
 					<en>Miller|Jackobson|Smith|Bloomberg|Gate|Johnson|Petersen</en>
-					<pl></pl>
+					<pl>Miller|Jackobson|Smith|Bloomberg|Gate|Johnson|Petersen</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -222,28 +222,28 @@
 			<title>
 				<de>Befreit den %Tier% %title%%Name%</de>
 				<en>Free the %Tier% %title%%Name%</en>
-				<pl></pl>
+				<pl>Uwolnić %Tier% %Name%</pl>
 			</title>
 			<description>
 				<de>Ein Kind verliebt sich beim Zoobesuch in den %Tier% %title%%Name%. Doch sieht dieser sehr traurig aus. So tut das Kind alles in seiner Macht stehende, um ihn zu befreien.</de>
 				<en>A child falls in love with the %Tier% %title%%Name% while visiting the zoo. But it looks very sad. So the child does everything in its power to free the animal.</en>
-				<pl></pl>
+				<pl>Dziecko zakochuje się w zwierzątku podczas wizyty w zoo. Wygląda ono jednak na bardzo smutne. Dziecko robi więc wszystko, co w jego mocy, by uwolnić %Name%.</pl>
 			</description>
 			<variables>
-				<tier>
+				<Tier><!--tier changed to Tier.  -->
 					<de>Affen|Nacktmull|Goldfisch|Löwen|Tiger|Hasen|Panda</de>
 					<en>monkey|naked mole rat|goldfish|lion|tiger|rabbit|panda</en>
-					<pl></pl>
-				</tier>
-				<name>
+					<pl>małpę|surykatkę|delfina|lwa|tygrysa|zająca|pandę</pl>
+				</Tier>
+				<Name><!--name changed to Name.  -->
 					<de>Jingels|Wollo|Hubert|Billy|Fluffy|Bobo|Flocke</de>
 					<en>Jingels|Wollo|Hubert|Billy|Fluffy|Bobo|Flake</en>
-					<pl></pl>
-				</name>
+					<pl>Jingela|Wollo|Huberta|Billiego|Fluffiego|Bobo|Neo</pl>
+				</Name>
 				<title>
 					<de>Mister |Little |Big |Mac</de>
 					<en>Mister |Little |Big |Mac</en>
-					<pl></pl>
+					<!--In Polish, not required. I had to rewrite it to make it grammatically ok.  -->
 				</title>
 			</variables>
 			<jobs>
@@ -266,18 +266,18 @@
 			<title>
 				<de>Ghost%zu%</de>
 				<en>Ghost%zu%</en>
-				<pl></pl>
+				<pl>%zu%</pl>
 			</title>
 			<description>
 				<de>Der Ghost%zu% James ist nicht sehr erfolgreich in seinem Job. Aus Verzweiflung macht er einen Urlaub im Gebirge. Doch in seiner Ferienwohnung geschehen gespenstische Dinge.</de>
 				<en>The Ghost%zu% James isn't very successful in his job. Out of desperation, he takes a vacation in the mountains. But in his vacation home spooky things happen.</en>
-				<pl></pl>
+				<pl>%zu% nie odnosi sukcesów w swojej pracy. Z desperacji wyjeżdża na wakacje w góry. W jego domu wakacyjnym dzieją się straszne i dziwne rzeczy.</pl>
 			</description>
 			<variables>
 				<zu>
 					<de>writer|rider|searcher|hunter</de>
 					<en>writer|rider|searcher|hunter</en>
-					<pl></pl>
+					<pl>Eryk pisarz|Mark rajdowiec|Piotr wynalazca|Leon restaurator</pl><!--In Polish, I had to rewrite it to make it grammatically ok.  -->
 				</zu>
 			</variables>
 			<jobs>
@@ -301,86 +301,86 @@
 			<title>
 				<de>%Name1% %Name2% - Verloren im digitalem Sumpf</de>
 				<en>%Name1% %Name2% - Lost in the digital swamp</en>
-				<pl></pl>
+				<pl>%Name2% w %Name1% - Zagubienie w cyfrowym bagnie</pl>
 			</title>
 			<description>
 				<de>Spannende Thriller-Serie über die Geheimnisse, welche in %Name1% geschrieben wurden, und eine Gruppe junger Menschen, die versuchen, mit diesen Geheimnissen Morde aufzudecken.</de>
 				<en>Suspenseful thriller series about secrets written in %Name1% and a group of young people trying to resolve murder cases using those secrets.</en>
-				<pl></pl>
+				<pl>Trzymająca w napięciu seria thrillerów o tajemnicach zapisanych w %Name1% i grupie młodych ludzi próbujących rozwiązać sprawy morderstw przy użyciu tych tajemnic.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SozialeNetzwerke-Ep1">
 					<title>
 						<de>Pilot</de>
 						<en>Pilot</en>
-						<pl></pl>
+						<pl>Początek</pl>
 					</title>
 					<description>
 						<de>Nach etlichen Morden in ihrer Stadt schließt sich eine Gruppe junger Menschen zusammen, um diesen nachzugehen. Ihre größte Chance sind Recherchen in %Name1%.</de>
 						<en>After several murders in their city, a group of young people get together to investigate them. Their biggest chance is to do research in %Name1%.</en>
-						<pl></pl>
+						<pl>Po kilku morderstwach w ich mieście, grupa młodych ludzi zbiera się, aby je zbadać. Ich największą szansą jest przeprowadzenie badań zapisanych w %Name1%.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SozialeNetzwerke-Ep2">
 					<title>
 						<de>Der Verdacht</de>
 						<en>The suspicion</en>
-						<pl></pl>
+						<pl>Podejrzenie</pl>
 					</title>
 					<description>
 						<de>Die Gruppe hat eine Liste mit Verdächtigen zusammengetragen. Sogar der Bürgermeister könnte involviert sein.</de>
 						<en>The group has compiled a list of suspects. Even the mayor could be involved.</en>
-						<pl></pl>
+						<pl>Grupa sporządziła listę podejrzanych. Nawet burmistrz może być w to zamieszany.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-SozialeNetzwerke-Ep3">
 					<title>
 						<de>Panik</de>
 						<en>Panic</en>
-						<pl></pl>
+						<pl>Panika</pl>
 					</title>
 					<description>
 						<de>Die Recherchen auf %Name1% sorgen dafür, dass die Gruppe in Gefahr gerät. Der Mörder droht ihnen über %Name1%.</de>
 						<en>The research on %Name1% puts the group in danger. The killer threatens them through %Name1%.</en>
-						<pl></pl>
+						<pl>Badania w %Name1% narażają grupę na niebezpieczeństwo. Zabójca grozi im za pośrednictwem tych mediów.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SozialeNetzwerke-Ep4">
 					<title>
 						<de>%Name1%</de>
 						<en>%Name1%</en>
-						<pl></pl>
+						<pl>Blokada</pl>
 					</title>
 					<description>
 						<de>Der Mörder hat mehr Macht als erwartet. Er lässt alle Accounts bei %Name1% sperren. Verzweiflung macht sich breit.</de>
 						<en>The killer has more power than expected. He blocks all accounts of %Name1%. Despair is spreading.</en>
-						<pl></pl>
+						<pl>Zabójca ma większą moc niż oczekiwano. Blokuje wszystkie konta w %Name1%. Rozpacz się rozprzestrzenia.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SozialeNetzwerke-Ep5">
 					<title>
 						<de>Keine Chance</de>
 						<en>No Chance</en>
-						<pl></pl>
+						<pl>Żadnych szans</pl>
 					</title>
 					<description>
 						<de>Die Gruppe wechselt geschlossen zu einem anderen Netzwerk. Doch der Mörder ist noch immer auf freiem Fuß und niemand ahnt, dass er dank %Name1% alles über die Gruppe weiß.</de>
 						<en>The complete group switches to another network. But the killer is still at large and no one suspects that he knows everything about the group because of %Name1%.</en>
-						<pl></pl>
+						<pl>Cała grupa przenosi się do innej sieci. Zabójca wciąż jest na wolności i nikt nie podejrzewa, że wie wszystko o grupie z poszukiwawczej.</pl>
 					</description>
 				</scripttemplate>
 			</children>
 			<variables>
-				<name1>
+				<Name1><!--name1 changed to Name1.  -->
 					<de>Finstergram|Twoter|Focebeek|Putube|Snoopchat|Whosapp</de>
 					<en>Finstergram|Twoter|Focebeek|Putube|Snoopchat|Whosapp</en>
-					<pl></pl>
-				</name1>
-				<name2>
+					<pl>Finstergramie|Twoterze|Focebeeku|Putube-ie|Snoopchat-cie|Whosappie</pl>
+				</Name1>
+				<Name2>
 					<de>Girl|Woman|Maid|Child|Daughter|Son|Boy|Man</de>
 					<en>Girl|Woman|Maid|Child|Daughter|Son|Boy|Man</en>
-					<pl></pl>
-				</name2>
+					<pl>Dziewczyna|Kobieta|Panna|Dziecko|Córka|Syn|Chłopiec|Facet</pl>
+				</Name2><!--name2 changed to Name2.  -->
 			</variables>
 			<jobs>
 				<job function="1" index="0" required="1" />
@@ -406,18 +406,18 @@
 			<title>
 				<de>Die Macht von %Name%</de>
 				<en>The Power of %Name%</en>
-				<pl></pl>
+				<pl>Siła %Name%</pl>
 			</title>
 			<description>
 				<de>Die Macht von %Name% ist eine Investigativ-Dokumentation, die tief in die Gefilde des Streamingdienstes eintaucht. Die Fragen sind: Werden Kunden von TV-Tower verschwinden? Wird die Werbung billiger? Verschwinden alle Filme aus dem Filmverleih?</de>
 				<en>The power of %Name% is an investigative documentary that dives deep into the realm of the streaming service. The questions are: Will customers of TV-Tower disappear? Will the advertising get cheaper? Will all movies disappear from the movie agency?</en>
-				<pl></pl>
+				<pl>Siła %Name% to dokument śledczy, który zagłębia się w sferę usług streamingowych. Pytania są następujące: Czy klienci TV-Tower znikną? Czy reklamy będą tańsze? Czy wszystkie filmy znikną z agencji filmowych?</pl>
 			</description>
 			<variables>
 				<name>
 					<de>Omozon|Mousework|Nudeflix|Paxdome|Putube|whyTunes</de>
 					<en>Omozon|Mousework|Nudeflix|Paxdome|Putube|whyTunes</en>
-					<pl></pl>
+					<pl>Omozonu|Mouseworku|Nudeflixa|Paxdomu|Putube-a|whyTunes-a</pl>
 				</name>
 			</variables>
 			<jobs>
@@ -441,96 +441,96 @@
 			<title>
 				<de>Sprich mit %NAME%</de>
 				<en>Talk with %NAME%</en>
-				<pl></pl>
+				<pl>Rozmowy z %NAME%</pl>
 			</title>
 			<description>
 				<de>Talkshowformat, bei dem die Verzweiflung des Moderators mit jeder einzelnen Sendung zunimmt. Begleiten Sie %NAME% bei schrecklichen Gesprächen mit willkürlich aufgelesenen Menschen, die für eine Sekunde Berühmtheit praktisch alles sagen würden.</de>
 				<en>Talk show format where the desperation of the host increases with each show. Join %NAME% as he has horrible conversations with people picked up at random who will say practically anything for a second of fame.</en>
-				<pl></pl>
+				<pl>Talk show, w którym desperacja prowadzącego rośnie z każdym odcinkiem. Prowadzimy okropne rozmowy z losowo wybranymi ludźmi, którzy powiedzą praktycznie wszystko za sekundę sławy.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="3" index="0" guid="Kasi-script-Talkshow-Ep1">
 					<title>
 						<de>Der erste Plausch</de>
 						<en>The first Talk</en>
-						<pl></pl>
+						<pl>Pierwsza rozmowa</pl>
 					</title>
 					<description>
 						<de>Drei Arbeitslose treffen sich und bezeichnen die jeweils anderen als Schmarotzer. Als dann noch die Mutter der drei auftaucht, fällt ihnen auf, dass sie Brüder sind. Der verzweifelte Moderator %NAME% begleitet dies mit interessanten Fragen.</de>
 						<en>Three unemployed people meet and call each other parasites. Then, when the mother of the three shows up, it strikes them that they are brothers. The desperate moderator %NAME% accompanies this with interesting questions.</en>
-						<pl></pl>
+						<pl>Trzech bezrobotnych spotyka się i nazywa się nawzajem pasożytami. Kiedy pojawia się matka całej trójki, okazuje się, że są braćmi. Zdesperowany moderator towarzyszy tym interesującym rozmowom.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="1" guid="Kasi-script-Talkshow-Ep2">
 					<title>
 						<de>Zwei Beziehungen</de>
 						<en>Two Couples</en>
-						<pl></pl>
+						<pl>Dwie pary</pl>
 					</title>
 					<description>
 						<de>Ein Pärchen gesteht sich gegenseitig fremdgegangen zu sein. Es stellt sich heraus, dass Sie mit dem Mann der Frau, mit der ihr Ehemann fremdgegangen ist, fremdgegangen ist. Diese sind wiederum auch mit einem anderen Pärchen fremdgegangen. Verwirrend, nicht nur für %NAME%.</de>
 						<en>A couple confesses to having cheated on each other. It turns out that she has cheated with the husband of the woman with whom her husband has cheated. They, in turn, have also cheated with another couple. Confusing, not only for %NAME%.</en>
-						<pl></pl>
+						<pl>Para przyznaje się do zdrady. Okazuje się, że ona zdradzała z mężem kobiety, z którą zdradzał jej mąż. Oni z kolei zdradzali również z inną parą. Zagmatwane, nie tylko dla prowadzącego.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="2" guid="Kasi-script-Talkshow-Ep3">
 					<title>
 						<de>Wiedersehen</de>
 						<en>Together</en>
-						<pl></pl>
+						<pl>Razem</pl>
 					</title>
 					<description>
 						<de>Ein 88-jähriger will endlich seine leibliche Mutter kennenlernen. Es stellt sich heraus, dass sie erst 72 Jahre als ist und er 58. Während der Sendung stürmt die Polizei herein und nimmt den Nun-nicht-mehr-Rentner wegen Sozialbetrugs fest.</de>
 						<en>An 88-year-old finally wants to meet his biological mother. It turns out she's only 72 and he's 58. During the show, the police rush in and arrest the now-no-longer-retired man for welfare fraud.</en>
-						<pl></pl>
+						<pl>88-latek chce w końcu poznać swoją biologiczną matkę. Okazuje się, że ona ma tylko 72 lata, a on 58. Podczas pokazu policja wkracza do akcji i aresztuje emerytowanego mężczyznę za oszustwo socjalne.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="3" guid="Kasi-script-Talkshow-Ep4">
 					<title>
 						<de>Entführt</de>
 						<en>Kidnapped</en>
-						<pl></pl>
+						<pl>Porwany</pl>
 					</title>
 					<description>
 						<de>Fünf Menschen behaupten in der Sendung, von Aliens entführt worden zu sein. Dort wurden Tests mit Ihnen durchgeführt z.B. ein IQ-Test und BDI. %Name% verliert die Kontrolle über die fünf, als Sie sich streiten wer, den höchsten BDI-Wert erreicht hat.</de>
 						<en>Five people claim in the program to have been abducted by aliens. There, tests were performed on them, e.g. an IQ test and BDI. %Name% loses control of the five when they argue about who has the highest BDI score.</en>
-						<pl></pl>
+						<pl>Pięć osób twierdzi w programie, że zostało uprowadzonych przez kosmitów. Tam przeprowadzono na nich testy, np. test IQ i BDI. Prezenter traci kontrolę nad piątką, gdy kłócą się o to, kto ma najwyższy wynik BDI.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="4" guid="Kasi-script-Talkshow-Ep5">
 					<title>
 						<de>Hypnose</de>
 						<en>Hypnosis</en>
-						<pl></pl>
+						<pl>Hipnoza</pl>
 					</title>
 					<description>
 						<de>Ein Profihypnotiseur wird eingeladen. Als die Hälfte des Publikums wie ein Huhn gackert, die andere Hälfte denkt, ihr Sitz wäre ein Bobbycar, und %Name% anfängt, Modern Walking zu singen, wird die Sendung abgebrochen.</de>
 						<en>A professional hypnotist is invited. When half the audience clucks like a chicken, the other half thinks their seat is a bobby car, and %Name% starts singing Modern Walking, the show is aborted.</en>
-						<pl></pl>
+						<pl>Zaproszony zostaje profesjonalny hipnotyzer. Kiedy połowa publiczności gdakała jak kurczak, druga połowa myślała, że ich siedzenie to kaktus, a prezenter zaczął śpiewać Modern Walking, pokaz został przerwany.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="5" guid="Kasi-script-Talkshow-Ep6">
 					<title>
 						<de>Baumliebe</de>
 						<en>Tree-lovers</en>
-						<pl></pl>
+						<pl>Miłośnicy drzew</pl>
 					</title>
 					<description>
 						<de>Zwei Menschen haben sich in den gleichen Baum verliebt. In der Sendung streiten sie darum, wen der Baum von den beiden mehr liebt. Als ein Wissenschaftler mit einer Baumsprechmaschine ankommt und der Baum sagt, dass er %Name% am meisten liebt, wird dieser von den Baumliebhabern verprügelt.</de>
 						<en>Two people have fallen in love with the same tree. On the show, they fight over who the tree loves more of the two. When a scientist arrives with a tree language translator and the tree says it loves %Name% the most, the tree lovers beat him up.</en>
-						<pl></pl>
+						<pl>Dwoje ludzi zakochało się w tym samym drzewie. W programie walczą o to, kogo drzewo kocha bardziej. Kiedy naukowiec przybywa z tłumaczem języka drzew, a drzewo mówi, że najbardziej kocha prezentera, miłośnicy drzew biją go.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="6" guid="Kasi-script-Talkshow-Ep7">
 					<title>
 						<de>Rücktritt</de>
 						<en>Resignation</en>
-						<pl></pl>
+						<pl>Rezygnacja</pl>
 					</title>
 					<description>
 						<de>Aufgrund schwerer Verletzungen und ernsten Depressionen, die %Name% durch seine Show erlitten hat, tritt %Name% nun zurück. Er erklärt, dass er dieses Format hasst und nicht verstehen kann, wie ein Mensch so etwas freiwillig gucken kann.</de>
 						<en>Due to severe injuries and serious depression that %Name% has suffered from his show, %Name% is now resigning. He explains that he hates this format and cannot understand how a person can watch something like this voluntarily.</en>
-						<pl></pl>
+						<pl>Z powodu poważnych obrażeń i poważnej depresji, na którą cierpiał prezenter z powodu swojego programu, rezygnuje z prowadzenia programu. Wyjaśnia, że nienawidzi tego formatu i nie może zrozumieć, jak ktoś może dobrowolnie oglądać coś takiego.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -538,7 +538,7 @@
 				<name>
 					<de>Ronny|Rob|Kasi|Fronck|Kieferer|Jogi|Speedy|Sjeale</de>
 					<en>Ronny|Rob|Kasi|Fronck|Kieferer|Jogi|Speedy|Sjeale</en>
-					<pl></pl>
+					<pl>Ronnem|Robem|Kasi|Fronckiem|Kiefererem|Jogim|Speedim|Sjealem</pl>
 				</name>
 			</variables>
 			<jobs>
@@ -563,18 +563,18 @@
 			<title>
 				<de>Die große Spendengala - Ein Herz für %Name%</de>
 				<en>The Big Charity Gala - A Heart for %Name%</en>
-				<pl></pl>
+				<pl>Wielka Gala Charytatywna - Serce dla %Name%</pl>
 			</title>
 			<description>
 				<de>Völlig unbekannte Stars wollen Geld für die vom aussterben bedrohten %Name% sammeln. Ein Abend voller Musik, Comedy, Hoffnung und Spenden.</de>
 				<en>Completely unknown stars want to raise money for the %Name% threatened with extinction. An evening full of music, comedy, hope and donations.</en>
-				<pl></pl>
+				<pl>Zupełnie nieznane gwiazdy chcą zebrać pieniądze dla %Name% zagrożonych wyginięciem. Wieczór pełen muzyki, komedii, nadziei i datków.</pl>
 			</description>
 			<variables>
 				<name>
 					<de>Wollmäuse|Wasserrehe|Dikdiks|Nasenaffen|Kakapos|Greifstachler|Mimik-Oktopoden</de>
 					<en>Dust bunnies|Water deer|Dikdiks|Proboscis monkeys|Kakapos|Porcupines|Mimic octopi</en>
-					<pl></pl>
+					<pl>śnieżnych zajęcy|wodnych jeleni|włochatych tarantul|małp dupiatek|orangutanów wielkich|jeżozwierzy|mimicznych ośmiornic</pl>
 				</name>
 			</variables>
 			<jobs>
@@ -600,18 +600,18 @@
 			<title>
 				<de>Die Todes%zu%</de>
 				<en>The death-%zu%</en>
-				<pl></pl>
+				<pl>Śmierć %zu%</pl>
 			</title>
 			<description>
 				<de>Klassischer Actionfilm, in dem 15 Menschen auf einem fremden Planten ausgesetzt werden, um sich umzubringen.</de>
 				<en>Classical action movie - 15 people are abandoned on a planet so that they can kill each other.</en>
-				<pl></pl>
+				<pl>Klasyczny film akcji - 15 osób zostaje porzuconych na planecie, aby mogli się nawzajem pozabijać.</pl>
 			</description>
 			<variables>
 				<zu>
 					<de>maschine|pforte|helfer|unterstützer|assistenten</de>
 					<en>machine|portal|helper|supporter|assistants</en>
-					<pl></pl>
+					<pl>machiny|na planecie|i walka o życie|czai się wszędzie|wroga</pl>
 				</zu>
 			</variables>
 			<jobs>
@@ -639,18 +639,18 @@
 			<title>
 				<de>Der Weg %Name%</de>
 				<en>The way %Name%</en>
-				<pl></pl>
+				<pl>Droga do %Name%</pl>
 			</title>
 			<description>
 				<de>Ein Wissenschaftler öffnet einen Weg in ein mysteriöses Reich voller schrecklicher Wesen.</de>
 				<en>A scientist opens a path to a mysterious realm full of terrible creatures.</en>
-				<pl></pl>
+				<pl>Naukowiec otwiera drogę do tajemniczej krainy pełnej przerażających stworzeń.</pl>
 			</description>
 			<variables>
 				<name>
 					<de>in die Hölle|in die Verdammung|zum Dämonenreich|zum Teufel|zu ewigen Qualen|in den Untergrund|der Gottlosen</de>
 					<en>to hell|to damnation|to the realm of demons|to the devil|to eternal suffering|to under ground|of the godless</en>
-					<pl></pl>
+					<pl>piekła|zatracenia|krainy demonów|diabła|wiecznego cierpienia|podziemi|przerażającej krainy</pl>
 				</name>
 			</variables>
 			<jobs>
@@ -678,48 +678,48 @@
 			<title>
 				<de>Die Abenteuer%Name%</de>
 				<en>Adventure %Name%</en>
-				<pl></pl>
+				<pl>Przygoda %Name%</pl>
 			</title>
 			<description>
 				<de>Abenteuerserie über junge Helden der Neuzeit, die mit Hilfe ihrer Freundschaft alle Hindernisse überwinden.</de>
 				<en>Adventure series about young heroes of modern times who overcome all obstacles with the help of their friendship.</en>
-				<pl></pl>
+				<pl>Serial przygodowy o młodych bohaterach współczesnych czasów, którzy pokonują wszelkie przeszkody dzięki przyjaźni.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-Abenteuerfreunde-Ep1">
 					<title>
 						<de>Pilot</de>
 						<en>Pilot</en>
-						<pl></pl>
+						<pl>Początek</pl>
 					</title>
 					<description>
 						<de>Wer ist wer und in welchem Ort befinden wir uns? Als ein Junge sich in der Stadt, in die er gerade gezogen ist, verläuft, trifft er Jugendliche in seinem Alter. Gemeinsam suchen sie einen verschwundenen Hund.</de>
 						<en>Who is who and what place are we in? When a boy gets lost in the town he has just moved to, he meets teenagers his age. Together they are looking for a missing dog.</en>
-						<pl></pl>
+						<pl>Kto jest kim i w jakim miejscu się znajdujemy? Kiedy chłopiec gubi się w mieście, do którego właśnie się przeprowadził, spotyka nastolatków w swoim wieku. Razem szukają zaginionego psa.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Abenteuerfreunde-Ep2">
 					<title>
 						<de>Freundschaft über alles</de>
 						<en>Friendship above everything</en>
-						<pl></pl>
+						<pl>Przyjaźń ponad wszystko</pl>
 					</title>
 					<description>
 						<de>Ein Streit entzweit die Freunde. Doch ein Rätsel von einem gestohlenem Rubin führt sie wieder zusammen und stärkt ihre Freundschaft.</de>
 						<en>A quarrel divides the friends. But a mystery of a stolen ruby brings them back together and strengthens their friendship.</en>
-						<pl></pl>
+						<pl>Kłótnia dzieli przyjaciół. Jednak tajemnica skradzionego rubinu zbliża ich do siebie i umacnia ich przyjaźń.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Abenteuerfreunde-Ep3">
 					<title>
 						<de>Der verlorene Zwerg</de>
 						<en>The lost gnome</en>
-						<pl></pl>
+						<pl>Zaginiony krasnal</pl>
 					</title>
 					<description>
 						<de>Ein verlorener Gartenzwerg ist nicht spannend? Doch! Denn dieser Gartenzwerg birgt ein mysteriöses Geheimnis, welches unsere jungen Helden lösen wollen.</de>
 						<en>A lost garden gnome isn't exciting? Yes it is, because this garden gnome hides a mysterious secret that our young heroes want to solve.</en>
-						<pl></pl>
+						<pl>Czy zagubiony krasnal ogrodowy nie jest ekscytujący? Owszem, jest, ponieważ skrzat ogrodowy skrywa tajemniczy sekret, który nasi młodzi bohaterowie chcą rozwiązać.</pl>
 					</description>
 					<episodes max="1" min="0" />
 				</scripttemplate>
@@ -727,12 +727,12 @@
 					<title>
 						<de>Das Nagergesicht</de>
 						<en>The rodent face</en>
-						<pl></pl>
+						<pl>Oblicze gryzonia</pl>
 					</title>
 					<description>
 						<de>Ein Junge wird regelmässig in der Schule verhauen, sein entstelltes Gesicht ähnelt allmählich einer Ratte. Als unsere Helden dies mitbekommen, sammeln sie für eine Schönheits-OP.</de>
 						<en>A boy is regularly spanked at school, his disfigured face gradually resembling a rat. When our heroes notice this, they collect for plastic surgery.</en>
-						<pl></pl>
+						<pl>Chłopiec jest regularnie bity w szkole, a jego oszpecona twarz stopniowo przypomina szczura. Kiedy nasi bohaterowie to zauważają, zbierają na operację plastyczną.</pl>
 					</description>
 					<episodes max="1" min="0" />
 				</scripttemplate>
@@ -740,36 +740,36 @@
 					<title>
 						<de>Den Hilflosen helfen</de>
 						<en>Help the helpless</en>
-						<pl></pl>
+						<pl>Pomóż bezbronnym</pl>
 					</title>
 					<description>
 						<de>Eine alte Dame wird bestohlen. Die Polizei kann nichts machen, nur unsere Helden können der Dame helfen.</de>
 						<en>An old lady is getting robbed. The police can't do anything, only our heroes can help the lady.</en>
-						<pl></pl>
+						<pl>Starsza pani zostaje okradziona. Policja nie może nic zrobić, tylko nasi bohaterowie mogą jej pomóc.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Abenteuerfreunde-Ep6">
 					<title>
 						<de>Der Neue</de>
 						<en>The new one</en>
-						<pl></pl>
+						<pl>Ten nowy</pl>
 					</title>
 					<description>
 						<de>Ein neues Kind ist in der Stadt. Als es versucht mit dem Bus wieder in sein altes Leben zu flüchten, halten ihn unsere Helden auf und zeigen ihm wie schön seine neue Heimat ist.</de>
 						<en>A new kid is in town. When he tries to take the bus and escape back to his old life, our heroes stop him and show him how beautiful his new home is.</en>
-						<pl></pl>
+						<pl>Do miasta przyjeżdża nowy chłopak. Kiedy próbuje wsiąść do autobusu i wrócić do swojego starego życia, nasi bohaterowie zatrzymują go i pokazują mu, jak piękny jest jego nowy dom.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Abenteuerfreunde-Ep7">
 					<title>
 						<de>Die gelockte Nonne</de>
 						<en>The curly nun</en>
-						<pl></pl>
+						<pl>Zakręcona zakonnica</pl>
 					</title>
 					<description>
 						<de>Einer Nonne wird ihre Kappe gestohlen. Man erkennt, dass diese Nonne wunderschön ist mit ihren gelockten Haaren. Unsere Helden vereinbaren ein Fotoshooting, und die Nonne wird ein gefragtes Model.</de>
 						<en>The hood of a nun is stolen. It becomes apparent that this nun is very beautiful with her curly hair. Our heroes arrange a photo shoot and the nun becomes a popular model.</en>
-						<pl></pl>
+						<pl>Kaptur zakonnicy zostaje skradziony. Okazuje się, że zakonnica jest bardzo piękna i ma kręcone włosy. Nasi bohaterowie organizują sesję zdjęciową, a zakonnica staje się popularną modelką.</pl>
 					</description>
 					<episodes max="1" min="0" />
 				</scripttemplate>
@@ -777,36 +777,36 @@
 					<title>
 						<de>Die Mitternachtsparty</de>
 						<en>The midnight party</en>
-						<pl></pl>
+						<pl>Impreza o północy</pl>
 					</title>
 					<description>
 						<de>Schlaflos wegen lauter Musik der Nachbarn liegt ein kleiner Junge in seinem Bett. Er erzählt, dass dies jedes Wochenende so ist. Unsere Helden helfen ihm, indem sie den Alkohol der Partytruppe klauen und in einen See schütten.</de>
 						<en>Sleepless because of loud music from the neighbors, a little boy lies in his bed. He explains that this happens every weekend. Our heroes help him by stealing the alcohol from the party group and pouring it into a lake.</en>
-						<pl></pl>
+						<pl>Bezsenny z powodu głośnej muzyki sąsiadów, mały chłopiec leży w swoim łóżku. Wyjaśnia, że dzieje się tak w każdy weekend. Nasi bohaterowie pomagają mu, kradną alkohol z imprezy i wylewają go do jeziora.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-Abenteuerfreunde-Ep9">
 					<title>
 						<de>Die Ermittlungen</de>
 						<en>The investigation</en>
-						<pl></pl>
+						<pl>Dochodzenie</pl>
 					</title>
 					<description>
 						<de>Gegen unsere Helden wird ermittelt, da sie anscheinend in einem Haus Alkohol geklaut haben und damit die Fische im nahem See vergiftet haben. Doch sie haben eine Idee.</de>
 						<en>Our heroes are under investigation for apparently having stolen alcohol from a house and poisoning the fish in the nearby lake. But they have an idea.</en>
-						<pl></pl>
+						<pl>Nasi bohaterowie są ścigani za kradzież alkoholu z domu i zatrucie ryb w pobliskim jeziorze. Mają jednak pewien pomysł.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Abenteuerfreunde-Ep10">
 					<title>
 						<de>Die Mitternachtsparty 2</de>
 						<en>The midnight party 2</en>
-						<pl></pl>
+						<pl>Impreza o północy 2</pl>
 					</title>
 					<description>
 						<de>Unsere Freunde füllen Seewasser in Flaschen und bringen diese zurück zu dem Haus, in dem sie die Flaschen geklaut haben. Alle sind glücklich und die Ermittlungen werden wieder eingstellt.</de>
 						<en>Our friends fill lake water into bottles and bring them back to the house where they stole the bottles. Everybody is happy and the investigation is closed.</en>
-						<pl></pl>
+						<pl>Nasi przyjaciele napełniają butelki wodą z jeziora i przynoszą je z powrotem do domu, z którego ukradli butelki. Wszyscy są szczęśliwi, a śledztwo zostaje zamknięte.</pl>
 					</description>
 					<episodes max="1" min="0" />
 				</scripttemplate>
@@ -814,12 +814,12 @@
 					<title>
 						<de>Die vergessenen Geheimnisse</de>
 						<en>Forgotten events</en>
-						<pl></pl>
+						<pl>Zapomniane wydarzenia</pl>
 					</title>
 					<description>
 						<de>Als unsere Helden erfahren, dass unter der Stadt ein versteckter Schatz ist, versuchen sie herauszufinden, wo sich der geheime Eingang befindet. Doch dieses Geheimnis scheint der letzte Bürgermeister der Stadt mit ins Grab genommen zu haben.</de>
 						<en>When our heroes learn that a treasure is hidden beneath the city, the try to find the hidden entrance. But the former mayor of the city seems to have taken the secret to the grave.</en>
-						<pl></pl>
+						<pl>Kiedy nasi bohaterowie dowiadują się, że pod miastem ukryty jest skarb, próbują odnaleźć ukryte wejście. Wydaje się jednak, że były burmistrz miasta zabrał sekret do grobu.</pl>
 					</description>
 					<episodes max="1" min="0" />
 				</scripttemplate>
@@ -827,12 +827,12 @@
 					<title>
 						<de>Die neuen Abenteuerer</de>
 						<en>The new adventurers</en>
-						<pl></pl>
+						<pl>Nowi poszukiwacze przygód</pl>
 					</title>
 					<description>
 						<de>Raus aus der Schule geben unsere Helden ihre Erfahrungen und Geheimnisse an neu eingeschulte Kinder weiter. Diese beschließen daraufhin, auch Abenteuer zu erleben.</de>
 						<en>On finishing school our heroes pass on their knowledge and secrets to children just starting school. These decide to experience adventures, too.</en>
-						<pl></pl>
+						<pl>Po ukończeniu szkoły nasi bohaterowie przekazują swoją wiedzę i sekrety dzieciom, które dopiero rozpoczynają naukę. Te również postanawiają przeżyć przygody.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -840,7 +840,7 @@
 				<name>
 					<de>freunde|clique|bande|sucher|finder|kumpels</de>
 					<en>friends|clique|gang|seekers|finders|buddies</en>
-					<pl></pl>
+					<pl>przyjaciół|kliki|gangu|poszukiwaczy|znajomych|zawsze nas znajdzie</pl>
 				</name>
 			</variables>
 			<jobs>
