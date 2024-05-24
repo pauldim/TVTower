@@ -1448,84 +1448,84 @@
 					<title>
 						<de>In Alaska gibt es %name1%</de>
 						<en>In Alaska There is %name1%</en>
-						<pl></pl>
+						<pl>Na Alasce znajdują się duże pokłady %name1%</pl>
 					</title>
 					<description>
 						<de>%name1% ist eines der wertvollsten Metalle der Welt. Drei Frauen und ein Mann gehen nach Alaska, um dort %name1% zu suchen.</de>
 						<en>%name1% is among the most valuable metals in the world. Three women and one man go to Alaska to search for it.</en>
-						<pl></pl>
+						<pl>Jest jednym z najcenniejszych metali na świecie. Trzy kobiety i jeden mężczyzna wyruszają na Alaskę, by go odnaleźć.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-Metalsucher-Ep2">
 					<title>
 						<de>Der richtige Ort</de>
 						<en>The right place</en>
-						<pl></pl>
+						<pl>Właściwe miejsce</pl>
 					</title>
 					<description>
 						<de>Nach fünf endlosen Stunden finden die %name1%gräber einen passenden Ort, an dem sie nach %name1% suchen können.</de>
 						<en>After five endless hours, the %name1% diggers find a suitable place to search for the metal.</en>
-						<pl></pl>
+						<pl>Po pięciu niekończących się godzinach kopacze %name1% znajdują odpowiednie miejsce do poszukiwania metalu.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-Metalsucher-Ep3">
 					<title>
 						<de>Machinen werden aufgestellt</de>
 						<en>Machines are set up</en>
-						<pl></pl>
+						<pl>Maszyny są skonfigurowane</pl>
 					</title>
 					<description>
 						<de>Schwere Maschinen werden aufgestellt, um nach %name1% zu graben. Doch schon nach kurzer Zeit sind drei Pumpen und zahlreiche Schläuche kaputt.</de>
 						<en>Heavy machinery is set up to dig for %name1%. But after a short time, three pumps and numerous hoses are broken.</en>
-						<pl></pl>
+						<pl>Ciężkie maszyny są ustawione do kopania %name1%. Jednak po krótkim czasie trzy pompy i liczne węże zostają uszkodzone.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-Metalsucher-Ep4">
 					<title>
 						<de>Das Graben beginnt</de>
 						<en>The digging begins</en>
-						<pl></pl>
+						<pl>Rozpoczyna się kopanie</pl>
 					</title>
 					<description>
 						<de>Der erste Fund bestand aus zwei versteinerten Eichhörnchen und drei großen Kieselsteinen. Ein großartiges Ergebnis.</de>
 						<en>The first find consisted of two fossilized squirrels and three large pebbles. A great result.</en>
-						<pl></pl>	
+						<pl>Pierwsze znalezisko składało się z dwóch skamieniałych wiewiórek i trzech dużych kamyków. Świetny wynik.</pl>	
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-Metalsucher-Ep5">
 					<title>
 						<de>Wir sind reich</de>
 						<en>We are rich</en>
-						<pl></pl>
+						<pl>Jesteśmy bogaci</pl>
 					</title>
 					<description>
 						<de>Nach vier Tagen wird erstmals %name1% gefunden. Die %name1%gräber fühlen sich jetzt schon wie die reichsten Menschen auf dem Planeten.</de>
 						<en>After four days %name1% is found for the first time. The %name1% diggers already feel like the richest people on the planet.</en>
-						<pl></pl>
+						<pl>Po czterech dniach zostaje znaleziony po raz pierwszywiększy kawałek %name1%. Kopacze %name1% czują się już jak najbogatsi ludzie na planecie.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-Metalsucher-Ep6">
 					<title>
 						<de>Noch mehr Maschinen</de>
 						<en>Even more machines</en>
-						<pl></pl>
+						<pl>Jeszcze więcej maszyn</pl>
 					</title>
 					<description>
 						<de>Vom Erlös des %name1%verkaufs werden noch mehr Maschinen geholt. Und die %name1%gräber freuen sich, da der %name1%preis enorm gestiegen ist.</de>
 						<en>More machines are fetched from the proceeds of the %name1% sale. And the %name1% diggers are happy, because the %name1% price has increased enormously.</en>
-						<pl></pl>
+						<pl>Więcej maszyn jest pozyskiwanych z wpływów ze sprzedaży %name1%. A kopacze %name1% są szczęśliwi, ponieważ cena %name1% ogromnie wzrosła.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-Metalsucher-Ep7">
 					<title>
 						<de>Wir sind noch reicher</de>
 						<en>We have become even richer</en>
-						<pl></pl>
+						<pl>Staliśmy się jeszcze bogatsi</pl>
 					</title>
 					<description>
 						<de>Es wird immer mehr %name1% gefunden. Die %name1%gräber bunkern ihr Funde und werden immer reicher.</de>
 						<en>More and more %name1% is found. The %name1% diggers bunker their finds and become richer and richer.</en>
-						<pl></pl>
+						<pl>Znajduje się coraz więcej %name1%. Kopacze %name1% bunkrują swoje znaleziska i stają się coraz bogatsi.</pl>
 					</description>
 				</scripttemplate>
 				<!--scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-Metalsucher-Ep8">
@@ -1540,12 +1540,12 @@
 					<title>
 						<de>Noch mehr Reichtum</de>
 						<en>Even more wealth</en>
-						<pl></pl>
+						<pl>Jeszcze więcej bogactwa</pl>
 					</title>
 					<description>
 						<de>Die %name1%gräber haben inzwischen so viel %name1% gesammelt, dass sie und ihre Familien nie mehr arbeiten müssen. Sie warten nur noch auf den perfekten Moment für den Verkauf, denn der %name1%preis steigt und steigt.</de>
 						<en>The %name1% diggers now have collected so much %name1% that they and their families never have to work again. They are just waiting for the perfect moment to sell, because the %name1% price is going up and up.</en>
-						<pl></pl>
+						<pl>Kopacze %name1% zebrali już tyle %name1%, że oni i ich rodziny nie muszą już nigdy pracować. Czekają tylko na idealny moment, aby sprzedać, ponieważ cena %name1% rośnie i rośnie.</pl>
 					</description>
 				</scripttemplate>
 				<!--scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-Metalsucher-Ep10">
@@ -1576,12 +1576,12 @@
 					<title>
 						<de>Wir sind pleite</de>
 						<en>We are broke</en>
-						<pl></pl>
+						<pl>Jesteśmy spłukani</pl>
 					</title>
 					<description>
 						<de>Der Markt für %name1% bricht aufgrund einer Rezession zusammen. Der Versuch die riesigen %name1%vorräte auf einmal zu verkaufen, drückt den Preis noch zusätzlich. Das Lager wird abgebrochen, doch die Träume leben weiter.</de>
 						<en>The market for %name1% is collapsing due to a recession. The attempt to sell the huge stock of %name1% at once further depresses the price. The camp is torn down, but the dreams live on.</en>
-						<pl></pl>
+						<pl>Rynek %name1% załamuje się z powodu recesji. Próba sprzedaży ogromnego zapasu %name1% na raz jeszcze bardziej obniża cenę. Obóz zostaje zburzony, ale marzenia pozostają żywe.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -1594,7 +1594,7 @@
 				<name2>
 					<de>funde|sichtungen|stätten|sucher|verstecke</de>
 					<en>Finds|Sightings|Sites|Seekers|Caches</en>
-					<pl>Źródło|Poszukiwanie|Żyła|Kopalnia|Depozyt</pl>
+					<pl>Źródło|Poszukiwacze|Żyła|Kopalnia|Depozyt</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -1620,23 +1620,23 @@
 			<title>
 				<de>%Name1% %Name2%s Schlaf dich reich</de>
 				<en>%Name1% %Name2%'s Get rich sleeping</en>
-				<pl></pl>
+				<pl>%Name1% %Name2%. Jak stać się bogatym śpiąc?</pl>
 			</title>
 			<description>
 				<de>Die berühmte Sängerin %Name1% %Name2% leitet diese skurrile Show, in der der Gast, der am längsten auf seinem Stuhl schlafen kann, eine Million Cent gewinnt. Während des Schlafen werden die Gäste geärgert.</de>
 				<en>The popular singer %Name1% %Name2% hosts this whimsical show where the guest who can sleep on their chair the longest wins a million cents. While sleeping the guests are getting teased.</en>
-				<pl></pl>
+				<pl>Popularna piosenkarka %Name1% %Name2% jest gospodarzem tego dziwnego programu, w którym gość, który najdłużej śpi na krześle, wygrywa milion centów. Podczas snu goście są drażnieni i wybudzani ze snu.</pl>
 			</description>
 			<variables>
 				<name1>
 					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
 					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
-					<pl></pl>
+					<pl>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</pl>
 				</name1>
 				<name2>
 					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
 					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
-					<pl></pl>
+					<pl>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -1663,23 +1663,23 @@
 			<title>
 				<de>Ratespass mit %Name1% %Name2%</de>
 				<en>Quiz fun with %Name1% %Name2%</en>
-				<pl></pl>
+				<pl>%Name1% %Name2% - Zabawy quizowe</pl>
 			</title>
 			<description>
 				<de>Die berühmte Sängerin %Name1% %Name2% leitet diese wundervolle Rateshow, bei denen die Gäste ein tolles Essservice gewinnen können.</de>
 				<en>Famous singer %Name1% %Name2% hosts this wonderful quiz show where guests can win a fabulous dinnerware set.</en>
-				<pl></pl>
+				<pl>Znana piosenkarka %Name1% %Name2% jest gospodarzem tego teleturnieju, w którym goście mogą wygrać wspaniały zestaw zastawy stołowej.</pl>
 			</description>
 			<variables>
 				<name1>
 					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
 					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
-					<pl></pl>
+					<pl>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</pl>
 				</name1>
 				<name2>
 					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
 					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
-					<pl></pl>
+					<pl>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -1702,23 +1702,23 @@
 			<title>
 				<de>%Name1% %Name2%s „Versteckte Webcam“</de>
 				<en>%Name1% %Name2%'s "Hidden Webcam"</en>
-				<pl></pl>
+				<pl>%Name1% %Name2% z ukrytą kamerą</pl>
 			</title>
 			<description>
 				<de>Webcams werden in zufälligen Häusern installiert. Eine Woche lang werden die Bewohner bei allem was sie machen gefilmt und live ins Internet gestreamt. Die Show konfrontiert die Protagonisten mit ihren Verfehlungen und zeigt die schönsten Szenen.</de>
 				<en>Webcams are installed in random houses. For a whole week, the residents are filmed in everything they do and are streamed live on the Internet. The show confronts the protagonists with their transgressions and shows the most beautiful scenes.</en>
-				<pl></pl>
+				<pl>Kamery są instalowane w przypadkowych domach. Przez cały tydzień mieszkańcy są filmowani we wszystkim, co robią i transmitowani na żywo w Internecie. Program pokazuje ich przewinienia i najpiękniejsze sceny.</pl>
 			</description>
 			<variables>
 				<name1>
 					<de>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</de>
 					<en>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</en>
-					<pl></pl>
+					<pl>Jennifer|Carolin|Jacky|Maria|Hannah|Helene|Ivanka</pl>
 				</name1>
 				<name2>
 					<de>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</de>
 					<en>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</en>
-					<pl></pl>
+					<pl>Miller|Jackobson|Smith|Bloomberg|Gates|Johnson|Petersen</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -1743,48 +1743,48 @@
 			<title>
 				<de>Die %name1% im %name2%</de>
 				<en>The %name1% of %name2%</en>
-				<pl></pl>
+				<pl>O %name1% z %name2%</pl>
 			</title>
 			<description>
 				<de>Spannende Fantasyserie über %name1% im %name2% und ihre Unternehmungen, sich vor den Menschen zu verstecken.</de>
 				<en>Exciting fantasy series about %name1% in %name2% and their ventures to hide from humans.</en>
-				<pl></pl>
+				<pl>Ekscytująca seria fantasy o %name1% z %name2% i ich próbach ukrycia się przed ludźmi.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-MagischeWesen-Ep1">
 					<title>
 						<de>%name1% überall</de>
 						<en>%name1% everywhere</en>
-						<pl></pl>
+						<pl>Wszędzie o %name1%</pl>
 					</title>
 					<description>
 						<de>%name1% sind mystische Wesen, und die letzten von ihnen leben im %name2%. Die Angst vor den Menschen beherrscht ihren Alltag, doch die Menschen dringen immer weiter in ihre Umgebung vor.</de>
 						<en>%name1% are mystical beings, and the last of them live in %name2%. Fear of humans dominates their everyday life, but the humans penetrate further and further into their environment.</en>
-						<pl></pl>
+						<pl>Opowieść o %name1% z %name2%. Ich strach przed ludźmi dominuje w ich codziennym życiu. Ludzie przenikają coraz dalej do ich środowiska.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-MagischeWesen-Ep2">
 					<title>
 						<de>Der Ring der %name1%</de>
 						<en>The Ring of the %name1%</en>
-						<pl></pl>
+						<pl>O magicznym pierścieniu</pl>
 					</title>
 					<description>
 						<de>Der Ring der %name1% ist ein magisches Artefakt, welches die %name1% vor den Menschen verstecken. Doch als dieser Ring verschwindet, geraten die %name1% in Panik.</de>
 						<en>The ring of the %name1% is a magical artifact that the %name1% hide from the humans. But when this ring disappears, the %name1% panic.</en>
-						<pl></pl>
+						<pl>Ten odcinek opowiada o magiczny pierścieniu, który ten stwór ukrywa przed ludźmi. Gdy pierścień znika, zaczyna się panika.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-MagischeWesen-Ep3">
 					<title>
 						<de>Das Auge der %name1%</de>
 						<en>The Eye of the %name1%</en>
-						<pl></pl>
+						<pl>W poszukiwaniu pierścienia</pl>
 					</title>
 					<description>
 						<de>Der Ring der %name1% ist verschwunden, doch mittels eines magischen Auges versuchen die %name1% ihn wiederzufinden.</de>
 						<en>The ring of the %name1% has disappeared, but by means of a magic eye the %name1% try to find it again.</en>
-						<pl></pl>
+						<pl>Pierścień zniknął, ale za pomocą magicznego oka na stwór próbuje go ponownie odnaleźć.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1792,12 +1792,12 @@
 					<title>
 						<de>Der Anführer</de>
 						<en>The Leader</en>
-						<pl></pl>
+						<pl>Lider</pl>
 					</title>
 					<description>
 						<de>Einer der %name1% findet den magischen Ring wieder und wird zum neuen Anführer gewählt. Der neue Anführer hat vollkommen andere Einstellungen zum Umgang mit den Menschen als der alte.</de>
 						<en>One of the %name1% finds the magic ring again and is elected as the new leader. The new leader has a completely different attitude towards dealing with humans than the old one.</en>
-						<pl></pl>
+						<pl>Jeden ze stworów znajduje magiczny pierścień i zostaje wybrany na nowego przywódcę. Nowy przywódca ma zupełnie inne podejście do ludzi niż poprzedni.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1805,24 +1805,24 @@
 					<title>
 						<de>Weinende Schreie</de>
 						<en>Screaming Cries</en>
-						<pl></pl>
+						<pl>Rozpacz i żal</pl>
 					</title>
 					<description>
 						<de>Als einer der %name1% beim Verstecken vor dem Menschen schwer verletzt wird, ist die Verzweiflung und Trauer unter den %name1% riesig.</de>
 						<en>When one of the %name1% is seriously injured while hiding from some human, the despair and grief among the %name1% is huge.</en>
-						<pl></pl>
+						<pl>Kiedy jeden ze stworów zostaje poważnie ranny podczas ukrywania się przed ludźmi, rozpacz i żal wśród innych jest ogromna.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-MagischeWesen-Ep6">
 					<title>
 						<de>Rachegedanken</de>
 						<en>Revenge Thoughts</en>
-						<pl></pl>
+						<pl>Myśli o zemście</pl>
 					</title>
 					<description>
 						<de>Die Menschen sind schuld. Dies ist der allgemeine Tenor unter den %name1%. Der neue Anführer hegt den gleichen Groll. Schreckliche Rachegelüste entstehen.</de>
 						<en>The humans are to blame. This is the general sentiment among the %name1%. The new leader holds the same grudge. Terrible desires for revenge arise.</en>
-						<pl></pl>
+						<pl>Winni są ludzie. Taki jest ogólny pogląd wśród stworów. Nowy przywódca żywi taką samą urazę do ludzi. Pojawia się straszne pragnienie zemsty.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1830,12 +1830,12 @@
 					<title>
 						<de>Der Versprechen der %name1%</de>
 						<en>The Vow of the %name1%</en>
-						<pl></pl>
+						<pl>Przysięga</pl>
 					</title>
 					<description>
 						<de>Ein Schwur, auf den Tod aller Menschen hinzuwirken, wird ausgesprochen. Ein Versprechen, welches bei den %name1% bindend ist.</de>
 						<en>An oath to work towards the death of all humans is made. A vow which is binding for the %name1%.</en>
-						<pl></pl>
+						<pl>Stwory składają przysięgę, że będą dążyć do śmierci wszystkich ludzi. </pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1843,24 +1843,24 @@
 					<title>
 						<de>Schwarze Bande</de>
 						<en>Black Force</en>
-						<pl></pl>
+						<pl>Czarne brygady</pl>
 					</title>
 					<description>
 						<de>Die %name1% verbünden sich mit einem geheimen, mysteriösen, uralten Volk, welches ihnen verspricht die Menschen zu vernichten.</de>
 						<en>The %name1% ally with a secret, mysterious, ancient tribe that promises to destroy the humans.</en>
-						<pl></pl>
+						<pl>Stwory sprzymierzają się z tajemniczym, starożytnym plemieniem, które obiecuje zniszczyć ludzi.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-MagischeWesen-Ep9">
 					<title>
 						<de>7 Jahre Unglück</de>
 						<en>7 Years Calamity</en>
-						<pl></pl>
+						<pl>7 lat klęski żywiołowej</pl>
 					</title>
 					<description>
 						<de>Innerhalb von 7 Jahren sollen alle Menschen vernichtet werden. Der Fluch des 7-jährigen Unglücks wird auf alle Menschen gewirkt.</de>
 						<en>Within 7 years all humans shall be destroyed. The curse of the 7-year calamity will be cast on all humans.</en>
-						<pl></pl>
+						<pl>W ciągu 7 lat wszyscy ludzie zostaną zniszczeni. Klątwa 7-letniego kataklizmu zostanie rzucona na wszystkich ludzi.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1868,11 +1868,12 @@
 					<title>
 						<de>Der Ausbruch</de>
 						<en>The Outbreak</en>
-						<pl></pl>
+						<pl>Epidemia</pl>
 					</title>
 					<description>
 						<de>Eine Krankheit, die fast alle Menschen auslöscht, bricht aus. Die %name1% überlegen sich einen Plan, um auch die letzten Menschen auszurotten.</de>
 						<en>A disease that wipes out almost all humans breaks out. The %name1% come up with a plan to wipe out the last humans as well.</en>
+						<pl>Wybucha choroba, która wyniszcza prawie wszystkich ludzi. Stwory wymyślają plan, aby wymazać również ostatnich ludzi.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1880,12 +1881,12 @@
 					<title>
 						<de>Angriff der %name1%</de>
 						<en>Attack of the %name1%</en>
-						<pl></pl>
+						<pl>Atak z %name2%</pl>
 					</title>
 					<description>
 						<de>Es gibt nur noch ein paar verstreute Menschen auf der Welt. Die %name1% nutzen die Gelegenheit, um auch die letzen von ihnen auszulöschen.</de>
 						<en>There are only a few scattered humans left in the world. The %name1% take the opportunity to wipe out the last of them.</en>
-						<pl></pl>
+						<pl>Na świecie pozostało tylko kilku rozproszonych ludzi. Stwory korzystają z okazji, by zniszczyć ostatnich z nich.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -1893,12 +1894,12 @@
 					<title>
 						<de>Weltübernahme der %name1%</de>
 						<en>The %name1% take over the world</en>
-						<pl></pl>
+						<pl>Stwory przejmują świat</pl>
 					</title>
 					<description>
 						<de>Der letzte Mensch wurde getötet und die %name1% ziehen aus dem %name2% aus, um die ganze Welt zu besiedeln.</de>
 						<en>The last human was killed and the %name1% move out of %name2% to colonize the whole world.</en>
-						<pl></pl>
+						<pl>Ostatni człowiek został zabity, a nasze stwory wyruszyły z %name2%, by skolonizować cały świat.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -1906,12 +1907,12 @@
 				<name1>
 					<de>Feen|Orks|Zwerge|Elfen|Ents|Goblins|Zentauren</de>
 					<en>Fairies|Orcs|Dwarves|Elves|Ents|Goblins|Centaurs</en>
-					<pl></pl>
+					<pl>wróżkach|orkach|krasnoludach|elfach|entach|goblinach|centaurach</pl>
 				</name1>
 				<name2>
 					<de>Wüsterwald|Morlochgebirge|Schwarzmoor|Düstergrund|Drawinsdschungel</de>
 					<en>the Barren Woods|Moorhole Mountains|the Black Moor|Bleakwood Grounds|Twistwood Jungle</en>
-					<pl></pl>
+					<pl>Jałowego Lasu|Góry Moczarowej|Czarnych Moczarów|ziemi Bleakwood|dżungli Twistwood</pl>
 				</name2>
 			</variables>
 			<jobs>
@@ -1937,48 +1938,48 @@
 			<title>
 				<de>Die Nacht%name%</de>
 				<en>The night %name%</en>
-				<pl></pl>
+				<pl>%name%</pl>
 			</title>
 			<description>
 				<de>Zusammenfassung der besten Szenen aus dem Programm der letzten Tage. Bestes Nachprogramm für die Schlaflosen.</de>
 				<en>Recalling the highlighs of our recent programmes. Perfect night programme for the sleepless.</en>
-				<pl></pl>
+				<pl>Idealny nocny program dla bezsennych nocy i ludzi którzy nie mogą spać.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="3" index="0" guid="Kasi-script-UnterhaltungNachts-Ep1">
 					<title>
 						<de>Willkommen bei uns</de>
 						<en>Welcome here</en>
-						<pl></pl>
+						<pl>Witamy tutaj</pl>
 					</title>
 					<description>
 						<de>Die Einführung einer neuen Sendung ist immer eine Besonderheit. In dieser Sendung werden die besten Sendeinhalte der letzten und zukünftigen Tage gezeigt.</de>
 						<en>The introduction of a new format is always something special. This series presents the best parts of recent and upcoming programmes.</en>
-						<pl></pl>
+						<pl>Wprowadzenie nowego formatu jest zawsze czymś wyjątkowym. Ta seria prezentuje najlepsze fragmenty ostatnich i nadchodzących programów.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="1" guid="Kasi-script-UnterhaltungNachts-Ep2">
 					<title>
 						<de>Heute ist eine besondere Nacht</de>
 						<en>Today is a special night</en>
-						<pl></pl>
+						<pl>Dziś jest wyjątkowa noc</pl>
 					</title>
 					<description>
 						<de>Die Einschaltquoten des letzten Tages waren grandios. „Die Nacht%name%“ würdigt dies mit besondere Szenen.</de>
 						<en>The viewing rates of the last day were terrific. "The night %name%" honors this with special scenes.</en>
-						<pl></pl>
+						<pl>%name%". Pogadamy jak nie przespać nocy.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="2" guid="Kasi-script-UnterhaltungNachts-Ep3">
 					<title>
 						<de>Noch eine Nacht</de>
 						<en>Another night</en>
-						<pl></pl>
+						<pl>Następna noc</pl>
 					</title>
 					<description>
 						<de>Und wieder tolle Zusammenfassungen. Wow. Ein Format das nie schlecht wird.</de>
 						<en>And great summaries again. Wow. A format that never goes bad.</en>
-						<pl></pl>
+						<pl>I znowu nie przespana noc. Wow. Format, który nigdy się nie psuje.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -1986,24 +1987,24 @@
 					<title>
 						<de>Schlafen für Anfänger</de>
 						<en>Sleeping for beginners</en>
-						<pl></pl>
+						<pl>Spanie dla początkujących</pl>
 					</title>
 					<description>
 						<de>Die Moderatoren stellen Ihnen vor, wie Sie mit Szenen unseres Senders wundervoll einschlafen können.</de>
 						<en>The hosts will present you how to fall asleep wonderfully with scenes from our station.</en>
-						<pl></pl>
+						<pl>Prowadzący zaprezentują, jak cudownie zasnąć przy scenach z naszej stacji.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="3" index="4" guid="Kasi-script-UnterhaltungNachts-Ep5">
 					<title>
 						<de>Schlaflos im Sender</de>
 						<en>Sleepless in the TV station</en>
-						<pl></pl>
+						<pl>Bezsenność w stacji telewizyjnej</pl>
 					</title>
 					<description>
 						<de>Da den Moderatoren verboten wurde, während der Drehzeit zur Sendung zu schlafen, tanzen diese vollkommen verirrt umher. Dazwischen natürlich die Szenen der letzen Tage.</de>
 						<en>Since the presenters were forbidden to sleep during the filming of the show, they dance around completely lost. In between, of course, the scenes of the last days.</en>
-						<pl></pl>
+						<pl>Ponieważ prezenterom zabroniono spać podczas kręcenia programu, tańczą wokół całkowicie zagubieni. Pomiędzy nimi oczywiście sceny z ostatnich dni.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2011,12 +2012,12 @@
 					<title>
 						<de>144 Stunden wach</de>
 						<en>144 hours awake</en>
-						<pl></pl>
+						<pl>144 godziny bez snu</pl>
 					</title>
 					<description>
 						<de>Nachdem die Moderatoren 144 Stunden ununterbrochen wach sind, halluzinieren diese. Zwischen den akkustischen und visuellen Halluzinationen die besten Szenen der letzen Tage.</de>
 						<en>After being awake for 144 hours without interruption, the presenters hallucinate. Between the acoustic and visual hallucinations the best scenes of the last days.</en>
-						<pl></pl>
+						<pl>Po 144 godzinach nieprzerwanego snu prezenterzy mają halucynacje. Pomiędzy halucynacjami akustycznymi i wizualnymi najlepsze sceny ostatnich dni.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2024,12 +2025,12 @@
 					<title>
 						<de>Fallende Augen</de>
 						<en>Falling Eyelids</en>
-						<pl></pl>
+						<pl>Opadające powieki</pl>
 					</title>
 					<description>
 						<de>Unsere Moderatoren schlafen fast ein. Nur die besten Szeen der letzten Tage können sie wach halten.</de>
 						<en>Our presenters almost fall asleep. Only the best scenes of the last days can keep them awake.</en>
-						<pl></pl>
+						<pl>Nasi prezenterzy prawie zasypiają. Tylko najlepsze sceny z ostatnich dni mogą utrzymać ich przy życiu.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2037,12 +2038,12 @@
 					<title>
 						<de>Müde, Müde, Müde</de>
 						<en>Tired, tired, tired</en>
-						<pl></pl>
+						<pl>Zmęczony, zmęczony, zmęczony</pl>
 					</title>
 					<description>
 						<de>Das Müdigkeitslied wird von unseren Moderatoren gesungen, wie immer untermalt von tollen Zusammenfassungen.</de>
 						<en>The sleepiness song is performed by our presenters, accompanied as always by great summaries.</en>
-						<pl></pl>
+						<pl>Piosenkę o senności wykonują nasi prezenterzy, którym jak zawsze towarzyszą świetne podsumowania.</pl>
 					</description>
 					<episodes max="1" min="0"/>
 				</scripttemplate>
@@ -2050,12 +2051,12 @@
 					<title>
 						<de>Wenn wir schlafen träumen wir</de>
 						<en>When we sleep we dream</en>
-						<pl></pl>
+						<pl>Kiedy śpimy, śnimy</pl>
 					</title>
 					<description>
 						<de>Unsere Moderatoren schlafen teilweise während der Sendung ein, können aber trotzdem die tollsten Szenen ansagen.</de>
 						<en>Our hosts occasionally fall asleep during the show, but still manage to announce the most amazing scenes.</en>
-						<pl></pl>
+						<pl>Nasi gospodarze czasami zasypiają podczas pokazu, ale wciąż udaje im się zapowiedzieć najbardziej niesamowite sceny.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2063,12 +2064,12 @@
 					<title>
 						<de>Warum bin ich so müde</de>
 						<en>Why am I so tired</en>
-						<pl></pl>
+						<pl>Dlaczego jestem taki zmęczony?</pl>
 					</title>
 					<description>
 						<de>Die 5-Minuten Schlafintervalle während der letzten Sendung haben den Moderatoren nicht geholfen. Sie erklären während der Sendung, warum Schlafentzug tötlich sein kann, untermalt von den tollsten Szenen der letzten Tage.</de>
 						<en>The 5-minute sleep intervals during the last show didn't help the presenters. They explain during the show why sleep deprivation can be deadly, accompanied by the greatest scenes of the last days.</en>
-						<pl></pl>
+						<pl>5-minutowe przerwy na sen podczas ostatniego programu nie pomogły prowadzącym. W trakcie programu wyjaśniają, dlaczego brak snu może być śmiertelny, czemu towarzyszą najwspanialsze sceny z ostatnich dni.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2076,12 +2077,12 @@
 					<title>
 						<de>Der Tempel der Träume</de>
 						<en>The temple of dreams</en>
-						<pl></pl>
+						<pl>Świątynia snów</pl>
 					</title>
 					<description>
 						<de>Die Moderatoren beten während der Sendung zu Hypnos, werden von ihm aber nicht erhört. Tolle Szenen inklusive.</de>
 						<en>During the show, the hosts pray to Hypnos, but are not heard by him. Great clips included.</en>
-						<pl></pl>
+						<pl>Podczas programu gospodarze modlą się do Hypnosa, ale nie są przez niego słyszani. Świetne klipy w zestawie.</pl>
 					</description>
 					<episodes min="0" max="1"/>
 				</scripttemplate>
@@ -2089,12 +2090,12 @@
 					<title>
 						<de>Tod wegen Übermüdung</de>
 						<en>Death by fatigue</en>
-						<pl></pl>
+						<pl>Śmierć ze zmęczenia</pl>
 					</title>
 					<description>
 						<de>Die Moderatoren sterben während der Sendung an Übermüdung. Nun haben sie den ewigen Schlaf gefunden. Die großartigen Szenen der letzten Tage gibt es exlusiv dazu.</de>
 						<en>During the show, the hosts die of fatigue. Now they have found eternal rest. In addition, highlights of last days' programme are shown.</en>
-						<pl></pl>
+						<pl>Podczas programu gospodarze umierają ze zmęczenia. Teraz znaleźli wieczny odpoczynek. Ponadto pokazywane są najważniejsze fragmenty programu z ostatnich dni.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -2102,7 +2103,7 @@
 				<name>
 					<de>show|unterhaltung|gespräche| bei uns| ist jung| von heute|freunde</de>
 					<en>show|entertainment|talk|with us|is young|of today|friends</en>
-					<pl></pl>
+					<pl>Nocne show bez poduszki|Nocna rozrywka|Nocne rozmowy|Rozmowy o zmroku|Nocni przyjaciele|Bezsenność z TV|Nocne spotkania bez spania</pl>
 				</name>
 			</variables>
 			<jobs>
@@ -2127,156 +2128,156 @@
 			<title>
 				<de>Die runden %zahl%</de>
 				<en>The chummy-yummy %zahl%</en>
-				<pl></pl>
+				<pl>%zahl%</pl>
 			</title>
 			<description>
 				<de>%zahl% gute Freunde sind, seitdem sie 12 Jahre alt waren, etwas dick. Sie essen gerne und mit Leidenschaft, was dazu führt, dass die %zahl% immer wieder in seltsame Situationen geraten.</de>
 				<en>%zahl% good friends, since they were 12 years old, are a bit chubby. They like to eat with passion, which leads to the fact that the %zahl% always get into strange situations.</en>
-				<pl></pl>
+				<pl>Najlepsi przyjaciele. Są nieco pulchni. Lubią jeść z pasją, co prowadzi do różnych dziwnych sytuacji.</pl>
 			</description>
 			<children>
 				<scripttemplate licence_type="2" product="2" index="0" guid="Kasi-script-SitcomeRunde-Ep1">
 					<title>
 						<de>Freunde fürs Leben</de>
 						<en>Friends for life</en>
-						<pl></pl>
+						<pl>Przyjaciele na całe życie</pl>
 					</title>
 					<description>
 						<de>Die runden %zahl% treffen sich vor 19 Jahren das erste Mal. Als die %zahl% versuchen, die Streusel aus einer Eisdiele zu klauen, werden sie die besten Freunde.</de>
 						<en>The chummy-yummy %zahl% meet for the first time 19 years ago. When the %zahl% try to steal the sprinkles from an ice cream parlor, they become the best of friends.</en>
-						<pl></pl>
+						<pl>Nasi bohaterowie spotykają się po raz pierwszy 19 lat temu. Kiedy próbują ukraść posypkę z lodziarni, stają się najlepszymi przyjaciółmi.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="1" guid="Kasi-script-SitcomeRunde-Ep2">
 					<title>
 						<de>Das Donutverbrechen</de>
 						<en>The donut crime</en>
-						<pl></pl>
+						<pl>Przestępstwo pączkowe</pl>
 					</title>
 					<description>
 						<de>Die Donutpackung ist leer. Einer der runden %zahl% hat sie aufgegessen, ohne eine neue zu kaufen. Doch wer war es?</de>
 						<en>The doughnut box is empty. One of the chummy-yummy %zahl% has eaten it without buying a new one. But who was it?</en>
-						<pl></pl>
+						<pl>Pudełko z pączkami jest puste. Jeden z bohaterów zjadł go bez kupowania nowego. Ale kto to był?</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="2" guid="Kasi-script-SitcomeRunde-Ep3">
 					<title>
 						<de>Der Mitternachtssnack</de>
 						<en>The midnight snack</en>
-						<pl></pl>
+						<pl>Przekąska o północy</pl>
 					</title>
 					<description>
 						<de>Die runden %zahl%, feiern ihre Freundschaft bei einen Mitternachtssnack. Alte Geschichten werden aufgewärmt und alte Speisen verputzt.</de>
 						<en>The chummy-yummy %zahl% celebrate their friendship with a midnight snack. Old stories are rehashed and old food is consumed.</en>
-						<pl></pl>
+						<pl>Bohaterowie świętują swoją przyjaźń przekąską o północy. Stare historie są ponownie opowiadane, a stare jedzenie jest spożywane.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="3" guid="Kasi-script-SitcomeRunde-Ep4">
 					<title>
 						<de>Dicke Luft</de>
 						<en>Thick Trouble</en>
-						<pl></pl>
+						<pl>Grube kłopoty</pl>
 					</title>
 					<description>
 						<de>Einer der runden %zahl% passt nicht mehr durch die Tür und verpasst die Verabredung mit den anderen. Diese sind sehr wütend, da man das „All you can eat“ für %zahl% nicht mit einer Person weniger antreten kann.</de>
 						<en>One of the chummy-yummy %zahl% no longer fits through the door and misses the appointment with the others. These are very angry, because it is not possible to attend the "All you can eat" for %zahl% with one person less.</en>
-						<pl></pl>
+						<pl>Jeden z naszych bohaterów nie mieści się już w drzwiach i spóźnia się na spotkanie z innymi. Są bardzo źli, ponieważ nie mogą uczestniczyć w programie "Wszystko co możesz" .</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="4" guid="Kasi-script-SitcomeRunde-Ep5">
 					<title>
 						<de>Füllige Begierden</de>
 						<en>Full desires</en>
-						<pl></pl>
+						<pl>Pełne pragnienia</pl>
 					</title>
 					<description>
 						<de>Einer der runden %zahl% verliebt sich. Die anderen helfen ihm die Frau zu erobern.</de>
 						<en>One of the chummy-yummy %zahl% falls in love. The others help him to conquer the woman.</en>
-						<pl></pl>
+						<pl>Jeden z naszych bohaterów zakochuje się. Pozostali pomagają mu zdobyć kobietę.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="5" guid="Kasi-script-SitcomeRunde-Ep6">
 					<title>
 						<de>Normalgewicht</de>
 						<en>Normal weight</en>
-						<pl></pl>
+						<pl>Normalna waga</pl>
 					</title>
 					<description>
 						<de>Als einer der runden %zahl% plötzlich beginnt abzunehmen, bekommen die anderen Angst, dass sie bald keine Freunde mehr sein werden.</de>
 						<en>When one of the chummy-yummy %zahl% suddenly starts to lose weight, the others get scared that soon they won't be friends anymore.</en>
-						<pl></pl>
+						<pl>Kiedy jeden z naszych bohaterów nagle zaczyna tracić na wadze, pozostali boją się, że wkrótce nie będą już przyjaciółmi.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="6" guid="Kasi-script-SitcomeRunde-Ep7">
 					<title>
 						<de>Der korpulente König</de>
 						<en>The corpulent king</en>
-						<pl></pl>
+						<pl>Korpulentny król</pl>
 					</title>
 					<description>
 						<de>Das Steakhouse ehrt den besten Esser mit dem Steakhousekönigstitel. Die runden %zahl% kämpfen um jedes Gramm, welches verputzt werden muss.</de>
 						<en>The Steakhouse honors the best eater with the Steakhouse King title. The chummy-yummy %zahl% fight for every gram that must be devoured.</en>
-						<pl></pl>
+						<pl>Steakhouse honoruje najlepszego zjadacza tytułem króla stekowego. Nasi bohaterowie walczą o każdy gram, który musi zostać pożarty.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="7" guid="Kasi-script-SitcomeRunde-Ep8">
 					<title>
 						<de>Gut gepolstert ist halb gewonnen</de>
 						<en>Well padded is half won</en>
-						<pl></pl>
+						<pl>Dobrze wyściełane to połowa wygranej</pl>
 					</title>
 					<description>
 						<de>Bei einem Autounfall erkennen die runden %zahl% wie gut es ist einiges an Gewicht extra zu haben. Sie helfen einem anderen Autofahrer mit lustigen Turbulenzen.</de>
 						<en>During a car accident, the chummy-yummy %zahl% realize how good it is to have some extra weight. They help another motorist with funny turbulences.</en>
-						<pl></pl>
+						<pl>Podczas wypadku samochodowego nasi bohaterowie zdają sobie sprawę, jak dobrze jest mieć trochę dodatkowej wagi. Pomagają innemu kierowcy w zabawnych turbulencjach.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="8" guid="Kasi-script-SitcomeRunde-Ep9">
 					<title>
 						<de>Vollschlank</de>
 						<en>Full figured</en>
-						<pl></pl>
+						<pl>Pełna figura</pl>
 					</title>
 					<description>
 						<de>Bei einem Modecontest merken die runden %zahl% wie gut es ist, einige Fehler zu haben und wie schrecklich Bulimie sein muss.</de>
 						<en>At a fashion contest, the chummy-yummy %zahl% realize how good it is to have some flaws and how terrible bulimia must be.</en>
-						<pl></pl>
+						<pl>Podczas konkursu mody, bohaterowie zdają sobie sprawę, jak dobrze jest mieć pewne wady i jak straszna musi być bulimia.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="9" guid="Kasi-script-SitcomeRunde-Ep10">
 					<title>
 						<de>Mollige Freuden</de>
 						<en>Plump pleasures</en>
-						<pl></pl>
+						<pl>Pulchne przyjemności</pl>
 					</title>
 					<description>
 						<de>Manchmal ist die einzige Freude im Leben, etwas Schönes zu essen. Die runden %zahl% wissen dies und kochen gemeinsam das schönste Menu für Freunde.</de>
 						<en>Sometimes the only joy in life is to eat something nice. The chummy-yummy %zahl% know this and cook together the most wonderful menu for friends.</en>
-						<pl></pl>
+						<pl>Czasami jedyną radością w życiu jest zjedzenie czegoś dobrego. Oni wiedzą o tym i gotują razem najwspanialsze menu dla przyjaciół.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="10" guid="Kasi-script-SitcomeRunde-Ep11">
 					<title>
 						<de>Aus der Form geraten</de>
 						<en>Got out of shape</en>
-						<pl></pl>
+						<pl>Straciłem formę</pl>
 					</title>
 					<description>
 						<de>Als die runden %zahl% beim Arzt sind, erfahren sie, dass sie zuviel Gewicht auf den Hüften haben. Gemeinsam versuchen sie, ihre alte Form wiederzuerlangen.</de>
 						<en>When the chummy-yummy %zahl% are at the doctor, they learn that they have too much weight on their hips. Together they try to regain their old shape.</en>
-						<pl></pl>
+						<pl>Kiedy nasi bohaterowie są u lekarza, dowiadują się, że mają za dużo kilogramów na biodrach. Razem próbują odzyskać dawną sylwetkę.</pl>
 					</description>
 				</scripttemplate>
 				<scripttemplate licence_type="2" product="2" index="11" guid="Kasi-script-SitcomeRunde-Ep12">
 					<title>
 						<de>Dicke Freunde</de>
 						<en>Chummy-yummy friends</en>
-						<pl></pl>
+						<pl>Grubi przyjaciele</pl>
 					</title>
 					<description>
 						<de>Die runden %zahl% sind Freunde, egal was passiert. Wegen lustiger Sprüche und ihres liebenswürdigen Charakters lieben die Zuschauer sie einfach.</de>
 						<en>The chummy-yummy %zahl% are friends, no matter what. Because of funny lines and their kind characters, viewers just love them.</en>
-						<pl></pl>
+						<pl>Oni są przyjaciółmi, bez względu na wszystko. Widzowie uwielbiają ich za zabawne teksty i miłe charaktery.</pl>
 					</description>
 				</scripttemplate>
 			</children>
@@ -2284,7 +2285,7 @@
 				<zahl>
 					<de>3|2|4|5|6|7|8|9</de>
 					<en>3|2|4|5|6|7|8|9</en>
-					<pl></pl>
+					<pl>3 grubasy|2 grubasy|4 grubasy|3 otyłe grubasy|2 otyłe grubasy|Koledzy z nadwagą|Przyjaciele z nadwagą|2 kiełbasy i 3 grubasy</pl>
 				</zahl>
 			</variables>
 			<jobs>
