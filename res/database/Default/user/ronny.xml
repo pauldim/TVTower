@@ -824,12 +824,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>Plastik „Karl Dingensbummens“ gestohlen</de>
 				<en>Sculpture "Joe Thingamabob" stolen</en>
-				<pl></pl>
+				<pl>Rzeźba „Joe Thingamabob” skradziona</pl>
 			</title>
 			<description>
 				<de>Die weltbekannte Plastikskulptur des Künstlers Jean-Peter Fleusch wurde aus dem Museum für strittige Kunst in Flunde/Südafrika gestohlen.</de>
 				<en>The world-renowned plastic sculpture by artist Jean-Peter Fleusch was stolen from the Museum of Controversial Art in Flunde/South Africa.</en>
-				<pl></pl>
+				<pl>Znana na całym świecie plastikowa rzeźba artysty Jeana-Petera Fleuscha została skradziona z Muzeum Sztuki Kontrowersyjnej we Flunde w RPA.</pl>
 			</description>
 			<effects>
 				<!-- "morgen/uebermorgen 6-12 Uhr" -->
@@ -841,12 +841,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>„Karl Dingensbummens“ wieder da</de>
 				<en>"Joe Thingamabob" back again</en>
-				<pl></pl>
+				<pl>„Joe Thingamabob” powraca ponownie</pl>
 			</title>
 			<description>
 				<de>Jean-Peter Fleusch („Kunst der unscharfen Ränder“) meldet Rückkehr der Skulptur „Karl Dingensbummens“. Putzkräfte hätten es für Verpackungsmaterial gehalten und in einem Lager deponiert.</de>
 				<en>Jean-Peter Fleusch ("Art of blurred edges") reports return of the sculpture "Joe Thingamabob". Cleaners had mistaken it for packaging material and deposited it in a warehouse.</en>
-				<pl></pl>
+				<pl>Jean-Peter Fleusch („Muzeum Sztuki Kontrowersyjnej”) donosi o odnalezieniu rzeźby „Joe Thingamabob”. Sprzątacze pomylili ją z materiałem opakowaniowym i zdeponowali w magazynie.</pl>
 			</description>
 			<data genre="5" price="1.0" quality="20" />
 		</news>
@@ -856,12 +856,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>Ausstellung zum Thema Frauenbärte</de>
 				<en>Exhibition on Women's Beards</en>
-				<pl></pl>
+				<pl>Wystawa poświęcona kobiecym brodom</pl>
 			</title>
 			<description>
 				<de>Sie sind der Trend des kommenden Sommers: Frauenbärte. Emily Santé widmet dem Trend schon jetzt eine Ausstellung. Frauen mit Bart erhalten kostenlosen Zutritt.</de>
 				<en>They are the trend of the coming summer: women's beards. Emily Santé is already dedicating an exhibition to the trend. Women with beards are admitted free of charge.</en>
-				<pl></pl>
+				<pl>Oto trend nadchodzącego lata: kobiece brody. Emily Santé już teraz poświęca wystawę temu trendowi. Kobiety z brodą mają wstęp bezpłatny.</pl>
 			</description>
 			<effects>
 				<!-- "morgen/uebermorgen 11-17 Uhr" -->
@@ -877,12 +877,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>Ausstellung „Frauenbärte %WORLDTIME:YEAR%“ lockt Betrüger</de>
 				<en>Exhibition "Women's Beards %WORLDTIME:YEAR%" lures scammers</en>
-				<pl></pl>
+				<pl>Wystawa „Kobiece brody %WORLDTIME:YEAR%” wabi oszustów</pl>
 			</title>
 			<description>
 				<de>Heute versuchten zwei mit Bärten getarnte Männer sich kostenlosen Zugang zur Ausstellung „Frauenbärte“ zu erschleichen. Beim Handgemenge wurde einer Wachfrau der Schnurrbart gezupft.</de>
 				<en>Today, two men disguised with beards tried to trick their way into the "Women's Beards" exhibition for free. During the scuffle, a security guard had her mustache plucked.</en>
-				<pl></pl>
+				<pl>Dziś dwóch mężczyzn przebranych za brodaczy próbowało podstępem dostać się za darmo na wystawę „Kobiece brody”. Podczas przepychanki ochroniarz wyrwał im wąsy.</pl>
 			</description>
 			<data genre="5" price="1.0" quality="17" />
 		</news>
@@ -890,12 +890,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>Frauenbärte: Frauen schwören auf Koteletten</de>
 				<en>Women's beards: women swear by sideburns</en>
-				<pl></pl>
+				<pl>Kobiece brody: kobiety przerzucają się na bokobrody</pl>
 			</title>
 			<description>
 				<de>Wohl auch aus Diätgründen trägt die Frau von heute Koteletten. Gezupft und in Form gebracht - natürlich!</de>
 				<en>Maybe it helps shaping off some fat - so the modern woman wears sideburns now. Plucked and brought into shape - naturally!</en>
-				<pl></pl>
+				<pl>Być może pomaga to zrzucić trochę tłuszczu - dlatego współczesna kobieta nosi teraz bokobrody. Skubane i nadające kształt - naturalne!</pl>
 			</description>
 			<data genre="5" price="1.0" quality="18" />
 		</news>
@@ -903,12 +903,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>Frauenbärte: Aus und Vorbei</de>
 				<en>Women's Beards: Over and done with</en>
-				<pl></pl>
+				<pl>Kobiece brody: Koniec i kropka</pl>
 			</title>
 			<description>
 				<de>Die millionenschweren Gegenkampagne der Rouge-Produzenten zeigt Wirkung: Absatz für Damenrasierer steigt wieder!</de>
 				<en>The multi-million Euro counter-campaign by rouge producers is having an effect: sales of women's razors are on the rise again!</en>
-				<pl></pl>
+				<pl>Wielomilionowa kontr-kampania producentów rouge przynosi efekty: sprzedaż maszynek do golenia dla kobiet znów rośnie!</pl>
 			</description>
 			<data genre="5" price="1.1" quality="21" />
 		</news>
@@ -916,12 +916,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>„Tarot im Wandel der Zeit“ auf Tour</de>
 				<en>"Tarot in the course of time" on tour</en>
-				<pl></pl>
+				<pl>„Tarot z biegiem czasu” na trasie</pl>
 			</title>
 			<description>
 				<de>Die Ausstellung der „Zunft“ reist quer durchs Land. Ausgestellt wird alles, vom alten Taschenschlitzwerkzeug bis zur ersten verdienten Mark mit 0190er Nummern.</de>
 				<en>The exhibition of the "guild" travels across the country. On display is everything, from the vintage pocket slitting tool up to the first Deutschmark earned with call-in phone numbers.</en>
-				<pl></pl>
+				<pl>Wystawa „gildii” podróżuje po całym kraju. Na wystawie znajduje się wszystko, od zabytkowego kieszonkowego narzędzia do cięcia, po pierwszą markę niemiecką zarobioną za pomocą numerów telefonicznych.</pl>
 			</description>
 			<data genre="5" price="1.2" quality="23" />
 		</news>
@@ -929,12 +929,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>„Das war die Steinzeit“ gastiert in %CITYNAME%</de>
 				<en>"That was the Stone Age" exhibits in %CITYNAME%</en>
-				<pl></pl>
+				<pl>Wystawa „To była epoka kamienia łupanego” w %CITYNAME%</pl>
 			</title>
 			<description>
 				<de>Die erfolgreiche Wanderausstellung schlägt ihre Zelte in %CITYNAME% auf. Dutzende Einwohner ließen ihre Keulen stehen und liegen, um Tickets zu erjagen.</de>
 				<en>The successful traveling exhibition sets up its tents in %CITYNAME%. Dozens of residents dropped all their cudgels in order to catch some tickets.</en>
-				<pl></pl>
+				<pl>Odnosząca sukcesy wystawa objazdowa rozstawia swoje namioty w %CITYNAME%. Dziesiątki mieszkańców porzuciło wszystkie swoje pałki, aby zdobyć bilety.</pl>
 			</description>
 			<!-- usage of %STATIONMAP:RANDOMCITY% in the text directly, will lead to a different random city
 				 in title than in the description - so we use variables as this caches the output of the first city -->
@@ -953,19 +953,23 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>%WHAT% %WHEN%</de>
 				<en>%WHAT% %WHEN%</en>
+				<pl>%WHAT% %WHEN%</pl>
 			</title>
 			<description>
 				<de>Fetzige Musik für Jung und Alt. Von gefüllten Fussballstadien auf die Showbühne. Unterhaltung pur</de>
 				<en>Snazzy music for young and old. From packed football stadiums to the show stage. Pure entertainment</en>
+				<pl>Odlotowa muzyka dla młodszych i starszych. Od wypełnionych po brzegi stadionów piłkarskich po sceny estradowe. Czysta rozrywka</pl>
 			</description>
 			<variables>
 				<what>
 					<de>Musiksterne|Talente|Pop|Unterhaltung|Musikgenuss|Klassik|Rock|Metal|Jazz|Folk|Blues|Hip-Hop</de>
 					<en>Music starlets|Talents|Pop|Entertainment|Music delight|Classical Music|Rock|Metal|Jazz|Folk|Blues|Hip-Hop</en>
+					<pl>Gwiazdy muzyki|Talenty|Pop|Rozrywka|Rozkosz muzyczna|Muzyka klasyczna|Rock|Metal|Jazz|Folk|Blues|Hip-Hop</pl>
 				</what>
 				<when>
 					<de>am Abend|zur besten Sendezeit|in der Dämmerung|im Mondschein|unterm Sternenzelt|zur guten Nacht|zum Sonnenuntergang</de>
 					<en>in the Evening|at Prime Time|at Nightfall|in the Moonlight|under the Canopy of Stars|for the Good Night|at Sunset</en>
+					<pl>wieczorem|o najlepszej porze|o zmroku|w świetle księżyca|pod baldachimem gwiazd|na dobranoc|o zachodzie słońca</pl>
 				</when>
 			</variables>
 			<jobs>
@@ -993,16 +997,19 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>%SHOWNAME%</de>
 				<en>%SHOWNAME%</en>
+				<pl>%SHOWNAME%</pl>
 			</title>
 			<description>
 				<de>Aufgewacht das Bettchen kracht. Lockere Morgenunterhaltung für alle - vom Frühaufsteher bis zum arbeitslosen Langschläfer.</de>
 				<en>Wakey-wake your bed just cracked. Easy-going morning entertainment for everyone - from the early riser to the unemployed late riser.</en>
+				<pl>Pobudka - łóżko po prostu pękło. Łatwa poranna rozrywka dla każdego - od wczesnego wstawania po bezrobotne późne wstawanie.</pl>
 			</description>
 
 			<variables>
 				<showname>
 					<de>Goldene Morgenstunden|Guten Morgen %STATIONMAP:RANDOMCITY%|Die Frühaufsteher|Start in den Tag</de>
 					<en>The early birds|Good Morning %STATIONMAP:RANDOMCITY%|The early risers|Start of the day</en>
+					<pl>Pobudka z TV|Dzień dobry %STATIONMAP:RANDOMCITY%|Poranne TV|Telewizja śniadaniowa</pl>
 				</showname>
 			</variables>
 
@@ -1031,21 +1038,25 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>${cntry} von oben</de>
 				<en>Bird's eye view of ${cntry}</en>
+				<pl>Widok z lotu ptaka na ${cntry}</pl>
 			</title>
 			<description>
 				<de>Erleben Sie atemberaubende Luftaufnahmen von ${cntry}.|${cntry} wie Sie es noch nie gesehen haben.|${cntry} aus einer neuen Perspektive.</de>
 				<en>Experience breathtaking aerial views of ${cntry}.|${cntry} as you have never seen it before.|${cntry} from a new perspective.</en>
+				<pl>Doświadcz zapierających dech w piersiach widoków z lotu ptaka na ${cntry}, których jeszcze nigdy wcześniej nie widziałeś. Z nowej perspektywy.</pl>
 			</description>
 			<children>
 				<scripttemplate product="2" licence_type="2" index="0" guid="scripttemplate-ron-from-above-eps">
 					<title>
 						<de>${cntry}s ${subject}</de>
 						<en>${subject} of ${cntry}</en>
+						<pl>${subject} z lotu ptaka</pl>
 					</title>
 					<variables>
 						<subject>
 							<de>Berge|Flüsse|Städte|Nationalparks|Wälder|Seen|Bahnhöfe|Schlösser|Parks|Inseln|Kirchen|Stadien|Ruinen|Gletscher|Wochenmärkte|Bahnstrecken</de>
 							<en>Mountains|Rivers|Cities|National Parks|Forests|Lakes|Railroad Stations|Castles|Parks|Islands|Churches|Stadiums|Ruins|Glaciers|Farmers' Markets|Railways</en>
+							<pl>Góry|Rzeki|Miasta|Parki narodowe|Lasy|Jeziora|Stacje kolejowe|Zamki|Parki|Kościoły|Stadiony|Ruiny zamków</pl>
 						</subject>
 					</variables>
 					<episodes min="3" max="5" />
@@ -1055,6 +1066,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 				<cntry>
 					<de>Deutschland|Spanien|Frankreich|Dänemark|Schweden|Finnland|Norwegen|Polen|Griechenland|Italien|Portugal|Brasilien|Costa Rica|Kanada|Vietnam|Thailand|Japan|Belgien|Nepal|Inden|Chile</de>
 					<en>Germany|Spain|France|Denmark|Sweden|Finland|Norway|Poland|Greece|Italy|Portugal|Brazil|Costa Rica|Canada|Vietnam|Thailand|Japan|Belgium|Nepal|India|Chile</en>
+					<pl>Niemcy|Hiszpanię|Francję|Danię|Szwecję|Finlandie|Norwegie|Polskę|Grecję|Włochy|Portugalię|Brazylię|Kostarykę|Kanadę|Wietnam|Tajlandię|Japonię|Belgię|Nepal|Indie|Chile</pl>
 				</cntry>
 			</variables>
 			<jobs>
@@ -1083,6 +1095,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>${ttl}</de>
 				<en>${ttl}</en>
+				<pl>${ttl}</pl>
 			</title>
 			<description>
 				<!--no description at all: first episode's description is shown for series-->
@@ -1093,10 +1106,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 				<ttl>
 					<de>Zu Gast in ${cntry}|Reise durch ${cntry}|Auf Achse in ${cntry}|Leben in ${cntry}|Sehenswertes ${cntry}|Faszination ${cntry}|Blickpunkt ${cntry}</de>
 					<en>Visiting ${cntry}|Travelling in ${cntry}|On the road in ${cntry}|Life in ${cntry}|Beautiful ${cntry}|Fascinating ${cntry}|Spotlight ${cntry}</en>
+					<pl>Zwiedzanie krajów - ${cntry}|Podróżowanie przez kraje. ${cntry}|Na wycieczce - ${cntry}|Życie w różnych krajach - ${cntry}|Piękne kraje - ${cntry}|Fascynujące kraje -${cntry}|W cyklu, poznaj świat - ${cntry}</pl>
 				</ttl>
 				<cntry>
 					<de>Deutschland|Spanien|Frankreich|Dänemark|Schweden|Finnland|Norwegen|Polen|Griechenland|Italien|Portugal|Brasilien|Costa Rica|Kanada|Vietnam|Thailand|Japan|Belgien|Nepal|Inden|Chile</de>
 					<en>Germany|Spain|France|Denmark|Sweden|Finland|Norway|Poland|Greece|Italy|Portugal|Brazil|Costa Rica|Canada|Vietnam|Thailand|Japan|Belgium|Nepal|India|Chile</en>
+					<pl>Niemcy|Hiszpania|Francja|Dania|Szwecja|Finlandia|Norwegia|Polska|Grecja|Włochy|Portugalia|Brazylia|Kostaryka|Kanada|Wietnam|Tajlandia|Japonia|Belgia|Nepal|Indie|Chile</pl>
 				</cntry>
 			</variables>
 			<!--TODO descriptions!-->
@@ -1106,10 +1121,12 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>${cntry} im Überblick</de>
 						<en>${cntry} in a nutshell</en>
+						<pl>${cntry} w pigułce</pl>
 					</title>
 					<description>
 						<de>Geografische, historische und politische Zusammenfassung zu ${cntry}, bevor sich die Folgen einzelnen Aspekten des Landes widmen.</de>
 						<en>Geographical, historical and political summary of ${cntry}, before a specific aspect of the country is highlighted in each episode.</en>
+						<pl>Geograficzne, historyczne i polityczne podsumowanie danego kraju. W każdym odcinku inny temat.</pl>
 					</description>
 					<outcome min="30" max="60" slope="50" />
 				</scripttemplate>
@@ -1117,6 +1134,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Schlösser</de>
 						<en>Castles</en>
+						<pl>Zamki</pl>
 					</title>
 					<groups target_groups="65" />
 				</scripttemplate>
@@ -1124,6 +1142,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Stadien</de>
 						<en>Stadiums</en>
+						<pl>Stadiony</pl>
 					</title>
 					<groups target_groups="258" />
 				</scripttemplate>
@@ -1131,18 +1150,21 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Seen</de>
 						<en>Lakes</en>
+						<pl>Jeziora</pl>
 					</title>
 				</scripttemplate>
 				<scripttemplate product="2" licence_type="2" index="4" guid="scripttemplate-ron-visiting-ep5">
 					<title>
 						<de>Berge</de>
 						<en>Mountains</en>
+						<pl>Góry</pl>
 					</title>
 				</scripttemplate>
 				<scripttemplate product="2" licence_type="2" index="5" guid="scripttemplate-ron-visiting-ep6">
 					<title>
 						<de>Arbeitgeber</de>
 						<en>Employers</en>
+						<pl>Zatrudnie i przemysł</pl>
 					</title>
 					<groups target_groups="40" target_groups_optional="16"/>
 				</scripttemplate>
@@ -1150,6 +1172,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Wochenmärkte</de>
 						<en>Farmers' Markets</en>
+						<pl>Rolnictwo i obszary wiejskie</pl>
 					</title>
 					<groups target_groups="4" target_groups_optional="64"/>
 				</scripttemplate>
@@ -1157,6 +1180,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Nationalparks</de>
 						<en>National Parks</en>
+						<pl>Parki narodowe</pl>
 					</title>
 					<groups target_groups="0" target_groups_optional="129"/>
 				</scripttemplate>
@@ -1164,6 +1188,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Architektur</de>
 						<en>Architecture</en>
+						<pl>Architektura</pl>
 					</title>
 					<groups target_groups="32" target_groups_optional="64"/>
 				</scripttemplate>
@@ -1171,6 +1196,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Literatur</de>
 						<en>Literature</en>
+						<pl>Literatura</pl>
 					</title>
 					<groups target_groups="128" target_groups_optional="32"/>
 				</scripttemplate>
@@ -1178,6 +1204,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Musik</de>
 						<en>Music</en>
+						<pl>Muzyka</pl>
 					</title>
 					<groups target_groups="128" target_groups_optional="2"/>
 				</scripttemplate>
@@ -1185,6 +1212,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Biere</de>
 						<en>Beer</en>
+						<pl>Piwo</pl>
 					</title>
 					<groups target_groups="18" target_groups_optional="8"/>
 				</scripttemplate>
@@ -1192,6 +1220,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Weine</de>
 						<en>Wine</en>
+						<pl>Wino</pl>
 					</title>
 					<groups target_groups="32" target_groups_optional="128"/>
 				</scripttemplate>
@@ -1199,6 +1228,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Autos</de>
 						<en>Cars</en>
+						<pl>Samochody i infrastruktura</pl>
 					</title>
 					<groups target_groups="258" target_groups_optional="32"/>
 				</scripttemplate>
@@ -1206,12 +1236,14 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Fotografie</de>
 						<en>Photography</en>
+						<pl>Fotografie</pl>
 					</title>
 				</scripttemplate>
 				<scripttemplate product="2" licence_type="2" index="15" guid="scripttemplate-ron-visiting-ep16">
 					<title>
 						<de>Möbel</de>
 						<en>Furniture</en>
+						<pl>Meble</pl>
 					</title>
 					<groups target_groups="4" />
 				</scripttemplate>
@@ -1219,6 +1251,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<title>
 						<de>Theater</de>
 						<en>Theatre</en>
+						<pl>Teatr i sztuka</pl>
 					</title>
 					<groups target_groups="128" />
 				</scripttemplate>
@@ -1250,34 +1283,41 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 			<title>
 				<de>${ttl}</de>
 				<en>${ttl}</en>
+				<pl>${ttl}</pl>
 			</title>
 			<description>
 				<de>Folgen Sie uns auf einer Reise um die Welt. ${subject} findet man auch in Ländern, in denen man sie nicht vermutet hätte.</de>
 				<en>Join us on a journey around the world. ${subject} may sometimes be found in countries you might not have expected.</en>
+				<pl>Dołącz do nas w podróży dookoła świata. Coś niesamowitego można czasem znaleźć w krajach, w których byśmy się tego nie spodziewali.</pl>
 			</description>
 			<children>
 				<scripttemplate product="2" licence_type="2" index="0" guid="scripttemplate-ron-world-eps">
 					<title>
 						<de>${epttl}</de>
 						<en>${epttl}</en>
+						<pl>Podróże</pl>
 					</title>
 					<description>
 						<de>${dsc}</de>
 						<en>${dsc}</en>
+						<pl>Podróże przez świat. Poznajemy różne kraje</pl>
 					</description>
 					<variables>
 						<epttl>
 							<de>${subject} ${cntry}s|${adjective}${subject} ${cntry}s</de>
 							<en>${subject} of ${cntry}|${adjective}${subject} of ${cntry}</en>
+							<pl>${cntry}</pl>
 						</epttl>
 						<!--without an empty description, the series description is used again-->
 						<dsc>
 							<de> |${cntry}s ${subject} bergen so manches Geheimnis.|Fakten und Meinungen zu ${cntry}s ${subject}.|Was macht ${cntry}s ${subject} so besonders?</de>
 							<en> |${subject} in ${cntry} carry quite a few secrets.|${subject} of ${cntry} - facts and opinions.|${subject} in ${cntry}, what makes them so special?</en>
+							<pl>${cntry} mają bardzo dużo niezwykłych tajemnic i ciekawostek.</pl>
 						</dsc>
 						<cntry>
 							<de>Deutschland|Spanien|Frankreich|Dänemark|Schweden|Finnland|Norwegen|Polen|Griechenland|Italien|Portugal|Brasilien|Costa Rica|Kanada|Vietnam|Thailand|Japan|Belgien|Nepal|Inden|Chile</de>
 							<en>Germany|Spain|France|Denmark|Sweden|Finland|Norway|Poland|Greece|Italy|Portugal|Brazil|Costa Rica|Canada|Vietnam|Thailand|Japan|Belgium|Nepal|India|Chile</en>
+							<pl>Niemcy|Hiszpania|Francja|Dania|Szwecja|Finlandia|Norwegia|Polska|Grecja|Włochy|Portugalia|Brazylia|Kostaryka|Kanada|Wietnam|Tajlandia|Japonia|Belgia|Nepal|Indie|Chile</pl>
 						</cntry>
 					</variables>
 					<episodes min="4" max="6" />
@@ -1287,74 +1327,92 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 				<ttl>
 					<de>${adjective}${subject} der Welt</de>
 					<en>${adjective}${subject} of the world</en>
+					<pl>Kraje świata</pl>
 				</ttl>
 				<subject>
 					<de>${sbj_${variant}}</de>
 					<en>${sbj_${variant}}</en>
+					<pl></pl>
 				</subject>
 				<adjective>
 					<de>|${adj_${variant}} </de>
 					<en>|${adj_${variant}} </en>
+					<pl></pl>
 				</adjective>
 				<variant>
 					<de>bf|best|bi|big|bigb</de>
 					<en>bf|best|bi|big|bigb</en>
+					<pl></pl>
 				</variant>
 				<adj_bf>
 					<de>${beautiful}</de>
 					<en>${beautiful}</en>
+					<pl></pl>
 				</adj_bf>
 				<sbj_bf>
 					<de>Weihnachtsbräuche|Trachten|Frisuren|Autos|Eisenbahnstrecken|Märchen</de>
 					<en>Christmas traditions|Traditional costumes|Hair styles|Cars|Railways|Fairy tales</en>
+					<pl>Tradycje bożonarodzeniowe|Tradycyjne stroje|Stylizacje włosów|Samochody|Kolej|Bajki</pl>
 				</sbj_bf>
 				<adj_best>
 					<de>${best}</de>
 					<en>${best}</en>
+					<pl></pl>
 				</adj_best>
 				<sbj_best>
 					<de>Bildungssysteme|Fußballmannschaften|Schokoladen|Bands|Weine|Biere</de>
 					<en>Educational systems|Soccer teams|Chocolates|Bands|Vines|Beers</en>
+					<pl></pl>
 				</sbj_best>
 				<adj_bi>
 					<de>${best}|${important}</de>
 					<en>${best}|${important}</en>
+					<pl></pl>
 				</adj_bi>
 				<sbj_bi>
 					<de>Politiker|Komponisten|Modemarken|Universitäten</de>
 					<en>Politicians|Composers|Fashion labels|Universities</en>
+					<pl></pl>
 				</sbj_bi>
 				<adj_big>
 					<de>${big}</de>
 					<en>${big}</en>
+					<pl></pl>
 				</adj_big>
 				<sbj_big>
 					<de>Bauwerke|Flughäfen|Stadien|Tunnel|Berge</de>
 					<en>Buildings|Airports|Stadiums|Tunnels|Mountains</en>
+					<pl></pl>
 				</sbj_big>
 				<adj_bigb>
 					<de>${big}|${beautiful}</de>
 					<en>${big}|${beautiful}</en>
+					<pl></pl>
 				</adj_bigb>
 				<sbj_bigb>
 					<de>Schlösser|Kirchen|Nationalparks|Zoos|Flüsse|Tiere|Bibliotheken|Inseln|Brücken|Vulkane|Denkmale|Städte</de>
 					<en>Castles|Churches|National parks|Zoos|Rivers|Animals|Libraries|Islands|Bridges|Volcanoes|Monuments|Cities</en>
+					<pl></pl>
 				</sbj_bigb>
 				<beautiful>
 					<de>Die schönsten</de>
 					<en>The most beautiful</en>
+					<pl></pl>
 				</beautiful>
 				<best>
 					<de>Die besten</de>
 					<en>The best</en>
+					<pl></pl>
 				</best>
 				<important>
 					<de>Die bedeutendsten</de>
 					<en>The most important</en>
+					<pl></pl>
 				</important>
 				<big>
 					<de>Die größten|Die beeindruckendsten</de>
 					<en>The biggest|The most impressive</en>
+					<pl></pl>
 				</big>
 			</variables>
 			<jobs>
