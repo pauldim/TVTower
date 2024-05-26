@@ -7,7 +7,7 @@
 			<title>
 				<de>Wal in ${thames} gesichtet</de>
 				<en>Whale sighted in ${thames}</en>
-				<pl>Wieloryb widziany w ${thames}</pl>
+				<pl>Wieloryb widziany w rzece ${thames}</pl>
 			</title>
 			<description>
 				<de>Da staunten die Anwohner an den Ufern des Flusses nicht schlecht, als sie am frühen Morgen lautes Platschen und hoch aufspritzendes Wasser bewundern durften.</de>
@@ -22,7 +22,7 @@
 				<thames>
 					<de>Themse|Rhein|Mississippi|Nil|Amazonas|Wolga|Seine</de>
 					<en>Thames|Rhine|Mississippi|Nile|Amazon River|Volga|Seine</en>
-					<pl>Tamiza|Ren|Mississippi|Nil|Rzeka Amazonki|Wolga|Seine</pl>
+					<pl>Tamiza|Ren|Mississippi|Nil|Amazonki|Wołga|Seine</pl>
 				</thames>
 			</variables>
 		</news>
@@ -36,7 +36,7 @@
 			<description>
 				<de>Wegen Wal in ${thames} müsse eine Rettungsaktion sofort eingeleitet werden.</de>
 				<en>Rescue operation for whale in ${thames} must be initiated immediately, Creampeas said.</en>
-				<pl>Operacja ratunkowa wieloryba w ${thames} musi zostać natychmiast rozpoczęta, powiedział Greampeas.</pl>
+				<pl>Operacja ratunkowa wieloryba w rzece ${thames} musi zostać natychmiast rozpoczęta, powiedział Greampeas.</pl>
 			</description>
 			<data genre="4" price="1" quality="70" fictional="1" />
 			<effects>
@@ -48,7 +48,7 @@
 			<title>
 				<de>Wal in ${thames}: Rettung in Sicht</de>
 				<en>Whale in ${thames}: Rescue in sight</en>
-				<pl>Wieloryb w ${thames}: Ratunek w zasięgu wzroku</pl>
+				<pl>Wieloryb w rzece ${thames}: Ratunek w zasięgu wzroku</pl>
 			</title>
 			<description>
 				<de>Grienpies leitet die Rettungs-Aktion ein. Das Tier dürfe nicht zu schaden kommen, so der Sprecher.</de>
@@ -116,7 +116,7 @@
 			<title>
 				<de>Wal in ${thames} ist tot</de>
 				<en>Whale in ${thames} dead</en>
-				<pl>Wieloryb w ${thames} nie żyje</pl>
+				<pl>Wieloryb w rzece ${thames} nie żyje</pl>
 			</title>
 			<description>
 				<de>Die genaue Todesursache ist noch unklar, vermutlich war der Wal bereits schwach und konnte nicht genug Nahrung finden.</de>
@@ -130,7 +130,7 @@
 			<title>
 				<de>Wal in ${thames} schwimmt zur Flußmündung</de>
 				<en>Whale in ${thames} swims to river mouth</en>
-				<pl>Wieloryb w ${thames} płynie do ujścia rzeki</pl>
+				<pl>Wieloryb w rzece ${thames} płynie do ujścia rzeki</pl>
 			</title>
 			<description>
 				<de>Es sind Fortschritte bei der Rettungsaktion zu verzeichnen. Hoffentlich findet der Wal seinen Weg.</de>
@@ -147,7 +147,7 @@
 			<title>
 				<de>Wal von ${thames} ins Meer zurückgeschwommen</de>
 				<en>Whale from ${thames} swam back to sea</en>
-				<pl>Wieloryb z ${thames} wypłynął z powrotem do morza</pl>
+				<pl>Wieloryb z rzeki ${thames} wypłynął z powrotem do morza</pl>
 			</title>
 			<description>
 				<de>Na also! Der Wal ist wieder in seinem natürlichen Habitat.</de>
@@ -176,12 +176,12 @@
 			<title>
 				<de>${squirrel_${i}} %joe% gestorben</de>
 				<en>%joe% the ${squirrel_${i}} has died</en>
-				<pl>%joe% ${squirrel_${i}} zmarła</pl>
+				<pl>Ulubione miastowe zwierzę: ${squirrel_${i}} zdechło</pl>
 			</title>
 			<description>
 				<de>In %funeraltown% ist ${squirrel_${i}} %joe% gestorben, ein lokales Wahrzeichen, das ${hadbeenlivingon_${i}}.</de>
 				<en>In %funeraltown% the ${squirrel_${i}} %joe% has died, a local landmark that ${hadbeenlivingon_${i}}.</en>
-				<pl>W %funeraltown% zmarła ${squirrel_${i}} %joe%, lokalny zabytek, który ${hadbeenlivingon_${i}}.</pl>
+				<pl>W %funeraltown% zdechł ulubiony zwierzak miasta: ${squirrel_${i}} %joe%. Zwierzak ${hadbeenlivingon_${i}}.</pl>
 			</description>
 			<variables>
 				<funeraltown>
@@ -201,7 +201,7 @@
 				<squirrel_1>
 					<de>Streifenhörnchen</de>
 					<en>chipmunk</en>
-					<pl>wiewiórka</pl>
+					<pl>kuna</pl>
 				</squirrel_1>
 				<squirrel_2>
 					<de>Erdhörnchen</de>
@@ -211,7 +211,7 @@
 				<squirrel_3>
 					<de>Murmeltier</de>
 					<en>marmot</en>
-					<pl>świstak</pl>
+					<pl>kot</pl>
 				</squirrel_3>
 				<squirrel_4>
 					<de>Waldmurmeltier</de>
@@ -226,42 +226,42 @@
 				<squirrel_6>
 					<de>Lindenbaum</de>
 					<en>linden tree</en>
-					<pl>lipa</pl>
+					<pl>pies</pl>
 				</squirrel_6>
 				<squirrel_7>
 					<de>Eichenbaum</de>
 					<en>oak tree</en>
-					<pl>dąb</pl>
+					<pl>dzik</pl>
 				</squirrel_7>
 				<squirrel_8>
 					<de>Trabbi</de> <!-- Autos nur Maskulinum! -->
 					<en>Trabbi</en>
-					<pl>Trabbi</pl>
+					<pl>koń</pl>
 				</squirrel_8>
 				<squirrel_9>
 					<de>Panta</de>
 					<en>Panta</en>
-					<pl>Panta</pl>
+					<pl>panda</pl>
 				</squirrel_9>
 				<squirrel_a>
 					<de>WV-Käfer</de>
 					<en>WV-Beetle</en>
-					<pl>WV-Garbus</pl>
+					<pl>szop pracz</pl>
 				</squirrel_a>
 				<squirrel_b>
 					<de>Flamebird</de>
 					<en>Flamebird</en>
-					<pl>Płomienny ptak</pl>
+					<pl>gołąb</pl>
 				</squirrel_b>
 				<squirrel_c>
 					<de>Laternenmast</de>
 					<en>lamp post</en>
-					<pl>latarnia</pl>
+					<pl>orzeł</pl>
 				</squirrel_c>
 				<rodent_0>
 					<de>Nagetier</de>
 					<en>Rodent</en> <!-- all capitalized! -->
-					<pl>Chomik</pl>
+					<pl>chomik</pl>
 				</rodent_0>
 				<rodent_1>
 					<de>Nagetier</de>
@@ -331,17 +331,17 @@
 				<hadbeenlivingon_0>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
 					<en>had been living on a tree at the town hall square for more than %twelve% years</en>
-					<pl>mieszkał na drzewie na placu ratuszowym przez ponad %twelve% lat</pl>
+					<pl>mieszkał na drzewie, na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_0>
 				<hadbeenlivingon_1>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
 					<en>had been living on a tree at the town hall square for more than %twelve% years</en>
-					<pl>mieszkał na drzewie na placu ratuszowym przez ponad %twelve% lat</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_1>
 				<hadbeenlivingon_2>
 					<de>seit mehr als %twelve% Jahren in einem Baum am Rathausplatz lebte</de>
 					<en>had been living on a tree at the town hall square for more than %twelve% years</en>
-					<pl>mieszkał na drzewie na placu ratuszowym przez ponad %twelve% lat</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_2>
 				<hadbeenlivingon_3>
 					<de>seit mehr als %twelve% Jahren auf der Rathausplatz-Grünfläche lebte</de>
@@ -356,42 +356,42 @@
 				<hadbeenlivingon_5>
 					<de>seit mehr als %twelve% Jahren auf der Rathausplatz-Grünfläche lebte</de>
 					<en>had been living on the town hall square greenspace for more than %twelve% years</en>
-					<pl>mieszkał na zielonej przestrzeni placu ratuszowego przez ponad %twelve% lat</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat</pl>
 				</hadbeenlivingon_5>
 				<hadbeenlivingon_6>
 					<de>seit %twelve%hundert Jahren auf dem Rathausplatz stand und von vielen Einwohnern oft und gern umarmt wurde</de>
 					<en>had stood on the town hall square for %twelve% hundred years and was often fondly hugged by many residents</en>
-					<pl>stał na placu ratuszowym przez %twelve% stuleci i był często czule przytulany przez wielu mieszkańców</pl>
+					<pl>mieszkał w budzie na placu ratuszowym przez %twelve% stuleci i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_6>
 				<hadbeenlivingon_7>
 					<de>seit %twelve%hundert Jahren auf dem Rathausplatz stand und von vielen Einwohnern oft und gern umarmt wurde</de>
 					<en>had stood on the town hall square for %twelve% hundred years and was often fondly hugged by many residents</en>
-					<pl>stał na placu ratuszowym przez %twelve% stuleci i był często czule przytulany przez wielu mieszkańców</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_7>
 				<hadbeenlivingon_8>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
 					<en>had been running errands for citizens for more than %twelve% years. The sentient, %neonyellow% vehicle was tireless in doing so</en>
-					<pl>przez ponad %twelve% lat załatwiał sprawy dla obywateli. Czujący, %neonyellow% pojazd był w tym niestrudzony</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_8>
 				<hadbeenlivingon_9>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
 					<en>had been running errands for citizens for more than %twelve% years. The sentient, %neonyellow% vehicle was tireless in doing so</en>
-					<pl>przez ponad %twelve% lat załatwiał sprawy dla obywateli. Czujący, %neonyellow% pojazd był w tym niestrudzony</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_9>
 				<hadbeenlivingon_a>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
 					<en>had been running errands for citizens for more than %twelve% years. The sentient, %neonyellow% vehicle was tireless in doing so</en>
-					<pl>przez ponad %twelve% lat załatwiał sprawy dla obywateli. Czujący, %neonyellow% pojazd był w tym niestrudzony</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_a>
 				<hadbeenlivingon_b>
 					<de>seit mehr als %twelve% Jahren Besorgungen für Bürger machte. Das intelligente, %neonyellow% Fahrzeug war dabei unermüdlich</de>
 					<en>had been running errands for citizens for more than %twelve% years. The sentient, %neonyellow% vehicle was tireless in doing so</en>
-					<pl>przez ponad %twelve% lat załatwiał sprawy dla obywateli. Czujący, %neonyellow% pojazd był w tym niestrudzony</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_b>
 				<hadbeenlivingon_c>
 					<de>seit über hundert Jahren am Rathausplatz stand und den Bürgern stets ein Licht der Hoffnung spendete. Nun ist es für immer erloschen</de>
 					<en>had stood on the town hall square for more than a hundred years and had always given citizens a light of hope. Now it is extinguished forever</en>
-					<pl>stał na placu ratuszowym przez ponad sto lat i zawsze dawał mieszkańcom światło nadziei. Teraz zgasło na zawsze</pl>
+					<pl>mieszkał na placu ratuszowym przez ponad %twelve% lat i był często czule przytulany przez wielu mieszkańców</pl>
 				</hadbeenlivingon_c>
 				<twelve>
 					<de>sieben|acht|neun|zehn|elf|zwölf|dreizehn|vierzehn|fünfzehn</de>
@@ -438,12 +438,12 @@
 			<title>
 				<de>Beerdigung für %joe%</de>
 				<en>Funeral for %joe%</en>
-				<pl>Pogrzeb %joe%</pl>
+				<pl>Pogrzeb zwierzęcia miastowego o imieniu %joe%</pl>
 			</title>
 			<description>
 				<de>%funeraltown% führt eine Beerdigung für ${squirrel_${i}} %joe% durch. %joe% sei eines natürlichen Todes gestorben, und die Einwohner organisieren einen Umzug und eine Zeremonie, um sich zu verabschieden.</de>
 				<en>%funeraltown% holds a funeral for ${squirrel_${i}} %joe%. %joe% has died of natural causes, and the townspeople organize a procession and a ceremony to say goodbye.</en>
-				<pl>%funeraltown% organizuje pogrzeb dla ${squirrel_${i}}. %joe%. %joe% zmarł z przyczyn naturalnych, a mieszkańcy miasta organizują procesję i ceremonię pożegnalną.</pl>
+				<pl>Miasto %funeraltown% organizuje pogrzeb dla zwierzątka ${squirrel_${i}} o imieniu %joe%. %joe% zmarł z przyczyn naturalnych, a mieszkańcy miasta organizują procesję i ceremonię pożegnalną.</pl>
 			</description>
 			<data genre="4" price="1" quality="15" fictional="1" />
 			<effects>
@@ -455,12 +455,12 @@
 			<title>
 				<de>Auch %exhibitiontown% gedenkt %joe%</de>
 				<en>Also %exhibitiontown% commemorates %joe%</en>
-				<pl>Również %exhibitiontown% upamiętnia %joe%</pl>
+				<pl>Również miasto %exhibitiontown% upamiętnia zwierzę o imieniu %joe%</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Todes von ${squirrel_${i}} %joe% nimmt die gerade in %exhibitiontown% gastierende Wanderausstellung „Mensch und ${rodent_${i}} im Wandel der Zeit“ ab übermorgen den Rundgang „Vom ${squirrel_${i}} und Menschen“ ins Programm auf.</de>
 				<en>To commemorate the death of ${squirrel_${i}} %joe%, the traveling exhibit "Man and ${rodent_${i}} in the course of time", currently touring %exhibitiontown%, will add the trail "Of ${squirrel_${i}} and Man" to its program starting the day after tomorrow.</en>
-				<pl>Aby upamiętnić śmierć ${squirrel_${i}} %joe%, objazdowa wystawa "Człowiek i ${rodent_${i}} z biegiem czasu", obecnie podróżująca po %exhibitiontown%, od pojutrza doda do swojego programu ścieżkę "O ${squirrel_${i}} i człowieku".</pl>
+				<pl>Aby upamiętnić śmierć zwierzęcia ${squirrel_${i}} %joe%, objazdowa wystawa "Człowiek i zwierzę z biegiem czasu", obecnie podróżująca po mieście %exhibitiontown%, od pojutrza doda do swojego programu wystawę "${squirrel_${i}} i człowiek".</pl>
 			</description>
 			<data genre="5" price="1" quality="40" fictional="1" />
 			<effects>
@@ -477,7 +477,7 @@
 			<description>
 				<de>Schlagersängerin %singerfirstname%-%singersecondname% %singerlastname% hat mit dem Titel „%joe%, %dontleaveme%!“, der dem kürzlich in %funeraltown% verstorbenen ${squirrel_${i}} gewidmet ist, die Spitze der Charts erreicht.</de>
 				<en>Folk singer %singerfirstname%-%singersecondname% %singerlastname% has reached the top of the charts with the track "%joe%, %dontleaveme%!" dedicated to the recently deceased ${squirrel_${i}} in %funeraltown%.</en>
-				<pl>Folkowy wokalista %singerfirstname%-%singersecondname% %singerlastname% osiągnął szczyty list przebojów z utworem „%joe%, %dontleaveme%!” poświęconym niedawno zmarłemu ${squirrel_${i}} w %funeraltown%.</pl>
+				<pl>Folkowy wokalista %singerfirstname%-%singersecondname% %singerlastname% osiągnął szczyty list przebojów z utworem „%joe%, %dontleaveme%!” poświęconym niedawno zdechłemu zwierzęciu z miasta %funeraltown%.</pl>
 			</description>
 			<data genre="1" price="1" quality="50" fictional="1" />
 			<effects>
@@ -489,12 +489,12 @@
 			<title>
 				<de>%joe%-Merchandise verkauft sich prächtig</de>
 				<en>%joe% merchandise is selling beautifully</en>
-				<pl>Towary %joe% sprzedają się znakomicie</pl>
+				<pl>Towary upamiętniające zwierzę %joe% sprzedają się znakomicie</pl>
 			</title>
 			<description>
 				<de>Der Tod von ${squirrel_${i}} %joe% hat die Menschen tief berührt und für riesige Verkaufszahlen an Plüschzeug, Tassen und anderem Krimskrams gesorgt. Die Fünf Wirtschaftsweisen blicken wieder optimistisch in die Zukunft.</de>
 				<en>The death of ${squirrel_${i}} %joe% has touched people deeply and caused huge sales of plush toys, mugs and other clutter. The Five Sages of Economy are once again optimistic for the future.</en>
-				<pl>Śmierć ${squirrel_${i}} %joe% głęboko poruszyła ludzi i spowodowała ogromną sprzedaż pluszowych zabawek, kubków i innych gadżetów. Pięciu Mędrców Ekonomii ponownie optymistycznie patrzy w przyszłość.</pl>
+				<pl>Śmierć zwierzęcia głęboko poruszyła ludzi i spowodowała ogromną sprzedaż pluszowych zabawek, kubków i innych gadżetów. Pięciu Mędrców Ekonomii ponownie optymistycznie patrzy w przyszłość.</pl>
 			</description>
 			<data genre="0" price="1" quality="60" fictional="1" />
 			<effects>
@@ -506,12 +506,12 @@
 			<title>
 				<de>${rodent_${i}}forscher schreibt über %joe%</de>
 				<en>${rodent_${i}} researcher writes about %joe%</en>
-				<pl>${rodent_${i}} badacz pisze o %joe%</pl>
+				<pl>Badacz pisze o zwierzęciu %joe%</pl>
 			</title>
 			<description>
 				<de>Anlässlich des Todestages des ${squirrel_${i}}s hat der renommierte Prof. Dr. Dr. %scientistfirstname% %scientistsecondname% %scientistpenultimatename%-%scientistlastname% aus %exhibitiontown% sein populärwissenschaftliches Buch „Vom ${squirrel_${i}} und Menschen und von mir“ herausgebracht.</de>
 				<en>To mark the anniversary of the death of the ${squirrel_${i}}, renowned Prof. Dr. Dr. %scientistfirstname% %scientistsecondname% %scientistpenultimatename%-%scientistlastname% from %exhibitiontown% has published his popular science book "Of ${squirrel_${i}} and man and of me".</en>
-				<pl>Z okazji rocznicy śmierci ${squirrel_${i}}, znany prof. dr %scientistfirstname% %scientistsecondname% %scientistpenultimatename%-%scientistlastname% z %exhibitiontown% wydał swoją popularnonaukową książkę "O ${squirrel_${i}} i człowieku i o mnie".</pl>
+				<pl>Z okazji rocznicy śmierci zwierzątka ${squirrel_${i}}, znany prof. dr %scientistfirstname% %scientistsecondname% %scientistpenultimatename%-%scientistlastname% z miasta %exhibitiontown% wydał swoją popularnonaukową książkę "${squirrel_${i}}, człowiek i ja".</pl>
 			</description>
 			<data genre="3" price="1" quality="40" fictional="1" />
 			<effects>
@@ -523,12 +523,12 @@
 			<title>
 				<de>Keine News über %singerfirstname%-%singersecondname% %singerlastname%</de>
 				<en>No news about %singerfirstname%-%singersecondname% %singerlastname%</en>
-				<pl>Brak wiadomości o %singerfirstname%-%singersecondname% %singerlastname%</pl>
+				<pl>Brak wiadomości o piosenkarzu. %singerfirstname%-%singersecondname% %singerlastname% zniknął</pl>
 			</title>
 			<description>
 				<de>Die Schlagersängerin mit ihrem Lied über ${squirrel_${i}} „%joe%, %dontleaveme%!“ aus dem letzten Jahr war wohl ein One-Hit-Wonder. Niemand weiß, was sie heute so treibt.</de>
 				<en>The folk singer with her tune about ${squirrel_${i}} "%joe%, %dontleaveme%!" from last year was probably a one-hit wonder. No one knows what she's up to today.</en>
-				<pl>Piosenkarka folkowa ze swoją melodią o ${squirrel_${i}} "%joe%, %dontleaveme%!" z zeszłego roku była prawdopodobnie cudem jednego przeboju. Nikt nie wie, co robi dzisiaj.</pl>
+				<pl>Piosenkarz folkowy ze swoją melodią o zwierzęciu ${squirrel_${i}} "%joe%, %dontleaveme%!" z zeszłego roku był prawdopodobnie cudem jednego przeboju. Nikt nie wie, co robi dzisiaj.</pl>
 			</description>
 			<data genre="1" price="1" quality="20" fictional="1" />
 			<effects>
@@ -540,12 +540,12 @@
 			<title>
 				<de>Wanderausstellung endlich in %funeraltown%</de>
 				<en>Traveling exhibit finally in %funeraltown%</en>
-				<pl>Podróżująca wystawa w końcu w %funeraltown%</pl>
+				<pl>Podróżująca wystawa w końcu w mieście %funeraltown%</pl>
 			</title>
 			<description>
 				<de>Der Kreis schließt sich: Die Wanderausstellung „Mensch und ${rodent_${i}} im Wandel der Zeit“ kommt endlich in %funeraltown% an, wo ${squirrel_${i}} %joe% gestorben war.</de>
 				<en>Coming full circle, the traveling exhibit "Man and ${rodent_${i}} in the course of time" finally arrives in %funeraltown%, where ${squirrel_${i}} %joe% had died.</en>
-				<pl>Zataczając pełne koło, podróżująca wystawa "Człowiek i ${rodent_${i}} z biegiem czasu" w końcu dociera do %funeraltown%, gdzie ${squirrel_${i}} %joe% zmarł.</pl>
+				<pl>Zataczając pełne koło, podróżująca wystawa "Człowiek i ${rodent_${i}} z biegiem czasu" w końcu dociera do miasta %funeraltown%, gdzie ${squirrel_${i}} %joe% zdechł.</pl>
 			</description>
 			<data genre="5" price="1" quality="40" fictional="1" />
 			<effects>
@@ -557,7 +557,7 @@
 			<title>
 				<de>%singerfirstname%-%singersecondname% %singerlastname% gesichtet</de>
 				<en>%singerfirstname%-%singersecondname% %singerlastname% sighted</en>
-				<pl>%singerfirstname%-%singersecondname% %singerlastname% widziany</pl>
+				<pl>Piosenkarz %singerfirstname%-%singersecondname% %singerlastname% widziany</pl>
 			</title>
 			<description>
 				<de>Augenzeugenberichten zufolge hat Sängerin %singerfirstname%-%singersecondname% %singerlastname% eine neue Berufung gefunden und ist Teil einer Wanderausstellung namens „Mensch und ${rodent_${i}} im Wandel der Zeit“.</de>
@@ -571,12 +571,12 @@
 			<title>
 				<de>${giantinflatable_${i}} ${duck_${i}} %escapes% Parade</de>
 				<en>${giantinflatable_${i}} ${duck_${i}} %escapes% parade</en>
-				<pl>${giantinflatable_${i}} ${duck_${i}} %escapes% parady</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}} %escapes% z parady</pl>
 			</title>
 			<description>
 				<de>${the_${i}} ${duck_${i}} gehörte zu einem Festumzug in %paradetown%, löste sich aus der Verankerung und schwebte davon. ${it_${i}} ist über 15 Meter groß, wurde über der Stadt schwebend gesichtet und verschwand hinter dem Horizont. Die Suchaktion ist im Gange.</de>
 				<en>${the_${i}} ${duck_${i}}, part of a parade in %paradetown%, broke loose from its moorings and floated away. ${it_${i}} is over 50 feet tall, was spotted floating over the city and disappeared behind the horizon. The search operation is underway.</en>
-				<pl>${the_${i}} ${duck_${i}}, część parady w %paradetown%, wyrwał się z cum i odpłynął. ${it_${i}} ma ponad 50 stóp wysokości, został zauważony nad miastem i zniknął za horyzontem. Trwa operacja poszukiwawcza.</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}}, część parady w mieście %paradetown%, wyrwał się z cum i odfrunął. Ma ponad 50 stóp wysokości. Został zauważony nad miastem i zniknął za horyzontem. Trwa operacja poszukiwawcza.</pl>
 			</description>
 			<variables>
 				<i>
@@ -585,112 +585,112 @@
 				<giantinflatable_0>
 					<de>Riesige aufblasbare</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_0>
 				<giantinflatable_1>
 					<de>Riesiges aufblasbares</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_1>
 				<giantinflatable_2>
 					<de>Riesiges aufblasbares</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_2>
 				<giantinflatable_3>
 					<de>Riesige aufblasbare</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_3>
 				<giantinflatable_4>
 					<de>Riesiger aufblasbarer</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_4>
 				<giantinflatable_5>
 					<de>Riesiger aufblasbarer</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_5>
 				<giantinflatable_6>
 					<de>Riesige aufblasbare</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_6>
 				<giantinflatable_7>
 					<de>Riesiger aufblasbarer</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_7>
 				<giantinflatable_8>
 					<de>Riesiges aufblasbares</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_8>
 				<giantinflatable_9>
 					<de>Riesiger aufblasbarer</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_9>
 				<giantinflatable_a>
 					<de>Riesige aufblasbare</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_a>
 				<giantinflatable_b>
 					<de>Riesiger aufblasbarer</de>
 					<en>Giant inflatable</en>
-					<pl>Gigantyczny nadmuchiwany</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_b>
 				<giantinflatable_c>
 					<de>69</de>
 					<en>69</en>
-					<pl>69</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_c>
 				<giantinflatable_d>
 					<de>101</de>
 					<en>101</en>
-					<pl>101</pl>
+					<pl>Gigantyczny nadmuchiwany balon w kształcie</pl>
 				</giantinflatable_d>
 				<duck_0>
 					<de>Ente</de>
 					<en>duck</en>
-					<pl>kaczka</pl>
+					<pl>kaczki</pl>
 				</duck_0>
 				<duck_1>
 					<de>Einhorn</de>
 					<en>unicorn</en>
-					<pl>jednorożec</pl>
+					<pl>jednorożca</pl>
 				</duck_1>
 				<duck_2>
 					<de>Pony</de>
 					<en>pony</en>
-					<pl>kucyk</pl>
+					<pl>kucyka</pl>
 				</duck_2>
 				<duck_3>
 					<de>Pizza</de>
 					<en>pizza</en>
-					<pl>pizza</pl>
+					<pl>pizzy</pl>
 				</duck_3>
 				<duck_4>
 					<de>T-Rex</de>
 					<en>T-Rex</en>
-					<pl>T-Rex</pl>
+					<pl>T-Rexa</pl>
 				</duck_4>
 				<duck_5>
 					<de>Oktopus</de>
 					<en>octopus</en>
-					<pl>ośmiornica</pl>
+					<pl>ośmiornicy</pl>
 				</duck_5>
 				<duck_6>
 					<de>Eistüte</de>
 					<en>ice-cream cone</en>
-					<pl>rożek lodowy</pl>
+					<pl>rożek lodowego</pl>
 				</duck_6>
 				<duck_7>
 					<de>Teddybär</de>
 					<en>teddy bear</en>
-					<pl>pluszowy miś</pl>
+					<pl>pluszowego misia</pl>
 				</duck_7>
 				<duck_8>
 					<de>UFO</de>
@@ -700,12 +700,12 @@
 				<duck_9>
 					<de>Diamant</de>
 					<en>diamond</en>
-					<pl>diament</pl>
+					<pl>diamentu</pl>
 				</duck_9>
 				<duck_a>
 					<de>Kuh</de>
 					<en>cow</en>
-					<pl>krowa</pl>
+					<pl>krowy</pl>
 				</duck_a>
 				<duck_b>
 					<de>Dildo</de>
@@ -715,87 +715,87 @@
 				<duck_c>
 					<de>Herzballons-Geschwader</de>
 					<en>heart balloons squadron</en>
-					<pl>eskadra balonów z sercem</pl>
+					<pl>serca</pl>
 				</duck_c>
 				<duck_d>
 					<de>Luftballons-Bündel</de>
 					<en>red balloons bunch</en>
-					<pl>wiązanka czerwonych balonów</pl>
+					<pl>kiełbasy</pl>
 				</duck_d>
 				<escapes>
 					<de>entkommt|entwischt|entflieht|entfleucht</de>
 					<en>escapes|eludes|flees|absconds</en>
-					<pl>ucieka|odfruwa|odlatuje|śmiga</pl>
+					<pl>ucieka|odfruwa|odlatuje|odfruwa</pl>
 				</escapes>
 				<the_0>
 					<de>Die</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_0>
 				<the_1>
 					<de>Das</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_1>
 				<the_2>
 					<de>Das</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_2>
 				<the_3>
 					<de>Die</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_3>
 				<the_4>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_4>
 				<the_5>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_5>
 				<the_6>
 					<de>Die</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_6>
 				<the_7>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_7>
 				<the_8>
 					<de>Das</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_8>
 				<the_9>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_9>
 				<the_a>
 					<de>Die</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_a>
 				<the_b>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_b>
 				<the_c>
 					<de>Das</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_c>
 				<the_d>
 					<de>Das</de>
 					<en>The</en>
-					<pl></pl>
+					
 				</the_d>
 				<it_0>
 					<de>Sie</de>
@@ -908,7 +908,7 @@
 			<description>
 				<de>${the_${i}} ${duck_${i}} von der Parade in %paradetown% flog heute Morgen über %sightedtown% hinweg, wie Augenzeugen berichteten. Die Fliegerstaffel ist hinterher.</de>
 				<en>${the_${i}} ${duck_${i}} off the %paradetown% parade flew over %sightedtown% this morning, according to eyewitnesses. The super high-tech jet fighters are in pursuit.</en>
-				<pl>${the_${i}} ${duck_${i}} z parady %paradetown% przeleciał dziś rano nad %sightedtown%, według naocznych świadków. Super zaawansowane technologicznie myśliwce odrzutowe są w pościgu.</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}} z parady w mieście %paradetown% przeleciał dziś rano nad miastem %sightedtown%, według naocznych świadków. Super zaawansowane technologicznie myśliwce odrzutowe są w pościgu.</pl>
 			</description>
 			<data genre="4" price="1" quality="10" fictional="1" />
 			<effects>
@@ -920,12 +920,12 @@
 			<title>
 				<de>${giantinflatable_${i}} ${duck_${i}} in %foundtown% gefunden</de>
 				<en>${giantinflatable_${i}} ${duck_${i}} found in %foundtown%</en>
-				<pl>${giantinflatable_${i}} ${duck_${i}} znaleziono w %foundtown%</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}} znaleziony w mieście %foundtown%</pl>
 			</title>
 			<description>
 				<de>${the_${i}} ${duck_${i}} von der Parade in %paradetown% wurde heute nachmittag schließlich in %foundtown% gefunden%andbroughtdownby%.</de>
 				<en>${the_${i}} ${duck_${i}} off the %paradetown% parade was eventually found in %foundtown% this afternoon%andbroughtdownby%.</en>
-				<pl>${the_${i}} ${duck_${i}} z %paradetown% został ostatecznie znaleziony w %foundtown% tego popołudnia% i przywieziony%.</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}} z miasta %paradetown% został ostatecznie znaleziony w mieście %foundtown% tego popołudnia %andbroughtdownby%.</pl>
 			</description>
 			<data genre="4" price="1" quality="20" fictional="1" />
 			<effects>
