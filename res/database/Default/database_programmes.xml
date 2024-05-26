@@ -10,10 +10,12 @@
 			<title_original>
 				<de>...denn sie wissen nicht, was sie tun</de>
 				<en>Rebel Without a Cause</en>
+				<pl>Buntownik bez powodu</pl>
 			</title_original>
 			<description>
 				<de>[1|Full] in seiner Paraderolle.</de>
 				<en>[1|Full] in his classic role.</en>
+				<pl>[1|Full] w swojej klasycznej roli.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2b6fb1b7-57b7-44bf-b930-a032d9193475</member>
@@ -29,14 +31,17 @@
 			<title>
 				<de>11 Donkeys</de>
 				<en>11 Donkeys</en>
+				<pl>11 Donkeys</pl>
 			</title>
 			<title_original>
 				<de>12 Monkeys</de>
 				<en>Twelve Monkeys</en>
+				<pl>Dwanaście małp</pl>
 			</title_original>
 			<description>
 				<de>[1|Full] als potentieller Weltretter, der in die Vergangenheit geschickt wird, um die Apokalypse aufzuhalten.</de>
 				<en>[1|Full] as a potential world savior sent back in time to stop the apocalypse.</en>
+				<pl>[1|Full] jako potencjalny zbawca świata wysłany w przeszłość, by powstrzymać apokalipsę.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">85341df9-bd8f-4fd0-9f80-c9ab44ca0829</member>
@@ -52,15 +57,18 @@
 			<title>
 				<de>1899 (Achtzehnhundertneunundneunzig)</de>
 				<en>1899 (Eighteen Ninety-Nine)</en>
+				<pl>1899</pl>
 			</title>
 			<title_original>
 				<de>1900</de>
 				<en>1900</en>
 				<it>Novecento</it>
+				<pl>1900</pl>
 			</title_original>
 			<description>
 				<de>Die Geschichte zweier Freunde, erzählt in gewaltigen Bildern, ausgeführt von großen Schauspielern, getragen von der Musik des Altmeisters [5|Last].</de>
 				<en>The story of two friends, told in powerful images, performed by great actors, carried by the music of the old master [5|Last].</en>
+				<pl>Historia dwóch przyjaciół, opowiedziana mocnymi obrazami, w wykonaniu świetnych aktorów. Muzykę do filmu stworzył [5|Last].</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">5fd9f85c-9265-4529-a629-d8c4a5ce8472</member>
@@ -79,16 +87,20 @@
 			<title>
 				<de>2002: Bredouille im All</de>
 				<en>2002: Bredouille in space</en>
+				<pl>2002: Bredouille in space</pl>
 			</title>
 			<title_original>
 				<de>2001: Odyssee im Weltraum</de>
 				<en>2001: A Space Odyssey</en>
+				<pl>2001: Odyseja kosmiczna</pl>
 			</title_original>
 			<description>
 				<de>Die Expedition ins All als metaphorische Reise in die Seele der Menschheit.
 Ein symphonischer Science-Fiction-Trip.</de>
 				<en>The expedition into space as a metaphorical journey into the soul of mankind.
 A symphonic science fiction trip.</en>
+         		<pl>Wyprawa w kosmos jako metaforyczna podróż w głąb duszy ludzkości.
+Symfoniczna podróż science fiction.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">153dc080-86a1-4f3d-bb13-65b3aa90f7ea</member>
@@ -109,14 +121,17 @@ A symphonic science fiction trip.</en>
 			<title>
 				<de>27 Tage verpasst</de>
 				<en>27 days missed</en>
+				<pl>27 dni straconych</pl>
 			</title>
 			<title_original>
 				<de>28 Tage später</de>
 				<en>28 Days Later</en>
+				<pl>28 dni później</pl>
 			</title_original>
 			<description>
 				<de>Ein Virus hat scheinbar ganz London entvölkert. Jim, der aus dem Koma erwacht ist, sieht sich in der leeren Großstadt lediglich Infizierten gegenüber, die Jagd auf ihn machen.</de>
 				<en>A virus has apparently depopulated the whole of London. Jim, who has awakened from his coma, is faced with nothing but infected people hunting him down in the empty big city.</en>
+				<pl>Wirus najwyraźniej wyludnił cały Londyn. Jim, który wybudził się ze śpiączki, musi stawić czoła jedynie zainfekowanym ludziom polującym na niego w pustym wielkim mieście.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">c4fc70cd-d1ba-4cec-98d5-ef7867740334</member>
@@ -135,14 +150,17 @@ A symphonic science fiction trip.</en>
 			<title>
 				<de>59 1/2 Tage</de>
 				<en>59 1/2 Days</en>
+				<pl>59 1/2 Days</pl>
 			</title>
 			<title_original>
 				<de>9 1/2 Wochen</de>
 				<en>9 1/2 Weeks</en>
+				<pl>9 1/2 tygodnia</pl>
 			</title_original>
 			<description>
 				<de>[1|Full] treibt mit [2|Full] seine Spiele.</de>
 				<en>[1|Full] plays his games with [2|Full].</en>
+				<pl>[1|Full] rozgrywa swoje gierki z [2|Full].</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">bd3f227f-6632-4537-8d8b-ee234f00f0c4</member>
@@ -160,16 +178,19 @@ A symphonic science fiction trip.</en>
 			<title>
 				<de>59 1/2 Tage in Paris</de>
 				<en>59 1/2 Days in Paris</en>
+				<pl>59 1/2 Days in Paris</pl>
 			</title>
 			<title_original>
 				<de>9 1/2 Wochen in Paris</de>
 				<en>Another 9 1/2 Weeks / Love in Paris</en>
+				<pl>Kolejne 9 i pół tygodnia / Miłość w Paryżu</pl>
 			</title_original>
 			<description>
 				<de>[1|Full] mimt erneut den geheimnisvollen Verführer.
 Aber diesmal schauen ihm erheblich weniger Voyeure dabei zu.</de>
 				<en>[1|Full] once again plays the mysterious seducer.
 But this time there are considerably fewer voyeurs watching him.</en>
+				<pl>John leci do Paryża, by odnależć swoją dziewczynę, Elizabeth. Poznaje tajemniczą projektantkę mody, Leę i jej asystentkę, Claire. Okazuje się, że Lea była przyjaciółką Elizabeth w Paryżu.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">c45e52c2-32a3-4d3b-87d2-c56a8e4f5279</member>
@@ -185,16 +206,20 @@ But this time there are considerably fewer voyeurs watching him.</en>
 			<title>
 				<de>Kleiner Drecksack</de>
 				<en>The Little Scumbag Kid</en>
+				<pl>The Little Scumbag Kid</pl>
 			</title>
 			<title_original>
 				<de>Kleines Arschloch</de>
 				<en>The Little Bastard</en>
+				<pl>The Little Bastard - Mały Drań</pl>
 			</title_original>
 			<description>
 				<de>Ein kleiner Bengel belästigt seine Umwelt mit allerhand Geschmacklosigkeiten.
 Bescheidene Witzverkettungen nach den Comics von [1|Full].</de>
 				<en>A little rascal harasses his environment with all kinds of tastelessness.
 Modest joke concatenations after the comics of [1|Full].</en>
+				<pl>Mały łobuz nęka otoczenie wszelkiego rodzaju niesmacznościami.
+Skromne konkatenacje żartów po komiksach z [1|Full].</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7ed02a31-2f54-4658-a2b4-0dcaa62f25db</member>
@@ -210,14 +235,17 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>Affenerde</de>
 				<en>Apes' Earth</en>
+				<pl>Apes' Earth</pl>
 			</title>
 			<title_original>
 				<de>Planet der Affen</de>
 				<en>Planet of the Apes</en>
+				<pl>Planeta małp</pl>
 			</title_original>
 			<description>
 				<de>Im Jahre 2029 wird ein Astronaut mitsamt einiger Testaffen durch Raum und Zeit katapultiert und bruchlandet 5021 A.D. auf einem Planeten, wo diese Affen dann die Herrschaft übernehmen. Starke Kostüme, insgesamt aber leider schwaches Remake.</de>
 				<en>In 2029, an astronaut together with some test monkeys is catapulted through space and time and in 5021 AD crash lands on a planet where these monkeys then take over. Strong costumes, but overall a weak remake, unfortunately.</en>
+				<pl>W 2029 roku astronauta wraz z kilkoma małpami testowymi zostaje katapultowany w czasie i przestrzeni, a w 5021 roku n.e. ląduje na planecie, na której owe małpy przejmują władzę. Mocne kostiumy, ale ogólnie słaby remake, niestety.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3b3efc56-1b7a-4f07-bea0-be815c3b1a17</member>
@@ -239,14 +267,17 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>Alarmstufe: Seeehr Dringend!</de>
 				<en>State of Siege</en>
+				<pl>State of Siege</pl>
 			</title>
 			<title_original>
 				<de>Alarmstufe: Rot</de>
 				<en>Under Siege</en>
+				<pl>Under Siege - Liberator</pl>
 			</title_original>
 			<description>
 				<de>Terroristen kapern ein US-amerikanisches Kriegsschiff, um die an Bord befindlichen Tomahawk-Marschflugkörper zu entwenden.</de>
 				<en>Terrorists hijack a U.S. warship to steal the Tomahawk cruise missiles on board.</en>
+				<pl>Terroryści porywają amerykański okręt wojenny, by ukraść znajdujące się na jego pokładzie pociski manewrujące Tomahawk.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0cc280ff-5a5d-4f43-9fdb-03603c7b54e6</member>
@@ -267,14 +298,17 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>Alte Schmetterfaust</de>
 				<en>Old Smasherfist</en>
+				<pl>Old Smasherfist</pl>
 			</title>
 			<title_original>
 				<de>Old Shatterhand</de>
 				<en>Old Shatterhand</en>
+				<pl>Old Shatterhand</pl>
 			</title_original>
 			<description>
 				<de>Alte Schmetterfaust hilft seinem Blutsbruder Rinnetooth und dessen Apatschen, Verbrechen aufzuklären, die von Weißen und Komantschen gemeinschaftlich begangen werden. Er setzt sich für den Frieden ein.</de>
 				<en>Old Smasherfist helps his blood brother Rinnetooth and his Apaches to solve crimes committed by whites and Comanches together. He is committed to peace.</en>
+				<pl>Winnetou i Old Shatterhand próbują rozwikłać zagadkę dziwnych układów Indian z białymi.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7abd2214-86d6-479a-9558-b29853414ec9</member>
@@ -290,14 +324,17 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>Am sechsten Tag erschuf...</de>
 				<en>On the sixth day of creation...</en>
+				<pl>Szóstego dnia stworzenia...</pl>
 			</title>
 			<title_original>
 				<de>The 6th Day</de>
 				<en>The 6th Day</en>
+				<pl>The 6th Day - 6-ty dzień</pl>
 			</title_original>
 			<description>
 				<de>Adam Gibson ist geschockt: Als er abends nach Hause kommt, hat ein Klon seinen Platz in der Familie eingenommen. Aber Gibson wehrt sich...</de>
 				<en>Adam Gibson is shocked: when he comes home in the evening, a clone has taken his place in the family. But Gibson fights back...</en>
+				<pl>Adam Gibson jest zszokowany: kiedy wraca wieczorem do domu, jego miejsce w rodzinie zajmuje klon. Ale Gibson walczy...</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d47e83dc-3c3f-4079-9397-82f5b922c35c</member>
@@ -313,14 +350,17 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>Amerikanische Nazis</de>
 				<en>American Nazis</en>
+				<pl>American Nazis</pl>
 			</title>
 			<title_original>
 				<de>American History X</de>
 				<en>American History X</en>
+				<pl>American History X - Więzień nienawiści</pl>
 			</title_original>
 			<description>
 				<de>Harter Film über Rassenunterschiede und -rivalitäten mit überzeugendem Ende.</de>
 				<en>Tough film about racial differences and rivalries with compelling ending.</en>
+				<pl>Były neonazista po wyjściu z więzienia stara się przekonać młodszego brata, by nie podążał jego śladem. Mocny film o różnicach rasowych i rywalizacji z wciągającym zakończeniem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">03704ead-958f-4739-950d-7a01bd027d03</member>
@@ -335,16 +375,20 @@ Modest joke concatenations after the comics of [1|Full].</en>
 			<title>
 				<de>An Asian Spooky Story - Verlockung aus dem Jenseits</de>
 				<en>An Asian Spooky Story</en>
+				<pl>An Asian Spooky Story</pl>
 			</title>
 			<title_original>
 				<de>A Chinese Ghost Story - Verführung aus dem Reich der Toten</de>
 				<en>A Chinese Ghost Story</en>
+				<pl>A Chinese Ghost Story - Chińskie duchy</pl>
 			</title_original>
 			<description>
 				<de>In einem Tempel verliebt sich ein junger Chinese in ein Mädchen. Da das Mädchen als Geist auf der Erde wandelt, nimmt er sich vor, ihr Leben einzuhauchen...
 Raffinierter phantastischer Film.</de>
 				<en>In a temple, a young Chinese man falls in love with a girl. Since the girl walks the earth as a ghost, he takes it upon himself to breathe life into her...
 A sophisticated and fantastic film.</en>
+				<pl>W świątyni młody Chińczyk zakochuje się w dziewczynie. Ponieważ dziewczyna chodzi po ziemi jako duch, postanawia tchnąć w nią życie...
+Wyrafinowany i fantastyczny film.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">577f032c-d851-4e5b-bab1-69d489031456</member>
@@ -365,14 +409,17 @@ A sophisticated and fantastic film.</en>
 			<title>
 				<de>Aschenputtel</de>
 				<en>Cinderella</en>
+				<pl>Cinderella</pl>
 			</title>
 			<title_original>
 				<de>Aschenputtel</de>
 				<en>Cinderella</en>
+				<pl>Cinderella - Kopciuszek</pl>
 			</title_original>
 			<description>
 				<de>[1|Last]s Version von Aschenputtel - durchaus gelungen.</de>
 				<en>[1|Last]'s version of Cinderella - quite well done.</en>
+				<pl>Osierocona dziewczyna jest wykorzystywana do ciężkiej pracy przez macochę i jej dwie córki. Sytuacja ulega zmianie, kiedy kopciuszek z pomocą wróżki udaje się na królewski bal, gdzie poznaje księcia.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d618aeba-fd41-407b-8b82-ec24c2bc6788</member>
@@ -391,16 +438,20 @@ A sophisticated and fantastic film.</en>
 			<title>
 				<de>Asian Queen</de>
 				<en>The Asian Queen</en>
+				<pl>The Asian Queen</pl>
 			</title>
 			<title_original>
 				<de>African Queen</de>
 				<en>The African Queen</en>
+				<pl>The African Queen - Afrykańska królowa</pl>
 			</title_original>
 			<description>
 				<de>Ein Mann und eine Frau machen auf einem alten Dampfboot die Gewässer unsicher.
 Klassiker mit [1|Full].</de>
 				<en>A man and a woman haunt the waters on an old steamboat.
 A classic with [1|Full].</en>
+				<pl>Klasyka z [1|Full]. 
+Afryka, czasy I wojny światowej. Charlie Allnut, kawaler i łowca przygód, przewożąc na swojej łodzi siostrę zmarłego pastora, napotyka wojsko niemieckie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">b99662fc-9503-436a-900c-6c63e9b91fce</member>
@@ -418,14 +469,17 @@ A classic with [1|Full].</en>
 			<title>
 				<de>[1|Last] &amp; [2|Last] - Auf hohem Meere</de>
 				<en>[1|Last] &amp; [2|Last] - On the high seas</en>
+				<pl>[1|Last] &amp; [2|Last] - On the high seas</pl>
 			</title>
 			<title_original>
 				<de>Laurel und Hardy: Auf hoher See</de>
 				<en>Saps at Sea</en>
+				<pl>Flip i Flap: Wilki Morskie</pl>
 			</title_original>
 			<description>
 				<de>[1|Last] und [2|Last] geraten unfreiwillig an den gefährlichen Schwerverbrecher Nick Grainger, doch es gelingt ihnen, diesen unschädlich zu machen.</de>
 				<en>[1|Last] und [2|Last] involuntarily get involved with dangerous felon Nick Grainger, but they manage to render him harmless.</en>
+				<pl>Oliver przeżywa załamanie nerwowe po kolejnym dniu pracy w fabryce klaksonów. Lekarz zaleca mu podróż morską, więc z kumplem wynajmuje łódź.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">a5b5a870-ed54-4a24-b073-bc24b452748c</member>
@@ -441,14 +495,17 @@ A classic with [1|Full].</en>
 			<title>
 				<de>[1|Last] &amp; [2|Last] - Kinder der Wüste</de>
 				<en>[1|Last] &amp; [2|Last] - Progenies of the desert</en>
+				<pl>[1|Last] &amp; [2|Last] - Progenies of the desert</pl>
 			</title>
 			<title_original>
 				<de>Laurel und Hardy: Die Wüstensöhne</de>
 				<en>Sons of the Desert</en>
+				<pl>Flip i Flap: Synowie pustyni</pl>
 			</title_original>
 			<description>
 				<de>Mr. [1|Last] und Mr. [2|Last] wollen zum Treffen ihres Clubs „Die Wüstensöhne“ nach Chicago. Um ihre Frauen zu überzeugen, muss sich [1|Last] krank stellen. Aber letztlich fliegen die beiden auf.</de>
 				<en>Mr. [1|Last] and Mr. [2|Last] want to go to Chicago for the meeting of their club "The Desert Sons". To convince their wives, [1|Last] has to pretend to be sick. But in the end, the two are busted.</en>
+				<pl>Panowie [1|Last] i [2|Last] chcą pojechać do Chicago na spotkanie swojego klubu "The Desert Sons". Aby przekonać swoje żony, [1|Last] musi udawać, że jest chory. W końcu jednak obaj zostają przyłapani.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8a83b685-d95c-4f5a-97b1-a9d241a76363</member>
@@ -465,14 +522,17 @@ A classic with [1|Full].</en>
 			<title>
 				<de>Bambey</de>
 				<en>Bambey</en>
+				<pl>Bambey</pl>
 			</title>
 			<title_original>
 				<de>Bambi</de>
 				<en>Bambi</en>
+				<pl>Bambi</pl>
 			</title_original>
 			<description>
 				<de>Die rührende Geschichte vom kleinen Bambey, der seine Rehmutter verliert, mit seinen Freunden Klopfklopf und Blumli heranwächst und sich im Wald profiliert.</de>
 				<en>The touching story of little Bambey, who loses his doe mother, grows up with his friends Thumper and Flower and makes his mark in the forest.</en>
+				<pl>Jelonek Bambi beztrosko spędza każdy dzień. Pierwsze spotkanie z ludźmi kończy się śmiercią jego matki. </pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8d47f94b-0b00-4a39-9c3e-ef8c1bc51d74</member>
@@ -490,16 +550,20 @@ A classic with [1|Full].</en>
 			<title>
 				<de>Being [3|Full]</de>
 				<en>Being [3|Full]</en>
+				<pl>Being [3|Full]</pl>
 			</title>
 			<title_original>
 				<de>Being John Malkovich</de>
 				<en>Being John Malkovich</en>
+				<pl>Być jak John Malkovich</pl>
 			</title_original>
 			<description>
 				<de>Ein Angesteller findet in seinem Büro einen Geheimgang, der direkt in das Hirn von [3|Full] führt.
 Absolut abgedrehte Komödie und fulminantes Debüt von [0|Full].</de>
 				<en>An employee finds a secret passage in his office that leads directly into the brain of [3|Full].
 Absolutely wacky comedy and brilliant debut of [0|Full].</en>
+				<pl>Pracownik znajduje w swoim biurze tajne przejście, które prowadzi wprost do mózgu aktora ([3|Full]).
+Absolutnie zwariowana komedia i genialny debiut reżyserski ([0|Full]).</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">16a787c8-39d0-44e8-9e5a-4e1093db07cf</member>
@@ -516,16 +580,19 @@ Absolutely wacky comedy and brilliant debut of [0|Full].</en>
 			<title>
 				<de>Betty - a Woman</de>
 				<en>Betty - a Woman</en>
+				<pl>Betty - a Woman</pl>
 			</title>
 			<title_original>
 				<de>Pretty Woman</de>
 				<en>Pretty Woman</en>
+				<pl>Pretty Woman</pl>
 			</title_original>
 			<description>
 				<de>[1|Full] bringt als Geschäftsmann mit Callgirl [2|Full] Abwechslung in sein Leben.
 Eine Liebe gegen jede Vernunft und Verhaltensregel, dafür umso romantischer - die Lovestory schlechthin.</de>
 				<en>[1|Full] brings variety into his life as a businessman with call girl [2|Full].
 A love against all reason and rules of conduct, but all the more romantic for it - the love story par excellence.</en>
+				<pl>Biznesmen Edward ([1|Full]) płaci Vivian([2|Full]) za tydzień spędzony w jej towarzystwie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">66cbb6b1-586d-4843-9000-a2b7f5367e0a</member>
@@ -546,16 +613,20 @@ A love against all reason and rules of conduct, but all the more romantic for it
 			<title>
 				<de>Bleib ja am Hörer!</de>
 				<en>Stay on the phone!</en>
+				<pl>Stay on the phone!</pl>
 			</title>
 			<title_original>
 				<de>Nicht auflegen!</de>
 				<en>Phone Booth</en>
+				<pl>Phone Booth - Telefon</pl>
 			</title_original>
 			<description>
 				<de>Ein Mann ist in einer Telefonzelle gefangen. Die Stimme am anderen Ende der Leitung versichert ihm den tödlichen Schuß, sollte er sich entscheiden, aufzuhängen...
 Hochspannung auf originelle Weise.</de>
 				<en>A man is trapped in a phone booth. The voice on the other end of the line assures him of the fatal shot should he decide to hang up...
 High suspense in an original way.</en>
+				<pl>Mężczyzna jest uwięziony w budce telefonicznej. Głos po drugiej stronie linii zapewnia go o śmiertelnym strzale, jeśli zdecyduje się rozłączyć...
+Wysokie napięcie w oryginalnym wydaniu.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">350b90f6-2759-4c20-bd86-19663ac72e50</member>
@@ -572,14 +643,17 @@ High suspense in an original way.</en>
 			<title>
 				<de>Boogie-Woogie-Träume</de>
 				<en>Boogie Woogie Dreams</en>
+				<pl>Boogie Woogie Dreams</pl>
 			</title>
 			<title_original>
 				<de>Boogie Nights</de>
 				<en>Boogie Nights</en>
+				<pl>Boogie Nights</pl>
 			</title_original>
 			<description>
 				<de>Eddie Adams, ein junger Tellerwäscher in einem Nachtlokal, bekommt die Gelegenheit, als Schauspieler Karriere zu machen. Doch das Angebot beschränkt sich auf schmutzige Filme...</de>
 				<en>Eddie Adams, a young dishwasher in a nightclub, gets an opportunity to make a career as an actor. But the offer is limited to dirty movies...</en>
+				<pl>Eddie Adams, młody pomywacz w nocnym klubie, dostaje szansę zrobienia kariery jako aktor. Ale oferta ogranicza się do brudnych filmów...</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7a68750b-851c-4686-851c-bb5962432e6a</member>
@@ -603,14 +677,17 @@ High suspense in an original way.</en>
 			<title>
 				<de>Brenzliges Business</de>
 				<en>Precarious Business</en>
+				<pl>Precarious Business</pl>
 			</title>
 			<title_original>
 				<de>Heiße Geschäfte</de>
 				<en>Odd Jobs</en>
+				<pl>Odd Jobs</pl>
 			</title_original>
 			<description>
 				<de>Komödie mit [4|Full] in einer Nebenrolle. Die College-Studenten Max und Dwight gründen ein Umzugsunternehmen, um ihr Studium zu finanzieren. Dabei kommen sie der Mafia in die Quere.</de>
 				<en>Comedy with [4|Full] in a supporting role. College students Max and Dwight form a moving company to pay for tuition. Along the way they cross the mob.</en>
+				<pl>Komedia z [4|Full] w roli drugoplanowej. Studenci Max i Dwight zakładają firmę przeprowadzkową, aby opłacić czesne. Po drodze wpadają na trop mafii.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3a69ab34-6f4d-4e87-b6a7-11f70a1a3bdf</member>
@@ -628,14 +705,17 @@ High suspense in an original way.</en>
 			<title>
 				<de>Brunch bei Stephanie</de>
 				<en>Brunch at Stephanie's</en>
+				<pl>Brunch at Stephanie's</pl>
 			</title>
 			<title_original>
 				<de>Frühstück bei Tiffany</de>
 				<en>Breakfast at Tiffany's</en>
+				<pl>Śniadanie u Tiffany'ego</pl>
 			</title_original>
 			<description>
 				<de>Abgehobene Liebesgeschichte mit [1|Full]. Ein naives, exzentrisches Caféhaus-Mädchen verliebt sich in einen erfolglosen Schriftsteller.</de>
 				<en>Off-the-wall love story with [1|Full]. A naïve, eccentric café society girl falls in love with a struggling writer.</en>
+				<pl>Nietypowa historia miłosna z [1|Full] w roli głównej. Naiwna, ekscentryczna dziewczyna z kawiarni zakochuje się w pisarzu.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">6a4d9bef-c392-4217-ae4b-f98d31d67b4f</member>
@@ -653,16 +733,19 @@ High suspense in an original way.</en>
 			<title>
 				<de>Canadian Chick</de>
 				<en>Canadian Chick</en>
+				<pl>Canadian Chick</pl>
 			</title>
 			<title_original>
 				<de>American Beauty</de>
 				<en>American Beauty</en>
+				<pl>American Beauty</pl>
 			</title_original>
 			<description>
 				<de>[0|Last] durchleuchtet die amerikanische Vorstadt-Idylle am Beispiel einer auseinandergelebten Familie.
 Großartig besetzt mit [1|Full].</de>
 				<en>[0|Last] illuminates the American suburban idyll through the example of a family that has grown apart.
 Great cast with [1|Full].</en>
+				<pl>Przechodzący kryzys wieku średniego mieszkaniec przedmieść Lester Burnham zakochuje się w koleżance swojej nastoletniej córki.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">ad3c3085-b3e3-4c99-9da8-f89180d906dc</member>
@@ -681,16 +764,20 @@ Great cast with [1|Full].</en>
 			<title>
 				<de>Canadian Fry</de>
 				<en>Canadian Fry</en>
+				<pl>Canadian Fry</pl>
 			</title>
 			<title_original>
 				<de>American Pie: Wie ein Heisser Apfelkuchen</de>
 				<en>American Pie</en>
+				<pl>American Pie</pl>
 			</title_original>
 			<description>
 				<de>Erster Teil der High-School-Trilogie.
 Größtenteils geschmacklose, aber urkomische Witze.</de>
 				<en>First part of the high school trilogy.
 Mostly tasteless, but hilarious jokes.</en>
+				<pl>Pierwsza część trylogii licealnej.
+W większości niesmaczne, ale zabawne żarty.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">b04fe6b0-8355-4077-9c4b-0e7b7d326c91</member>
@@ -711,16 +798,20 @@ Mostly tasteless, but hilarious jokes.</en>
 			<title>
 				<de>Canadian Fry - Wedding Party</de>
 				<en>Canadian Fry - Wedding Party</en>
+				<pl>Canadian Fry - Wedding Party</pl>
 			</title>
 			<title_original>
 				<de>American Pie: Jetzt wird geheiratet</de>
 				<en>American Wedding</en>
+				<pl>American Pie: Wesele</pl>
 			</title_original>
 			<description>
 				<de>Spätestens nach dem zweiten Teil war die Grube um das Franchise ausgehoben, der Stoff erschöpft.
 Deutlich weniger erfolgreich als die Vorgänger.</de>
 				<en>After the second part if not before, the pit around the franchise was dug, the material exhausted.
 Considerably less successful than the predecessors.</en>
+				<pl>Grupa najlepszych przyjaciół z czasów liceum pomaga Jimowi w przygotowaniach do jego wesela. Po drugiej części, jeśli nie wcześniej, wykopano dół wokół franczyzy, materiał został wyczerpany.
+Znacznie mniej udany niż poprzednicy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">60ccac0f-4e20-4720-a0a5-dd2de44ef430</member>
@@ -737,16 +828,20 @@ Considerably less successful than the predecessors.</en>
 			<title>
 				<de>Canadian Fry 2</de>
 				<en>Canadian Fry 2</en>
+				<pl>Canadian Fry 2</pl>
 			</title>
 			<title_original>
 				<de>American Pie 2</de>
 				<en>American Pie 2</en>
+				<pl>American Pie 2</pl>
 			</title_original>
 			<description>
 				<de>Gleiche Themen und gleiche Scherze neu aufgegossen.
 Trotzdem komisch.</de>
 				<en>Same themes and same jokes rehashed.
 Still funny.</en>
+				<pl>Te same tematy i te same żarty.
+Wciąż zabawne.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">702f9e60-5485-4684-acde-17f70b313006</member>
@@ -766,16 +861,20 @@ Still funny.</en>
 			<title>
 				<de>Catch - Kühe und Rubine</de>
 				<en>Catch - Cows and rubies</en>
+				<pl>Catch - Cows and rubies</pl>
 			</title>
 			<title_original>
 				<de>Snatch: Schweine und Diamanten</de>
 				<en>Snatch</en>
+				<pl>Snatch - Przekręt</pl>
 			</title_original>
 			<description>
 				<de>Krimikomödie über Diamantenraub und Boxkampf.
 Auf der ganzen Linie durchgeknallter Streifen.</de>
 				<en>Crime comedy about diamond robbery and boxing match.
 A flick absolutely nutty in every way.</en>
+				<pl>Historia złożona z kilku gangsterskich opowieści, które splatają się wokół kradzieży drogocennego diamentu.
+Film absolutnie szalony pod każdym względem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e84e002c-d960-48c9-ae6b-695b77e018b1</member>
@@ -792,14 +891,17 @@ A flick absolutely nutty in every way.</en>
 			<title>
 				<de>Computerkrieg</de>
 				<en>Computer War</en>
+				<pl>Computer War</pl>
 			</title>
 			<title_original>
 				<de>War Games: Kriegsspiele</de>
 				<en>WarGames</en>
+				<pl>WarGames - Gry wojenne</pl>
 			</title_original>
 			<description>
 				<de>Computerfreak David provoziert von seinem Rechner aus unbeabsichtigt einen nuklearen Krieg. Nun hat er die Verantwortung, den bevorstehenden Dritten Weltkrieg zu verhindern...</de>
 				<en>Computer geek David unintentionally provokes a nuclear war from his computer. Now he has the responsibility to prevent the impending World War III...</en>
+				<pl>Maniak komputerowy David nieumyślnie wywołuje wojnę nuklearną za pomocą swojego komputera. Teraz musi zapobiec zbliżającej się III wojnie światowej...</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">246ea74a-2f5f-4f60-9370-ec5a3194d22d</member>
@@ -818,14 +920,17 @@ A flick absolutely nutty in every way.</en>
 			<title>
 				<de>Coole Typen - Really Bad Boys</de>
 				<en>Cool Guys - Really Bad Boys</en>
+				<pl>Cool Guys - Really Bad Boys</pl>
 			</title>
 			<title_original>
 				<de>Bad Boys - Harte Jungs</de>
 				<en>Bad Boys</en>
+				<pl>Bad Boys</pl>
 			</title_original>
 			<description>
 				<de>Action mit viel Effekten, Gewalt und Sprüchen nach bekannten Schema: Zwei Polizisten bilden ein ungleiches und doch harmonierendes Team.</de>
 				<en>Action with a lot of effects, violence and catchphrases, following a familiar pattern: two policemen form an unequal and yet harmonizing team.</en>
+				<pl>Akcja z dużą ilością efektów, przemocy i chwytliwych haseł, według znanego schematu: dwóch policjantów tworzy nierówny, ale zgrany zespół.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2fae00fa-0106-4734-873e-7d3a87a50a65</member>
@@ -845,16 +950,20 @@ A flick absolutely nutty in every way.</en>
 			<title>
 				<de>Coole Typen II</de>
 				<en>Cool Guys II</en>
+				<pl>Cool Guys II</pl>
 			</title>
 			<title_original>
 				<de>Bad Boys II</de>
 				<en>Bad Boys II</en>
+				<pl>Bad Boys II</pl>
 			</title_original>
 			<description>
 				<de>Die Drogenfahnder Marcus Burnett und Mike Lowrey sollen einem Drogenbaron das Handwerk legen.
 Primitiv.</de>
 				<en>Narcotics officers Marcus Burnett and Mike Lowrey are tasked with putting a stop to a drug lord.
 Primitive.</en>
+				<pl>Funkcjonariusze antynarkotykowi Marcus Burnett i Mike Lowrey mają za zadanie powstrzymać narkotykowego lorda.
+Prymitywny.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2fae00fa-0106-4734-873e-7d3a87a50a65</member>
@@ -870,11 +979,13 @@ Primitive.</en>
 			<title>
 				<de>Da war mal in Amerika</de>
 				<en>A Long Time Ago in America</en>
+				<pl>A Long Time Ago in America</pl>
 			</title>
 			<title_original>
 				<de>Es war einmal in Amerika</de>
 				<en>Once Upon a Time in America</en>
 				<it>C'era una volta in America</it>
+				<pl>Once Upon a Time in America - Dawno temu w Ameryce</pl>
 			</title_original>
 			<description>
 				<de>Zeitloses Epos über eine Gruppe von Straßenkindern, die zu professionellen Kriminellen heranwachsen.
@@ -883,6 +994,9 @@ Freigabe von FSK 18 auf FSK 16 heruntergestuft.</de>
 				<en>Timeless epic about a group of street kids who grow up to become professional criminals.
 Catchy musical theme by [1|Full].
 Formerly x-rated, the restrictions have been relaxed.</en>
+				<pl>Ponadczasowy epos o grupie dzieci ulicy, które wyrastają na zawodowych przestępców.
+Chwytliwy motyw muzyczny autorstwa [1|Full].
+Dawniej tylko dla dorosłych, ograniczenia zostały złagodzone.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">854537be-c9f6-4f13-90bb-97f46e821b6e</member>
@@ -902,16 +1016,20 @@ Formerly x-rated, the restrictions have been relaxed.</en>
 			<title>
 				<de>Das Geflügel</de>
 				<en>The Poultry</en>
+				<pl>The Poultry</pl>
 			</title>
 			<title_original>
 				<de>Die Vögel</de>
 				<en>The Birds</en>
+				<pl>The Birds - Ptaki</pl>
 			</title_original>
 			<description>
 				<de>Eine Kleinstadt wird von einer Unzahl an Vögeln überfallen.
 Einer der späteren [0|Last]s.</de>
 				<en>A small town is invaded by a myriad of birds.
 One of the later [0|Last]s.</en>
+				<pl>Małe miasteczko zostaje zaatakowane przez niezliczoną ilość ptaków.
+Jeden z późniejszych filmów reżysera: [0|Last]-a.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f489dd7-a5f3-431b-ae48-9fefcdeac40e</member>
