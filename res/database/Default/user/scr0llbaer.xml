@@ -485,7 +485,7 @@ Format: Filmowane wykłady. Na luzie i do leżenia.</pl>
 			<title>
 				<de>%tower% %latebreaking%: %title%</de>
 				<en>%tower% %latebreaking%: %title%</en>
-				<pl>%tower% %latebreaking%: %title%</pl>
+				<pl>%tower%: %title%</pl>
 			</title>
 			<description>
 				<de>Technologie aktuell. Jeden Tag neu. Die neuesten Entwicklungen und Trends bei Elektronik, Telekommunikation, Computern.</de>
@@ -501,7 +501,7 @@ Format: Filmowane wykłady. Na luzie i do leżenia.</pl>
 				<latebreaking>
 					<de>Brandaktuell|Aktuell</de>
 					<en>Late-Breaking|Hot</en>
-					<pl>Przełomowe|Gorące</pl>
+					<pl></pl>
 				</latebreaking>
 				<title>
 					<de>Tech|Technologie|Tech-Corner|Nerd-Corner</de>
@@ -535,7 +535,7 @@ Format: Filmowane wykłady. Na luzie i do leżenia.</pl>
 			<title>
 				<de>%tower% Dynamit - Das Magazin: %latebreaking%</de>
 				<en>%tower% Dynamite - The Magazine: %latebreaking%</en>
-				<pl>%tower% Dynamite - The Magazine: %latebreaking%</pl>
+				<pl>%tower% Dynamit - Magazyn: %latebreaking%</pl>
 			</title>
 			<description>
 				<de>Showbiz aktuell. Jeden Tag neu. Aktueller Tratsch, Promi-Geflüster und tränenrührende Tagesgeschehnisse.
@@ -598,12 +598,12 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<show>
 					<de>Die Show|Der Ticker|Die Sendung|Das Magazin</de>
 					<en>Show|Ticker|Broadcast|Magazine</en>
-					<pl>Show|Reporter|ShowBiznesu|Magazyn</pl>
+					<pl>Show|Reporter|ShowBiznes|Magazyn</pl>
 				</show>
 				<withexplosivenews>
 					<de>mit brisanten News|für Promi-News|mit aktuellen Skandalen|mit dem neuesten Klatsch und Tratsch|mit den heißesten Gerüchten|mit den neuesten Promi-Storys|mit den explosivsten Enthüllungen|mit den heißesten Gerüchten aus der Promi-Welt|mit den Knallern aus der Promi-Szene|mit den neuesten Skandalen und Enthüllungen</de>
 					<en>With Explosive News|for Celebrity News|With the Current Scandals|With the Latest Gossip and Rumors|With the Hottest Rumors|With the Latest Celebrity Stories|With the Most Explosive Revelations|With the Hottest Rumors From the Celebrity World|With the Blasts from the Celebrity Scene|With the Latest Scandals and Revelations</en>
-					<pl>Z wybuchowymi wiadomościami|Dla celebrytów|Z aktualnymi skandalami|Z najnowszymi plotkami|Z najgorętszymi plotkami|Z najnowszymi historiami gwiazd|Z najbardziej wybuchowymi rewelacjami|Z najgorętszymi plotkami ze świata celebrytów|Z wybuchami ze sceny celebrytów|Z najnowszymi skandalami i rewelacjami</pl>
+					<pl>z wybuchowymi wiadomościami|dla celebrytów|Z aktualnymi skandalami|Z najnowszymi plotkami|z najgorętszymi plotkami|z najnowszymi historiami gwiazd|z najbardziej wybuchowymi rewelacjami|z najgorętszymi plotkami ze świata celebrytów|ze sceny celebrytów|Z najnowszymi skandalami i rewelacjami</pl>
 				</withexplosivenews>
 			</variables>
 			<jobs>
@@ -681,7 +681,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 			<title>
 				<de>%recreational%%athletes% aus %randomcity% und anderswo</de>
 				<en>%recreational% %athletes% from %randomcity% and elsewhere</en>
-				<pl>%rekreacyjni% %sportowcy% z %losowego% miasta% i nie tylko</pl>
+				<pl>%recreational% %athletes% i nie tylko</pl>
 			</title>
 			<description>
 				<de>Aktuelle News und Berichterstattung aus den Bunt-, Amateur- und Kreisligen der Nation. Fußball, Eishockey, Basketball, Football, Tennis, Tischtennis, Leichtathletik, Kirmesboxen, Formel 3 &amp; 4 &amp; Kartsport und vieles mehr.</de>
@@ -692,7 +692,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<recreational>
 					<de>Freizeit|Feierabend|Hobby|Amateur</de>
 					<en>Recreational|Leisure|Hobby|Amateur</en>
-					<pl>Rekreacyjne|Wypoczynkowe|Hobbystyczne|Amatorskie</pl>
+					<pl>Rekreacyjni|Wypoczynkowi|Hobbystyczni|Amatorscy</pl>
 				</recreational>
 				<athletes>
 					<de>athleten|kicker und co.|-Sportfreunde</de>
@@ -728,7 +728,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 			<title>
 				<de>%secondleague% Sport%report%</de>
 				<en>%secondleague% Sports%report%</en>
-				<pl>%secondleague% Sports%report%</pl>
+				<pl>%secondleague% - %report%</pl>
 			</title>
 			<description>
 				<de>Die zweite Liga kommt gleich nach der ersten! Aktuelles über alles, was sportlich zweitklassig ist im Lande. Zweite Ligen im Fußball, Eishockey, Basketball, Football, Tennis, Tischtennis. Außerdem Formel 2, Kunstturnen, Eiskunstlauf, Reitsport u.v.m.</de>
@@ -744,7 +744,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<report>
 					<de>report|reportage|bericht|berichterstattung|</de>
 					<en> Report| Feature| Bulletin| Coverage|</en>
-					<pl>Reportaż| Felieton| Biuletyn| Przegląd|</pl>
+					<pl> Sportowy reportaż| Sportowy felieton| Sportowy biuletyn| Sportowy przegląd|</pl>
 				</report>
 			</variables>
 			<jobs>
@@ -874,7 +874,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 			<title>
 				<de>%tower%: %title%%latebreaking%</de>
 				<en>%tower%: %title%%latebreaking%</en>
-				<pl>%tower%: %title%%latebreaking%</pl>
+				<pl>%tower%: %title% - %latebreaking%</pl>
 			</title>
 			<description>
 				<de>Kultur aktuell. Jeden Tag neu. Vernissagen, Ausstellungen, Kulturfestivals, Konzerte, Kunst, Literatur. Neuerscheinungen sowie historische Rückblicke und Reflektionen.</de>
@@ -895,7 +895,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<latebreaking>
 					<de> Aktuell| der Gegenwart| im aktuellen Kontext|</de>
 					<en> Up-to-date| of the Present| in a Contemporary Context|</en>
-					<pl> Aktualność| teraźniejszości| we współczesnym kontekście|</pl>
+					<pl> aktualności| wiadomości| przegląd wydarzeń kulturalnych|</pl>
 				</latebreaking>
 			</variables>
 			<jobs>
@@ -945,7 +945,7 @@ Obowiązkowa pozycja dla każdej gospodyni domowej, przekleństwo dla twardzieli
 				<title>
 					<de>Die Videospiele-Show|Arcade Action|Hot Games|Video Action</de>
 					<en>The Videogame Show|Arcade Action|Hot Games|Video Action</en>
-					<pl>Wideogry|Arcade Action|W co warto grać?|Akcja</pl>
+					<pl>Wideogry|Arcade Action|W co warto grać?|Komputerowy świat gier</pl>
 				</title>
 			</variables>
 			<jobs>

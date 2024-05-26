@@ -1300,7 +1300,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 					<description>
 						<de>${dsc}</de>
 						<en>${dsc}</en>
-						<pl>Podróże przez świat. Poznajemy różne kraje</pl>
+						<pl>Podróże przez świat. Poznajemy różne kraje. ${dsc}</pl>
 					</description>
 					<variables>
 						<epttl>
@@ -1312,7 +1312,7 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 						<dsc>
 							<de> |${cntry}s ${subject} bergen so manches Geheimnis.|Fakten und Meinungen zu ${cntry}s ${subject}.|Was macht ${cntry}s ${subject} so besonders?</de>
 							<en> |${subject} in ${cntry} carry quite a few secrets.|${subject} of ${cntry} - facts and opinions.|${subject} in ${cntry}, what makes them so special?</en>
-							<pl>${cntry} mają bardzo dużo niezwykłych tajemnic i ciekawostek.</pl>
+							<pl>${cntry} to kraj który ma bardzo dużo niezwykłych tajemnic i ciekawostek.</pl>
 						</dsc>
 						<cntry>
 							<de>Deutschland|Spanien|Frankreich|Dänemark|Schweden|Finnland|Norwegen|Polen|Griechenland|Italien|Portugal|Brasilien|Costa Rica|Kanada|Vietnam|Thailand|Japan|Belgien|Nepal|Inden|Chile</de>
@@ -1332,87 +1332,87 @@ Znamienici goście i muzyka autorstwa [3|Nick].</pl>
 				<subject>
 					<de>${sbj_${variant}}</de>
 					<en>${sbj_${variant}}</en>
-					<pl></pl>
+					
 				</subject>
 				<adjective>
 					<de>|${adj_${variant}} </de>
 					<en>|${adj_${variant}} </en>
-					<pl></pl>
+					
 				</adjective>
 				<variant>
 					<de>bf|best|bi|big|bigb</de>
 					<en>bf|best|bi|big|bigb</en>
-					<pl></pl>
+					
 				</variant>
 				<adj_bf>
 					<de>${beautiful}</de>
 					<en>${beautiful}</en>
-					<pl></pl>
+					
 				</adj_bf>
 				<sbj_bf>
 					<de>Weihnachtsbräuche|Trachten|Frisuren|Autos|Eisenbahnstrecken|Märchen</de>
 					<en>Christmas traditions|Traditional costumes|Hair styles|Cars|Railways|Fairy tales</en>
-					<pl>Tradycje bożonarodzeniowe|Tradycyjne stroje|Stylizacje włosów|Samochody|Kolej|Bajki</pl>
+					
 				</sbj_bf>
 				<adj_best>
 					<de>${best}</de>
 					<en>${best}</en>
-					<pl></pl>
+					
 				</adj_best>
 				<sbj_best>
 					<de>Bildungssysteme|Fußballmannschaften|Schokoladen|Bands|Weine|Biere</de>
 					<en>Educational systems|Soccer teams|Chocolates|Bands|Vines|Beers</en>
-					<pl></pl>
+					
 				</sbj_best>
 				<adj_bi>
 					<de>${best}|${important}</de>
 					<en>${best}|${important}</en>
-					<pl></pl>
+					
 				</adj_bi>
 				<sbj_bi>
 					<de>Politiker|Komponisten|Modemarken|Universitäten</de>
 					<en>Politicians|Composers|Fashion labels|Universities</en>
-					<pl></pl>
+					
 				</sbj_bi>
 				<adj_big>
 					<de>${big}</de>
 					<en>${big}</en>
-					<pl></pl>
+					
 				</adj_big>
 				<sbj_big>
 					<de>Bauwerke|Flughäfen|Stadien|Tunnel|Berge</de>
 					<en>Buildings|Airports|Stadiums|Tunnels|Mountains</en>
-					<pl></pl>
+					
 				</sbj_big>
 				<adj_bigb>
 					<de>${big}|${beautiful}</de>
 					<en>${big}|${beautiful}</en>
-					<pl></pl>
+					
 				</adj_bigb>
 				<sbj_bigb>
 					<de>Schlösser|Kirchen|Nationalparks|Zoos|Flüsse|Tiere|Bibliotheken|Inseln|Brücken|Vulkane|Denkmale|Städte</de>
 					<en>Castles|Churches|National parks|Zoos|Rivers|Animals|Libraries|Islands|Bridges|Volcanoes|Monuments|Cities</en>
-					<pl></pl>
+					
 				</sbj_bigb>
 				<beautiful>
 					<de>Die schönsten</de>
 					<en>The most beautiful</en>
-					<pl></pl>
+					
 				</beautiful>
 				<best>
 					<de>Die besten</de>
 					<en>The best</en>
-					<pl></pl>
+					
 				</best>
 				<important>
 					<de>Die bedeutendsten</de>
 					<en>The most important</en>
-					<pl></pl>
+					
 				</important>
 				<big>
 					<de>Die größten|Die beeindruckendsten</de>
 					<en>The biggest|The most impressive</en>
-					<pl></pl>
+					
 				</big>
 			</variables>
 			<jobs>
