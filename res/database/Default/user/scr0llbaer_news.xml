@@ -800,12 +800,12 @@
 				<it_0>
 					<de>Sie</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_0>
 				<it_1>
 					<de>Es</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_1>
 				<it_2>
 					<de>Es</de>
@@ -815,57 +815,57 @@
 				<it_3>
 					<de>Sie</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_3>
 				<it_4>
 					<de>Er</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_4>
 				<it_5>
 					<de>Er</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_5>
 				<it_6>
 					<de>Sie</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_6>
 				<it_7>
 					<de>Er</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_7>
 				<it_8>
 					<de>Es</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_8>
 				<it_9>
 					<de>Er</de>
 					<en>It</en>
-					<pl>On</pl>
+					
 				</it_9>
 				<it_a>
 					<de>Sie</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_a>
 				<it_b>
 					<de>Er</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_b>
 				<it_c>
 					<de>Es</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_c>
 				<it_d>
 					<de>Es</de>
 					<en>It</en>
-					<pl>To</pl>
+					
 				</it_d>
 				<paradetown>
 					<de>%STATIONMAP:RANDOMCITY%</de>
@@ -879,7 +879,7 @@
 				<andbroughtdownby>
 					<de> und von der Feuerwehr zu Boden gebracht|. ${it_${i}} wurde gemütlich schwimmend in einem Parkteich entdeckt und wohlbehalten an die Organisatoren der Parade zurückgegeben|. ${it_${i}} wurde von ein paar Witzbolden entführt, doch die Polizei konnte die Entführer ausfinding machen</de>
 					<en> and brought down by the fire department|. ${it_${i}} was discovered leisurely floating in a park pond and was safely returned to the parade organizers|. ${it_${i}} was hijacked by some pranksters, but the police were able to track down them down</en>
-					<pl> i ściągnięty przez straż pożarną|. ${it_${i}} został odkryty pływający w stawie w parku i bezpiecznie zwrócony organizatorom parady|. ${it_${i}} został porwany przez żartownisiów, ale policji udało się ich wytropić.</pl>
+					<pl> i ściągnięty przez straż pożarną|w stawie w parku i bezpiecznie zwrócony organizatorom parady|Okazało się że balon został porwany przez żartownisiów, ale policji udało się ich wytropić.</pl>
 				</andbroughtdownby>
 				<nina>
 					<de>Nina|Nia|Nana|Nona</de>
@@ -903,7 +903,7 @@
 			<title>
 				<de>${giantinflatable_${i}} ${duck_${i}} in %sightedtown% gesichtet</de>
 				<en>${giantinflatable_${i}} ${duck_${i}} sighted in %sightedtown%</en>
-				<pl>${giantinflatable_${i}} ${duck_${i}} widziany w %sightedtown%</pl>
+				<pl>${giantinflatable_${i}} ${duck_${i}} widziany w mieście %sightedtown%</pl>
 			</title>
 			<description>
 				<de>${the_${i}} ${duck_${i}} von der Parade in %paradetown% flog heute Morgen über %sightedtown% hinweg, wie Augenzeugen berichteten. Die Fliegerstaffel ist hinterher.</de>
@@ -937,12 +937,12 @@
 			<title>
 				<de>Rocksängerin %nina% %artistlastname% landet Riesenhit</de>
 				<en>Rock singer %nina% %artistlastname% lands huge hit</en>
-				<pl>Piosenkarka rockowa %nina% %artistlastname% zdobywa ogromny hit</pl>
+				<pl>Piosenkarka rockowa %nina% %artistlastname% podbija listy przebojów</pl>
 			</title>
 			<description>
 				<de>„${it_${i}} %escapes% den Kriegsministern!“ Inspiriert vom Flug über %sightedtown% landet Rocksängerin %nina% %artistlastname% mit „${giantinflatable_${i}} ${duck_${i}}“ einen internationalen Riesenhit.</de>
 				<en>„${it_${i}} %escapes% the war ministers!“ Inspired by the flight over %sightettown%, rock singer %nina% %artistlastname% lands a huge international hit with "${giantinflatable_${i}} ${duck_${i}}".</en>
-				<pl>„${it_${i}} %escapes% ministerstwu obrony!" Zainspirowana lotem nad %sightettown%, wokalistka rockowa %nina% %artistlastname% staje się wielkim międzynarodowym hitem dzięki "${giantinflatable_${i}} ${duck_${i}}".</pl>
+				<pl>Zainspirowana lotem nad miastem %sightettown%, wokalistka rockowa %nina% %artistlastname% nagrywa piosenkę która staje się wielkim międzynarodowym hitem. Ten hit to "${giantinflatable_${i}} ${duck_${i}}".</pl>
 			</description>
 			<data genre="1" price="1" quality="25" fictional="1" />
 		</news>
@@ -951,12 +951,12 @@
 			<title>
 				<de>${duck_${i}}-Computerspiel wird großer Erfolg</de>
 				<en>${the_${i}} ${duck_${i}} computer game becomes big success</en>
-				<pl>${the_${i}} Gra komputerowa ${duck_${i}} staje się wielkim sukcesem</pl>
+				<pl>Gra komputerowa staje się wielkim sukcesem</pl>
 			</title>
 			<description>
 				<de>Der vom Flug über %sightedtown% inspirierte Action-Kracher „${the_${i}} ${duck_${i}} %escapes%“ des aufstrebenden Garagen-Studios „%artistlastname%soft“ aus %paradetown% führt zur Zeit die internationalen Verkaufscharts an.</de>
 				<en>Inspired by the flight over %sightettown%, the action smash hit "${the_${i}} ${duck_${i}} %escapes%" by the up-and-coming bedroom studio "%artistlastname%soft" from %paradetown% is currently topping the international sales charts.</en>
-				<pl>Zainspirowany lotem nad %sightettown%, hit akcji „${the_${i}} ${duck_${i}} %escapes%” autorstwa wschodzącego studia %artistlastname%soft z %paradetown% znajduje się obecnie na szczycie międzynarodowych list przebojów.</pl>
+				<pl>Zainspirowani lotem nad miastem %sightettown% gigantycznego nadmuchiwanego balonu w kształcie $${duck_${i}} studio %artistlastname%soft z miasta %paradetown% wydaje grę, która podbija serca graczy.</pl>
 			</description>
 			<data genre="3" price="1" quality="25" fictional="1" />
 		</news>
@@ -965,12 +965,12 @@
 			<title>
 				<de>Wanderausstellung in %sightedtown% wird erweitert</de>
 				<en>Traveling exhibit in %sightedtown% to be expanded</en>
-				<pl>Wystawa objazdowa w %sightedtown% zostanie rozszerzona</pl>
+				<pl>Wystawa objazdowa w mieście %sightedtown% zostanie rozszerzona</pl>
 			</title>
 			<description>
 				<de>Inspiriert vom Flug aus %paradetown% nimmt die gerade zufällig in %sightedtown% gastierende Wanderausstellung „Der Mensch %escapes%“ ab übermorgen den Rundgang „Über ${duck_${i}} und Mensch“ ins Programm auf.</de>
 				<en>Inspired by the flight from %paradetown%, the traveling exhibit "Man %escapes%" that just happens to be currently touring %sightedtown% will add the trail "Of ${duck_${i}} and man" to its program starting the day after tomorrow.</en>
-				<pl>Zainspirowana lotem z %paradetown%, objazdowa wystawa „Man %escapes%”, która właśnie objeżdża %sightedtown%, od pojutrza doda do swojego programu ścieżkę „${duck_${i}} i człowiek”.</pl>
+				<pl>Zainspirowana lotem gigantycznego nadmuchiwanego balonu w kształcie $${duck_${i}}, objazdowa wystawa, która właśnie objeżdża miasto %sightedtown%, od pojutrza doda do swojego programu wystawę „${duck_${i}} i człowiek”.</pl>
 			</description>
 			<data genre="5" price="1" quality="25" fictional="1" />
 		</news>
@@ -979,12 +979,12 @@
 			<title>
 				<de>${duck_${i}} wird Sportmaskottchen in %sightedtown%</de>
 				<en>${the_${i}} ${duck_${i}} becomes sports mascot in %sightedtown%</en>
-				<pl>${the_${i}} ${duck_${i}} zostaje maskotką sportową w %sightedtown%</pl>
+				<pl>Balon w kształcie ${duck_${i}} zostaje maskotką sportową w mieście %sightedtown%</pl>
 			</title>
 			<description>
 				<de>Inspiriert vom Flug aus %paradetown% wird „${duck_${i}} %artistlastname%“ das neue Maskottchen %ofsportsclub% %sightedtown%. Der freche Freigeist von %artistlastname% repräsentiere den Club sehr treffend.</de>
 				<en>Inspired by the flight from %paradetown%, "%artistlastname% ${the_${i}} ${duck_${i}}" becomes the new mascot %ofsportsclub% %sightedtown%. The bold free spirit of %artistlastname% is said to represent the club very aptly.</en>
-				<pl>Zainspirowany lotem z %paradetown%, „%artistlastname% ${the_${i}} ${duck_${i}}” został nową maskotką %sightedtown% klubu sportowego. Odważny, wolny duch %artistlastname% ma bardzo trafnie reprezentować klub.</pl>
+				<pl>Klub sportowy zainspirowany przelotem gigantycznego balonu wybrał nową maskotką klubu sportowego. Ten gigantyczny balon w kształcie ${duck_${i}} ma reprezentować klub.</pl>
 			</description>
 			<data genre="2" price="1" quality="25" fictional="1" />
 		</news>
@@ -993,12 +993,12 @@
 			<title>
 				<de>${mw_${g}} aus %subjecttown% %sues% ${theirparrot_${i}}</de>
 				<en>A ${mw_${g}} from %subjecttown% %sues% ${theirparrot_${i}}</en>
-				<pl>${mw_${g}} z %subjecttown% %sues% ${theirparrot_${i}}</pl>
+				<pl>${mw_${g}} z miasta %subjecttown% %sues%</pl>
 			</title>
 			<description>
 				<de>${the_${g}} ${mw_${g}} namens ${name_${g}} %claims%${ithadinsulted_${i}}.</de>
 				<en>${the_${g}} ${mw_${g}} named ${name_${g}} %claims%${ithadinsulted_${i}}.</en>
-				<pl>${the_${g}} ${mw_${g}} nazwał ${name_${g}} %claims%${ithadinsulted_${i}}.</pl>
+				<pl>${mw_${g}} z miasta %subjecttown% składa pozew ${theirparrot_${i}}.</pl>
 			</description>
 			<variables>
 				<g>
@@ -1007,22 +1007,22 @@
 				<mw_m>
 					<de>Mann</de>
 					<en>man</en>
-					<pl>mężczyzna</pl>
+					<pl>Mężczyzna</pl>
 				</mw_m>
 				<mw_f>
 					<de>Frau</de>
 					<en>woman</en>
-					<pl>kobieta</pl>
+					<pl>Kobieta</pl>
 				</mw_f>
 				<the_m>
 					<de>Der</de>
 					<en>The</en>
-					<pl></pl>
+					<pl>nazwał</pl>
 				</the_m>
 				<the_f>
 					<de>Die</de>
 					<en>The</en>
-					<pl></pl>
+					<pl>nazwała</pl>
 				</the_f>
 				<heshe_m>
 					<de>er</de>
@@ -1088,7 +1088,7 @@
 				<sues>
 					<de>verklagt|klagt gegen</de> <!-- too long: erhebt Klage gegen|prozessiert gegen -->
 					<en>sues|files suit against</en> <!--too long: files lawsuit against|takes action against -->
-					<pl>pozywa|składa pozew przeciwko</pl>
+					<pl>pozywa|składa pozew sądowy</pl>
 				</sues>
 				<i>
 					<de>0|1|2|3|4|5|6|7|8|9|a|b</de>
@@ -1310,7 +1310,7 @@
 			<description>
 				<de>Nach der abgewiesenen Klage greift ${name_${g}} zu den Mitteln der Selbstjustiz. Showdown morgen 12 Uhr mittags auf dem Marktplatz %subjecttown%.</de>
 				<en>After the dismissed lawsuit, ${name_${g}} resorts to vigilante justice. Showdown tomorrow at 12 high noon marketplace %subjecttown%.</en>
-				<pl>Po odrzuceniu pozwu, ${name_${g}} ucieka się do wymierzania sprawiedliwości. Starcie odbędzie się jutro o 12 w południe na rynku %subjecttown%.</pl>
+				<pl>Po odrzuceniu pozwu, ${name_${g}} ucieka się do wymierzania sprawiedliwości. Starcie odbędzie się jutro o 12 w południe na rynku miasta %subjecttown%.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernewschoice" time="1,18,30" choose="or" news1="a3716822-419b-4a1a-ac1d-4529eea1ec6a" probability1="50" news2="5af0c98a-e1f9-4842-827f-dfb90ae93d5b" probability2="50" />
@@ -1322,7 +1322,7 @@
 			<title>
 				<de>Duell auf Marktplatz %subjecttown% abgesagt</de>
 				<en>Duel on marketplace %subjecttown% cancelled</en>
-				<pl>Pojedynek na rynku %subjecttown% odwołany</pl>
+				<pl>Pojedynek na rynku miasta %subjecttown% odwołany</pl>
 			</title>
 			<description>
 				<de>Die Behörden sind rechtzeitig eingeschritten und haben das Duell von ${name_${g}} gegen ${theirparrot_${i}} verhindert. ${name_${g}} wurde in eine Anstalt eingewiesen.</de>
@@ -1378,7 +1378,7 @@
 			<description>
 				<de>Auch das Landgericht hat die Klage von ${name_${g}} gegen ${theirparrot_${i}}%deemedfrivolous%%forlackofevidence%%quickly% %dismissed%.</de>
 				<en>${name_${g}}'s lawsuit against ${theirparrot_${i}} was%deemedfrivolous%%quickly% %dismissed%%forlackofevidence% also by the regional court.</en>
-				<pl>Pozew ${name_${g}} przeciwko ${theirparrot_${i}} został% uznany%deemedfrivolous%%quickly% %dismissed%%forlackofevidence% również przez sąd okręgowy.</pl>
+				<pl>Pozew ${name_${g}} przeciwko ${theirparrot_${i}} został uznany%deemedfrivolous%%quickly% %dismissed%%forlackofevidence% również przez sąd okręgowy.</pl>
 			</description>
 			<data genre="4" price="1" quality="30" fictional="1" />
 			<effects>
@@ -1412,7 +1412,7 @@
 			<description>
 				<de>Der von der Causa ${name_${g}} inspirierte Gassenhauer „%against% ${theirparrot_${i}}!“ der aus %artisttown% stammenden Musikkapelle hat sich schnell zum Dauerbrenner in den Bierzelten der Nation entwickelt.</de>
 				<en>The hit song "%against% ${theirparrot_${i}}!" by the music band hailing from %artisttown%, inspired by the case of ${name_${g}}, has quickly become a permanent favorite in the nation's beer tents.</en>
-				<pl>Przebój „%against% ${theirparrot_${i}}!” zespołu muzycznego pochodzącego z %artisttown%, zainspirowany sprawą ${name_${g}}, szybko stał się stałym faworytem w krajowych namiotach piwnych.</pl>
+				<pl>Przebój „%against% ${theirparrot_${i}}!” zespołu muzycznego pochodzącego z miasta %artisttown%, zainspirowany sprawą ${name_${g}}, szybko stał się stałym hitem w krajowych namiotach piwnych.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
@@ -1446,7 +1446,7 @@
 			<description>
 				<de>Der aufstrebene Komiker %artistfirstname% %artistlastname% beginnt seine Stadiontour in %artisttown% und stellt sein neues von der Causa ${name_${g}} inspiriertes Programm „Über ${mw_${g}} und ${theirparrot_${i}}“ vor.</de>
 				<en>Up-and-coming comedian %artistfirstname% %artistlastname% begins his stadium tour in %artisttown% and presents his new program "Of ${mw_${g}} and ${theirparrot_${i}}" inspired by the case of ${name_${g}}.</en>
-				<pl>Wschodzący komik %artistfirstname% %artistlastname% rozpoczyna swoją stadionową trasę w %artisttown% i prezentuje swój nowy program „${mw_${g}} i ${theirparrot_${i}}” zainspirowany przypadkiem ${name_${g}}.</pl>
+				<pl>Wschodzący komik %artistfirstname% %artistlastname% rozpoczyna swoją stadionową trasę w mieście %artisttown% i prezentuje swój nowy program „${mw_${g}} i ${theirparrot_${i}}” zainspirowany przypadkiem ${name_${g}}.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
@@ -1463,7 +1463,7 @@
 			<description>
 				<de>Beeindruckt von der Causa ${name_${g}} nimmt die gerade in %artisttown% gastierende Wanderausstellung „Gesetz und Mensch im Wandel der Zeit“ ab übermorgen den Rundgang „Über ${mw_${g}} und ${theirparrot_${i}}“ ins Programm auf.</de>
 				<en>Impressed by the case of ${name_${g}}, the traveling exhibit "Law and Man in the course of time" currently touring %artisttown% will add the trail "Of ${mw_${g}} and ${theirparrot_${i}}" to its program starting the day after tomorrow.</en>
-				<pl>Będąc pod wrażeniem przypadku ${name_${g}}, objazdowa wystawa „Prawo i człowiek w czasie”, która obecnie objeżdża %artisttown%, doda do swojego programu ścieżkę „O ${mw_${g}} i ${theirparrot_${i}}”, która rozpocznie się pojutrze.</pl>
+				<pl>Będąc pod wrażeniem przypadku ${name_${g}}, objazdowa wystawa „Prawo i człowiek w czasie”, która obecnie objeżdża miasto %artisttown%, doda do swojego programu wystawę „O ${mw_${g}} i ${theirparrot_${i}}”, która rozpocznie się pojutrze.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" time="1,36,48" news="579c00f4-9604-40cb-b0c5-21ee829df594" />
@@ -1538,7 +1538,7 @@
 				<man_7>
 					<de>Frau</de>
 					<en>Woman</en>
-					<pl>Kobieta</pl>
+					<pl>Biedak</pl>
 				</man_7>
 				<fortheft_0>
 					<de> wegen Picknicktisch-Diebstahl</de>
@@ -1580,17 +1580,17 @@
 				<themanwho_0>
 					<de>Der Mann, der den Tisch aus einem Park in %town% stahl und angab, ihn zu einem Grillfest eines Freundes zu bringen, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The man, who stole the table from a park in %town% and claimed to be taking it to a friend's backyard barbecue, was charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który ukradł stół z parku w %town% i twierdził, że zabrał go na przydomowego grilla przyjaciela, został oskarżony o wielką kradzież%andcriminalmischief%.</pl>
+					<pl>Mężczyzna, który ukradł stół z parku w mieście %town% i twierdził, że zabrał go na przydomowego grilla przyjaciela, został oskarżony o wielką kradzież%andcriminalmischief%.</pl>
 				</themanwho_0>
 				<themanwho_1>
 					<de>Ein Mann, der seit mehreren Jahren in %town% lebte, begann, von einer bevorstehenden Marsianer-Invasion zu predigen und zog eine kleine Anhängerschaft an. Er wurde wegen Betrugs%andcriminalmischief% verhaftet.</de>
 					<en>A man who had been living in %town% for several years began preaching about a coming Martian invasion and attracted a small following of people. He was arrested for fraud%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który mieszkał w %town% przez kilka lat, zaczął głosić o nadchodzącej inwazji Marsjan i przyciągnął niewielką grupę ludzi. Został aresztowany za oszustwo% i przestępstwo%.</pl>
+					<pl>Mężczyzna, który mieszkał w %town% przez kilka lat, zaczął głosić o nadchodzącej inwazji Marsjan i przyciągnął niewielką grupę ludzi. Został aresztowany za oszustwo%andcriminalmischief%.</pl>
 				</themanwho_1>
 				<themanwho_2>
 					<de>Eine Frau, die seit mehreren Jahren in %town% lebte, begann, von einer bevorstehenden Venusianer-Invasion zu schwärmen und zog eine kleine Anhängerschaft an. Sie wurde wegen Betrugs%andcriminalmischief% verhaftet.</de>
 					<en>A woman who had been living in %town% for several years began raving about an impending Venusian invasion and attracted a small following of people. She was arrested for fraud%andcriminalmischief%.</en>
-					<pl>Kobieta, która mieszkała w %town% przez kilka lat, zaczęła opowiadać o zbliżającej się inwazji Wenusjan i przyciągnęła niewielką grupę ludzi. Została aresztowana za oszustwo% i przestępstwo%.</pl>
+					<pl>Kobieta, która mieszkała w %town% przez kilka lat, zaczęła opowiadać o zbliżającej się inwazji Wenusjan i przyciągnęła niewielką grupę ludzi. Została aresztowana za oszustwo%andcriminalmischief%.</pl>
 				</themanwho_2>
 				<themanwho_3>
 					<de>Ein Mann, der behauptet, aus dem Jahr 2050 zu stammen, wurde in %town% wegen Unruhestiftung%andcriminalmischief% verhaftet. Er wurde später als psychisch krank eingestuft und gegen Kaution freigelassen.</de> <!-- TODO: Replace year 2050 with script to guarantee future? :) -->
@@ -1600,27 +1600,27 @@
 				<themanwho_4>
 					<de>Der Mann, der die Ampel von einer Straßenkreuzung in %town% stahl und angab, das Grillfest eines Freundes mit Partylichtern aufwerten zu wollen, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The man who stole the traffic light from a %town% intersection and stated he was about to spruce up a friend's barbecue with party lights has been charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który ukradł sygnalizację świetlną ze skrzyżowania w %town% i oświadczył, że ma zamiar urozmaicić grilla przyjaciela lampkami imprezowymi, został oskarżony o wielką kradzież% i przestępstwo kryminalne%.</pl>
+					<pl>Mężczyzna, który ukradł sygnalizację świetlną ze skrzyżowania w %town% i oświadczył, że ma zamiar urozmaicić grilla przyjaciela lampkami imprezowymi, został oskarżony o wielką kradzież%andcriminalmischief%.</pl>
 				</themanwho_4>
 				<themanwho_5>
 					<de>Der Mann, der die Laterne von einer Straße in %town% stahl und angab, dunkleren Gegenden ein „Licht der Hoffnung“ bringen zu wollen, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The man who stole the light from a street in %town% and stated he wanted to bring a "light of hope" to darker neighborhoods was charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który ukradł lampę z ulicy w %town% i oświadczył, że chce wnieść „światło nadziei” do ciemnych dzielnic, został oskarżony o kradzież i przestępstwo.</pl>
+					<pl>Mężczyzna, który ukradł lampę z ulicy w %town% i oświadczył, że chce wnieść „światło nadziei” do ciemnych dzielnic, został oskarżony o kradzież%andcriminalmischief%.</pl>
 				</themanwho_5>
 				<themanwho_6>
 					<de>Der Mann, der das Verkehrsschild von einer Straßenkreuzung in %town% stahl und angab, zur „Lichtung“ des „Schilderwaldproblems“ beitragen zu wollen, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The man who stole the traffic sign from an intersection in %town% and stated he wanted to contribute to the "clearing" of the "traffic sign jungle problem" was charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Mężczyzna, który ukradł znak drogowy ze skrzyżowania w %town% i oświadczył, że chce przyczynić się do „rozwiązania” „problemu dżungli znaków drogowych”, został oskarżony o kradzież% i przestępstwo kryminalne%.</pl>
+					<pl>Mężczyzna, który ukradł znak drogowy ze skrzyżowania w %town% i oświadczył, że chce przyczynić się do „rozwiązania” „problemu dżungli znaków drogowych”, został oskarżony o kradzież%andcriminalmischief%.</pl>
 				</themanwho_6>
 				<themanwho_7>
 					<de>Die Frau, die den Mülleimer eines Parks in %town% nahm und ihn 30 Meter weiter feiernden Leuten brachte, damit sie auch ihren Müll entsorgten, wurde wegen schweren Diebstahls%andcriminalmischief% angeklagt.</de>
 					<en>The woman who took the trash can from a park in %town% and moved it 30 yards over to partying people so they could dispose of their trash was charged with grand larceny%andcriminalmischief%.</en>
-					<pl>Kobieta, która zabrała kosz na śmieci z parku w %town% i przeniosła go 30 metrów dalej do imprezujących ludzi, aby mogli pozbyć się swoich śmieci, została oskarżona o wielką kradzież% i przestępstwo.</pl>
+					<pl>Kobieta, która zabrała kosz na śmieci z parku w %town% i przeniosła go 30 metrów dalej do imprezujących ludzi, aby mogli pozbyć się swoich śmieci, została oskarżona o wielką kradzież%andcriminalmischief%.</pl>
 				</themanwho_7>
 				<andcriminalmischief>
 					<de> und kriminellen Fehlverhaltens| und ordnungswidrigen Verhaltens|</de>
 					<en> and criminal mischief| and disorderly conduct|</en>
-					<pl>i wykroczenie| i zakłócanie porządku|</pl>
+					<pl> i wykroczenie| i zakłócanie porządku|</pl>
 				</andcriminalmischief>
 				<town>
 					<de>%STATIONMAP:RANDOMCITY%</de>
@@ -1695,12 +1695,12 @@
 			<title>
 				<de>Kriegsausstellung in %exhibitiontown% erweitert</de>
 				<en>War exhibition in %exhibitiontown% expanded</en>
-				<pl>Wystawa wojenna w %exhibitiontown% rozszerzona</pl>
+				<pl>Wystawa wojenna w mieście %exhibitiontown% rozszerzona</pl>
 			</title>
 			<description>
 				<de>Anlässlich des AvW-Vorstoßes nimmt die gerade in %exhibitiontown% gastierende Wanderausstellung „Krieg und Mensch“ den schon seit Jahren eingestellten Rundgang „Was bleibt nach dem Fallout“ wieder ins Programm auf.</de>
 				<en>In response to the AotW push, the traveling exhibit "War and Man" currently touring %exhibitiontown% is reinstating the trail "What Remains After the Fallout," which had been suspended for several years.</en>
-				<pl>W odpowiedzi na kampanię AotW, objazdowa wystawa „Wojna i człowiek”, która obecnie podróżuje po %exhibitiontown%, przywraca „Co pozostaje po upadku”, która została zawieszona na kilka lat.</pl>
+				<pl>W odpowiedzi na kampanię AotW, objazdowa wystawa „Wojna i człowiek”, która obecnie podróżuje po mieście %exhibitiontown%, przywraca „Co pozostaje po upadku”, która została zawieszona na kilka lat.</pl>
 			</description>
 			<data genre="5" price="1" quality="40" fictional="1" />
 			<effects>
