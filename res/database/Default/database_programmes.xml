@@ -5286,12 +5286,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 2 - Jetzt geht's erst richtig los</de>
 				<en>Police Academy 2: Their First Assignment</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 2: Pierwsze zadanie</pl>
 			</title_original>
 			<description>
 				<de>Zweiter Einsatz für die chaotische Truppe.</de>
 				<en>Second mission for the chaotic troop.</en>
-				<pl></pl>
+				<pl>Absolwenci Akademii zostają przydzieleni do nowego komisariatu, by rozprawić się z szalejącym w mieście gangiem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e59bf32-67a2-4582-95f6-bce416066224</member>
@@ -5315,12 +5315,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 3 - ...und keiner kann sie bremsen</de>
 				<en>Police Academy 3: Back in Training</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 3: Powrót do szkoły</pl>
 			</title_original>
 			<description>
 				<de>Die beiden staatlichen Polizeiakademien sollen geschlossen werden. Die Kadetten beider Akademien treten in einem Wettkampf gegeneinander an.</de>
 				<en>The two state police academies are to be closed. The cadets of both academies engage in a competition against each other.</en>
-			<pl></pl>
+				<pl>Podopieczni komendanta Lassarda pomagają w przeszkoleniu nowych kadetów, by akademia nie została zamknięta.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e59bf32-67a2-4582-95f6-bce416066224</member>
@@ -5344,12 +5344,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 4 - Und jetzt geht's rund</de>
 				<en>Police Academy 4: Citizens on Patrol</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 4: Patrol obywatelski</pl>
 			</title_original>
 			<description>
 				<de>Die Sergeants Mahoney, Hightower &amp; Co wieder im Einsatz.</de>
 				<en>Sergeants Mahoney, Hightower &amp; Co back in action.</en>
-				<pl></pl>
+				<pl>By zwiększyć bezpieczeństwo mieszkańców, komendant akademii angażuje cywili do pomocy policji w patrolowaniu miasta.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">295ca559-7620-4c6d-a5b5-3ae20f817fbc</member>
@@ -5375,12 +5375,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 5 - Auftrag Miami Beach</de>
 				<en>Police Academy 5: Assignment: Miami Beach</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 5: Misja w Miami Beach</pl>
 			</title_original>
 			<description>
 				<de>Wie in jedem Jahr ein neuer Teil, doch Achtung: Diesmal ist [2|Full] als Ersatz für [1|Full] dabei!</de>
 				<en>Like every year a new part, but beware: This time [2|Full] is included as a replacement for [1|Full]!</en>
-			<pl></pl>
+				<pl>Komendant Lassard dostaje nagrodę, którą ma odebrać podczas zjazdu komendantów w Miami Beach. Decyduje się zabrać swoich najlepszych policjantów.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">ef5fa1c2-660e-400c-972e-8b7ca81a90a9</member>
@@ -5406,12 +5406,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 6 - Widerstand zwecklos</de>
 				<en>Police Academy 6: City Under Siege</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 6: Operacja Chaos</pl>
 			</title_original>
 			<description>
 				<de>Mittlerweile dürften sogar die Hartgesottenen das Konzept der Reihe verstanden haben.</de>
 				<en>By now, even the die-hards should have understood the concept of the series.</en>
-				<pl></pl>
+				<pl>Absolwenci Akademii Policyjnej otrzymują zadanie powstrzymania rabusiów banków oraz sklepów jubilerskich.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">ae4a4600-5347-4846-bbb1-7bf653a61cbd</member>
@@ -5435,12 +5435,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy 7 - Mission in Moskau</de>
 				<en>Police Academy: Mission to Moscow</en>
-				<pl></pl>
+				<pl>Akademia Policyjna 7: Misja w Moskwie</pl>
 			</title_original>
 			<description>
 				<de>Nach vier Jahren Pause hat man die alte Goldgrube über die Polizeikadetten noch einmal ausgekratzt. Ob man inzwischen von einem Abschluß sprechen kann? Man kann nie wissen.</de>
 				<en>After a four-year break, the old goldmine about the police cadets has been dug up once again. Can we talk about a conclusion in the meantime? You'll never know.</en>
-			<pl></pl>
+				<pl>Rosjanie potrzebują pomocy w walce z mafią. Do Moskwy ruszają weterani Akademii Policyjnej.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">73da0f79-3d5d-4943-8c93-28cafca0bf50</member>
@@ -5462,14 +5462,14 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Dressed to Kill</de>
 				<en>Dressed to Kill</en>
-				<pl></pl>
+				<pl>Dressed to Kill - W przebraniu mordercy</pl>
 			</title_original>
 			<description>
 				<de>Verstörende Geschichte um einen bestialischen Mord.
 [0|Full]s Kult-Schocker.</de>
 				<en>Disturbing story about a bestial murder.
 [0|Full]'s cult shocker.</en>
-<pl></pl>
+				<pl>Tajemnicza kobieta szuka pomocy u psychoanalityka. Kiedy pacjentka zostaje zamordowana, jej syn próbuje odnaleźć zabójcę.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">6b53e3ec-0d66-4131-84ec-a48b9bbe3b77</member>
@@ -5491,7 +5491,7 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Psycho</de>
 				<en>Psycho</en>
-				<pl></pl>
+				<pl>Psychoza</pl>
 			</title_original>
 			<description>
 				<de>Oft kopiert und nie erreicht: Die Duschszene in Bates Motel.
@@ -5500,7 +5500,7 @@ Klassiker von [0|Full].</de>
 				<en>Often copied and never matched: the shower scene in Bates Motel.
 
 Classic by [0|Full].</en>
-<pl></pl>
+				<pl>Dziewczyna uciekająca ze skradzionymi pieniędzmi zatrzymuje się w pensjonacie prowadzonym przez młodego Normana Batesa. To tu jest słynna scena pod prysznicem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f489dd7-a5f3-431b-ae48-9fefcdeac40e</member>
@@ -5526,14 +5526,14 @@ Classic by [0|Full].</en>
 			<title_original>
 				<de>Zwölf Uhr mittags</de>
 				<en>High Noon</en>
-				<pl></pl>
+				<pl>High Noon - W samo południe</pl>
 			</title_original>
 			<description>
 				<de>Der Western, reduziert auf sein Hauptmotiv, das Duell.
 Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal eines frisch verheirateten Sheriffs. Showdown: Zwölf Uhr mittags.</de>
 				<en>The Western, reduced to its main motif, the duel.
 [0|Last]'s classic describes the fate of a newly married sheriff almost in a time-covering narrative tempo. Showdown: twelve o'clock at noon.</en>
-			<pl></pl>
+				<pl>Western zredukowany do głównego motywu - pojedynku. Osamotniony szeryf staje do walki z bandą kryminalistów.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3bfe0f5c-eb37-4559-9300-4fe0ab3bdb9b</member>
@@ -5554,12 +5554,12 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Eraserhead</de>
 				<en>Eraserhead</en>
-				<pl></pl>
+				<pl>Eraserhead - Głowa do wycierania</pl>
 			</title_original>
 			<description>
 				<de>[0|Full] landete mit diesem Film seinen ersten großen Hit, seine Vorliebe für das Absurde beweist er hier nur zu deutlich.</de>
 				<en>[0|Full] landed his first big hit with this flick, proving his fondness for the absurd all too clearly here.</en>
-			<pl></pl>
+				<pl>Henry żyje w zindustrializowanym świecie. Podczas kolacji u rodziców swojej dziewczyny dowiaduje się, że został ojcem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">424d8116-afc9-44e4-b076-79b51c2b1f0d</member>
@@ -5580,12 +5580,12 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Eraser</de>
 				<en>Eraser</en>
-				<pl></pl>
+				<pl>Eraser - Egzekutor</pl>
 			</title_original>
 			<description>
 				<de>John Kruger arbeitet als U.S. Marshal im Zeugenschutzprogramm. Er hat es mit hochmodernen und -zerstörerischen Waffen zu tun, und ein Komplott erschwert seine harte Aufgabe zusätzlich.</de>
 				<en>John Kruger works as an U.S. Marshal in the witness protection program. He has to deal with highly advanced and highly destructive weapons, and a conspiracy further complicates his tough task.</en>
-			<pl></pl>
+				<pl>Śledczy John Kruger musi chronić swoją klientkę, która odkryła poważny spisek w kręgach władzy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">5ba63fce-dbe5-408e-81d8-806469a52030</member>
@@ -5606,14 +5606,15 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Starship Troopers</de>
 				<en>Starship Troopers</en>
-				<pl></pl>
+				<pl>Starship Troopers - Żołnierze kosmosu</pl>
 			</title_original>
 			<description>
 				<de>Eine brutale Schlacht Soldaten gegen Rieseninsekten.
 [0|Last]s „gewaltiger“ Science-Fiction-Knaller.</de>
 				<en>A brutal battle of soldiers versus giant insects.
 [0|Last]'s vast and violent science fiction smash hit.</en>
-<pl></pl>
+				<pl>Brutalna walka żołnierzy z gigantycznymi owadami.
+Rozległy i brutalny hit science fiction.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">10d455be-e8e5-40eb-927b-c36e3345525d</member>
@@ -5635,12 +5636,12 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Kampfstern Galactica - Saga of a Star World</de>
 				<en>Battlestar Galactica: Saga of a Star World</en>
-				<pl></pl>
+				<pl>Battlestar Galactica: Saga gwiezdnego świata</pl>
 			</title_original>
 			<description>
 				<de>Das titelgebende Raumschiff macht sich, der Zerstörung entkommend, mit einem Konvoi aus Transportschiffen auf den Weg zur Erde, wo die letzten Menschen vermutet werden.</de>
 				<en>The eponymous starship, escaping destruction, sets off with a convoy of transport ships towards Earth, where the last humans are believed to be.</en>
-			<pl></pl>
+				<pl>Tytułowy statek gwiezdny, uciekając przed zniszczeniem, wyrusza z konwojem statków transportowych w kierunku Ziemi, gdzie uważa się, że znajdują się ostatni ludzie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e92a957f-ecce-4d49-966b-e8a800d3f782</member>
@@ -5660,12 +5661,12 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Running Man</de>
 				<en>The Running Man</en>
-				<pl></pl>
+				<pl>The Running Man - Uciekinier</pl>
 			</title_original>
 			<description>
 				<de>In der Zukunft wird Ben Richards zu Unrecht verurteilt. Er hat als Todeskandidat in einer sadistischen TV-Show aufzutreten. Trotz knallharter Gegner und Fallen schlägt er sich wacker.</de>
 				<en>In the future, Ben Richards is wrongfully convicted. He has to appear as a death candidate in a sadistic TV show. Despite tough opponents and traps, he puts up a good fight.</en>
-			<pl></pl>
+				<pl>Oskarżony o zabójstwo policjant trafia do teleturnieju, w którym walczy o życie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">02718ffd-e3ab-4ad2-bac6-1fa52bbb0604</member>
@@ -5688,12 +5689,12 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Reservoir Dogs: Wilde Hunde</de>
 				<en>Reservoir Dogs</en>
-				<pl></pl>
+				<pl>Reservoir Dogs - Wściekłe psy</pl>
 			</title_original>
 			<description>
 				<de>Ein Juwelendiebstahl geht schief. Die dafür angeheuerten Verbrecher diskutieren über die Lage und verfallen in Mißtrauen...</de>
 				<en>A jewel heist goes wrong. The criminals hired for the job discuss the situation and fall into mistrust...</en>
-			<pl></pl>
+				<pl>Kradzież klejnotów idzie źle. Wynajęci przestępcy omawiają sytuację i popadają w nieufność...</pl>
 			</description>
 			<staff>
 				<member index="0" function="5">3cf25d4a-f126-4346-98c9-ef1568bc0e05</member>
@@ -5715,14 +5716,14 @@ Fast in zeitdeckendem Erzähltempo beschreibt [0|Last]s Klassiker das Schicksal 
 			<title_original>
 				<de>Flashdance</de>
 				<en>Flashdance</en>
-				<pl></pl>
+				<pl>Flashdance</pl>
 			</title_original>
 			<description>
 				<de>Alex arbeitet tagsüber als Schweißerin und tanzt nachts in einem Club. Ihr großer Traum ist es, professionelle Ballettänzerin zu werden.
 Oscar für den Titelsong „What a Feeling“.</de>
 				<en>Alex works as a welder during the day and dances in a club at night. Her big dream is to become a professional ballet dancer.
 Oscar for the title song "What a Feeling".</en>
-<pl></pl>
+				<pl>Dziewczyna z Pittsburgha pracująca jako spawaczka i tancerka egzotyczna chce dostać się do szkoły baletowej.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">bd3f227f-6632-4537-8d8b-ee234f00f0c4</member>
@@ -5740,10 +5741,12 @@ Oscar for the title song "What a Feeling".</en>
 			<title_original>
 				<de>Judge Dredd</de>
 				<en>Judge Dredd</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Auf der Erde der Zukunft liegt die Staatsgewalt in den Händen der sog. Judges. Eines Tages stellt sich einer dieser Judges einer heranrollenden Gefahr, die tief in seiner Vergangenheit wurzelt...</de>
 				<en>On the Earth of the future, the power of the state is in the hands of the so-called Judges. One day, one of these Judges faces an approaching danger that has deep roots in his past...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">56bc2e4a-6a05-44b5-a62d-ac83f7db4b9e</member>
@@ -5765,12 +5768,14 @@ Oscar for the title song "What a Feeling".</en>
 			<title_original>
 				<de>Richie Rich</de>
 				<en>Richie Rich</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Titelfigur hat einen steinreichen Vater, doch es fällt ihm schwer, Freunde zu gewinnen.
 Nett.</de>
 				<en>The title character has an immensely rich father, but has a hard time making friends.
 Likeable.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e608dd79-59c5-49b9-8a3b-fd59050627c8</member>
@@ -5788,6 +5793,7 @@ Likeable.</en>
 			<title_original>
 				<de>Rocky</de>
 				<en>Rocky</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Titelfigur schlägt sich als Boxer durchs Leben. Unerwartet bekommt er die Chance, um den WM-Titel zu boxen.
@@ -5796,6 +5802,7 @@ Likeable.</en>
 				<en>The title character is struggling through life as a boxer. Unexpectedly, he gets a chance to box for the world title.
 
 Surprise success for [1|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">23c284d2-82ea-4464-acd4-b13c32db133b</member>
@@ -5819,10 +5826,12 @@ Surprise success for [1|Last].</en>
 			<title_original>
 				<de>Rocky II</de>
 				<en>Rocky II</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Weltmeister Apollo Creed gibt dem beim letzten Mal knapp gescheiterten Titelhelden einen Revanchekampf. Dieser sollte den Weltmeister diesmal auf die Bretter schicken, um nicht wieder in die Bedeutungslosigkeit abzurutschen.</de>
 				<en>World champion Apollo Creed gives the eponymous hero, who narrowly failed last time, a revenge fight. The latter better should knock the world champion to the floor this time in order not to slip back into irrelevance.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="7">836b4aa3-b5c6-4529-b30d-4501594cdf13</member>
@@ -5846,10 +5855,12 @@ Surprise success for [1|Last].</en>
 			<title_original>
 				<de>Rocky III - Das Auge des Tigers</de>
 				<en>Rocky III</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der „Italienische Hengst“ kann seinen Titel erfolgreich verteidigen, bis ihn der Herausforderer Clubber Lang k.o. schlägt. Doch Balboa gibt sich nicht geschlagen...</de>
 				<en>The "Italian Stallion" can successfully defend his title until challenger Clubber Lang knocks him out. But Balboa does not give in...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="7">836b4aa3-b5c6-4529-b30d-4501594cdf13</member>
@@ -5873,10 +5884,12 @@ Surprise success for [1|Last].</en>
 			<title_original>
 				<de>Rocky IV - Der Kampf des Jahrhunderts</de>
 				<en>Rocky IV</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der „Italienische Hengst“ muß gegen das Boxtier Ivan Drago aus Russland antreten. Der harte Kampf steht ihm in Moskau bevor.</de>
 				<en>The "Italian Stallion" has to fight against the boxing beast Ivan Drago of Russia. The hard fight is ahead of him in Moscow.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="7">836b4aa3-b5c6-4529-b30d-4501594cdf13</member>
@@ -5900,10 +5913,12 @@ Surprise success for [1|Last].</en>
 			<title_original>
 				<de>Rocky V</de>
 				<en>Rocky V</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Mit R. Balboas Karriere geht es abwärts. Er erklärt seinen Rücktritt. Noch dazu gerät er in arge Finanzprobleme. Als Trainer versucht er, neue Erfolge zu verzeichnen.</de>
 				<en>R. Balboa's career is going downhill. He declares his resignation. On top of that, he gets into serious financial problems. As a trainer he tries to achieve new successes.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">23c284d2-82ea-4464-acd4-b13c32db133b</member>
@@ -5924,6 +5939,7 @@ Surprise success for [1|Last].</en>
 			<title_original>
 				<de>RoboCop</de>
 				<en>RoboCop</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein im Kampf schwer verwundeter Polizist wird zu einem Kampfroboter verarbeitet. Er soll der moderne Vorzeigepolizist werden.
@@ -5932,6 +5948,7 @@ Knallharter Sci-Fi-Actioner von [0|Full].</de>
 				<en>A policeman who was seriously wounded in battle is turned into a combat robot. He is to become the modern role model police officer.
 
 Cracking sci-fi actioner from [0|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">10d455be-e8e5-40eb-927b-c36e3345525d</member>
@@ -5958,12 +5975,14 @@ Cracking sci-fi actioner from [0|Full].</en>
 			<title_original>
 				<de>RoboCop 2</de>
 				<en>RoboCop 2</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der titelgebende Cyborg-Cop soll durch ein verbessertes Modell ersetzt werden. Doch er hat immer noch Pflichten auf den Straßen Detroits zu erledigen.
 Gute Action, aber mehr auch nicht.</de>
 				<en>The eponymous cyborg-cop is to be replaced by an improved model. But he still has duties to perform on the streets of Detroit.
 Good action, but nothing more.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">57004c5c-fad7-4982-848b-5108fb2212a2</member>
@@ -5991,12 +6010,14 @@ Good action, but nothing more.</en>
 			<title_original>
 				<de>RoboCop 3</de>
 				<en>RoboCop 3</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der Cyborg-Cop muss zusammen mit einer Untergrundbewegung gefährliche Widersacher ausschalten...
 3. Teil der Reihe, leider ohne [1|Full] und ohne Klasse.</de>
 				<en>The cyborg-cop, together with an underground movement, must eliminate dangerous adversaries...
 3rd part of the series, unfortunately without [1|Full] and without class.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e553bb6c-7300-4816-8f09-ac55f0372f99</member>
@@ -6023,12 +6044,14 @@ Good action, but nothing more.</en>
 			<title_original>
 				<de>Roter Drache</de>
 				<en>Red Dragon</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Noch vor „Schweigende Hammel“: Bei seinen Ermittlungen gegen einen Massenmörder muss Will Graham auf den Rat Lecters zurückgreifen.
 [1|Last] zum dritten Mal in der Rolle seines Lebens.</de>
 				<en>Prior to the events with the silent sheep: Investigating a mass murderer, Will Graham must call on Lecter's advice.
 [1|Last] for the third time in the role of his life.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9d4fc9ac-8e0b-4ba1-9470-186138af27b4</member>
@@ -6054,12 +6077,14 @@ Good action, but nothing more.</en>
 			<title_original>
 				<de>Zurück in die Zukunft</de>
 				<en>Back to the Future</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Doc Brown hat eine bedeutende Erfindung gemacht: eine Zeitmaschine. Teenager Marty McFly reist damit in die 50er Jahre zurück...
 Kult aus den 80ern.</de>
 				<en>Doc Brown has made a significant invention: a time machine. Teenager Marty McFly travels back to the 50s with it...
 Cult from the 80s.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">a255cbb2-cca8-406e-b064-25b912aad1c8</member>
@@ -6083,10 +6108,12 @@ Cult from the 80s.</en>
 			<title_original>
 				<de>Zurück in die Zukunft II</de>
 				<en>Back to the Future Part II</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Marty und Doc Brown setzen die Zeitmaschine wieder ein, um die Vergangenheit zu bereinigen. Doch sie bewegen sich auf dünnem Eis.</de>
 				<en>Marty and Doc Brown use the time machine again to clean up the past. But they are treading on thin ice.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">a255cbb2-cca8-406e-b064-25b912aad1c8</member>
@@ -6111,12 +6138,14 @@ Cult from the 80s.</en>
 			<title_original>
 				<de>Zurück in die Zukunft III</de>
 				<en>Back to the Future Part III</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Marty McFly verschlägt es in den Wilden Westen. Um Doc Brown vor dem Tod zu bewahren, will er ihn mitnehmen:
 zurück in die Zukunft.</de>
 				<en>Marty McFly lands in the Wild West. To save Doc Brown from death, he wants to take him with him:
 back to the Future.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">a255cbb2-cca8-406e-b064-25b912aad1c8</member>
@@ -6137,12 +6166,14 @@ back to the Future.</en>
 			<title_original>
 				<de>Friedhof der Kuscheltiere</de>
 				<en>Pet Sematary</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Mann begräbt seinen Sohn auf einem Tierfriedhof. Dieser kehrt als Untoter zurück und wütet schrecklich.
 Kult-Horror nach dem Roman von [1|Full].</de>
 				<en>A man buries his son in a pet cemetery. The latter returns as an undead and rages terribly.
 Cult horror based on the novel by [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">35321537-6389-4958-a3b9-e078adfe9e7b</member>
@@ -6168,12 +6199,14 @@ Cult horror based on the novel by [1|Full].</en>
 			<title_original>
 				<de>Das Schweigen der Lämmer</de>
 				<en>The Silence of the Lambs</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die junge Clarice Starling versucht, den Massenmörder Buffalo Bill zu fassen. Dabei ist Starling auf die Hilfe des inhaftierten Hannibal Lecter angewiesen.
 Genauso grausam wie genial.</de>
 				<en>The young Clarice Starling tries to catch the mass murderer Buffalo Bill. Starling is dependent on the help of the imprisoned Hannibal Lecter.
 As cruel as it is ingenious.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7a8c09c1-5b8c-489a-939a-9d2580f84154</member>
@@ -6199,10 +6232,12 @@ As cruel as it is ingenious.</en>
 			<title_original>
 				<de>Sieben</de>
 				<en>Se7en</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Mörder sucht sich seine Opfer nach den sieben Todsünden aus. [1|Full] als Polizist muss ihn aufhalten, merkt aber zu spät, daß aus dem Jäger schnell der Gejagte werden kann.</de>
 				<en>A murderer chooses his victims according to the seven deadly sins. [1|Full] as a policeman must stop him, but realizes too late that the hunter can quickly become the hunted.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e5808d6-1736-44a5-9409-9218230a7806</member>
@@ -6225,12 +6260,14 @@ As cruel as it is ingenious.</en>
 			<title_original>
 				<de>Citizen Kane</de>
 				<en>Citizen Kane</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Medienmogul Charles Foster K. stirbt und hinterläßt der Nachwelt ein Rätsel um sein letztes Wort: Rosebud.
 Gilt bei vielen Kritikern als bester Film aller Zeiten.</de>
 				<en>Media mogul Charles Foster K. dies and leaves to posterity a mystery about his last word: Rosebud.
 Considered by many critics to be the best film of all time.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8fd0eba6-3ac0-41eb-8a86-514fa77dc9a2</member>
@@ -6250,12 +6287,14 @@ Considered by many critics to be the best film of all time.</en>
 			<title_original>
 				<de>Der 90. Geburtstag oder Dinner for One</de>
 				<en>Dinner for One</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Miss Sophie hat sich zu ihrem 90. Geburtstag vier alte Freunde eingeladen. Da diese jedoch längst verstorben sind, muss Butler James sie vertreten.
 Silvester-Spaß.</de>
 				<en>Miss Sophie has invited four old friends to her 90th birthday party. However, since they have long ago passed away, butler James has to stand in for them.
 New Year's Eve fun and ritual to watch in some countries.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">1ff322ff-a2e2-44e4-8972-270abe709749</member>
@@ -6279,10 +6318,12 @@ New Year's Eve fun and ritual to watch in some countries.</en>
 			<title_original>
 				<de>Ausnahmezustand</de>
 				<en>The Siege</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Islamisten versetzen New York mit Bombenattentaten in Panik. Der Sonderrechtszustand wird ausgerufen, das Militär übernimmt die Stadt.</de>
 				<en>Islamists throw New York into panic with bomb attacks. A state of emergency is declared and the military takes over the city.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">fee7aeab-0e92-4cbf-82e5-6e456583fa51</member>
@@ -6301,12 +6342,14 @@ New Year's Eve fun and ritual to watch in some countries.</en>
 			<title_original>
 				<de>Spartacus</de>
 				<en>Spartacus</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Geschichte des Gladiatoren Spartakus, der in Rom einen großen Aufstand anzettelt.
 Große Bilder, [0|Last] konnte jedoch nicht nach seinen Vorstellungen arbeiten.</de>
 				<en>The story of the gladiator Spartacus, who incites a great uprising in Rome.
 Great imagery, [0|Last] but could not work in accordance with his vision.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">153dc080-86a1-4f3d-bb13-65b3aa90f7ea</member>
@@ -6328,12 +6371,14 @@ Great imagery, [0|Last] but could not work in accordance with his vision.</en>
 			<title_original>
 				<de>The Game - Das Geschenk seines Lebens</de>
 				<en>The Game</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein erfolgreicher Geschäftsmann wird in ein aberwitziges Spiel um Leben und Tod verwickelt.
 Ein typischer [0|Last].</de>
 				<en>A successful businessman becomes involved in a ludicrous game of life and death.
 A typical [0|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e5808d6-1736-44a5-9409-9218230a7806</member>
@@ -6355,10 +6400,12 @@ A typical [0|Last].</en>
 			<title_original>
 				<de>Sin City</de>
 				<en>Sin City</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[0|Full]s Verfilmung der [1|Full]-Comics ist brutal und voll von tiefschwarzem Humor.</de>
 				<en>[0|Full]'s film adaptation of the [1|Full] comics is brutal and full of deep black humor.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">514b8caf-e88f-4137-8a2d-43521569accf</member>
@@ -6382,6 +6429,7 @@ A typical [0|Last].</en>
 			<title_original>
 				<de>Stargate</de>
 				<en>Stargate</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Durch ein Tor gelangt eine Gruppe amerikanischer Pioniere auf einen entfernten Planeten.
@@ -6390,6 +6438,7 @@ Aufwendiges Actionspektakel von Regisseur [0|Full].</de>
 				<en>Through a gate, a group of American pioneers arrive on a distant planet.
 
 Elaborate action spectacle from director [0|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">4f804998-4da5-4317-a041-2695d84fae11</member>
@@ -6413,10 +6462,12 @@ Elaborate action spectacle from director [0|Full].</en>
 			<title_original>
 				<de>Wilde Orchidee</de>
 				<en>Wild Orchid</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Abgründige Liebesgeschichte mit Macho [1|Full].</de>
 				<en>A love story revealing abysses with macho [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0128a26b-dbc2-42dd-817e-480e54bd9ba7</member>
@@ -6437,12 +6488,14 @@ Elaborate action spectacle from director [0|Full].</en>
 			<title_original>
 				<de>Lethal Weapon - Zwei stahlharte Profis</de>
 				<en>Lethal Weapon</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Polizisten Murtaugh ([2|Last]) und Riggs ([1|Last]) bilden ein ungleiches Team. Doch die erfolgreiche Arbeit bringt auch privaten Kontakt mit sich.
 Kultige Action-Komödie voller Spannung und Spaß.</de>
 				<en>The police officers Murtaugh ([2|Last]) and Riggs ([1|Last]) form an unequal team. But the successful work also brings private contact.
 Cult action comedy full of suspense and fun.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">4cfa15ed-912a-44fd-bc67-c8a434af7225</member>
@@ -6467,12 +6520,14 @@ Cult action comedy full of suspense and fun.</en>
 			<title_original>
 				<de>Lethal Weapon 2 - Brennpunkt L.A.</de>
 				<en>Lethal Weapon 2</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Riggs und Murtaugh sollen Buchmacher Leo ([2|Full]) bis zu seiner Gerichtsaussage beschützen. Doch Leo weiß mehr, als er zugeben möchte...
 Steht Teil 1 in nichts nach.</de>
 				<en>Riggs and Murtaugh are supposed to protect bookie Leo ([2|Full]) until he testifies in court. But Leo knows more than he wants to admit...
 In no way inferior to part 1.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">4cfa15ed-912a-44fd-bc67-c8a434af7225</member>
@@ -6495,12 +6550,14 @@ In no way inferior to part 1.</en>
 			<title_original>
 				<de>Lethal Weapon 4 - Zwei Profis räumen auf</de>
 				<en>Lethal Weapon 4</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Riggs und Murtaugh entdecken bei einer nächtlichen Angeltour ein Schiff mit illegalen Einwanderern. Sie nehmen die Fährte auf.
 Auch das vierte Tödliche-Waffen-Abenteuer ist ein wahres Schmuckstück.</de>
 				<en>Riggs and Murtaugh discover a boat carrying illegal immigrants during a night fishing trip. They pick up the trail.
 Also the fourth fatal weapon adventure is a real gem.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">4cfa15ed-912a-44fd-bc67-c8a434af7225</member>
@@ -6522,10 +6579,12 @@ Also the fourth fatal weapon adventure is a real gem.</en>
 			<title_original>
 				<de>Deep Impact</de>
 				<en>Deep Impact</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Komet rast auf die Erde zu. Die Versuche, den Kometen aus seiner Bahn zu bringen, schlagen fehl.</de>
 				<en>A comet is hurtling toward Earth. Attempts to move the comet out of its orbit fail.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d3ad96ba-e2a3-48a4-b7a8-ae999e2e6a6b</member>
@@ -6549,12 +6608,14 @@ Also the fourth fatal weapon adventure is a real gem.</en>
 				<en>The Great Silence</en>
 				<it>Il grande silenzio</it>
 				<fr>Le Grand Silence</fr>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Kampf zwischen Ordnungshütern und Kopfgeldjägern.
 Klassiker von [0|Full].</de>
 				<en>Battle between law enforcers and bounty hunters.
 Classic from [0|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0b680977-89b4-4022-b474-091cbcc15a12</member>
@@ -6577,12 +6638,14 @@ Classic from [0|Full].</en>
 			<title_original>
 				<de>Requiem for a Dream</de>
 				<en>Requiem for a Dream</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Totenmesse für einen Traum ist mit seinen Schocktechniken und seinem Sounddesign ein erbarmungsloser Angriff auf die Sinne.
 Ohne Frage einer der effektivsten Filme über die Erfahrung der Drogensucht.</de>
 				<en>This dreamy requiem is a relentless assault on the senses with its shock techniques and sound design.
 Without question one of the most effective films about the experience of drug addiction.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="5">67f8e51a-263b-47c2-a8fe-6f957d6ecd9c</member>
@@ -6609,12 +6672,14 @@ Without question one of the most effective films about the experience of drug ad
 			<title_original>
 				<de>True Lies - Wahre Lügen</de>
 				<en>True Lies</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Geheimagent Harry Tasker lebt ein Doppelleben. Seine Frau Helen ahnt nichts von seinem gefährlichen Job.
 Spritziger Actioner mit dem Erfolgsduo [0|Last] / [1|Last].</de>
 				<en>Secret agent Harry Tasker lives a double life. His wife Helen has no idea about his dangerous job.
 Lively actioner with the successful duo [0|Last] / [1|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2371f9cf-79a1-4dc4-8909-f69511853549</member>
@@ -6636,12 +6701,14 @@ Lively actioner with the successful duo [0|Last] / [1|Last].</en>
 				<de>Django</de>
 				<en>Django</en>
 				<it>Django</it>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Fremder kommt in eine Kleinstadt. Er zieht einen Sarg hinter sich her...
 [0|Last]-Western mit viel Gewalt; Mitbegründer des Italo-Westerns.</de>
 				<en>A stranger comes to a small town. He is dragging a coffin behind him...
 [0|Last]-Western with a lot of violence; co-founder of the Italo-Western.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0b680977-89b4-4022-b474-091cbcc15a12</member>
@@ -6667,12 +6734,14 @@ Lively actioner with the successful duo [0|Last] / [1|Last].</en>
 				<de>Spiel mir das Lied vom Tod</de>
 				<en>Once Upon a Time in the West</en>
 				<it>C'era una volta il West</it>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[0|Last]s letzter Western vereint seine Gedanken vom Tod des Wilden Westens.
 Mit der unvergleichlichen Musik [5|Full]s.</de>
 				<en>[0|Last]'s last Western unifies his thoughts about the death of the Wild West.
 With the incomparable music of [5|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">854537be-c9f6-4f13-90bb-97f46e821b6e</member>
@@ -6694,12 +6763,14 @@ With the incomparable music of [5|Full].</en>
 			<title_original>
 				<de>A.I.: Künstliche Intelligenz</de>
 				<en>Artificial Intelligence</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Als Ersatz für ihren schwer kranken Sohn adoptiert das Ehepaar Swinton einen Roboter, der einem Menschen erstaunlich nahe kommt.
 [0|Last]s Hommage an [1|Full].</de>
 				<en>To replace their seriously ill son, Mr. and Mrs. Swinton adopt a robot that looks remarkably close to a human.
 [0|Last]s tribute to [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="5">95bfcae9-e542-49e8-9b69-a4a77e4cc42c</member>
@@ -6720,6 +6791,7 @@ With the incomparable music of [5|Full].</en>
 			<title_original>
 				<de>Uhrwerk Orange</de>
 				<en>A Clockwork Orange</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Horrorshow des jungen Alex mit seinen drei Droogs.
@@ -6728,6 +6800,7 @@ Die ultimative Filmfarce von [0|Full].</de>
 				<en>The horror show of young Alex with his three droogs.
 
 The ultimate film farce of [0|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">153dc080-86a1-4f3d-bb13-65b3aa90f7ea</member>
@@ -6750,12 +6823,14 @@ The ultimate film farce of [0|Full].</en>
 			<title_original>
 				<de>Memento</de>
 				<en>Memento</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Mann, der sein Kurzzeitgedächtnis verloren hat, begibt sich auf die Suche nach dem Mörder seiner Frau.
 Spannende Story, rückwärts erzählt.</de>
 				<en>A man who has lost his short-term memory sets out to find his wife's killer.
 Thrilling story, told backwards.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">01ff36f8-91f4-4e20-8f68-4d9a80624df7</member>
@@ -6775,12 +6850,14 @@ Thrilling story, told backwards.</en>
 			<title_original>
 				<de>Auf der Flucht</de>
 				<en>The Fugitive</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Dr. Richard Kimble ist angesehener Chirurg in Chicago. Eines Tages wird seine Frau ermordet. Kimble gerät unter Tatverdacht. Er flüchtet, um den wahren Mörder finden.
 Nach der erfolgreichen Serie.</de>
 				<en>Dr. Richard Kimble is a respected surgeon in Chicago. One day his wife is murdered. Kimble falls under suspicion. He flees to find the real murderer.
 After the successful series.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0cc280ff-5a5d-4f43-9fdb-03603c7b54e6</member>
@@ -6802,12 +6879,14 @@ After the successful series.</en>
 			<title_original>
 				<de>Vanilla Sky</de>
 				<en>Vanilla Sky</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Das Leben des erfolgreichen Geschäftsmannes David Aames wandelt sich jäh, als er in einen Autounfall verwickelt und sein Gesicht entstellt wird.
 Kühler Thriller mit Schockwirkung.</de>
 				<en>The life of successful businessman David Aames changes abruptly when he is involved in a car accident and his face is mangled.
 Chilling thriller with shock value.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="5">feb5205b-a1ac-4e09-9cbe-451998be69a9</member>
@@ -6832,12 +6911,14 @@ Chilling thriller with shock value.</en>
 			<title_original>
 				<de>Fight Club</de>
 				<en>Fight Club</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein geheimer Bund wird gegründet, in dem das gegenseitige Schlagen im Vordergrund steht.
 Aufwühlender Film von [0|Full].</de>
 				<en>A secret fraternity is formed in which the emphasis is on beating each other.
 Stirring film by [0|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e5808d6-1736-44a5-9409-9218230a7806</member>
@@ -6857,10 +6938,12 @@ Stirring film by [0|Full].</en>
 			<title_original>
 				<de>Auf der Jagd</de>
 				<en>U.S. Marshals</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Mark Sheridan steht unter Mordverdacht. Mit einem Flugzeug wird er nach New York gebracht. Der Jet muß notlanden, Sheridan kann fliehen. Doch U.S. Marshal Gerard begibt sich auf die Jagd...</de>
 				<en>Mark Sheridan is suspected of murder. He is brought to New York by plane. The jet has to make an emergency landing, Sheridan manages to escape. But U.S. Marshal Gerard goes on the hunt...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d5dac0ec-de7e-4015-a24e-b96a9868ad2b</member>
@@ -6881,6 +6964,7 @@ Stirring film by [0|Full].</en>
 			<title_original>
 				<de>Verlorene Helden</de>
 				<en>Ordinary Heroes</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Als er einem Kameraden das Leben rettet, wird Tony Kaiser schwer verwundet. Er bleibt blind.
@@ -6889,6 +6973,7 @@ Bewegender Film mit [1|Full] in seiner ersten Filmhauptrolle.</de>
 				<en>When he saves the life of a comrade, Tony Kaiser is seriously wounded. He remains blind.
 
 Moving film with [1|Full] in his first leading film role.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9be59a4d-07fb-4daa-8ed1-2f45255f19c9</member>
@@ -6909,10 +6994,12 @@ Moving film with [1|Full] in his first leading film role.</en>
 			<title_original>
 				<de>Versprochen ist versprochen</de>
 				<en>Jingle All the Way</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|Last] als Vater, der das Verhältnis zu seinem Sohn aufpolieren will. Er macht sich auf die zermürbende Suche nach einem der beliebten Turbo-Man-Spielzeuge.</de>
 				<en>[1|Last] as a father who wants to polish up his relationship with his son. He sets out on a grueling search for one of the popular Turbo Man toys.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">61ad084b-4b3b-402b-bc20-994cb460420a</member>
@@ -6933,6 +7020,7 @@ Moving film with [1|Full] in his first leading film role.</en>
 			<title_original>
 				<de>Vertigo - Aus dem Reich der Toten</de>
 				<en>Vertigo</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Verstörendes Meisterwerk, untermalt mit der musikalischen Handschrift [1|Full]s.
@@ -6941,6 +7029,7 @@ Von den Kritikern lange Zeit verkannt.</de>
 				<en>Disturbing masterpiece, underscored with [1|Full]'s musical signature.
 
 Long misjudged by the critics.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f489dd7-a5f3-431b-ae48-9fefcdeac40e</member>
@@ -6964,10 +7053,12 @@ Long misjudged by the critics.</en>
 			<title_original>
 				<de>L.A. Confidential</de>
 				<en>L.A. Confidential</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Drei Cops machen sich aus unterschiedlichen Gründen auf die Suche nach dem Verantwortlichen für ein Massaker in einem Lokal.</de>
 				<en>For different reasons, three cops set out to find the person responsible for a massacre in a diner.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2fd33759-bc59-450c-951c-106975a43a19</member>
@@ -6990,10 +7081,12 @@ Long misjudged by the critics.</en>
 			<title_original>
 				<de>Black Hawk Down</de>
 				<en>Black Hawk Down</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Elitekommando der US Army soll 1993 in Somalia zwei Rebellenführer festsetzen. Die Mission artet aus, endet in schrecklichen Häuserkämpfen und mit vielen Verlusten.</de>
 				<en>An elite commando of the US Army is supposed to arrest two rebel leaders in Somalia in 1993. The mission gets out of hand, ends in terrible urban combat and with many casualties.</en>
+				<pl></pl>	
 			</description>
 			<staff>
 				<member index="0" function="1">123df8d5-a8ca-40fe-bdae-89e70d5e0601</member>
@@ -7014,10 +7107,12 @@ Long misjudged by the critics.</en>
 			<title_original>
 				<de>Wenn der Vater mit dem Sohne</de>
 				<en>If the Father and the Son</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Clown Teddy Lemke kümmert sich um seinen Sohn Ulli. Er läßt sich überreden, zusammen mit Ulli eine Clowns-Nummer aufzuführen. Doch dann kündigt sich Ullis Mutter mit ihrem neuen Mann an...</de>
 				<en>The clown Teddy Lemke takes care of his son Ulli. He lets himself be persuaded to perform a clown act together with Ulli. But then Ulli's mother announces her arrival with her new husband...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">beae2181-15aa-4032-a667-4c7d14fbfcb5</member>
@@ -7036,12 +7131,14 @@ Long misjudged by the critics.</en>
 			<title_original>
 				<de>Last Man Standing</de>
 				<en>Last Man Standing</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>An der mexikanisch-texanischen Grenze in den 20er Jahren: Ein Fremder spielt zwei Banden gegeneinander aus, indem er bei beiden als Söldner anheuert.
 Neo-Western mit [1|Full].</de>
 				<en>On the Mexican-Texas border in the 1920s: A stranger plays two gangs off against each other by hiring on as a mercenary to both.
 Neo-Western with [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">db8f4d31-245f-4221-becf-9361e45fd525</member>
@@ -7061,12 +7158,14 @@ Neo-Western with [1|Full].</en>
 			<title_original>
 				<de>Findet Nemo</de>
 				<en>Finding Nemo</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Reise des titelgebenden Clownfisches wird zur Hetzjagd für seinen Vater, der ihn sucht und heimführen möchte.
 Erstaunlich erfolgreich, wahrscheinlich weil Pionier des Animationsfilms.</de>
 				<en>The journey of the eponymous clown fish becomes a chase for his father, who is looking for him and wants to lead him home.
 Amazingly successful, probably because of the pioneer of animated film.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">65e05d38-dcc6-487a-9f60-c3de25e22603</member>
@@ -7088,10 +7187,12 @@ Amazingly successful, probably because of the pioneer of animated film.</en>
 			<title_original>
 				<de>Armageddon - Das jüngste Gericht</de>
 				<en>Armageddon</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Das Ende der Menschheit scheint bedrohlich nahe zu sein, denn ein riesiger Asteroid rast auf die Erde zu.</de>
 				<en>The end of humanity seems ominously close, as a giant asteroid hurtles toward Earth.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">2fae00fa-0106-4734-873e-7d3a87a50a65</member>
@@ -7117,12 +7218,14 @@ Amazingly successful, probably because of the pioneer of animated film.</en>
 			<title_original>
 				<de>Dick und Doof - Hände hoch - oder nicht</de>
 				<en>The Devil's Brother / Bogus Bandits / Fra Diavolo</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|First] und [2|First] werden gezwungen, die Leibgarde des berüchtigten Räubers Fra Diavolo zu spielen. Nach der gleichnamigen Oper von Auber.
 Vielleicht der beste [1|Last] &amp; [2|Last].</de>
 				<en>[1|First] and [2|First] are forced to play the bodyguard of the notorious robber Fra Diavolo. After the opera of the same name by Auber.
 Perhaps the best [1|Last] &amp; [2|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">4cfbbba0-d19a-4c1b-b9c4-905d07d34b0f</member>
@@ -7144,12 +7247,14 @@ Perhaps the best [1|Last] &amp; [2|Last].</en>
 			<title_original>
 				<de>James Bond 007 - Goldfinger</de>
 				<en>Goldfinger</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der berühmt-berüchtigte 00-Agent muss seinen Antagonisten davon abbringen, sich die Goldreserven von Fort Knox unter den Nagel zu reißen. Doch dessen Wächter Oddjob ist mit dem Hut hinter ihm her.
 Gilt allgemein als bester Film der Reihe.</de>
 				<en>The notorious 00 agent must stop Mr. Goldtrigger from taking the gold reserves of Fort Knox. But the latter's guard Oddjob is after him with his hat.
 Generally considered the best film of the series.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">43280255-d8ef-469e-b3ef-8eea1b081ae6</member>
@@ -7175,12 +7280,14 @@ Generally considered the best film of the series.</en>
 			<title_original>
 				<de>James Bond 007 - Der Mann mit dem goldenen Colt</de>
 				<en>The Man with the Golden Gun</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der 00-Agent gerät an den professionellen Killer Scaramanga, der mit seiner Edelmetallwaffe sein Ziel nie verfehlt.
 Sehr gelungener Teil der Reihe.</de>
 				<en>The 00 agent comes across the professional killer Scaramanga, who never misses his target with his precious metal weapon.
 Very accomplished part of the series.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">43280255-d8ef-469e-b3ef-8eea1b081ae6</member>
@@ -7206,10 +7313,12 @@ Very accomplished part of the series.</en>
 			<title_original>
 				<de>James Bond 007 - Feuerball</de>
 				<en>Thunderball</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Verbrecherboss bringt ein Flugzeug mit zwei Atombomben an Bord in seine Gewalt. Um nicht auf dessen wahnwitzige Forderungen eingehen zu müssen, schickt die britische Regierung ihre 00-Agenten aus.</de>
 				<en>A crime boss takes control of an airplane with two atomic bombs on board. To avoid having to give in to his insane demands, the British government sends out its 00 agents.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d74284c8-2694-4f9e-812a-e57aa0c2a227</member>
@@ -7235,12 +7344,14 @@ Very accomplished part of the series.</en>
 			<title_original>
 				<de>James Bond 007 - Leben und Sterben lassen</de>
 				<en>Live and Let Die</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der Protagonist und 00-Agent soll den Tod dreier britischer Agenten aufklären. Dabei sieht er sich mit der Schwarzen Kunst konfrontiert.
 [1|Last] zum ersten Mal in der Rolle des britischen Agenten.</de>
 				<en>The protagonist and 00 agent is supposed to solve the death of three British agents. In the process, he finds himself confronted with the Black Arts.
 [1|Last] for the first time in the role of the British agent.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">43280255-d8ef-469e-b3ef-8eea1b081ae6</member>
@@ -7266,10 +7377,12 @@ Very accomplished part of the series.</en>
 			<title_original>
 				<de>James Bond 007 - Man lebt nur zweimal</de>
 				<en>You Only Live Twice</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein internationales Verbrechersyndikat entführt russische und amerikanische Raumkapseln und versucht, damit einen 3. Weltkrieg zu provozieren. Der 00-Agent hat den Auftrag, den Plan zu vereiteln...</de>
 				<en>An international crime syndicate is hijacking Russian and American space capsules in an attempt to provoke World War 3. The 00 agent is tasked with thwarting the plan...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">5e712add-f30d-4a64-b606-56dadd841b62</member>
@@ -7295,12 +7408,14 @@ Very accomplished part of the series.</en>
 			<title_original>
 				<de>James Bond 007 - Liebesgrüße aus Moskau</de>
 				<en>From Russia with Love</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Eine Verbrecherorganisation versucht, einen Krieg zwischen Ost und West zu provozieren, und der 00-Agent versucht, dies zu verhindern.
 In diesem zweiten der Filmreihe wurde die wiederkehrende Figur des Q eingeführt.</de>
 				<en>A criminal organization is trying to provoke a war between East and West, and the 00 agent is trying to prevent it.
 In this second of the film series, the recurring character of Q was introduced.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d74284c8-2694-4f9e-812a-e57aa0c2a227</member>
@@ -7326,10 +7441,12 @@ In this second of the film series, the recurring character of Q was introduced.<
 			<title_original>
 				<de>James Bond 007 - Diamantenfieber</de>
 				<en>Diamonds Are Forever</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Auf der Spur eines Diamantenschmugglerrings muss der Geheimagent von London nach Las Vegas reisen. Um den Verantwortlichen zu finden, muß er sich zuerst mit einem Killerduo befassen, das Jagd auf ihn macht.</de>
 				<en>On the trail of a diamond smuggling ring, the secret agent must travel from London to Las Vegas. To find the leader, he must first deal with a killer duo that is hunting him down.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">43280255-d8ef-469e-b3ef-8eea1b081ae6</member>
@@ -7355,12 +7472,14 @@ In this second of the film series, the recurring character of Q was introduced.<
 			<title_original>
 				<de>James Bond 007 - Im Geheimdienst Ihrer Majestät</de>
 				<en>On Her Majesty's Secret Service</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der skrupellose Verbrecher Blofeld möchte die Erde bakteriell verseuchen. Eine Bedrohung, die den Geheimagenten in die Alpen verschlägt.
 Dieser wird zum ersten und zum letzten Mal von [1|Full] verkörpert.</de>
 				<en>The ruthless criminal Blofeld wants to contaminate Earth with bacteria. A menace that brings the secret agent to the Alps.
 The latter is portrayed for the first and last time by [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e61cadeb-33cc-4648-8f1e-42953b74f016</member>
@@ -7386,12 +7505,14 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 			<title_original>
 				<de>James Bond 007 jagt Dr. No</de>
 				<en>Dr. No</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der britische 00-Agent wird auf einen machtgierigen Gegner angesetzt.
 [1|Full] schuf mit der Figur des Geheimagenten Ihrer Majestät eine Legende.</de>
 				<en>The British 00 agent is set upon a power-hungry adversary.
 [1|Full] created a legend with the character of Her Majesty's Secret Agent.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">d74284c8-2694-4f9e-812a-e57aa0c2a227</member>
@@ -7417,10 +7538,12 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 			<title_original>
 				<de>Demolition Man</de>
 				<en>Demolition Man</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Gangster Phoenix wird in den Kälteschlaf vesetzt. Auch der draufgängerische Cop Spartan wird eingefroren. Im Jahr 2032 kommt Phoenix wieder frei.</de>
 				<en>Gangster Phoenix is put into cold sleep. The reckless cop Spartan is also frozen. In the year 2032, Phoenix is set free again.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">1f07b8ac-0692-4cb7-9e76-a62c36073d5e</member>
@@ -7443,12 +7566,14 @@ The latter is portrayed for the first and last time by [1|Full].</en>
 			<title_original>
 				<de>Irgendwann in Mexico</de>
 				<en>Once Upon a Time in Mexico</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Teil 3 der Reihe. El Mariachi begleicht offene Rechnungen: irgendwo, zu unbekannter Zeit in Mexiko.
 El-Mariachi-Fans wurden von [0|Last] gänzlich enttäuscht.</de>
 				<en>Part 3 of the series. El Mariachi settles open bills: somewhere, at an unknown time in Mexico.
 El Mariachi fans were utterly disappointed by [0|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">514b8caf-e88f-4137-8a2d-43521569accf</member>
@@ -7470,12 +7595,14 @@ El Mariachi fans were utterly disappointed by [0|Last].</en>
 			<title_original>
 				<de>Panic Room</de>
 				<en>Panic Room</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Eine Frau muß sich mit ihrer Tochter in einem Schutzraum in Sicherheit bringen, um Einbrecher abzuschütteln.
 Originelle Idee, gut und spannend ausgeführt.</de>
 				<en>A woman must take refuge with her daughter in a shelter to shake off burglars.
 Original idea, well and excitingly executed.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9e5808d6-1736-44a5-9409-9218230a7806</member>
@@ -7498,6 +7625,7 @@ Original idea, well and excitingly executed.</en>
 				<de>Zwei glorreiche Halunken</de>
 				<en>The Good, the Bad and the Ugly</en>
 				<it>Il buono, il brutto, il cattivo</it>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Drei Gauner auf der Jagd nach einer Geldkassette.
@@ -7508,6 +7636,7 @@ Original idea, well and excitingly executed.</en>
 - Spaghetti Western by [0|Full].
 - Conclusion of the Dollar Trilogy.
 - Once again music by [1|Last].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">854537be-c9f6-4f13-90bb-97f46e821b6e</member>
@@ -7532,12 +7661,14 @@ Original idea, well and excitingly executed.</en>
 				<en>Watch Out, We're Mad</en>
 				<it>...altrimenti ci arrabbiamo!</it>
 				<es>Y si no, nos enfadamos / Juntos son dinamita</es>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ben und Kid gewinnen bei einem Autorennen und müssen sich den Hauptpreis teilen: einen roten Strandbuggy.
 Herrliche Hau-Drauf-Action mit [1|Full] und [2|Full], cooler Soundtrack.</de>
 				<en>Ben and Kid win a car race and have to share the main prize: a red beach buggy.
 Delightful smash-and-grab action with [1|Full] and [2|Full], cool soundtrack.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3c215a3a-0ba7-4057-bdcf-1c258b8754ca</member>
@@ -7559,12 +7690,14 @@ Delightful smash-and-grab action with [1|Full] and [2|Full], cool soundtrack.</e
 				<de>Cyrano von Bergerac</de>
 				<en>Cyrano de Bergerac</en>
 				<fr>Cyrano de Bergerac</fr>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Erzählung von einem gebildeten Hauptmann, der wegen seiner großen Nase seine Gefühle nicht offen bekennt.
 Tragische Liebesgeschichte.</de>
 				<en>Tale of an educated captain who does not openly confess his feelings because of his big nose.
 Tragic love story.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">125dc433-9770-46cd-adb7-66e2d45d49b2</member>
@@ -7586,10 +7719,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>RoboCop: Prime Directives</de>
 				<en>RoboCop: Prime Directives</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Der Cyborg-Polizist tut noch immer seinen Dienst in Delta City, dem ehemaligen Detroit. Er muß sich Gegnern wie Bone Machine oder seinem eigenen Doppelgänger stellen.</de>
 				<en>The cyborg policeman is still doing his duty in Delta City, the former Detroit. He has to face opponents like Bone Machine or his own doppelganger.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3e82947f-9094-4ee5-b1d7-a22557d07062</member>
@@ -7611,10 +7746,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Dark Justice</de>
 						<en>Dark Justice</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Der Cyborg-Cop kehrt nach Delta City zurück, um einen Bandenkrieg zu beenden, stößt aber auf eine korrupte Polizei und eine neue Designerdroge namens „Nuke“.</de>
 						<en>The cyborg cop returns to Delta City to stop a gang war, but discovers a corrupt police force and a new designer drug called "Nuke."</en>
+						<pl></pl>
 					</description>
 				</programme>
 				<programme id="df149799-d107-4226-a0aa-790896efc1b0" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620657" creator="">
@@ -7625,10 +7762,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Meltdown</de>
 						<en>Meltdown</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Der Cyborg-Cop untersucht eine mysteriöse Explosion im OCP-Hauptquartier und entdeckt den Plan eines abtrünnigen Wissenschaftlers, eine nukleare Kernschmelze herbeizuführen.</de>
 						<en>The cyborg cop investigates a mysterious explosion at OCP headquarters and discovers a plot by a renegade scientist to create a nuclear meltdown.</en>
+						<pl></pl>
 					</description>
 				</programme>
 				<programme id="71b957a1-f0b7-440a-8b60-d301d97a1c82" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620658" creator="">
@@ -7639,10 +7778,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Resurrection</de>
 						<en>Resurrection</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Der Protagonist wird in einem Kampf mit einem neuen Cyborg-Modell vernichtet, wird aber von OCP mit einer neuen Mission wiederbelebt, nämlich den Nachfolger zu eliminieren.</de>
 						<en>The protagonist is destroyed in a battle with a new model cyborg, but is resurrected by OCP with a new mission, which is to eliminate his successor.</en>
+						<pl></pl>
 					</description>
 				</programme>
 				<programme id="23cace5d-9d0c-457a-a399-399a12237d5b" product="2" licence_type="2" tmdb_id="0" imdb_id="tt1620655" creator="">
@@ -7653,10 +7794,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Crash and Burn</de>
 						<en>Crash and Burn</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Der Cyborg-Cop jagt seinen Nachfolger, und es kommt zu einer tödlichen Konfrontation, während ein korrupter Politiker versucht, die Kontrolle über OCP zu übernehmen.</de>
 						<en>The cyborg cop's pursuit of his successor leads to a deadly confrontation, while a corrupt politician plots to take control of OCP.</en>
+						<pl></pl>
 					</description>
 				</programme>
 			</children>
@@ -7673,10 +7816,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Diese bestimmte Frau</de>
 				<en>That Certain Woman</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Schnell verliebt, schnell zusammen abgehauen und auch schnell schwanger. Aber was passiert, wenn man glücklich zusammen ist, ein Kind erwartet und nicht weiß, dass sein Vater die Ehe heimlich annuliert hat?</de>
 				<en>Quickly fall in love, quickly run away together, and quickly get pregnant too. But what happens when you're happily together, expecting a child, and you don't know that your father has secretly nullified the marriage?</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-EdmundGulden</member>
@@ -7697,10 +7842,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Jezebel - Die boshafte Lady</de>
 				<en>Jezebel</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>1850 in den USA. Eine Dame merkt, dass sie ihren Mann verliert. Um ihn zu behalten geht sie kompromisslos vor. Denn der Schein muss bestehen bleiben.</de>
 				<en>1850 in the USA. A lady realizes that she is losing her husband. To keep him, she takes uncompromising action. Because appearances must be kept up.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">c6431bc0-a0c6-4638-ab30-573066975d0f</member>
@@ -7720,10 +7867,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Kampf in den Bergen</de>
 				<en>The Trail of the Lonesome Pine</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Eine Familienfehde brodelt fröhlich vor sich hin. Aber durch wirtschaftliche Veränderungen, wie eine Eisenbahntrasse und eine Kohlemine, kann alles endlich eskalieren.</de>
 				<en>A family feud seethes merrily along. But due to economic changes, such as a railroad line and a coal mine, everything can finally escalate.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-HenryHastAway</member>
@@ -7744,10 +7893,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Trommeln am Mohawk</de>
 				<en>Drums Along the Mohawk</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein wunderschönes Farmleben eines glücklichen Ehepaares in Amerika. Doch dann kommt der Krieg mit den Briten in ihr Land, und die Indianer wollen auch mitreden...</de>
 				<en>A wonderful farm life of a happy couple in America. But then the war with the Great Britain comes to their homeland, and the indigenous people also want to have a say...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -7768,10 +7919,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Quo Vadis?</de>
 				<en>Quo Vadis</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Aufwendig inszenierte Geschichte über Rom und die Christenverfolgung mit Starbesetzung.</de>
 				<en>Elaborately staged story about Rome and the persecution of Christians with a stellar cast.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -7793,10 +7946,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Metropolis</de>
 				<en>Metropolis</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Arbeiter gegen Reich. Oberwelt gegen Unterwelt. Ein stummer epischer Kampf. Remastert und extralong. Inklusive wiedergefundener und restaurierter Szenen. Hier in der Fassung der Murnau-Stiftung.</de>
 				<en>Workers against the Reich. The upper world against the underworld. A silent epic battle. Remastered and extra long. Includes recovered and restored scenes. Here in the version of the Murnau Foundation.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cd2c1097-8e54-4bdb-8388-d9a58cae970d</member>
@@ -7819,10 +7974,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Giganten</de>
 				<en>Giant</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Episch erzählte Geschichte des Lebens auf einer Ranch. Letzter Film von [1|Full] vor seinem tragischen Unfall.</de>
 				<en>Epically narrated story of life on a ranch. Last film of [1|Full] before his tragic accident.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">1dad8a9c-2969-4d4d-89de-3c7fbd7f2288</member>
@@ -7845,10 +8002,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Cleopatra</de>
 				<en>Cleopatra</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|Full] in Ihrer Paraderolle als Königin von Ägypten</de>
 				<en>[1|Full] in her signature role as Queen of Egypt.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">0cc2eff1-bb72-4f1f-a3cd-e4e2d4cf5800</member>
@@ -7873,10 +8032,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Western von Gestern</de>
 				<en>Yesterday's Westerns</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Westernraritäten auf Serienformat gekürzt. Die Story geht flöten, aber die Landschaft bleibt.</de>
 				<en>Rare Western classics shortened to an episode format. The story is lost, but the scenery remains.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cd2c1097-8e54-4bdb-8388-d9a58cae970d</member>
@@ -7895,10 +8056,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Jerry das Pferd</de>
 						<en>Jerry the horse</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Das Pferd Jerry zieht einen Fremden aus dem Sumpf. Dieser weicht ihm nicht mehr von der Seite. Eine wilde Verfolgungsjagd beginnt.</de>
 						<en>The horse Jerry rescues a stranger out from the swamp. The rescued wants to stay on Jerry's side forever. A wild chase begins.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="42" speed="42" />
 				</programme>
@@ -7910,10 +8073,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Lozzo lernt peitschen</de>
 						<en>Lozzo trains whipping</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Lozzo findet eine Peitsche und übt sein Zeichen. Warum er sich für Z statt L entscheidet? Ganz Mexiko hat nun eine Z Narbe auf der Brust...</de>
 						<en>Lozzo finds a whip and practices his symbol. Why does he choose Z instead of L? All Mexicans now have a Z scar on their chests...</en>
+						<pl></pl>
 					</description>
 					<ratings critics="53" speed="39" />
 				</programme>
@@ -7925,10 +8090,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Niklas sucht James</de>
 						<en>Niklas looking for James</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Niklas will den Bandit J.James ausschalten um selber zum Helden zu werden. Der Showdown naht...</de>
 						<en>Niklas wants to eliminate the bandit J.James to become a hero himself. The showdown is approaching...</en>
+						<pl></pl>
 					</description>
 					<ratings critics="19" speed="25" />
 				</programme>
@@ -7940,10 +8107,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Njamba der Fotograf</de>
 						<en>Njamba the photographer</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Njamba, der Zulu, verlässt seinen Stamm. Sein Ziel: Landschaftsaufnaumahmen im wilden Westen. Diese werden ausgiebig gezeigt. Finanziert durch den Gesunder Schlaf e.V.</de>
 						<en>Njamba, the Zulu, leaves his tribe. His goal: to take pictures of the landscapes in the Wild West. These are shown extensively. Funded by the Sound Sleep Association.</en>
+						<pl></pl>					
 					</description>
 					<ratings critics="29" speed="5" />
 				</programme>
@@ -7955,10 +8124,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Farmer gen Osten</de>
 						<en>Farmers eastward</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Gescheiterte Farmer wollen zurück nach Europa. Doch die indianischen Skalphändler wollen ihre Beute nicht ziehen lassen. Schaffen sie die Flucht?</de>
 						<en>Failed farmers want to return to Europe. But the indigenous scalp traders don't want to let their prey go. Will the escape succeed?</en>
+						<pl></pl>
 					</description>
 					<ratings critics="32" speed="79" />
 				</programme>
@@ -7970,10 +8141,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Mensch [1|Full]</de>
 						<en>Well, [1|Full]</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>[1|Full] in seinem ersten Auftritt vor seiner großen Karriere. Der Revolver sitzt schon perfekt. A Star ist born. Wer braucht da Handlung?</de>
 						<en>[1|Full] in his first appearance before his great career. The revolver already fits perfectly. A star is born. Who needs a plot?</en>
+						<pl></pl>
 					</description>
 					<ratings critics="19" speed="55" />
 				</programme>
@@ -7985,10 +8158,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>IIIk, wird das Bonanza?</de>
 						<en>OMG, is this going to be Bonanza?</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Farmleben eines Vaters mit drei Söhnen. Das Publikum hat böse Vorahnungen. Doch als sie wegschalten, war Ihre Einschaltquote schon gezählt.</de>
 						<en>Farm life of a father with three sons. The audience has bad premonitions. But by the time they tune out, the viewing rates have already been counted.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="12" speed="11" />
 				</programme>
@@ -8003,10 +8178,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Es geschah am helllichten Tag</de>
 				<en>It Happened in Broad Daylight</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|Full] und [2|Full] in einem spannenden Thriller, der internationale Aufmerksamkeit erregte.</de>
 				<en>[1|Full] and [2|Full] in a suspenseful thriller that attracted international attention.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cd2c1097-8e54-4bdb-8388-d9a58cae970d</member>
@@ -8026,10 +8203,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Arsen und Spitzenhäubchen</de>
 				<en>Arsenic and Old Lace</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Frisch verheiratet besuchen Mortey und seine Angetraute Morteys Tanten. Konnte er ahnen, dass sie echte Leichen im Keller haben. Ein „Evergreen des schwarzen Humors“ mit herrlicher Mimik von [1|Full].</de>
 				<en>Just married, Mortey and his wife visit Mortey's aunts. Could he have guessed that they have enough actual skeletons in the closet to fill a cemetary. An "evergreen of black humor" with wonderful facial expressions by [1|Full].</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-PrankWrapa</member>
@@ -8050,10 +8229,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Wie man hinter feindlichen Linien agiert</de>
 				<en>Undercover: How to Operate Behind Enemy Lines</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Dokumentation über Taktiken, die das Überleben hinter feindlichen Linien ermöglicht.</de>
 				<en>Documentary about tactics that allow survival behind enemy lines.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -8074,10 +8255,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Deutsche Industrie Kraft</de>
 				<en>German Industrial Manpower</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Wie analysiere ich die Industriekraft eines anderen Landes. Ausführlich erklärt und sehr gut mit... rchhpüh...</de>
 				<en>How to analyze the industrial power of another country. Explained in detail and very good with... zzzzzzz...</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -8096,10 +8279,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>König Drosselbart</de>
 				<en>King Thrushbeard</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Das bekannte Märchen wird hier wunderbar in Szene gesetzt. Toll für den Kindernachmittag geeignet.</de>
 				<en>The well-known fairy tale is wonderfully staged here. Great for the children's afternoon.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-AlfredNeck</member>
@@ -8119,10 +8304,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Smoke - Raucher unter sich</de>
 				<en>Smoke</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Vier Menschen lernen sich in einem Zigarettenladen kennen. Dadurch werden die vier Kurzgeschichten miteinander verwoben.</de>
 				<en>Four people get to know each other in a cigarette store. This interweaves the four short stories together.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">620530a9-2799-42f7-b3c7-c4e61b6dc76f</member>
@@ -8150,10 +8337,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Blue in the Face - Alles blauer Dunst</de>
 				<en>Blue in the Face</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Wieder ist ein Zigarettenladen der Ausgang für die Geschichten einzelner Menschen. Legendär: Angst? Vor Brooklyn? Vor Schweden habe ich Angst!</de>
 				<en>Again, a cigarette store is the outlet for the stories of individual people. Legendary: Scared? Of Brooklyn? I get scared like in Sweden.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="5">620530a9-2799-42f7-b3c7-c4e61b6dc76f</member>
@@ -8182,10 +8371,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Rocky Horror Picture Show</de>
 				<en>The Rocky Horror Picture Show</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Kultmusical. Ein Paar bleibt mit seinem Wagen liegen und sucht in einem Schloß Hilfe.</de>
 				<en>Cult musical. A couple breaks down with their car and seeks help in a castle.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-ClintWaran</member>
@@ -8207,10 +8398,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Der blaue Engel</de>
 				<en>The Blue Angel</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|Full] wurde in diesem Film mit ihrer Rolle als Nachtclubsängerin unsterblich.</de>
 				<en>[1|Full] became immortal in this film with her role as a nightclub singer.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-Peppivonsternschnuppe</member>
@@ -8230,10 +8423,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Enemy Mine - Geliebter Feind</de>
 				<en>Enemy Mine</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein menschlicher und ein ausserirdischer Kampfflieger stürzen auf einem unwirtlichen Planeten ab. Nachdem sie sich dort weiter bekämpfen, merken sie, dass sie nur gemeinsam überleben können. Wohin wird diese Erkenntnis führen?</de>
 				<en>A human and an alien fighter pilot crash on an inhospitable planet. After they continue fighting there, they realize that they can only survive together. Where will this realization lead?</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cdd0e7aa-11eb-48d7-82cc-d693e2130d05</member>
@@ -8253,10 +8448,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Zum blauen Bock - Best of</de>
 				<en>Zum blauen Bock - Best of</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ei Bembel, ei Bembel. Bei Aeppelwoi und Handkäs wird musiziert, dass die Zwiebeln sich biegen. Die Granden der Musik geben sich die Hand. 30 Jahre Show und nur das Beste davon zusammen in einer Show. Das Herz lacht. Beim jungen Publikum weint das Auge.</de>
 				<en>A Hessian Music Show. Ei Bembel, ei Bembel. With Aeppelwoi and Handkäs, people play music that bends onions. The greatest of music shake hands. A show of 30 years and only the best of all in one show. The heart laughs. Among the young audiences there are tears.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="26">TheRob-celebritypeople-WeinWenk</member>
@@ -8283,10 +8480,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Das war der wilde Westen</de>
 				<en>How the West Was Won</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Jahrhundert in der Western-Zeit wird mit Hollywood-Starbesetzung episch erzählt.</de>
 				<en>A century of the Wild West era is epically recounted with a stellar Hollywood cast.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -8309,10 +8508,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Früchte des Zorns</de>
 				<en>The Grapes of Wrath</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Verfilmung eines Meisterwerks. Verarmte Obstpflücker finden keinen Job. Die Rettung verspricht das Orangenpflückparadies im Osten. Die Reise beginnt. Ein viel gerühmtes Drama.</de>
 				<en>The film adaptation of a masterpiece. Impoverished fruit pickers can't find a job. Salvation is promised by the orange-picking paradise in the East. The journey begins. A much praised drama.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -8334,10 +8535,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Easy Rider</de>
 				<en>Easy Rider</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Roadmovie, das sich mit dem Leben zweier Außenseiter beschäfigt.</de>
 				<en>Road movie that explores the lives of two outsiders.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">25bbcc47-1ec9-407d-840e-5efebdbc0dc3</member>
@@ -8357,10 +8560,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Wer die Nachtigall stört</de>
 				<en>To Kill a Mockingbird</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Atticus ist Anwalt und verteidigt in einer kleinen Stadt einen Schwarzen. Das hat unangenehme Folgen für seine Familie.</de>
 				<en>Atticus is a lawyer and defends a black man in a small town. This has unpleasant consequences for his family.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RobWoolikann</member>
@@ -8379,10 +8584,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>M: Eine Stadt sucht einen Mörder</de>
 				<en>M</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Klassiker der Filmkunst und einer der ersten Tonfilme. Ein Mörder versetzt ein Dorf in Angst und Schrecken. Am Schluss wird nahezu jeder verdächtigt.</de>
 				<en>A classic of cinematography and one of the first motion pictures with sound. A murderer puts a village in fear and terror. In the end, almost everyone is suspected.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cd2c1097-8e54-4bdb-8388-d9a58cae970d</member>
@@ -8403,10 +8610,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Perfect World</de>
 				<en>A Perfect World</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Stockholm-Syndrom. Ein entführter Junge freundet sich mit seinem Entführer an. Die dramatische Verfolgungsjagd beginnt.</de>
 				<en>A Stockholm Syndrome story. A kidnapped boy befriends his captor. The dramatic chase begins.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">ec20fc5a-a552-4119-8d1e-d310650c2830</member>
@@ -8430,10 +8639,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Spejbl und Hurvinek</de>
 				<en>Spejbl and Hurvínek</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Vater und Sohn erleben Alltagsthemen. Humorvoll für Kinder aufbereitet und der Augsburger Puppenkiste ebenbürtig.</de>
 				<en>Father and son experience everyday themes. Humorously presented for children and on a par with the Augsburger Puppenkiste.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">Ronny-person-director-TomasPetran</member>
@@ -8452,10 +8663,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Spejbl kommt in die Schule</de>
 						<en>Spejbl enters into school</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Dubrovnik bringt Speiübel in die Schule. Dort freundet sich dieser mit Ilonka an. Spaßiger erster Schultag.</de>
 						<en>Dubrovnik brings Spyble to school. There he makes friends with Ilonka. Fun first day at school.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="43" speed="26" />
 					<effects>
@@ -8470,10 +8683,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Hausaufgaben</de>
 						<en>Homework</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Speiübel soll Hausaufgaben machen. Er will aber lieber mit Ilonka Verstecken spielen. Dubrovnik sucht die Beiden. Ein munteres Versteckspiel beginnt.</de>
 						<en>Spyble is supposed to do homework. But he would rather play hide and seek with Ilonka. Dubrovnik is looking for the two. A lively game of hide and seek begins.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="49" speed="31" />
 				</programme>
@@ -8485,10 +8700,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Musikunterricht</de>
 						<en>Music Lessons</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Speiübel spielt Schlagzeug, Ilonka Flöte. Dubrovnik versucht das mit seiner Migräne zu überleben. Das klappt aber nur bedingt. Beste Darstellung, warum Eltern keine Musikinstrumente für ihre Kleinen mögen.</de>
 						<en>Spyble plays the drums, Ilonka the flute. Dubrovnik tries to survive this with his migraine. But that only works to a certain extent. Best illustration as to why parents don't like musical instruments for their little ones.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="56" speed="28" />
 				</programme>
@@ -8500,10 +8717,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Spejbl lernt schwimmen</de>
 						<en>Spejbl learns to swim</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Dubrovnik will Speiübel schwimmen beibringen. Der demonstriert aber ausgiebig, wie gut er im Wasser schlucken ist. Zum Schluss werden die Vorteile von Schwimmflügeln ausgiebig gewürdigt.</de>
 						<en>Dubrovnik wants to teach Spyble how to swim. However, he extensively demonstrates how good he is at swallowing water. At the end, the advantages of swimming wings are extensively appreciated.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="44" speed="32" />
 				</programme>
@@ -8515,10 +8734,12 @@ Tragic love story.</en>
 					<title_original>
 						<de>Plätzchen backen</de>
 						<en>Baking cookies</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Speiübel und Ilonka wollen Plätzchen backen. Dubrovnik freut sich auf das Ergebnis. Doch dann merkt er, dass es sich eher auf die Küche auswirkt als auf den Geschmack.</de>
 						<en>Spyble and Ilonka want to bake cookies. Dubrovnik is looking forward to the result. But then he realizes that the effect is more on the kitchen than on the taste.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="57" speed="34" />
 				</programme>
@@ -8534,10 +8755,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>JFK - Tatort Dallas</de>
 				<en>JFK</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Anwalt versucht das Attentat auf den US-amerikanischen Präsidenten zu rekonstruieren. Das will man ihm nicht erlauben. Nette Verschwörungstheorie.</de>
 				<en>A lawyer tries to reconstruct the assassination of the US president. He is not allowed to do so. Nice conspiracy theory.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">3d4a2d11-e943-4874-b8be-eaec31165150</member>
@@ -8569,10 +8792,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Shanghai-Express</de>
 				<en>Shanghai Express</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Lily erlebt eine abenteuerliche Zugfahrt von Shanghai nach Peking und trifft auf Regierungssoldaten und Rebellen.</de>
 				<en>Lily experiences an adventurous train ride from Shanghai to Beijing and meets government soldiers and rebels.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-Peppivonsternschnuppe</member>
@@ -8591,10 +8816,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Robin Hood - König der Diebe</de>
 				<en>Robin Hood: Prince of Thieves</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Robin H. kehrt von den Kreuzzügen zurück und findet sein Land in der Hand von Tyrannen wieder. Zeit dies zu ändern. Ein Abenteuer beginnt.</de>
 				<en>Robin H. returns from the Crusades to find his country in the hands of tyrants. Time to change this. An adventure begins.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">46cd1933-4dfd-4aef-8943-372d9813d22e</member>
@@ -8615,10 +8842,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Ist das Leben nicht schön?</de>
 				<en>It's a Wonderful Life</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Zu Weihnachten verfinstert sich das Leben von G.B. immer mehr. Als dann auch noch Geld aus der Firmenkasse verschwindet, möchte er sich das Leben nehmen. Da wird ihm ein Engel gesendet, der ihm die schönen Seiten des Lebens zeigen soll.</de>
 				<en>At Christmas, G.B.'s life becomes increasingly dark. When money disappears from the company's coffers, he wants to take his own life. Then an angel is sent to him, who is supposed to show him the beautiful sides of life.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-PrankWrapa</member>
@@ -8638,10 +8867,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Faust</de>
 				<en>Faust</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>„Da steh ich nun, ich armer Tor! Und bin so klug als wie zuvor.“ Die legendäre Verfilmung des deutschen Literaturklassikers mit [1|Full] und [2|Full]. Viel gerühmt und von Schulkindern gemieden.</de>
 				<en>"Now here I am, a fool for sure! No wiser than I was before." The legendary film version of the classic of German Literature starring [1|Full] and [2|Full]. Much praised and shunned by schoolchildren.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">c45e52c2-32a3-4d3b-87d2-c56a8e4f5279</member>
@@ -8661,10 +8892,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Die Katze auf dem heißen Blechdach</de>
 				<en>Cat on a Hot Tin Roof</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Disput über Liebe und Hass, als die Familie den kranken Vater besucht, treten alle Eheprobleme zu Tage.</de>
 				<en>Dispute about love and hate, when the family visits the sick father, all the marital problems come to light.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9b10159e-6fdd-4749-a47b-159f916d68de</member>
@@ -8685,10 +8918,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Plan 9 aus dem Weltall</de>
 				<en>Plan 9 from Outer Space</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Wurde zum schlechtesten Film aller Zeiten gewählt. Heute eine beliebte Ratesendung: Wer findet alle Fehler.</de>
 				<en>Voted the worst movie of all time. Today a popular quiz show: Who finds all the mistakes.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-RednackRoot</member>
@@ -8708,10 +8943,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Über den Dächern von Nizza</de>
 				<en>To Catch a Thief</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Juwelendieb gerät unter Verdacht und versucht seine Unschuld zu beweisen.</de>
 				<en>A jewel thief falls under suspicion and tries to prove his innocence.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f489dd7-a5f3-431b-ae48-9fefcdeac40e</member>
@@ -8732,10 +8969,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Der Schwan</de>
 				<en>The Swan</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>In einem Fürstentum soll ein Prinz und Prinzessin zusammenfinden. Leichter geplant, als getan.</de>
 				<en>In a Princedom, a prince and princess are supposed to get together. Easier planned than done.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-celebritypeople-RonDort</member>
@@ -8756,10 +8995,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Bei Anruf Mord</de>
 				<en>Dial M for murder</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Geschicktes Verrwirrspiel um einen Mann, der seine Frau loswerden möchte.</de>
 				<en>Skillfully staged tangle about a man who wants to get rid of his wife.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f489dd7-a5f3-431b-ae48-9fefcdeac40e</member>
@@ -8780,10 +9021,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Der Sündenbock</de>
 				<en>The Scapegoat</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Mann, der mit seinem Leben zu tiefst unglücklich ist, endeckt einen Doppelgänger von sich und vertauscht die Identitäten. Basiert auf einem Roman von Daphne du Maurier.</de>
 				<en>A man who is deeply unhappy with his life discovers a double of himself and switches identities. Based on a novel by Daphne du Maurier.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">Ronny-person-director-HobbartKramer</member>
@@ -8803,10 +9046,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Lawrence von Arabien</de>
 				<en>Lawrence of Arabia</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein britischer Offizier unterstützt den Kampf der Araber gegen die Türken und entwickelt sich zu einem arabischen Helden. Sammelte eifrig Auszeichnungen.</de>
 				<en>A British officer supports the struggle of the Arabs against the Turks and develops into an Arab hero. Collected a multitude of awards.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8e3a8e6a-5624-41d7-8ecc-0c9ab526c671</member>
@@ -8828,10 +9073,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>El Cid</de>
 				<en>El Cid</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Geschichte des kastilischen Ritters.</de>
 				<en>The story of the Castilian knight. </en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-AntonWann</member>
@@ -8851,10 +9098,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Der Untergang des Römischen Reiches</de>
 				<en>The Fall of the Roman Empire</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Geschichte von Marcus Aurelius und seinem Sohn Commodus und deren Auswirkung auf Rom.</de>
 				<en>The story of Marcus Aurelius and his son Commodus and their impact on Rome.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-AntonWann</member>
@@ -8877,10 +9126,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Hausboot</de>
 				<en>Houseboat</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Ein Witwer lebt mit seinen drei Kindern auf dem Hausboot. Ihr Leben wird durcheinander gewirbelt, als er eine Traumfrau als Nanny einstellt.</de>
 				<en>A widower lives on a houseboat with his three children. Their lives are shaken up when he hires a beautiful woman as a nanny.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-AntonWann</member>
@@ -8901,10 +9152,12 @@ Tragic love story.</en>
 			<title_original>
 				<de>Meisterschaft im Seitensprung</de>
 				<en>Please Don't Eat the Daisies</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Geschichte über ein Paar. Sie inszeniert ein Theaterstück und weiß nicht, dass es sein Drehbuch ist. Er muss sich selbst kritisieren.</de>
 				<en>Story about a couple. She stages a theater play and doesn't know that it's his script. He is forced to critique himself.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-AntonWann</member>
@@ -8926,12 +9179,14 @@ Tragic love story.</en>
 			<title_original>
 				<de>Aber Vati!</de>
 				<en>But Dad!</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die Serie stellt das Leben vom alleinerziehenden Vater Erwin April und seinen beiden Zwillingen Ralle und Rolle dar.
 Dreh- und Angelpunkt sind die Versuche, Vati neu zu verheiraten.</de>
 				<en>The series depicts the life of single father Erwin April and his two twins Ralle and Rolle.
 The pivotal point are the attempts to remarry dad.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-PaulBentris</member>
@@ -8951,12 +9206,14 @@ The pivotal point are the attempts to remarry dad.</en>
 					<title_original>
 						<de>Vati will nicht heiraten</de>
 						<en>Dad does not want to marry</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Rolle und Ralle zeigen die Grenzen der Erziehungsfähigkeiten ihres berufstätigen Vaters auf.
 Ermattet von den ständigen Streichen der Zwillinge empfiehlt auch seine aushelfende Schwester dringend eine erneute Heirat.</de>
 						<en>Rolle and Ralle reveal the limits of their working father's parenting skills.
 Weary of the twins' constant pranks, his helping-out sister also strongly recommends remarriage.</en>
+						<pl></pl>
 					</description>
 					<data year="1974" />
 					<ratings critics="79" speed="36" />
@@ -8969,10 +9226,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Vati will heiraten</de>
 						<en>Dad wants to marry</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Mit vereinten Kräften versuchen die Zwillinge unterstützt von Onkel und Tante Vati von der Zweckmäßigkeit eine Brautschau zu überzeugen. Ob die Karusselbesitzerin das Rennen macht?</de>
 						<en>With combined forces, the twins, supported by uncle and aunt, try to convince daddy of the usefulness of the pursuit of looking for a wife. Will the carousel owner make the race?</en>
+						<pl></pl>
 					</description>
 					<data year="1974" />
 					<ratings critics="77" speed="36" />
@@ -8985,10 +9244,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Vati hat geheiratet</de>
 						<en>Dad has married</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Die Rummelplatzfee war nur zur Aushilfe bei ihrem Vater, ist für eine LPG unabdingbar. Raus aus Berlin auf's Dorf?</de>
 						<en>The fairground maiden was only there to help out her father, but she is indispensable for an Agricultural Production Cooperative. Out of Berlin and into the village?</en>
+						<pl></pl>
 					</description>
 					<data year="1974" />
 					<ratings critics="77" speed="38" />
@@ -9001,10 +9262,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>5 Jahre danach</de>
 						<en>5 years later</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Gibt es auch noch Jubel-Trubel-Heiterkeit nebst jeder Menge DDR-Alltag zu bestaunen? Ja!!!</de>
 						<en>Is there still jubilation, hustle and bustle, and a lot of everyday life in the GDR to marvel at? Yes!!!</en>
+						<pl></pl>
 					</description>
 					<ratings critics="75" speed="31" />
 				</programme>
@@ -9020,10 +9283,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 			<title_original>
 				<de>Heißer Draht ins Jenseits</de>
 				<en>Legacy from the Future - Fantastic Adventures of Family Mézga</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Im Mittelpunkt steht die Budapester Familie Honig, Hund Schnuffi, Katze Mausi sowie Nachbar Dr. Heute. Hinzu kommt ein langbärtiger, 186jähriger Nachfahre im 30.Jahrhundert.</de>
 				<en>The focus is the Budapest family Mézga with their dog and cat, as well as their neighbor. In addition, there is a long-bearded, 186-year-old descendant from the 30th century.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-JosefVolkk</member>
@@ -9046,10 +9311,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Service per Lichtpost</de>
 						<en>Ethereal mail service</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Als ein defekter Fernseher die Freude auf einen Krimi verdirbt, ruft Vater Géza seinen Ur-ur-ur-Enkel um Hilfe. Der schickt ein selbstgebasteltes 3D-TV.</de>
 						<en>When a defective television spoils the joy of a crime thriller, family dad Géza calls his great-great-great-grandson for help, who sends a 3D TV he made himself.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="28" speed="35" />
 				</programme>
@@ -9061,10 +9328,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Delikatessen</de>
 						<en>Delicatessen</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Géza hat frischen Fisch versprochen, doch das Angelglück ist ihm nicht hold. Das üppige Abendmahl kommt in Form von kleinen bunten Pillen.</de>
 						<en>Géza has promised fresh fish, but his luck as a fisherman is not in his favor. The opulent supper comes in the form of small colorful pills.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="26" speed="37" />
 				</programme>
@@ -9076,10 +9345,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Mit Überschall zur Hochzeit</de>
 						<en>With supersonic speed to the wedding</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Das Auto versagt den Dienst. Der Ur-Ur-Ur-Enkel schickt einen Minimotor, der für 30 Jahre Antrieb bietet, doch der hat seine Tücken!</de>
 						<en>The car breaks down. The great-great-great-grandson sends a mini engine that provides propulsion for 30 years, but it has its quirks!</en>
+						<pl></pl>
 					</description>
 					<ratings critics="27" speed="36" />
 				</programme>
@@ -9091,10 +9362,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Wunschwettergenerator</de>
 						<en>Make-a-wish weather generator</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Familie Honig möchte die Ferien auf dem Campingplatz verbringen. Doch das Gepäck ist zu schwer, und auch das Wetter lässt zu Wünschen übrig.</de>
 						<en>The family wants to spend the vacations at the campsite. But the luggage is too heavy, and the weather also leaves something to be desired.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="27" speed="39" />
 				</programme>
@@ -9106,10 +9379,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Hilfe, Roboter</de>
 						<en>Help, robots</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Als bei der Ofenreinigung durch den Schornsteinfeger das Wohnzimmer verschmutzt wird, möchte niemand sauber machen. Hilfe bietet ein kleiner nützlicher Roboter aus der Zukunft.</de>
 						<en>When the chimney sweeper soils the living room during oven maintenance, no one wants to do the cleaning. Help is provided by a small useful robot from the future.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="30" speed="33" />
 				</programme>
@@ -9121,10 +9396,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Feuerwasserplanet</de>
 						<en>Firewater Planet</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Für einen ganz besonderen Urlaub gibt's futuristische Hilfe. Doch noch während eines Picknicks bemerken die Urlauber, daß sie nicht die einzigen Lebewesen auf dem Planeten sind.</de>
 						<en>For a very special vacation there's some futuristic help. But already during a picnic the vacationers notice that they are not the only living beings on the planet.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="25" speed="38" />
 				</programme>
@@ -9136,10 +9413,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Allzu schlau ist ungesund</de>
 						<en>All too clever is unhealthy</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Christa droht sitzen zu bleiben. In ferner Zukunft lernt man während des Schlafs. Durch eine kleine Panne können Hund und Katze fortan sprechen.</de>
 						<en>Kriszta is at risk of staying back in school. In the distant future, one can study during sleep. Due to a small mishap, dog and cat can, henceforth, speak.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="27" speed="36" />
 				</programme>
@@ -9151,10 +9430,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Zeitversetzer</de>
 						<en>Time shifter</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Auf einer Burg-Ruine gräbt Schnuffi wertvolle Münzen aus. Weiteres Forschen wird jedoch unterbunden. Die Lösung ist eine Zeitmaschine.</de>
 						<en>At a castle ruin, Blöki digs up valuable coins. However, further exploration is prevented. The solution is a time machine.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="26" speed="35" />
 				</programme>
@@ -9166,10 +9447,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Der Willenskraftverstärker</de>
 						<en>The willpower amplifier</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Diesmal gibt's aus der Zukunft einen Apparat, mit dessen Hilfe sich andere Menschen willenlos steuern lassen. Freilich hat der seine Tücken.</de>
 						<en>This time there is an apparatus from the future, which helps to control other humans at will. Of course, it has its quirks.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="28" speed="34" />
 				</programme>
@@ -9181,10 +9464,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Ein Supertreibhaus</de>
 						<en>A super greenhouse</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Ein futuristisches Garten-Gerät aus dem 30. Jahrhundert läßt Riesenfrüchte reifen. Allerdings wächst auch das Ungeziefer zu Riesen an.</de>
 						<en>A futuristic garden device from the 30th century lets ripen giant fruits. However, the vermin also grow to giants.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="21" speed="42" />
 				</programme>
@@ -9196,10 +9481,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Unsichtbare Halbheiten</de>
 						<en>Invisible half measures</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Nach Streit mit der Familie macht sich Adolar unsichtbar und verschwindet spurlos. Die Suchhilfe aus der Zukunft ist zu knapp bemessen.</de>
 						<en>After a quarrel with his family, Aladár turns invisible and disappears without a trace. The search aid from the future only half works.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="26" speed="34" />
 				</programme>
@@ -9211,10 +9498,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Beat im Rinderstall</de>
 						<en>Beat in the cowshed</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Eine Matheprüfung, unmusikalische Kühe und eine Musikanlage sind die Hauptakteure dieser Folge.</de>
 						<en>A math test, unmusical cows and a music system are the main actors of this episode.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="28" speed="30" />
 				</programme>
@@ -9226,10 +9515,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Das Haus ihrer Träume</de>
 						<en>The house of her dreams</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Wenn Mutter sich ein neues Haus wünscht, und dieses aus dem 30. Jahrhundert geliefert wird, wäre eine beiliegende Gebrauchsanweisung günstig.</de>
 						<en>When mom wants a new house, and it is supplied from the 30th century, an enclosed instruction manual would be convenient.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="37" speed="50" />
 				</programme>
@@ -9245,10 +9536,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 			<title_original>
 				<de>Zugeinfahrt in den Bombay Bahnhof</de>
 				<en>Train Arriving at Bombay Station</en>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>Die erste Dokumentation des bewegten Bildes. Ein Zug fährt ein. Das hat die Welt noch nicht gesehen!</de>
 				<en>The first documentary and documentation of motion picture. A train rolls in. The world has not seen that yet!</en>
+				<pl></pl>
 			</description>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="IND" year="1898" distribution="1" maingenre="6" subgenre="300" flags="8" blocks="1" price_mod="1.00" />
@@ -9265,10 +9558,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 				<de>Geheimnisse des Meeres</de>
 				<en>The Undersea World of Jacques Cousteau</en>
 				<fr>L'Odyssée sous-marine de l'équipe Cousteau</fr>
+				<pl></pl>
 			</title_original>
 			<description>
 				<de>[1|Full] präsentiert seine schönsten Erlebnisse aus seinen Reisen auf dem Meer.</de>
 				<en>[1|Full] presents his most beautiful moments during his journeys on the ocean.</en>
+				<pl></pl>
 			</description>
 			<staff>
 				<member index="0" function="1">TheRob-TowerTV-JeanJacquesRustoo</member>
@@ -9287,10 +9582,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Die Haie</de>
 						<en>Sharks</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>[1|Full] zeigt seine Erlebnisse mit Haien und versucht dem geneigten Zuschauer seine Sicht zu vermitteln.</de>
 						<en>[1|Full] presents his experiences with sharks and tries to give his point of view to the inclined viewer.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="73" speed="53" />
 				</programme>
@@ -9302,10 +9599,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Die Wale</de>
 						<en>Whales</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Das Leben der Wale mit wundervollen Aufnahmen präsentiert.</de>
 						<en>The life of whales showcased with wonderful footage.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="77" speed="48" />
 				</programme>
@@ -9317,10 +9616,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>In der Tiefe</de>
 						<en>Search in the Deep</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Aufnahmen von den Tauchgängen des [1|Full]s mit ausführlichen Eindrücken.</de>
 						<en>Footage of [1|Full]'s dives with detailed impressions.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="77" speed="49" />
 				</programme>
@@ -9332,10 +9633,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Die Seevögel</de>
 						<en>The Sea Birds of Isabela</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>Das Leben der Seevögel. Wozu sind sie gut? Warum sind sie wichtig?</de>
 						<en>The life of seabirds. What are they good for? Why are they important?</en>
+						<pl></pl>
 					</description>
 					<ratings critics="67" speed="40" />
 				 </programme>
@@ -9347,10 +9650,12 @@ Weary of the twins' constant pranks, his helping-out sister also strongly recomm
 					<title_original>
 						<de>Schätze der See</de>
 						<en>Sunken Treasure</en>
+						<pl></pl>
 					</title_original>
 					<description>
 						<de>[1|Full] auf der Suche nach versunkenen Schätzen.</de>
 						<en>[1|Full] in search for sunken treasures.</en>
+						<pl></pl>
 					</description>
 					<ratings critics="76" speed="56" />
 				 </programme>
