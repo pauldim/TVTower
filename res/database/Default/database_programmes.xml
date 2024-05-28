@@ -4799,14 +4799,15 @@ Considered to be the culmination of the trilogy.</en>
 			<title_original>
 				<de>Tod auf dem Nil</de>
 				<en>Death on the Nile</en>
-				<pl></pl>
+				<pl>Śmierć na Nilu</pl>
 			</title_original>
 			<description>
 				<de>Auf einer Reise den Nil hinunter geschieht ein Mord nach dem anderen. Hercule Poirnoir macht sich daran, den Fall zu lösen.
 Gut besetzter Krimi nach [1|Full].</de>
 				<en>On a trip down the Nile, one murder after another happens. Hercule Poirnoir sets out to solve the case.
 Well cast thriller based on [1|Full].</en>
-<pl></pl>
+				<pl>W czasie rejsu po Nilu dochodzi do morderstwa. Herkules Poirot rozpoczyna śledztwo w celu odkrycia sprawcy. 
+Oskar za kostiumy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">f3daab70-c099-44be-a35f-68028be68e60</member>
@@ -4866,14 +4867,14 @@ Grandiose opera by [0|Full].</en>
 			<title_original>
 				<de>Mister Universum</de>
 				<en>Stay Hungry</en>
-				<pl></pl>
+				<pl>Stay Hungry - Niedosyt</pl>
 			</title_original>
 			<description>
 				<de>[1|Last] läßt in diesem Frühwerk seiner Karriere ausgiebig die Muskeln spielen.
 Viel Muckis, wenig Grips.</de>
 				<en>[1|Last] flexes his muscles extensively in this early work of his career.
 Lots of muscles, little brains.</en>
-<pl></pl>
+				<pl>Młody przedsiębiorca chce wykupić niewielką siłownię, by uzyskać miejsce pod budowę innego obiektu. </pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8d2dcf64-ab9d-4ec4-bb24-74ca0f3d0581</member>
@@ -4894,14 +4895,14 @@ Lots of muscles, little brains.</en>
 			<title_original>
 				<de>Dirty Harry</de>
 				<en>Dirty Harry</en>
-				<pl></pl>
+				<pl>Brudny Harry</pl>
 			</title_original>
 			<description>
 				<de>Insp. Harry Callahan jagt einen Heckenschützen und Erpresser.
 Dank rauher Methoden und seiner .44 Magnum wurde der Harry zum Publikumsliebling.</de>
 				<en>Insp. Harry Callahan chases a sniper and blackmailer.
 Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</en>
-<pl></pl>
+				<pl>Szaleniec o pseudonimie Skorpion strzela do ludzi z dachów i szantażuje burmistrza San Francisco. Może go unieszkodliwić jedynie inspektor Callahan, znany ze stosowania brutalnych metod wobec przestępców.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">106fe90b-0e43-400c-bdeb-2a0175b9a188</member>
@@ -4925,12 +4926,12 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 			<title_original>
 				<de>Dirty Harry II - Callahan</de>
 				<en>Magnum Force</en>
-				<pl></pl>
+				<pl>Siła magnum</pl>
 			</title_original>
 			<description>
 				<de>Callahan befasst sich mit Verbrechern, die der Justiz entronnen sind. Seine Spur führt bald auf eine Grupper junger Polizisten, die Harry nacheifern und das Gesetz in die eigenen Hände nehmen.</de>
 				<en>Callahan deals with criminals who have escaped justice. His trail soon leads to a group of young police officers who emulate Harry and take the law into their own hands.</en>
-			<pl></pl>
+				<pl>Harry Callahan prowadzi śledztwo w sprawie samosądów dokonywanych na uniewinnionych przestępcach przez tajemniczego motocyklistę.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">106fe90b-0e43-400c-bdeb-2a0175b9a188</member>
@@ -4951,12 +4952,12 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 			<title_original>
 				<de>Dirty Harry III - Der Unerbittliche</de>
 				<en>The Enforcer</en>
-				<pl></pl>
+				<pl>The Enforcer - Strażnik prawa</pl>
 			</title_original>
 			<description>
 				<de>Harry Callahan, seiner rüden Vorgehensweise wegen aus der Mordkommission entlassen, wird in den aktiven Dienst zurückbeordert, um in San Francisco einen schmutzigen Fall zu lösen.</de>
 				<en>Harry Callahan, dismissed from the Homicide Division for his rude approach, is ordered back to active duty to solve a dirty case in San Francisco.</en>
-			<pl></pl>
+				<pl>Inspektor Callahan wraz z nową partnerką wpada na trop szajki przestępczej, która terroryzuje miasto.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">38c44017-316b-4b60-b6b8-46efbc960985</member>
@@ -4977,12 +4978,12 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 			<title_original>
 				<de>Dirty Harry kommt zurück</de>
 				<en>Sudden Impact</en>
-				<pl></pl>
+				<pl>Sudden Impact - Nagłe zderzenie</pl>
 			</title_original>
 			<description>
 				<de>Wieder wird Inspector Callahan suspendiert. In einem kleinen Ort an der Küste sieht er sich jedoch bald mit einer Mordserie konfrontiert, die seine Aufmerksamkeit verlangt.</de>
 				<en>Once again, Inspector Callahan is suspended. In a small town on the coast, however, he is soon confronted with a series of murders that demand his attention.</en>
-			<pl></pl>
+				<pl>Inspektor Callahan tropi mordercę, który z zimną krwią dokonuje egzekucji na swoich ofiarach.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">ec20fc5a-a552-4119-8d1e-d310650c2830</member>
@@ -5003,12 +5004,12 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 			<title_original>
 				<de>Das Todesspiel</de>
 				<en>The Dead Pool</en>
-				<pl></pl>
+				<pl>The Dead Pool - Pula śmierci</pl>
 			</title_original>
 			<description>
 				<de>Ein psychisch gestörter Horrorfilmer legt eine Liste an, auf der die Namen von Todeskandidaten stehen. Er nimmt Wetten an, wer das nächste Opfer sein wird. Auch Harry Callahan steht auf dieser Liste...</de>
 				<en>A mentally disturbed horror filmmaker creates a list on which the names of death candidates are written. He takes bets on who will be the next victim. Harry Callahan is also on this list...</en>
-			<pl></pl>
+				<pl>Inspektor Harry Callahan staje się jednym z obiektów gry ekipy filmowej.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">9664011b-c5fa-4aa0-876a-492c3731ddae</member>
@@ -5028,14 +5029,15 @@ Thanks to rough methods and his .44 Magnum, the Harry became a crowd favorite.</
 			<title_original>
 				<de>Der Gauner und der liebe Gott</de>
 				<en>Crook and the Cross</en>
-				<pl></pl>
+				<pl>Crook and the Cross</pl>
 			</title_original>
 			<description>
 				<de>Ein zu unrecht Verurteilter sucht als Pfarrer verkleidet in einer kleinen Gemeinde Unterschlupf.
 Köstlicher Spaß mit [1|Full].</de>
 				<en>A wrongly convicted man disguised as a priest seeks shelter in a small community.
 Delicious fun with [1|Full].</en>
-<pl></pl>
+				<pl>Niesłusznie skazany mężczyzna w przebraniu księdza szuka schronienia w małej społeczności.
+Pyszna zabawa z [1|Full].</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">081f7a91-2031-4660-816d-c7cd5ce6c1a2</member>
@@ -5057,14 +5059,14 @@ Delicious fun with [1|Full].</en>
 			<title_original>
 				<de>Der König der Löwen</de>
 				<en>The Lion King</en>
-				<pl></pl>
+				<pl>Król Lew</pl>
 			</title_original>
 			<description>
 				<de>Der rechtmäßige Löwenkönig muss seinen Platz im ewigen Kreis des Lebens finden.
 [2|Last]s oscarprämiertes Meisterwerk.</de>
 				<en>The rightful lion king must find his place in the eternal circle of life.
 [2|Last]'s Oscar-winning masterpiece.</en>
-<pl></pl>
+				<pl>Targany niesłusznymi wyrzutami sumienia po śmierci ojca mały lew Simba skazuje się na wygnanie, rezygnując z przynależnego mu miejsca na czele stada.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e1adcc40-afd4-4e2c-b5b6-14b698839068</member>
@@ -5089,12 +5091,12 @@ Delicious fun with [1|Full].</en>
 			<title_original>
 				<de>Blair Witch Project</de>
 				<en>The Blair Witch Project</en>
-				<pl></pl>
+				<pl>The Blair Witch Project</pl>
 			</title_original>
 			<description>
 				<de>Ausgeklügelte Werbekampagnen, besonders via Internet, verhalfen diesem Amateur-Film zu erstaunlichem Erfolg. Spannung allerdings kommt nicht auf. Das Video ist ein Reinfall.</de>
 				<en>Sophisticated advertising campaigns, especially via the Internet, helped this amateur film achieve astonishing success. However, there is no suspense. The video is a flop.</en>
-			<pl></pl>
+				<pl>Trójka studentów wyrusza z kamerą w głąb lasu w poszukiwaniu śladów przerażającej wiedźmy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7ea4c128-49e4-4b1c-8f69-92fe3b153229</member>
@@ -5116,14 +5118,14 @@ Delicious fun with [1|Full].</en>
 			<title_original>
 				<de>Magnolia</de>
 				<en>Magnolia</en>
-				<pl></pl>
+				<pl>Magnolia</pl>
 			</title_original>
 			<description>
 				<de>Ein Einblick in das Leben verschiedener Menschen.
 Oscar-Nominierung für [1|Last] (Bester Nebendarsteller).</de>
 				<en>An insight into the lives of different people.
 Oscar nomination for [1|Last] (Best Supporting Actor).</en>
-<pl></pl>
+				<pl>Dzień z życia kilku ludzi, których historie układają się w wielowątkową, mozaikową konstrukcję.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7a68750b-851c-4686-851c-bb5962432e6a</member>
@@ -5146,12 +5148,12 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 			<title_original>
 				<de>Arachnophobia</de>
 				<en>Arachnophobia</en>
-				<pl></pl>
+				<pl>Arachnophobia</pl>
 			</title_original>
 			<description>
 				<de>Eine hochgiftige Spinne aus den Tropen paart sich in einer kalifornischen Kleinstadt mit einem einheimischen Tier. Die ersten Todesfälle lassen nicht lange auf sich warten...</de>
 				<en>A highly venomous spider from the tropics mates with a native animal in a small California town. The first deaths do not take long to appear...</en>
-			<pl></pl>
+				<pl>Grupa badaczy odkrywa w Wenezueli nowy gatunek bardzo jadowitych pająków. Przez nieuwagę naukowców jeden ze stawonogów trafia do małego kalifornijskiego miasteczka.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e7e27cb8-f32c-430c-a48b-422e68c7e38e</member>
@@ -5171,12 +5173,12 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 			<title_original>
 				<de>Vater sein dagegen sehr</de>
 				<en>An Adventurous Father (The Old Tower on the Moselle)</en>
-				<pl></pl>
+				<pl>Żądny przygód ojciec (Stara wieża nad Mozelą)</pl>
 			</title_original>
 			<description>
 				<de>Der Schriftsteller Lutz Ventura lebt in einem Turm. Als seine verwitwete Schwester stirbt, nimmt er deren Kinder mitsamt Hund bei sich auf.</de>
 				<en>The writer Lutz Ventura lives in a tower. When his widowed sister dies, he takes in her children and their dog.</en>
-			<pl></pl>
+				<pl>Pisarz Lutz Ventura mieszka w wieżowcu. Kiedy umiera jego owdowiała siostra, przygarnia jej dzieci i psa.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">e3144c39-4577-4a4a-bde9-8d1d41f789cd</member>
@@ -5198,12 +5200,12 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 			<title_original>
 				<de>Identität - Identity</de>
 				<en>Identity</en>
-				<pl></pl>
+				<pl>Identity - Tożsamość</pl>
 			</title_original>
 			<description>
 				<de>Undurchsichtiger Psychopath-Thriller. Im Mittelpunkt eine Mordserie, die die Anwesenden zu beenden suchen.</de>
 				<en>Opaque psychopath thriller. The focus is a series of murders that the attendees seek to end.</en>
-			<pl></pl>
+				<pl>Grupa nieznajomych kryje się przed burzą w odciętym od świata motelu. Wkrótce jeden po drugim zaczynają znikać.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7aff9a9d-547b-498d-8832-bbc1a58435bf</member>
@@ -5226,14 +5228,14 @@ Oscar nomination for [1|Last] (Best Supporting Actor).</en>
 			<title_original>
 				<de>Blue Velvet: Verbotene Blicke</de>
 				<en>Blue Velvet</en>
-				<pl></pl>
+				<pl>Blue Velvet</pl>
 			</title_original>
 			<description>
 				<de>[0|Last] skizziert eine Kleinstadt, deren unschuldige Fassade täuscht.
 Abgrundtief düster, beängstigend und atemberaubend - Kultfilm der 80er.</de>
 				<en>[0|Last] sketches a small town whose innocent facade is deceptive.
 Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
-<pl></pl>
+				<pl>Jeffrey znajduje ludzkie ucho i zanosi je znajomemu detektywowi. Dowiedziawszy się od jego córki o piosenkarce pracującej w nocnym klubie, rozpoczyna śledztwo na własną rękę. </pl>
 			</description>
 			<staff>
 				<member index="0" function="1">424d8116-afc9-44e4-b076-79b51c2b1f0d</member>
@@ -5255,12 +5257,12 @@ Abysmally dark, frightening and breathtaking - cult film of the 80s.</en>
 			<title_original>
 				<de>Police Academy - Dümmer als die Polizei erlaubt</de>
 				<en>Police Academy</en>
-				<pl></pl>
+				<pl>Akademia Policyjna</pl>
 			</title_original>
 			<description>
 				<de>Der Titel sagt alles.</de>
 				<en>Subheading: Too dumb for other jobs. Says it all.</en>
-				<pl></pl>
+				<pl>Decyzja pani burmistrz powoduje, że do miejscowej akademii policyjnej zgłasza się każdy chętny. Nowi, często niezbyt kompetentni kandydaci zostają poddani surowemu szkoleniu.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">7feba7d0-6a3d-4ea0-a6bc-ede60765c9d7</member>
