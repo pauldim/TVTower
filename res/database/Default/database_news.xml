@@ -1055,7 +1055,7 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 				<desc>
 					<de>Der %minister% beantragt im Bundestag die Verpflichtung eines jeden Bundesbürgers zur Haltung ein${animal_gen_${index}}.</de>
 					<en>The %minister% requests in Parliament the obligation of every citizen to keep a${animal_gen_${index}}.</en>
-					<pl>%minister% domaga się w parlamencie zobowiązania każdego obywatela do zachowania a${animal_gen_${index}}.</pl>
+					<pl>%minister% domaga się w parlamencie zobowiązania każdego obywatela do trzymania a${animal_gen_${index}}.</pl>
 				</desc>
 				<index>
 					<de>0|1|2|3|4|5|6|7|8|9|a|b|c|d</de>
@@ -1278,27 +1278,27 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 				<animal_gen_0>
 					<de>es Koalas</de>
 					<en>koala</en>
-					<pl>koala</pl>
+					<pl>koali</pl>
 				</animal_gen_0>
 				<animal_gen_1>
 					<de>es Nilpferds</de>
 					<en>hippo</en>
-					<pl>hipopotam</pl>
+					<pl>hipopotamów</pl>
 				</animal_gen_1>
 				<animal_gen_2>
 					<de>es Bergschafs</de>
 					<en>mountain goat</en>
-					<pl>koza górska</pl>
+					<pl>kóz górskich</pl>
 				</animal_gen_2>
 				<animal_gen_3>
 					<de>es Faultiers</de>
 					<en>sloth</en>
-					<pl>leniwiec</pl>
+					<pl>leniwców</pl>
 				</animal_gen_3>
 				<animal_gen_4>
 					<de>es Kängurus</de>
 					<en>kangaroo</en>
-					<pl>kangur</pl>
+					<pl>kangurów</pl>
 				</animal_gen_4>
 				<animal_gen_5>
 					<de>es Shibas</de>
@@ -1308,12 +1308,12 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 				<animal_gen_6>
 					<de>er Steinlaus</de>
 					<en>stone louse</en>
-					<pl>pchła kamienna</pl>
+					<pl>pcheł kamiennych</pl>
 				</animal_gen_6>
 				<animal_gen_7>
 					<de>es Schaukelpferds</de>
 					<en>rocking horse</en>
-					<pl>konik na biegunach</pl>
+					<pl>koników na biegunach</pl>
 				</animal_gen_7>
 				<animal_gen_8>
 					<de>es Sexmagazin-Lesers</de>
@@ -1328,22 +1328,22 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 				<animal_gen_a>
 					<de>es Eisbärs</de>
 					<en>polar bear</en>
-					<pl>niedzwiedz polarny</pl>
+					<pl>niedzwiedzi polarnych</pl>
 				</animal_gen_a>
 				<animal_gen_b>
 					<de>es Grashüpfers</de>
 					<en>grasshopper</en>
-					<pl>konik polny</pl>
+					<pl>koników polnych</pl>
 				</animal_gen_b>
 				<animal_gen_c>
 					<de>es Kaiserpinguins</de>
 					<en>emperor penguin</en>
-					<pl>pingwin cesarski</pl>
+					<pl>pingwinów cesarskich</pl>
 				</animal_gen_c>
 				<animal_gen_d>
 					<de>es Stinktiers</de>
 					<en>skunk</en>
-					<pl>skunks</pl>
+					<pl>skunksów</pl>
 				</animal_gen_d>
 				<animals_dat_0>
 					<de>Koalas</de>
@@ -1597,7 +1597,7 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 			<title>
 				<de>Des %minister%s Liebe</de>
 				<en>The %minister%'s Love</en>
-				<pl>Miłość %ministra%</pl>
+				<pl>Miłość %minister%</pl>
 			</title>
 			<description>
 				<de>Der %minister% hat seine heimliche Liebe zu ${animals_dat_${index}} zugegeben, obwohl sich herausgestellt hat, dass ${animals_${index}} ${haveclaws_${index}}.</de>
@@ -1667,7 +1667,7 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 			<description>
 				<de>Die ganze Nation lacht über den Antrag des %minister%s, die Haltung ein${animal_gen_${index}} zur Pflicht zu machen.</de>
 				<en>The whole nation is laughing at the %minister%'s proposal to make keeping a${animal_gen_${index}} mandatory.</en>
-				<pl>Cały naród śmieje się z propozycji %ministra%, by wprowadzić obowiązek posiadania ${animal_gen_${index}}.</pl>
+				<pl>Cały naród śmieje się z propozycji %minister%, by wprowadzić obowiązek posiadania ${animal_gen_${index}}.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" news="53fdba7b-a310-4a31-85e6-5247e908ca10" />
@@ -1684,7 +1684,7 @@ Oczekuje się, że jej normalny rozmiar ciała zostanie osiągnięty w ciągu ty
 			<description>
 				<de>Die ganze Welt lacht über unseren %minister%, der die Haltung ein${animal_gen_${index}} zur Pflicht machen will.</de>
 				<en>The whole world is laughing at our %minister% who wants to make keeping a${animal_gen_${index}} mandatory.</en>
-				<pl>Cały świat śmieje się z naszego %ministra%, który chce wprowadzić obowiązek posiadania ${animal_gen_${index}}.</pl>
+				<pl>Cały świat śmieje się z naszego %minister%, który chce wprowadzić obowiązek posiadania ${animal_gen_${index}}.</pl>
 			</description>
 			<effects>
 				<effect trigger="happen" type="triggernews" news="79b75334-0bec-4061-a029-890601f10b5e" />
