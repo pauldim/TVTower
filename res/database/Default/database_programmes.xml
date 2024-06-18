@@ -52626,12 +52626,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Unsere kleine Farm (Staffel 1)</de>
 				<en>Little House on the Prairie (Season 1)</en>
-				<pl></pl>
+				<pl>Domek na prerii (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Familien-Western-Serie mit [0|First] -selig- [0|Last], der den hilfsbereiten und gottesfürchtigen Charles spielt, der mit viel Liebe, aber auch Autorität und Strenge seiner tugendhaften Familie vorsteht.</de>
 				<en>Family western series with [0|First] -blessed- [0|Last], who plays the helpful and God-fearing Charles, who heads his virtuous family with much love, but also authority and strictness.</en>
-			<pl></pl>
+				<pl>Rodzina Ingallsów to rodzice; Charles i Caroline oraz trzy (początkowo) dziewczynki - Mary, Laura i Carrie. Po opuszczeniu Kansas docierają do miasteczka Walnut Grove w Minnesocie. Postanawiają zatrzymać się tu na dłużej. Charles buduje dom, obsiewa pole.</pl>
 			</description>
 			<staff>
 				<member index="0" function="3">111bba01-c84c-4b00-8782-c5810d703a0f</member>
@@ -52652,12 +52652,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Das neue Land</de>
 						<en>A Harvest of Friends</en>
-						<pl></pl>
+						<pl>Zbiory przyjaciół</pl>
 					</title_original>
 					<description>
 						<de>Die Familie Ingalls zieht an die Ufer des Plum Creek in der Nähe von Walnut Grove, Minnesota, und Charles erhält einen Job in Hansons Mühle, wo er das Holz für den Bau der 'kleinen Farm' beschafft.</de>
 						<en>The Ingalls family moves to the banks of Plum Creek, near Walnut Grove, Minnesota, and Charles gets a job at Hanson's mill for the lumber to build the 'Little House'.</en>
-					<pl></pl>
+						<pl>Rodzina Ingallsów przeprowadza się nad brzeg Plum Creek, niedaleko Walnut Grove w Minnesocie, a Charles dostaje pracę w tartaku Hansona, gdzie pozyskuje drewno na budowę "Małego Domku".</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="e691c8e5-2b67-4e5f-bcda-ed9ede012294" />
@@ -52671,12 +52671,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der erste Schultag</de>
 						<en>Country Girls</en>
-						<pl></pl>
+						<pl>Wiejskie dziewczęta</pl>
 					</title_original>
 					<description>
 						<de>Mary und Laura an ihrem ersten Schultag in Walnut Grove. Caroline muss mit Harriet Oleson, der reichen Teilhaberin von Oleson's Mercantile, zurechtkommen, und Laura mit der verhätschelten Tochter der Olesons.</de>
 						<en>Mary and Laura begin their first day of school at Walnut Grove. While Caroline has to learn how to deal with Harriet Oleson, the rich part-owner of Oleson's Mercantile, Laura learns how to deal with the Olesons' spoiled daughter.</en>
-					<pl></pl>
+						<pl>Mary i Laura rozpoczynają pierwszy dzień szkoły w Walnut Grove. Podczas gdy Caroline musi nauczyć się, jak radzić sobie z Harriet Oleson, bogatą właścicielką Oleson's Mercantile, Laura uczy się, jak radzić sobie z rozpieszczoną córką Olesonów.</pl>
 					</description>
 				</programme>
 				<programme id="b867397b-40de-4b37-8ecb-1a0597f8218e" product="2" licence_type="2" imdb_id="tt0633149" creator="9551">
@@ -52687,12 +52687,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Meine Party - Deine Party</de>
 						<en>Town Party-Country Party</en>
-						<pl></pl>
+						<pl>Impreza miejska - impreza wiejska</pl>
 					</title_original>
 					<description>
 						<de>Auf der Geburtstagsparty von Nellie Oleson schubst Nellie Laura und verletzt sie am Knöchel. Das führt dazu, dass Laura sich mit Olga Nordstrom anfreundet, einem ruhigen, freundlichen Mädchen aus ihrer Schule, die mit einem Geburtsfehler zur Welt kam.</de>
 						<en>While at Nellie Oleson's birthday party, Nellie pushes Laura and hurts her ankle. This leads to Laura becoming friends with Olga Nordstrom, a quiet friendly girl from her school who was born with a birth defect.</en>
-					<pl></pl>
+						<pl>Podczas przyjęcia urodzinowego Nellie Oleson popycha Laurę i rani ją w kostkę. Prowadzi to do zaprzyjaźnienia się Laury z Olgą Nordstrom, cichą i przyjazną dziewczyną z jej szkoły, która urodziła się z wadą wrodzoną.</pl>
 					</description>
 				</programme>
 				<programme id="3649ecc7-074c-41a7-acf9-0ca5568f1da3" product="2" licence_type="2" imdb_id="tt0633104" creator="9551">
@@ -52703,12 +52703,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Lauras Eifersucht</de>
 						<en>The Lord Is My Shepherd</en>
-						<pl></pl>
+						<pl>Pan jest moim pasterzem</pl>
 					</title_original>
 					<description>
 						<de>Die Familie Ingalls freut sich über die Geburt eines kleinen Jungen, Charles Frederick Ingalls, aber Laura ist eifersüchtig auf die Aufmerksamkeit, die er von Charles erhält, und weigert sich, für die Gesundheit ihres neuen Bruders zu beten.</de>
 						<en>The Ingalls family is delighted by the birth of a baby boy, Charles Frederick Ingalls, but Laura becomes jealous about the attention he receives from Charles and refuses to pray for her new brother's good health.</en>
-					<pl></pl>
+						<pl>Rodzina Ingallsów jest zachwycona narodzinami chłopca, Charlesa Fredericka Ingallsa, ale Laura staje się zazdrosna o uwagę, jaką otrzymuje od Charlesa i odmawia modlitwy o zdrowie swojego nowego brata.</pl>
 					</description>
 				</programme>
 				<programme id="3506c2bc-4f91-458d-a9fd-ce2fc855be11" product="2" licence_type="2" imdb_id="tt0794900" creator="9551">
@@ -52719,12 +52719,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Tausche Pony gegen Ofen</de>
 						<en>Christmas at Plum Creek</en>
-						<pl></pl>
+						<pl>Boże Narodzenie w Plum Creek</pl>
 					</title_original>
 					<description>
 						<de>Als Weihnachten vor der Tür steht, sind alle Ingalls in heller Aufregung und Heimlichtuerei. Charles und Mary nehmen Jobs an, um Geschenke zu besorgen, aber Laura weiß nicht, wie sie Geld auftreiben soll, bis sie merkt, dass sie ein wertvolles Pferd hat.</de>
 						<en>When Christmas comes around, all the Ingalls are caught up in the secrecy and excitement. Charles and Mary take jobs to obtain gifts, but Laura cannot think of how to raise money, until she realizes she has something of value in her horse.</en>
-					<pl></pl>
+						<pl>Kiedy nadchodzi Boże Narodzenie, wszyscy Ingallowie są uwikłani w tajemnicę i podekscytowanie. Charles i Mary podejmują pracę, aby zdobyć prezenty, ale Laura nie może wymyślić, jak zebrać pieniądze, dopóki nie zda sobie sprawy, że ma coś wartościowego w swoim koniu.</pl>
 					</description>
 				</programme>
 				<programme id="ae72ca1e-d00c-46e6-b69c-9d4ddaffc358" product="2" licence_type="2" imdb_id="tt0633059" creator="9551">
@@ -52735,12 +52735,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Seuche</de>
 						<en>Plague</en>
-						<pl></pl>
+						<pl>Zaraza</pl>
 					</title_original>
 					<description>
 						<de>In Walnut Grove bricht Typhus aus, und Doc Baker rät allen, sich in ihren Häusern zu isolieren.</de>
 						<en>A typhus outbreak hits Walnut Grove, so Doc Baker advises everyone to stay in isolation in their homes.</en>
-						<pl></pl>
+						<pl>W Walnut Grove wybucha epidemia tyfusu, więc Doc Baker radzi wszystkim, aby pozostali w izolacji w swoich domach.</pl>
 					</description>
 				</programme>
 			</children>
@@ -52753,12 +52753,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Unsere kleine Farm (Staffel 2)</de>
 				<en>Little House on the Prairie (Season 2)</en>
-				<pl></pl>
+				<pl>Domek na prerii (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Familien-Western-Serie mit [0|First] -selig- [0|Last]. Nach den autobiographischen Büchern der Tochter Laura, aber mit vielen fiktiven Elementen.</de>
 				<en>Family western series with [0|First] -blessed- [0|Last]. Based on daughter Laura's autobiographical books, but with plenty of fiction added.</en>
-				<pl></pl>
+				<pl>Rodzinny serial westernowy z [0|First] - błogosławiony- [0|Last]. Oparty na autobiograficznych książkach córki Laury, ale z dużą ilością fikcji.</pl>
 			</description>
 			<staff>
 				<member index="0" function="3">111bba01-c84c-4b00-8782-c5810d703a0f</member>
@@ -52779,12 +52779,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der reichste Mann in Walnut Grove</de>
 						<en>The Richest Man in Walnut Grove</en>
-						<pl></pl>
+						<pl>Najbogatszy człowiek w Walnut Grove</pl>
 					</title_original>
 					<description>
 						<de>Ein wichtiger Kunde geht in Konkurs, so dass Hanson die Mühle schließt und Charles kein Gehalt mehr zahlen kann, was wiederum bedeutet, dass Charles die hohe Rechnung im Mercantile nicht begleichen kann. Die ganze Familie springt ein, um zu helfen.</de>
 						<en>A major customer goes bankrupt, so Hanson closes the mill and cannot pay Charles, which means Charles cannot pay off their large tab at the Mercantile. The whole family pitches in to help.</en>
-					<pl></pl>
+						<pl>Główny klient bankrutuje, więc Hanson zamyka młyn i nie może zapłacić Charlesowi, co oznacza, że Charles nie może spłacić dużego rachunku w Mercantile. Cała rodzina angażuje się w pomoc.</pl>
 					</description>
 				</programme>
 				<programme id="8748a7ab-a53a-4697-a80e-843afea5d5ea" product="2" licence_type="2" imdb_id="tt0633063" creator="9551">
@@ -52795,12 +52795,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Mit einem Lächeln</de>
 						<en>Remember Me</en>
-						<pl></pl>
+						<pl>Zapamiętaj mnie</pl>
 					</title_original>
 					<description>
 						<de>Eine verwitwete Mutter erfährt, dass sie unheilbar krank ist, und da sie keine nahen Verwandten hat, die sich um ihre drei Kinder kümmern könnten, bringt sie Charles dazu, ihr zu versprechen, für die Kinder nach ihrem Tod ein neues Zuhause zu finden.</de>
 						<en>A widowed mother learns she has a terminal illness and, with no close relatives to care for her three children, she gets Charles to promise to find the children a new home after she dies.</en>
-					<pl></pl>
+						<pl>Owdowiała matka dowiaduje się, że jest śmiertelnie chora i nie ma bliskich krewnych, którzy mogliby zaopiekować się trójką jej dzieci, więc nakłania Charlesa, by obiecał znaleźć im nowy dom po jej śmierci.</pl>
 					</description>
 				</programme>
 				<programme id="f0e761c7-ad9f-4296-b453-60c6695ccf3c" product="2" licence_type="2" imdb_id="tt0632963" creator="9551">
@@ -52811,12 +52811,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Blutvergiftung</de>
 						<en>A Matter of Faith</en>
-						<pl></pl>
+						<pl>Kwestia wiary</pl>
 					</title_original>
 					<description>
 						<de>Charles und die Mädchen machen einen Campingausflug, und Caroline plant, sich ihnen später anzuschließen. Zuvor hatte Caroline ihr Bein an einem Stück Maschendraht aufgekratzt, und aus dem kleinen Kratzer wurde eine schwere Infektion.</de>
 						<en>Charles and the girls go on a camping trip, with Caroline planning to join them later. Previously, Caroline had scratched her leg on a piece of baling wire, and the minor scratch turns into a serious infection.</en>
-					<pl></pl>
+						<pl>Charles i dziewczyny wyjeżdżają na kemping, a Caroline planuje dołączyć do nich później. Wcześniej Caroline zadrapała nogę kawałkiem drutu do belowania, a drobne zadrapanie zamieniło się w poważną infekcję.</pl>
 					</description>
 				</programme>
 				<programme id="28f90a86-d36e-4dda-9ac4-bd9851d18a10" product="2" licence_type="2" imdb_id="tt0633150" creator="9551">
@@ -52827,12 +52827,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Störenfried</de>
 						<en>Troublemaker</en>
-						<pl></pl>
+						<pl>Wichrzyciel</pl>
 					</title_original>
 					<description>
 						<de>Miss Beadle wird von ihren Pflichten als Schulleiterin entbunden, als der Stadtrat beschließt, dass sie die älteren Schüler nicht kontrollieren kann. An ihrer Stelle wird Hannibal Applewood eingesetzt, ein strenger Zuchtmeister.</de>
 						<en>Miss Beadle is relieved of her duties as schoolmistress when the town council decide she cannot control the older students. In her place, they appoint Hannibal Applewood, a strict disciplinarian.</en>
-					<pl></pl>
+						<pl>Panna Beadle zostaje zwolniona z obowiązków dyrektorki szkoły, gdy rada miasta decyduje, że nie jest w stanie kontrolować starszych uczniów. Na jej miejsce powołują Hannibala Applewooda, surowego dyscyplinatora.</pl>
 					</description>
 				</programme>
 				<programme id="11304a68-ab8e-483d-9be1-bdeac9e9dd77" product="2" licence_type="2" imdb_id="tt0632999" creator="9551">
@@ -52843,12 +52843,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Geizhals</de>
 						<en>Ebenezer Sprague</en>
-						<pl></pl>
+						<pl>Ebenezer Sprague</pl>
 					</title_original>
 					<description>
 						<de>Laura freundet sich beim Angeln mit einem Fremden an und stellt später verblüfft fest, dass es sich um den egozentrischen und geizigen neuen Bankier von Walnut Grove handelt.</de>
 						<en>Laura befriends a stranger while out fishing, and is stunned to later discover he is none other than Walnut Grove's self-centered and miserly new banker.</en>
-						<pl></pl>
+						<pl>Laura zaprzyjaźnia się z nieznajomym podczas wędkowania, a później jest zdumiona, gdy odkrywa, że jest on nikim innym jak egocentrycznym i skąpym nowym bankierem Walnut Grove.</pl>
 					</description>
 				</programme>
 				<programme id="8e1a35a1-d8f3-47e9-b458-2c756e5d8906" product="2" licence_type="2" imdb_id="tt0633010" creator="9551">
@@ -52859,12 +52859,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Zurück nach Wisconsin?</de>
 						<en>Going Home</en>
-						<pl></pl>
+						<pl>Powrót do domu</pl>
 					</title_original>
 					<description>
 						<de>Bei einem Tornado verliert Charles seine Ernte und das Haus. In Verzweiflung beschließt er, mit der Familie zurück nach Wisconsin zu ziehen. Die niedergeschlagene Laura betet mit dem Reverend für eine Möglichkeit, irgendwie in Walnut Grove bleiben zu können.</de>
 						<en>When a tornado hits, Charles loses his wheat crop and the house. A despondent Charles decides to move the family back to Wisconsin. A crushed Laura prays with the Reverend for a way to somehow be able to stay in Walnut Grove.</en>
-					<pl></pl>
+						<pl>Kiedy uderza tornado, Charles traci zbiory pszenicy i dom. Przygnębiony Charles postanawia przenieść rodzinę z powrotem do Wisconsin. Zdruzgotana Laura modli się z wielebnym o sposób na pozostanie w Walnut Grove.</pl>
 					</description>
 				</programme>
 			</children>
@@ -52877,12 +52877,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Bonanza (Staffel 1)</de>
 				<en>Bonanza (Season 1)</en>
-				<pl></pl>
+				<pl>Bonanza (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>An anderer Stelle in diesem Spiel unheilschwanger angekündigt, hier ist sie, die antike Dauerbrenner-Westernserie rund um Ranch-Daddy [0|Full].</de>
 				<en>Announced ominously elsewhere in this game, here it is, the ancient long-running Western series centered around Ranch Daddy [0|Full].</en>
-				<pl></pl>
+				<pl>Zapowiedziana złowieszczo w innym miejscu tej gry, oto jest, starożytna, długoletnia zachodnia seria skupiona wokół Ranch Daddy [0|Full].</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">82948f0e-8d00-4e24-a2a2-fbfc4aa3b503</member>
@@ -52902,12 +52902,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Eine Falle für Little Joe</de>
 						<en>A Rose for Lotta</en>
-						<pl></pl>
+						<pl>Róża dla Lotty</pl>
 					</title_original>
 					<description>
 						<de>Ein Bergbau-Tycoon benutzt eine Schauspielerin, um Joe als Geisel zu halten und dafür Holz zu bekommen.</de>
 						<en>A mining tycoon uses an actress in a plot to hold Joe hostage in exchange for timber wood.</en>
-						<pl></pl>
+						<pl>Potentat górniczy wykorzystuje aktorkę w spisku, którego celem jest zatrzymanie Joe jako zakładnika w zamian za drewno.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="9d859c07-4724-461e-a9ff-8c97df5415b2" />
@@ -52921,12 +52921,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Deidesheimer Story</de>
 						<en>The Philip Diedesheimer Story</en>
-						<pl></pl>
+						<pl>Historia Philipa Diedesheimera</pl>
 					</title_original>
 					<description>
 						<de>Rattenfänger Philip Deidesheimer versucht mit Hilfe von Adam und Hoss, eine Methode zu entwickeln, um die Silberminen von Virginia City vor einem Einsturz zu bewahren.</de>
 						<en>Pied Piper Philip Deidesheimer, with the help of Adam and Hoss, tries to create a method for saving the silver mines of Virginia City from a cave-in.</en>
-						<pl></pl>
+						<pl>Pied Piper Philip Deidesheimer z pomocą Adama i Hossa próbuje opracować metodę ratowania kopalni srebra w Virginia City przed zawaleniem.</pl>
 					</description>
 				</programme>
 				<programme id="423c05e5-3656-4ae3-834d-86ea1999ed3e" product="2" licence_type="2" imdb_id="tt0529734" creator="9551">
@@ -52937,12 +52937,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Tag wird kommen, Marks</de>
 						<en>The Hanging Posse</en>
-						<pl></pl>
+						<pl>Ten dzień nadejdzie, Marks</pl>
 					</title_original>
 					<description>
 						<de>Adam und Joe versuchen zu verhindern, dass sich ein Trupp, der Mörder fangen will, in einen Lynchmob verwandelt.</de>
 						<en>Adam and Joe attempt to stop a posse bent on catching murderers from changing into a lynch mob.</en>
-						<pl></pl>
+						<pl>Adam i Joe próbują powstrzymać grupę, której celem jest schwytanie morderców, przed przekształceniem się w tłum linczujący.</pl>
 					</description>
 				</programme>
 				<programme id="9faec439-3426-4558-84ab-14f690781fec" product="2" licence_type="2" imdb_id="tt0529878" creator="9551">
@@ -52953,12 +52953,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Rache für Billy Morgan</de>
 						<en>Vendetta</en>
-						<pl></pl>
+						<pl>Vendetta</pl>
 					</title_original>
 					<description>
 						<de>Ben wird schwer verwundet, als er und Hoss Hilfe im Kampf gegen die rachsüchtigen Morgan-Brüder suchen, und wird mit Feigheit konfrontiert, als alle Freunde, die er in der Stadt zu haben glaubte, sich verstecken.</de>
 						<en>Ben is seriously wounded as he and Hoss seek help in fighting the vengeful Morgan brothers, only to be confronted with cowardice when all the friends they thought he had in town decide to hide away.</en>
-					<pl></pl>
+						<pl>Ben zostaje poważnie ranny, gdy on i Hoss szukają pomocy w walce z mściwymi braćmi Morgan, tylko po to, by zostać skonfrontowanym z tchórzostwem, gdy wszyscy przyjaciele, o których myśleli, że mają w mieście, decydują się ukryć.</pl>
 					</description>
 				</programme>
 				<programme id="209e7a73-4940-41e9-b362-d5effadc3f21" product="2" licence_type="2" imdb_id="tt0529674" creator="9551">
@@ -52969,12 +52969,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Zum Tode verurteilt</de>
 						<en>The Avenger</en>
-						<pl></pl>
+						<pl>Mściciel</pl>
 					</title_original>
 					<description>
 						<de>Ein geheimnisvoller Fremder hilft Hoss und Joe, Ben und Adam zu retten, bevor sie wie sein Vater gehängt werden.</de>
 						<en>A mysterious stranger helps Hoss and Joe to save Ben and Adam before they're hanged like his father.</en>
-						<pl></pl>
+						<pl>Tajemniczy nieznajomy pomaga Hossowi i Joemu uratować Bena i Adama, zanim zostaną powieszeni, jak jego ojciec.</pl>
 					</description>
 				</programme>
 				<programme id="20800b74-294f-4773-95da-738f459f2169" product="2" licence_type="2" imdb_id="tt0529643" creator="9551">
@@ -52985,12 +52985,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die geheimnisvolle Hafenbar</de>
 						<en>San Francisco</en>
-						<pl></pl>
+						<pl>San Francisco</pl>
 					</title_original>
 					<description>
 						<de>Die Cartwrights beenden einen Viehtrieb in San Francisco. Ben wird an der Barbary Coast auf der Suche nach zwei Rancharbeitern verschleppt.</de>
 						<en>The Cartwrights finish a cattle drive in San Francisco. Ben is shanghaied at the Barbary Coast while searching for a pair of ranch hands.</en>
-						<pl></pl>
+						<pl>Cartwrightowie kończą spęd bydła w San Francisco. Ben zostaje porwany na Barbary Coast podczas poszukiwań pary ranczerów.</pl>
 					</description>
 				</programme>
 				<programme id="7931f866-0a92-4789-8d34-e8ebfdca49f7" product="2" licence_type="2" imdb_id="tt0529560" creator="9551">
@@ -53001,12 +53001,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Apfel fällt nicht weit vom Stamm</de>
 						<en>Feet of Clay</en>
-						<pl></pl>
+						<pl>Stopy z gliny</pl>
 					</title_original>
 					<description>
 						<de>Die Cartwrights trösten und beherbergen einen Jungen, dessen Mutter gerade gestorben ist und dessen Vater im Gefängnis sitzt. Oder saß. Es heißt, er sei ausgebrochen und suche womöglich nach seinem Sohn.</de>
 						<en>The Cartwrights comfort and shelter a boy whose mother has just died and whose father is in jail. Or was. News is he escaped and might be looking for his son.</en>
-						<pl></pl>
+						<pl>Cartwrightowie udzielają schronienia chłopcu, którego matka właśnie zmarła, a ojciec przebywa w więzieniu. Albo był. Wieść niesie, że uciekł i może szukać swojego syna.</pl>
 					</description>
 				</programme>
 				<programme id="3b4986b7-7d94-46b3-aa0e-11fe7f1b27b2" product="2" licence_type="2" imdb_id="tt0529535" creator="9551">
@@ -53017,12 +53017,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Hinrichtung im Morgengrauen</de>
 						<en>Death at Dawn</en>
-						<pl></pl>
+						<pl>Śmierć o świcie</pl>
 					</title_original>
 					<description>
 						<de>Eine Verbrecherbande, die Virginia City mittels Schutzgelderpressung übernommen hat, entführt Ben.</de>
 						<en>A criminal gang that has taken over Virginia City in the form of a protection racket kidnaps Ben.</en>
-						<pl></pl>
+						<pl>Gang przestępczy, który przejął kontrolę nad Virginia City, porywa Bena.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53035,12 +53035,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Bonanza (Staffel 2)</de>
 				<en>Bonanza (Season 2)</en>
-				<pl></pl>
+				<pl>Bonanza (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Staffel zwei der zweitlängsten Westernserie der Welt über die Ranch benannt nach der Ponderosa-Kiefer.</de>
 				<en>Season two of the world's second longest running western series about the ranch named after the Ponderosa Pine.</en>
-				<pl></pl>
+				<pl>Drugi sezon drugiego najdłużej emitowanego serialu westernowego o ranczu nazwanym na cześć sosny Ponderosa.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">82948f0e-8d00-4e24-a2a2-fbfc4aa3b503</member>
@@ -53060,12 +53060,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Gefährliche Freundschaft</de>
 						<en>Showdown</en>
-						<pl></pl>
+						<pl>Pokaz</pl>
 					</title_original>
 					<description>
 						<de>Das jüngste Mitglied einer Bande, die gerade die Bank von Virginia City ausgeraubt hat, nimmt einen Job bei den Cartwrights an, damit der Sheriff seine Komplizen nicht findet.</de>
 						<en>The youngest member of a gang that has just robbed Virginia City's bank takes a job with the Cartwrights so the sheriff doesn't find his accomplices.</en>
-						<pl></pl>
+						<pl>Najmłodszy członek gangu, który właśnie obrabował bank w Virginia City, podejmuje pracę u Cartwrightów, aby szeryf nie znalazł jego wspólników.</pl>
 					</description>
 				</programme>
 				<programme id="f43bc7b2-305d-412d-ada8-5f71f6242d85" product="2" licence_type="2" imdb_id="tt0529779" creator="9551">
@@ -53076,12 +53076,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Auftrag</de>
 						<en>The Mission</en>
-						<pl></pl>
+						<pl>Misja</pl>
 					</title_original>
 					<description>
 						<de>Hoss freundet sich mit Charlie an, dem Trinker der Stadt, der einst ein Top-Scout in der Armee war, bevor er seine Truppen in ein Massaker führte. Hoss hilft ihm, sein Selbstwertgefühl wiederzuerlangen.</de>
 						<en>Hoss befriends Charlie, the town drunk who was once a top scout in the Army before he led his troops into a massacre. Hoss helps him regain his self-esteem.</en>
-						<pl></pl>
+						<pl>Hoss zaprzyjaźnia się z Charliem, miejskim pijakiem, który kiedyś był najlepszym zwiadowcą w armii, zanim poprowadził swoje oddziały do masakry. Hoss pomaga mu odzyskać poczucie własnej wartości.</pl>
 					</description>
 				</programme>
 				<programme id="05d227d0-71f3-4327-a645-de5e2c8491d3" product="2" licence_type="2" imdb_id="tt0529777" creator="9551">
@@ -53092,12 +53092,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Knecht</de>
 						<en>The Mill</en>
-						<pl></pl>
+						<pl>Młyn</pl>
 					</title_original>
 					<description>
 						<de>Die Cartwrights helfen ihrem querschnittsgelähmten Nachbarn und seiner Frau, einer langjährigen Freundin von Ben, beim Bau einer Mühle. Einer der anderen Helfer ist Ben gegenüber misstrauisch.</de>
 						<en>The Cartwrights offer to build a mill for their paraplegic neighbor and his wife, who is a longtime friend of Ben. One of the other helpers is suspicious of Ben.</en>
-						<pl></pl>
+						<pl>Cartwrightowie oferują budowę młyna dla swojego sąsiada z i jego żony, która jest wieloletnią przyjaciółką Bena. Jeden z pozostałych pomocników jest podejrzliwy wobec Bena.</pl>
 					</description>
 				</programme>
 				<programme id="f737f441-bbc9-4c3a-8dce-51296c9fce64" product="2" licence_type="2" imdb_id="tt0529654" creator="9551">
@@ -53108,12 +53108,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Zeichen in der Stille</de>
 						<en>Silent Thunder</en>
-						<pl></pl>
+						<pl>Cichy grzmot</pl>
 					</title_original>
 					<description>
 						<de>Ein taubes Mädchen wird von ihrem Vater schlecht behandelt, und Joe beschließt, ihr zu helfen, indem er ihr die Zeichensprache beibringt. Das Mädchen missversteht Joes Handeln als Geste der Liebe.</de>
 						<en>A deaf girl is treated badly by her father and Joe decides to help her by teaching her sign language. The girl misunderstands Joe's actions as gestures of love.</en>
-						<pl></pl>
+						<pl>Niesłysząca dziewczynka jest źle traktowana przez swojego ojca i Joe postanawia jej pomóc, ucząc ją języka migowego. Dziewczyna błędnie rozumie działania Joe jako gesty miłości.</pl>
 					</description>
 				</programme>
 				<programme id="3b4ba0fd-bbc5-48e8-85d1-78d0f9a5f892" product="2" licence_type="2" imdb_id="tt0529694" creator="9551">
@@ -53124,12 +53124,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Leichtes Spiel mit Hoss</de>
 						<en>The Courtship</en>
-						<pl></pl>
+						<pl>Zaloty</pl>
 					</title_original>
 					<description>
 						<de>Hoss verliebt sich und macht einer schönen Frau einen Heiratsantrag. Adam weiß, dass sie eine süchtige Glücksspielerin ist und sich nur für Hoss' Geld interessiert.</de>
 						<en>Hoss falls in love and proposes to a beautiful woman Adam knows is a compulsive gambler and only interested in Hoss' money.</en>
-					<pl></pl>
+						<pl>Hoss zakochuje się i oświadcza pięknej kobiecie, o której Adam wie, że jest nałogową hazardzistką, zainteresowaną jedynie pieniędzmi Hossa.</pl>
 					</description>
 				</programme>
 				<programme id="eed649da-0240-4273-b43c-a95a74a0ca98" product="2" licence_type="2" imdb_id="tt0529879" creator="9551">
@@ -53140,12 +53140,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Als Mr. Twilight starb</de>
 						<en>Vengeance</en>
-						<pl></pl>
+						<pl>Zemsta</pl>
 					</title_original>
 					<description>
 						<de>Hoss wird vom rachsüchtigen Bruder des Mannes beschossen, den er versehentlich getötet hat.</de>
 						<en>Hoss is shot by the vengeful brother of the man he accidentally killed.</en>
-						<pl></pl>
+						<pl>Hoss zostaje zastrzelony przez mściwego brata człowieka, którego przypadkowo zabił.</pl>
 					</description>
 				</programme>
 				<programme id="30641c69-39b7-4c9a-91e5-fda586d917cd" product="2" licence_type="2" imdb_id="tt0529819" creator="9551">
@@ -53156,12 +53156,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Wer tötete Mary Parson?</de>
 						<en>The Secret</en>
-						<pl></pl>
+						<pl>Sekret</pl>
 					</title_original>
 					<description>
 						<de>Joe wird fälschlicherweise des Mordes an einem Mädchen beschuldigt, nachdem ein Freund der Familie eine Aussage machte. Die Cartwrights setzen alles daran, seine Unschuld zu beweisen.</de>
 						<en>Joe is falsely accused of murdering a girl following a family friend's testimony. The Cartwrights race to prove his innocence.</en>
-						<pl></pl>
+						<pl>Joe zostaje fałszywie oskarżony o zamordowanie dziewczyny po zeznaniach przyjaciela rodziny. Cartwrightowie starają się udowodnić jego niewinność.</pl>
 					</description>
 				</programme>
 				<programme id="04b7667d-ecb8-4c17-bab6-5a5f362b6a65" product="2" licence_type="2" imdb_id="tt0529642" creator="9551">
@@ -53172,12 +53172,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Seemannsgarn</de>
 						<en>Sam Hill</en>
-						<pl></pl>
+						<pl>Sam Hill</pl>
 					</title_original>
 					<description>
 						<de>Die Cartwrights helfen einem Schmied, das Land zu behalten, auf dem seine Mutter begraben ist, nachdem sein betrunkener Vater es an einen alten Feind überschrieben hat.</de>
 						<en>The Cartwrights help a blacksmith keep the land where his mother is buried after his drunk father signed it away to an old enemy.</en>
-						<pl></pl>
+						<pl>Cartwrightowie pomagają kowalowi zachować ziemię, w której pochowana jest jego matka, po tym jak jego pijany ojciec zapisał ją dawnemu wrogowi.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53190,12 +53190,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Akte X - Die unheimlichen Fälle des FBI (Staffel 1)</de>
 				<en>The X-Files (Season 1)</en>
-				<pl></pl>
+				<pl>Archiwum X (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>I want to believe! FBI-Ermittler werden schon ab und an mit ein paar ungewöhnlich außerweltlich erscheinenden Dingen konfrontiert. Agent Fox fühlt sich berufen für die neue Spezialabteilung.</de>
 				<en>I want to believe! FBI investigators are occasionally confronted with some unusual out-of-this-world things. Agent Fox feels a calling for the new special division.</en>
-			<pl></pl>
+				<pl>Chcę wierzyć! Śledczy FBI od czasu do czasu mają do czynienia z niezwykłymi rzeczami nie z tego świata. Agent Fox czuje powołanie do nowego oddziału specjalnego.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">589f07a5-1dec-44fe-a224-90ad4e99beb9</member>
@@ -53215,12 +53215,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Gezeichnet</de>
 						<en>Pilot</en>
-						<pl></pl>
+						<pl>Pilot</pl>
 					</title_original>
 					<description>
 						<de>Agent Dana Scully wird beauftragt, mit Agent Fox Mulder bei den X-Akten zusammenzuarbeiten, um seine Arbeit über das Paranormale zu entlarven. In ihrem ersten Fall untersuchen sie scheinbare Entführungen durch Außerirdische.</de>
 						<en>Agent Dana Scully is assigned to work with Agent Fox Mulder on the X-Files in an attempt to debunk his work on the paranormal. Their first case has them investigating apparent alien abductions.</en>
-					<pl></pl>
+						<pl>Agentka Dana Scully zostaje przydzielona do współpracy z agentem Foxem Mulderem w Archiwum X, próbując obalić jego pracę nad zjawiskami paranormalnymi. Ich pierwsza sprawa dotyczy pozornych uprowadzeń przez kosmitów.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="54e7c68a-44bc-46c8-90ea-4c3b7e460d25" />
@@ -53234,12 +53234,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Das Nest</de>
 						<en>Squeeze</en>
-						<pl></pl>
+						<pl>Wyciskanie</pl>
 					</title_original>
 					<description>
 						<de>Mulder und Scully untersuchen eine Reihe von Morden, bei denen es keine greifbare Methode für das Eindringen und Entkommen des Mörders zu geben scheint.</de>
 						<en>Mulder and Scully investigate a series of murders where there appears to be no tangible method for the murderer's entrance and escape.</en>
-						<pl></pl>
+						<pl>Mulder i Scully badają serię morderstw, w których wydaje się, że nie ma konkretnej metody wejścia i ucieczki mordercy.</pl>
 					</description>
 				</programme>
 				<programme id="3a7e4e89-f9c3-4673-b1d6-3eefe44bc264" product="2" licence_type="2" imdb_id="tt0751141" creator="9551">
@@ -53250,12 +53250,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Eis</de>
 						<en>Ice</en>
-						<pl></pl>
+						<pl>Lód</pl>
 					</title_original>
 					<description>
 						<de>Als ein Forschungsteam in der Arktis auf mysteriöse Weise zu Tode kommt, nur wenige Tage nachdem es tiefer ins Eis gebohrt hat als je zuvor, begleiten Mulder und Scully ein Team von Ärzten und Wissenschaftlern bei ihren Ermittlungen.</de>
 						<en>When an Arctic research team mysteriously kill each other and themselves only days after drilling deeper into the ice than ever before, Mulder and Scully accompany a team of doctors and scientists to investigate.</en>
-					<pl></pl>
+						<pl>Kiedy arktyczny zespół badawczy w tajemniczy sposób zabija siebie nawzajem i siebie samych zaledwie kilka dni po wierceniu głębiej w lodzie niż kiedykolwiek wcześniej, Mulder i Scully towarzyszą zespołowi lekarzy i naukowców, aby zbadać sprawę.</pl>
 					</description>
 				</programme>
 				<programme id="fb4926bc-5f72-4ca1-9781-bddf8ce1f3d6" product="2" licence_type="2" imdb_id="tt0751116" creator="9551">
@@ -53266,12 +53266,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Eve</de>
 						<en>Eve</en>
-						<pl></pl>
+						<pl>Ewa</pl>
 					</title_original>
 					<description>
 						<de>Zwei Väter werden ermordert zur gleichen Zeit an ganz unterschiedlichen Orten auf die gleiche Weise. Deren achtjährige Töchter, unerklärlicherweise perfekte Zwillinge, sind das Resultat eines Eugenik-Projekts, wie sich herausstellt.</de>
 						<en>Two fathers are murdered at the same time in completely different places in the same way. Their eight-year-old daughters, inexplicably perfect twins, are the result of a eugenics project, as it turns out.</en>
-					<pl></pl>
+						<pl>Dwóch ojców zostaje zamordowanych w tym samym czasie w zupełnie różnych miejscach w ten sam sposób. Okazuje się, że ich ośmioletnie córki, niewytłumaczalnie idealne bliźniaczki, są wynikiem projektu eugenicznego.</pl>
 					</description>
 				</programme>
 				<programme id="a27136ea-91a3-479a-be3f-120c9a294a88" product="2" licence_type="2" imdb_id="tt0751083" creator="9551">
@@ -53282,12 +53282,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Botschaft</de>
 						<en>Beyond the Sea</en>
-						<pl></pl>
+						<pl>Za morzem</pl>
 					</title_original>
 					<description>
 						<de>Ein zum Tode verurteilter Häftling behauptet, dass er Hellseher ist. Die Rollen der Agenten sind in dieser Folge vertauscht: Mulder zweifelt an den Behauptungen, während Scully sie glaubt.</de>
 						<en>A death row inmate claims that he is psychic. The agents' roles are reversed in this episode, with Mulder doubting the claims and Scully believing them.</en>
-					<pl></pl>
+						<pl>Więzień z celi śmierci twierdzi, że jest medium. W tym odcinku role agentów są odwrócone - Mulder wątpi w te twierdzenia, a Scully w nie wierzy.</pl>
 					</description>
 				</programme>
 				<programme id="bc70f1d9-175a-4379-97f5-f3d5fed907bd" product="2" licence_type="2" imdb_id="tt0751108" creator="9551">
@@ -53298,12 +53298,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Täuschungsmanöver</de>
 						<en>E.B.E.</en>
-						<pl></pl>
+						<pl>Podstępne manewry</pl>
 					</title_original>
 					<description>
 						<de>Mulder und Scully erhalten Informationen über ein UFO, das über dem Irak abgeschossen wurde und heimlich in die USA transportiert worden ist.</de>
 						<en>Mulder and Scully receive information about a UFO that was shot down over Iraq and has been secretly transported to the US.</en>
-						<pl></pl>
+						<pl>Mulder i Scully otrzymują informację o UFO, które zostało zestrzelone nad Irakiem i potajemnie przetransportowane do USA.</pl>
 					</description>
 				</programme>
 				<programme id="e916bdf0-5def-45fe-a51f-aeaddb7fe61c" product="2" licence_type="2" imdb_id="tt0751224" creator="9551">
@@ -53314,12 +53314,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Das Labor</de>
 						<en>The Erlenmeyer Flask</en>
-						<pl></pl>
+						<pl>Kolba Erlenmeyera</pl>
 					</title_original>
 					<description>
 						<de>Eine eher sehr irdische Verfolgungsjagd führt Mulder und Scully zu einem wissenschaftlichen Labor, das dann doch ein Geheimnis birgt, das den Beweis für eine Regierungsverschwörung liefern könnte.</de>
 						<en>A rather mundane car chase leads Mulder and Scully to a scientific lab encompassing a secret after all which could provide proof of a government conspiracy.</en>
-						<pl></pl>
+						<pl>Dość przyziemny pościg samochodowy prowadzi Muldera i Scully do laboratorium naukowego skrywającego tajemnicę, która może stanowić dowód rządowego spisku.</pl>
 					</description>
 				</programme>
 			</children>
