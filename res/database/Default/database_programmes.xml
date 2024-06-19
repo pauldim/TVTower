@@ -53332,12 +53332,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Akte X - Die unheimlichen Fälle des FBI (Staffel 2)</de>
 				<en>The X-Files (Season 2)</en>
-				<pl></pl>
+				<pl>Archiwum X (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Die Abteilung mit dem X wurde eigentlich am Schluss der letzten Staffel geschlossen. Aber die Spukshow muss weitergehen, und wie sie weitergeht.</de>
 				<en>The department with the X had actually been closed at the end of the last season. But the spook show must go on, and boy, how it does go on.</en>
-				<pl></pl>
+				<pl>Archiwum X został faktycznie zamknięty pod koniec poprzedniego sezonu. Ale pokaz strachów musi trwać dalej i chłopcze, jak to się dzieje.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">589f07a5-1dec-44fe-a224-90ad4e99beb9</member>
@@ -53357,12 +53357,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Kontakt</de>
 						<en>Little Green Men</en>
-						<pl></pl>
+						<pl>Małe zielone ludziki</pl>
 					</title_original>
 					<description>
 						<de>Nachdem die X-Akten geschlossen wurden, merkt der FBI-Agent Fox Mulder, dass sein Glaube an die Wahrheit schwindet. Als ein alter politischer Verbündeter ihm einen neuen Grund zu glauben gibt, begibt er sich allein zu einem verlassenen SETI-Programmgelände.</de>
 						<en>With the X-Files shut down, FBI agent Fox Mulder finds his own belief in the truth waning. So when an old political ally gives him a new reason to believe, he goes alone to an abandoned SETI program site.</en>
-					<pl></pl>
+						<pl>Po zamknięciu Archiwum X, agent FBI Fox Mulder odkrywa, że jego wiara w prawdę słabnie. Kiedy więc stary sojusznik polityczny daje mu nowy powód do wiary, udaje się samotnie do opuszczonego miejsca programu SETI.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="504433d2-24ed-4507-88bd-28dc82364a67" /> <!-- currently triggers the first feature film which takes place after season 5. TODO: add more seasons -->
@@ -53376,12 +53376,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>An der Grenze</de>
 						<en>One Breath</en>
-						<pl></pl>
+						<pl>Jeden oddech</pl>
 					</title_original>
 					<description>
 						<de>Als die verschwundene Scully auf mysteriöse Weise komatös in einem Krankenhaus wieder auftaucht, ist Mulder darauf fixiert, die Verantwortlichen zu finden, doch sein Streben nach Rache könnte ihn genau zu dem machen, was er verachtet.</de>
 						<en>When the disappeared Scully mysteriously re-appears comatose in a hospital, Mulder fixates himself on finding the people responsible, though his quest for vengeance could make him exactly like those he despises.</en>
-					<pl></pl>
+						<pl>Kiedy zaginiona Scully w tajemniczy sposób ponownie pojawia się w śpiączce w szpitalu, Mulder skupia się na znalezieniu odpowiedzialnych za to osób, choć jego dążenie do zemsty może uczynić go dokładnie takim, jak ci, którymi gardzi.</pl>
 					</description>
 				</programme>
 				<programme id="eda25211-3f04-4566-9a5e-c456736deddc" product="2" licence_type="2" imdb_id="tt0751107" creator="9551">
@@ -53392,12 +53392,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Unter Kontrolle</de>
 						<en>Duane Barry</en>
-						<pl></pl>
+						<pl>Duane Barry</pl>
 					</title_original>
 					<description>
 						<de>Ein ehemaliger FBI-Agent bricht aus einer psychiatrischen Klinik aus und nimmt mehrere Personen in einem Reisebüro als Geiseln. Mulder und Krycek werden zu den Verhandlungen hinzugezogen, da der Mann behauptet, von einem UFO entführt worden zu sein.</de>
 						<en>An ex-FBI agent escapes from a mental hospital and holds several people hostage in a travel agency. Mulder and Krycek are sent in to help with the negotiations since the man claims to have been a UFO abductee.</en>
-					<pl></pl>
+						<pl>Były agent FBI ucieka ze szpitala psychiatrycznego i przetrzymuje kilka osób jako zakładników w biurze podróży. Mulder i Krycek zostają wysłani do pomocy w negocjacjach, ponieważ mężczyzna twierdzi, że został uprowadzony przez UFO.</pl>
 					</description>
 				</programme>
 				<programme id="46bce789-68af-4873-aabc-c02f05678574" product="2" licence_type="2" imdb_id="tt0751102" creator="9551">
@@ -53406,14 +53406,14 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 						<en>Satan</en>
 					</title>
 					<title_original>
-						<de>Satan</de>
-						<en>Die Hand Die Verletzt</en>
-						<pl></pl>
+						<de>Satan</de><!--translation swapped ?-->
+						<en>Die Hand Die Verletzt</en><!--translation swapped ?-->
+						<pl>Satan</pl>
 					</title_original>
 					<description>
 						<de>Teenager fingieren ein okkultes Ritual und verursachen versehentlich den Mord und die Verstümmelung eines Mitglieds ihrer Gruppe. Die eigentlichen Kultisten der Stadt versuchen, ihre Spuren zu verwischen, aber es gibt etwas, vor dem selbst sie Angst haben.</de>
 						<en>Teenagers feign an occult ritual and inadvertently cause the murder and mutilation of one of their group. The town's real worshippers attempt to hide their tracks, but there's something even they are afraid of.</en>
-					<pl></pl>
+						<pl>Nastolatkowie pozorują okultystyczny rytuał i nieumyślnie powodują morderstwo i okaleczenie jednego z członków swojej grupy. Prawdziwi wyznawcy kultu próbują zatrzeć ślady, ale jest coś, czego nawet oni się boją.</pl>
 					</description>
 				</programme>
 				<programme id="40076233-7427-427a-9366-fb40daa10e14" product="2" licence_type="2" imdb_id="tt0751093" creator="9551">
@@ -53424,12 +53424,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Kolonie</de>
 						<en>Colony</en>
-						<pl></pl>
+						<pl>Kolonia</pl>
 					</title_original>
 					<description>
 						<de>Zu Beginn wird ein gefrorener Mulder in ein Krankenhaus gebracht. Die Folge blendet zurück zu einer Szene zwei Wochen zuvor, als die Besatzung eines Forschungsschiffs das Wrack eines UFOs in der Beaufortsee findet.</de>
 						<en>At the beginning, a frozen Mulder is brought to a hospital. The episode flashes back to a scene two weeks before, where the crew of a research vessel find the wreckage of a UFO in the Beaufort Sea.</en>
-					<pl></pl>
+						<pl>Na początku zamarznięty Mulder zostaje przywieziony do szpitala. Odcinek powraca do sceny sprzed dwóch tygodni, w której załoga statku badawczego znajduje wrak UFO na Morzu Beauforta.</pl>
 					</description>
 				</programme>
 				<programme id="17424fd3-700b-4ac0-85e5-0daad14e43e9" product="2" licence_type="2" imdb_id="tt0751139" creator="9551">
@@ -53440,12 +53440,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Zirkus</de>
 						<en>Humbug</en>
-						<pl></pl>
+						<pl>Humbug</pl>
 					</title_original>
 					<description>
 						<de>Mulder und Scully müssen das Paranormale im Abnormalen finden, als sie beauftragt werden, eine seit langem andauernde Serie von Ritualmorden zu untersuchen, die keinem bekannten Muster entsprechen.</de>
 						<en>Mulder and Scully must find the paranormal among the abnormal when they are sent to investigate a long standing series of ritualistic killings which match no known patterns.</en>
-					<pl></pl>
+						<pl>Mulder i Scully muszą znaleźć paranormalne wśród nienormalnych, gdy zostają wysłani do zbadania długotrwałej serii rytualnych zabójstw, które nie pasują do żadnych znanych wzorców.</pl>
 					</description>
 				</programme>
 				<programme id="77e593df-ec06-4458-935d-cf00b82def7b" product="2" licence_type="2" imdb_id="tt0751074" creator="9551">
@@ -53456,12 +53456,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Anasazi</de>
 						<en>Anasazi</en>
-						<pl></pl>
+						<pl>Anasazi</pl>
 					</title_original>
 					<description>
 						<de>Das Vertrauen zwischen Mulder und Scully wird auf eine harte Probe gestellt, als Mulder beginnt, sich seltsam zu verhalten, was verstärkt wird, als die Lone Gunmen ihn zu einem Hacker führen.</de>
 						<en>The trust between Mulder and Scully is severely tested when Mulder starts acting strangely, which is compounded when the Lone Gunmen lead him to a hacker.</en>
-					<pl></pl>
+						<pl>Zaufanie między Mulderem i Scully zostaje wystawione na ciężką próbę, gdy Mulder zaczyna się dziwnie zachowywać, co potęguje się, gdy Samotni Strzelcy doprowadzają go do hakera.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53474,12 +53474,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Hart aber herzlich (Staffel 1)</de>
 				<en>Hart to Hart (Season 1)</en>
-				<pl></pl>
+				<pl>Hart to Hart (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Ein wohlhabendes Ehepaar, das einen glamourösen Jetset-Lebensstil führt, ist komischerweise regelmäßig von kriminellen Aktivitäten betroffen und muss dann immer wieder unbezahlte Detektivarbeit machen.</de>
 				<en>A wealthy couple who lead a glamorous jetset lifestyle are somehow regularly affected by criminal activities and find themselves working as unpaid detectives again and again.</en>
-			<pl></pl>
+				<pl>Zamożna para, która prowadzi luksusowy styl życia w odrzutowcach, jest w jakiś sposób regularnie dotknięta działalnością przestępczą i raz po raz pracuje jako nieopłacani detektywi.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">9b06ce5b-c242-4a45-b1c1-2a12d7c482bf</member>
@@ -53498,12 +53498,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Hart to Hart (Pilot)</de>
 						<en>Hart to Hart (Pilot)</en>
-						<pl></pl>
+						<pl>Hart to Hart (Pilot)</pl>
 					</title_original>
 					<description>
 						<de>Ein Freund des Millionärs Jonathan Hart scheint Selbstmord begangen zu haben, als er vom Golden Goose Health Spa nach Hause fuhr. Gemeinsam mit seiner Frau Jennifer versucht Jonathan undercover herauszufinden, was wirklich passiert ist.</de>
 						<en>A friend of millionaire Jonathan Hart appears to have committed suicide whilst driving home from The Golden Goose Health Spa. Jonathan is joined undercover by his wife, Jennifer, as they try to find out what really happened.</en>
-					<pl></pl>
+						<pl>Wygląda na to, że przyjaciel milionera Jonathana Harta popełnił samobójstwo podczas powrotu do domu z The Golden Goose Health Spa. Do Jonathana dołącza jego żona, Jennifer, próbując dowiedzieć się, co tak naprawdę się stało.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="3a878649-915b-4232-ba38-9d4249aeaa61" />
@@ -53517,12 +53517,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Tödliche Verwandtschaft</de>
 						<en>Hit Jennifer Hart</en>
-						<pl></pl>
+						<pl>Uderzenie w Jennifer Hart</pl>
 					</title_original>
 					<description>
 						<de>Jonathan zerschlägt einen Halbsklaverei-Ring, der von einem leitenden Angestellten seiner Reederei betrieben wird, doch der nun entlassene Manager schickt einen Auftragskiller, der sich als Jennifers Cousin ausgibt.</de>
 						<en>Jonathan breaks up a semi-slavery ring operated by one of his shipping line's executives, but the now-fired manager sends a hit man to pretend to be Jennifer's cousin.</en>
-					<pl></pl>
+						<pl>Jonathan rozbija pół-niewolniczy pierścień prowadzony przez jednego z dyrektorów jego linii żeglugowej, ale zwolniony menedżer wysyła zabójcę, który udaje kuzyna Jennifer.</pl>
 					</description>
 				</programme>
 				<programme id="4b0d664d-508e-4463-ac54-a9e38d46dfd5" product="2" licence_type="2" imdb_id="tt0597303" creator="9551">
@@ -53533,12 +53533,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Friedwart kennt den Mörder</de>
 						<en>Which Way, Freeway?</en>
-						<pl></pl>
+						<pl>Którędy do autostrady?</pl>
 					</title_original>
 					<description>
 						<de>Friedwart, der Hund der Harts, hat eine neue Freundin. Als deren Herrchen getötet wird, verschwindet Friedwart mit der Waffe - hat sie aber nicht mehr, als er nach Hause kommt.</de>
 						<en>Freeway, the Harts' dog, has got a new girlfriend, and when her master is killed Freeway disappears with the gun - but doesn't have it when he gets home.</en>
-						<pl></pl>
+						<pl>Freeway, pies Hartów, ma nową dziewczynę, a kiedy jej pan zostaje zabity, Freeway znika z pistoletem - ale nie ma go, gdy wraca do domu.</pl>
 					</description>
 				</programme>
 				<programme id="5dbbc590-9861-4542-b67b-7a141181758f" product="2" licence_type="2" imdb_id="tt0597220" creator="9551">
@@ -53549,12 +53549,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Abfahrtslauf der Damen</de>
 						<en>Downhill to Death</en>
-						<pl></pl>
+						<pl>Z górki na pazurki</pl>
 					</title_original>
 					<description>
 						<de>Als Jennifer mitbekommt, dass ein Bekannter plant, seine Frau auf der Skipiste zu ermorden, fahren sie und Jonathan nach Vail, um dies zu verhindern.</de>
 						<en>When Jennifer overhears an acquaintance planning to murder his wife on the ski slopes, she and Jonathan jet off to Vail to prevent it.</en>
-						<pl></pl>
+						<pl>Kiedy Jennifer podsłuchuje, jak znajomy planuje zamordować swoją żonę na stoku narciarskim, ona i Jonathan wyruszają do Vail, aby temu zapobiec.</pl>
 					</description>
 				</programme>
 				<programme id="d24d4225-abd3-48ab-b9f7-734f8c89977b" product="2" licence_type="2" imdb_id="tt0597280" creator="9551">
@@ -53565,12 +53565,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der sechste Sinn</de>
 						<en>Sixth Sense</en>
-						<pl></pl>
+						<pl>Szósty zmysł</pl>
 					</title_original>
 					<description>
 						<de>Eine junge Frau sieht voraus, dass sie ermordet wird, aber es ist ihre unbekannte Zwillingsschwester, die tatsächlich tot ist.</de>
 						<en>A precognitive young woman sees herself being murdered, but it is her unknown twin sister, who indeed turns up dead.</en>
-						<pl></pl>
+						<pl>Prekognitywna młoda kobieta widzi, że zostaje zamordowana, ale to jej nieznana siostra bliźniaczka rzeczywiście okazuje się martwa.</pl>
 					</description>
 				</programme>
 				<programme id="f21bdc90-d33f-4d9e-9a8b-c73d6ef28c4d" product="2" licence_type="2" imdb_id="tt0597216" creator="9551">
@@ -53581,12 +53581,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Todsicheres Erbe</de>
 						<en>Death Set</en>
-						<pl></pl>
+						<pl>Zestaw śmierci</pl>
 					</title_original>
 					<description>
 						<de>Verdächtigungen führen dazu, dass eine Frau versehentlich ihren Ehemann tötet. Als dessen verschuldeter Bruder jedoch versucht, seinen Platz einzunehmen, lassen die Harts seine Tarnung auffliegen.</de>
 						<en>Marital suspicions lead a woman to accidentally kill her husband, but when his debt-ridden brother tries to step into his place, the Harts blow his cover.</en>
-						<pl></pl>
+						<pl>Podejrzenia małżeńskie doprowadzają kobietę do przypadkowego zabicia męża, ale kiedy jego zadłużony brat próbuje zająć jego miejsce, Hartowie obalają jego przykrywkę.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53599,12 +53599,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Hart aber herzlich (Staffel 2)</de>
 				<en>Hart to Hart (Season 2)</en>
-				<pl></pl>
+				<pl>Hart to Hart (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Eine zweite Runde frische Morde für die „freie“ Journalistin und ihren Ehemann, den „Selfmade-Millionär“ (Angabe nicht inflationsbereinigt).</de>
 				<en>A second round of fresh murders for the "freelance" journalist and her husband, the "self-made millionaire." (figure not adjusted for inflation).</en>
-				<pl></pl>
+				<pl>Druga runda nowych morderstw dla "niezależnej" dziennikarki i jej męża, "samozatrudnionego milionera". (liczba nieskorygowana o inflację).</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">9b06ce5b-c242-4a45-b1c1-2a12d7c482bf</member>
@@ -53623,12 +53623,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Teure Tapeten</de>
 						<en>Murder, Murder on the Wall</en>
-						<pl></pl>
+						<pl>Morderstwo, morderstwo na ścianie</pl>
 					</title_original>
 					<description>
 						<de>Während ihres Urlaubs in New York City freuen sich die Harts auf ein nettes Mittagessen mit Jennifers Freundin und deren neuem Mann, doch ihr Mann verschwindet plötzlich und wird kurz darauf tot aufgefunden.</de>
 						<en>Vacationing in New York City, the Harts look forward to a nice lunch with Jennifer's friend and her new husband, but her husband suddenly disappears and is shortly found dead.</en>
-					<pl></pl>
+						<pl>Podczas wakacji w Nowym Jorku Hartowie oczekują miłego lunchu z przyjaciółką Jennifer i jej nowym mężem, ale jej mąż nagle znika i wkrótce zostaje znaleziony martwy.</pl>
 					</description>
 				</programme>
 				<programme id="6cc767c5-119f-4355-91c1-ac7238ba0554" product="2" licence_type="2" imdb_id="tt0597224" creator="9551">
@@ -53639,12 +53639,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Blüten-Traumschiff</de>
 						<en>Getting Aweigh with Murder</en>
-						<pl></pl>
+						<pl>Znęcanie się nad morderstwem</pl>
 					</title_original>
 					<description>
 						<de>Um eine Gruppe von Geldfälschern zu fassen, die einen Ermittler ermordet haben, gehen Jennifer und Jonathan auf eine Kreuzfahrt, wobei Sie sich als europäische Gräfin und Schiffssteward ausgeben.</de>
 						<en>To catch a group of counterfeiters who murdered an investigator, Jennifer and Jonathan go on a cruise, she posing as a European countess and he working as a ship's steward.</en>
-					<pl></pl>
+						<pl>Aby złapać grupę fałszerzy, którzy zamordowali śledczego, Jennifer i Jonathan wyruszają w rejs, ona udaje europejską hrabinę, a on pracuje jako steward na statku.</pl>
 					</description>
 				</programme>
 				<programme id="3996fcc5-1bfd-4f67-b908-f403e1ca136a" product="2" licence_type="2" imdb_id="tt0597289" creator="9551">
@@ -53655,12 +53655,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Schwestern</de>
 						<en>The Latest in High Fashion Murder</en>
-						<pl></pl>
+						<pl>Najnowsze morderstwa w modzie</pl>
 					</title_original>
 					<description>
 						<de>Nachdem ein junges Model auf einer Modeparty ermordet wird, willigen Jennifer und Jonathan ein, für ein Modeshooting zu posieren, das zu einem weiteren Mord führt. Aber Jennifer könnte das beabsichtigte Opfer gewesen sein.</de>
 						<en>After a young model is killed at a fashion party, Jennifer and Jonathan agree to pose for a fashion shoot that leads to another murder. But Jennifer may have been the intended victim.</en>
-					<pl></pl>
+						<pl>Po tym, jak młoda modelka zostaje zabita na imprezie modowej, Jennifer i Jonathan zgadzają się pozować do sesji zdjęciowej, która prowadzi do kolejnego morderstwa. Ale Jennifer mogła być zamierzoną ofiarą.</pl>
 					</description>
 				</programme>
 				<programme id="4ad954ee-f682-4c29-8bae-49fb52bc1da5" product="2" licence_type="2" imdb_id="tt0597271" creator="9551">
@@ -53671,12 +53671,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Operation 'Mord'</de>
 						<en>Operation Murder</en>
-						<pl></pl>
+						<pl>Operacja Morderstwo</pl>
 					</title_original>
 					<description>
 						<de>Jennifer erleidet bei einem Sturz im Park eine Gehirnerschütterung, was dazu führt, dass ihr niemand außer Jonathan glaubt, dass sie den Mord an einem Patienten in einem kleinen Krankenhaus beobachtet hat.</de>
 						<en>Jennifer suffers a concussion in a fall at the park, meaning no one but Jonathan believes she witnessed a patient's murder in a small hospital.</en>
-					<pl></pl>
+						<pl>Jennifer doznaje wstrząsu mózgu podczas upadku w parku, co oznacza, że nikt oprócz Jonathana nie wierzy, że była świadkiem morderstwa pacjenta w małym szpitalu.</pl>
 					</description>
 				</programme>
 				<programme id="c759cf36-a8ef-4048-90fa-dbd33783e297" product="2" licence_type="2" imdb_id="tt0597261" creator="9551">
@@ -53687,12 +53687,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Mordstheater</de>
 						<en>Murder Takes a Bow</en>
-						<pl></pl>
+						<pl>Morderstwo się kłania</pl>
 					</title_original>
 					<description>
 						<de>Als ein mit den Harts befreundeter Dramatiker ermordet und die Kopie seines letzten Werks entwendet wird, ist Jonathan überzeugt, dass etwas in dem Stück den Mörder motiviert hat.</de>
 						<en>When a playwright friend of the Harts is killed and the Harts' copy of his last work is snatched, Jonathan is convinced something in the play motivated the murderer.</en>
-					<pl></pl>
+						<pl>Kiedy dramaturg, przyjaciel Hartów, zostaje zabity, a kopia jego ostatniego dzieła zostaje skradziona, Jonathan jest przekonany, że coś w sztuce motywowało mordercę.</pl>
 					</description>
 				</programme>
 				<programme id="d310c619-a6ef-4856-a480-fbccfa4350f9" product="2" licence_type="2" imdb_id="tt0597209" creator="9551">
@@ -53703,12 +53703,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Das grüne Zimmer</de>
 						<en>Blue Chip Murder</en>
-						<pl></pl>
+						<pl>Morderstwo Blue Chip</pl>
 					</title_original>
 					<description>
 						<de>Nachdem sie feststellen, dass in ihr Haus eingebrochen wurde, finden die Harts einen versteckten Raum und erfahren, dass der ursprüngliche Architekt/Besitzer in diesem Raum ein Vermögen in Anleihen aufbewahrt hat, auf das es ein junger Broker abgesehen hat.</de>
 						<en>After discovering their house burglarised, the Harts find a hidden room, and learn the original architect/owner kept a fortune in bonds in that room that is targeted by a young broker.</en>
-					<pl></pl>
+						<pl>Po odkryciu włamania do ich domu, Hartowie znajdują ukryty pokój i dowiadują się, że pierwotny architekt/właściciel trzymał w nim fortunę w obligacjach, które są celem młodego brokera.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53721,12 +53721,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Rauchende Colts (Staffel 1)</de>
 				<en>Gunsmoke (Season 1)</en>
-				<pl></pl>
+				<pl>Gunsmoke (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Startete als Radioserie und entwickelte sich zur am längsten laufenden Westernserie aller Zeiten.</de>
 				<en>Started as a radio series and went on to become the longest running Western series of all time.</en>
-				<pl></pl>
+				<pl>Rozpoczął się jako serial radiowy i stał się najdłużej emitowanym serialem westernowym wszechczasów.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">f3a79a97-1645-408c-b74e-373eb3d74557</member>
@@ -53751,7 +53751,7 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<description>
 						<de>US-Marshal Matt D. wird bei dem Versuch, einen übermütigen Revolverhelden zu verhaften, der in Dodge unkontrolliert herumläuft, schwer verwundet. Letzterer ist dann völlig verblüfft, als er von dem wieder genesenen Marshal erneut herausgefordert wird.</de>
 						<en>United States Marshal Matt D. is critically wounded while attempting to arrest a cocky gunslinger who runs uncontrolled in Dodge. The latter then is completely amazed when challenged again by the recovered Marshal.</en>
-					<pl></pl>
+						<pl>Szeryf Stanów Zjednoczonych Matt D. zostaje krytycznie ranny podczas próby aresztowania zarozumiałego rewolwerowca, który biegnie w niekontrolowany sposób w Dodge. Ten ostatni jest całkowicie zaskoczony, gdy zostaje ponownie wyzwany przez odzyskanego szeryfa.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="2958f203-e10b-439e-895c-c547285b326a" />
@@ -53765,12 +53765,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Scharfer Bann</de>
 						<en>Hot Spell</en>
-						<pl></pl>
+						<pl>Gorące zaklęcie</pl>
 					</title_original>
 					<description>
 						<de>Matt muss seine Pflicht tun und einen verhassten Revolverhelden davor schützen, von einer Gruppe normalerweise gesetzestreuer Rancher für ein Verbrechen gehängt zu werden, das er nicht begangen hat.</de>
 						<en>Matt is duty-bound to protect a despised gunman from being hanged by a group of normally law-abiding ranchers for a crime he didn't commit.</en>
-						<pl></pl>
+						<pl>Matt jest zobowiązany do ochrony pogardzanego rewolwerowca przed powieszeniem przez grupę zwykle przestrzegających prawa ranczerów za zbrodnię, której nie popełnił.</pl>
 					</description>
 				</programme>
 				<programme id="285078e9-a530-4bd6-bff0-414f0a2e1460" product="2" licence_type="2" imdb_id="tt0594194" creator="9551">
@@ -53781,12 +53781,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Belohnung für Kite</de>
 						<en>Kite's Reward</en>
-						<pl></pl>
+						<pl>Kite's Reward</pl>
 					</title_original>
 					<description>
 						<de>Einem Kopfgeldjäger wird seine Belohnung verweigert, nachdem Matt einen gesuchten Revolverhelden davon überzeugt hat, seine Waffe für ein besseres Leben aufzugeben.</de>
 						<en>A bounty hunter is denied his reward after Matt convinces a wanted gunslinger to give up his gun for a better life.</en>
-						<pl></pl>
+						<pl>Łowcy nagród odmawia się nagrody po tym, jak Matt przekonuje poszukiwanego rewolwerowca do oddania broni w zamian za lepsze życie.</pl>
 					</description>
 				</programme>
 				<programme id="0fb3355e-f579-4361-b072-4f381e7910d9" product="2" licence_type="2" imdb_id="tt0594234" creator="9551">
@@ -53797,12 +53797,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Magnus</de>
 						<en>Magnus</en>
-						<pl></pl>
+						<pl>Magnus</pl>
 					</title_original>
 					<description>
 						<de>Chester ist entsetzt, als sein „unzivilisierter“ Landei-Bruder für einen Weihnachtsbesuch nach Dodge kommt.</de>
 						<en>Chester is appalled when his "uncivilized" country-bumpkin brother comes to Dodge for a Christmas visit.</en>
-						<pl></pl>
+						<pl>Chester jest zbulwersowany, gdy jego "niecywilizowany" brat przyjeżdża do Dodge z bożonarodzeniową wizytą.</pl>
 					</description>
 				</programme>
 				<programme id="222429b3-8409-4807-b96f-7daf7649fd29" product="2" licence_type="2" imdb_id="tt0594277" creator="9551">
@@ -53813,12 +53813,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Keine Handschellen</de>
 						<en>No Handcuffs</en>
-						<pl></pl>
+						<pl>Bez kajdanek</pl>
 					</title_original>
 					<description>
 						<de>Ein gesuchter Mann, der in einer nahe gelegenen Stadt fälschlicherweise des Mordes beschuldigt wird, flieht nach Dodge, was Matt und Chester dazu veranlasst, dessen Vorwürfe über Korruption zu untersuchen.</de>
 						<en>A wanted man wrongly accused of murder in a nearby town escapes to Dodge which necessitates Matt and Chester to investigate his claims of corruption.</en>
-						<pl></pl>
+						<pl>Poszukiwany mężczyzna niesłusznie oskarżony o morderstwo w pobliskim mieście ucieka do Dodge, co zmusza Matta i Chestera do zbadania jego zarzutów o korupcję.</pl>
 					</description>
 				</programme>
 				<programme id="f3129483-85f4-49bb-aa51-0cbd656baa4b" product="2" licence_type="2" imdb_id="tt0594333" creator="9551">
@@ -53829,12 +53829,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Kopfgeld auf Matt</de>
 						<en>Reward for Matt</en>
-						<pl></pl>
+						<pl>Nagroda dla Matta</pl>
 					</title_original>
 					<description>
 						<de>Die rachsüchtige Frau eines Ranchers setzt ein Kopfgeld von 1.000 Dollar auf Matt aus, nachdem dieser ihren Mann niedergeschossen hat.</de>
 						<en>A vengeful rancher's wife puts a $1,000 bounty on Matt's head after he shoots down her husband.</en>
-						<pl></pl>
+						<pl>Żona mściwego ranczera wyznacza nagrodę w wysokości 1000 dolarów za głowę Matta po tym, jak zastrzelił jej męża.</pl>
 					</description>
 				</programme>
 				<programme id="0f9122a7-23ad-45de-a85e-3ec6c9d6ca50" product="2" licence_type="2" imdb_id="tt0594128" creator="9551">
@@ -53845,12 +53845,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Hack Prine</de>
 						<en>Hack Prine</en>
-						<pl></pl>
+						<pl>Hack Prine</pl>
 					</title_original>
 					<description>
 						<de>Ein Freund aus Matts Vergangenheit, ein Auftragskiller, kommt mit einem Jobangebot nach Dodge, und ohne dass beide es wissen, besteht dieser Job darin, den Marshal zu töten.</de>
 						<en>A friend from Matt's past, a gunfighter for hire, comes to Dodge with a job offer and unbeknownst to both of them, that job is to kill the Marshal.</en>
-						<pl></pl>
+						<pl>Przyjaciel z przeszłości Matta, rewolwerowiec do wynajęcia, przyjeżdża do Dodge z ofertą pracy, a bez wiedzy ich obu, zadaniem tym jest zabicie szeryfa.</pl>
 					</description>
 				</programme>
 				<programme id="f0cac2db-caa8-4eef-a949-6fd20cda1ed3" product="2" licence_type="2" imdb_id="tt0594060" creator="9551">
@@ -53861,12 +53861,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Cooter</de>
 						<en>Cooter</en>
-						<pl></pl>
+						<pl>Cooter</pl>
 					</title_original>
 					<description>
 						<de>Ein unehrlicher Glücksspieler und zugleich Feigling setzt einen geistig behinderten Mann ein als Marionette in einem Komplott gegen Matt.</de>
 						<en>A dishonest gambler and coward in his own right, uses a mentally challenged man as a puppet in a plot against Matt.</en>
-						<pl></pl>
+						<pl>Nieuczciwy hazardzista i tchórz wykorzystuje upośledzonego umysłowo mężczyznę jako marionetkę w spisku przeciwko Mattowi.</pl>
 					</description>
 				</programme>
 				<programme id="ff15bf55-d9a3-4b0d-be1e-06bc52bd4cd6" product="2" licence_type="2" imdb_id="tt0594443" creator="9551">
@@ -53877,12 +53877,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Gitarre</de>
 						<en>The Guitar</en>
-						<pl></pl>
+						<pl>Gitara</pl>
 					</title_original>
 					<description>
 						<de>Zwei Cowboys spendieren einem schmächtigen Ex-Soldaten Drinks und haben eine gute Zeit, doch dann hört der Spaß auf und sie wollen ihn hängen, weil er im Krieg auf der Seite der Union gekämpft hat.</de>
 						<en>Two cowboys buy drinks and show a diminutive ex-soldier a good time, but when the fun ends they plan to hang him for fighting on the Union's side of the war.</en>
-						<pl></pl>
+						<pl>Dwóch kowbojów stawia drinki i pokazuje drobnemu byłemu żołnierzowi dobrą zabawę, ale kiedy zabawa się kończy, planują powiesić go za walkę po stronie Unii.</pl>
 					</description>
 				</programme>
 				<programme id="742ca503-6fda-428b-9320-7f3e2ded0500" product="2" licence_type="2" imdb_id="tt0593980" creator="9551">
@@ -53893,12 +53893,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Alarm im Pleasant Valley</de>
 						<en>Alarm at Pleasant Valley</en>
-						<pl></pl>
+						<pl>Alarm w Pleasant Valley</pl>
 					</title_original>
 					<description>
 						<de>Auf dem Weg zurück nach Dodge kommen Matt und Chester einer Siedlerfamilie zu Hilfe, die von einer Schar plündernder Kiowa-Indianer angegriffen wird.</de>
 						<en>While on their way back to Dodge, Matt and Chester come to the aid of a homesteader family who're attacked by a small band of marauding Kiowa Indians.</en>
-						<pl></pl>
+						<pl>W drodze powrotnej do Dodge, Matt i Chester przychodzą z pomocą rodzinie osadników, którzy zostali zaatakowani przez małą grupę grasujących Indian Kiowa.</pl>
 					</description>
 				</programme>
 			</children>
@@ -53911,12 +53911,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Rauchende Colts (Staffel 2)</de>
 				<en>Gunsmoke (Season 2)</en>
-				<pl></pl>
+				<pl>Gunsmoke (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Die Serie spielt in und um Dodge City, Kansas, in der Zeit nach dem Bürgerkrieg und dreht sich um United States Marshal Matt D., der in der Stadt für Recht und Ordnung sorgt.</de>
 				<en>The series is set in and around Dodge City, Kansas, in the post-Civil War era and centers on United States Marshal Matt D. as he enforces law and order in the city.</en>
-				<pl></pl>
+				<pl>Akcja serialu rozgrywa się w Dodge City w stanie Kansas po wojnie secesyjnej i skupia się na szeryfie Matcie D., który egzekwuje prawo i porządek w mieście.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">f3a79a97-1645-408c-b74e-373eb3d74557</member>
@@ -53936,12 +53936,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Tierarzt</de>
 						<en>Cow Doctor</en>
-						<pl></pl>
+						<pl>Lekarz od krów</pl>
 					</title_original>
 					<description>
 						<de>Doc wird unter falschem Vorwand zu einem medizinischen Notfall auf eine Farm gerufen und in eine Auseinandersetzung verwickelt.</de>
 						<en>Doc is called out to a farm for a medical emergency under false pretenses and becomes involved in an altercation.</en>
-						<pl></pl>
+						<pl>Doc zostaje wezwany na farmę do nagłego wypadku medycznego pod fałszywym pretekstem i zostaje wciągnięty w bójkę.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="1efb6bca-c104-443e-987e-d71f85f935de" />
@@ -53955,12 +53955,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Versammlung</de>
 						<en>The Round Up</en>
-						<pl></pl>
+						<pl>Podsumowanie</pl>
 					</title_original>
 					<description>
 						<de>Matt lehnt bei einer Versammlung die Bitte der Händler von Dodge City ab, mehr Deputies einzustellen, um ihre Interessen zu schützen, was für den Marshal zu Bedrohungen und Gefahren führt.</de>
 						<en>Matt refuses Dodge City merchants' request to hire more deputies to protect their interests during a round-up which lead to threats and danger for the Marshal.</en>
-						<pl></pl>
+						<pl>Matt odrzuca prośbę kupców z Dodge City o zatrudnienie większej liczby zastępców do ochrony ich interesów podczas łapanki, która prowadzi do gróźb i niebezpieczeństwa dla szeryfa.</pl>
 					</description>
 				</programme>
 				<programme id="bc4df336-b182-4911-ac01-ded7dcf23a9d" product="2" licence_type="2" imdb_id="tt0594122" creator="9551">
@@ -53971,12 +53971,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die größere Liebe</de>
 						<en>Greater Love</en>
-						<pl></pl>
+						<pl>Wielka Miłość</pl>
 					</title_original>
 					<description>
 						<de>Matt riskiert sein eigenes Leben, als ein Gesetzloser Doc als Geisel nimmt und droht, ihn zu töten, wenn er seinem verwundeten Partner nicht hilft.</de>
 						<en>Matt risks his own life when an outlaw takes Doc hostage and threatens to kill him if he does not help his wounded partner.</en>
-						<pl></pl>
+						<pl>Matt ryzykuje własnym życiem, gdy banita bierze Doca jako zakładnika i grozi, że go zabije, jeśli nie pomoże rannemu partnerowi.</pl>
 					</description>
 				</programme>
 				<programme id="2e0df8b7-f131-4b58-b98b-cba45419d06e" product="2" licence_type="2" imdb_id="tt0594279" creator="9551">
@@ -53987,12 +53987,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Keine Indianer</de>
 						<en>No Indians</en>
-						<pl></pl>
+						<pl>Żadnych Indian</pl>
 					</title_original>
 					<description>
 						<de>Nach einer Reihe von Überfällen der Pawnee-Indianer verlassen die Siedler von Dodge das Land. Als Matt Nachforschungen anstellt, kommt er zu dem Schluss, dass es um etwas viel Schockierenderes geht.</de>
 						<en>Dodge settlers are leaving after a rash of Pawnee Indian raids and when Matt investigates, he concludes it's something more shocking.</en>
-						<pl></pl>
+						<pl>Osadnicy Dodge opuszczają miasto po serii najazdów Indian Pawnee, a gdy Matt bada sprawę, dochodzi do wniosku, że chodzi o coś bardziej szokującego.</pl>
 					</description>
 				</programme>
 				<programme id="82996c04-cca3-4f8a-9f93-a76b72851302" product="2" licence_type="2" imdb_id="tt0594354" creator="9551">
@@ -54003,12 +54003,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Sünden des Vaters</de>
 						<en>Sins of the Father</en>
-						<pl></pl>
+						<pl>Grzechy Ojca</pl>
 					</title_original>
 					<description>
 						<de>Ein großer, imposanter Mann aus den Bergen und seine Frau, eine Arapahoe-Indianerin, deren Vater Überfälle auf die örtlichen Siedler verübte, werden von den Einwohnern von Dodge mit unsäglichen Vorurteilen konfrontiert. Aber die Stärke und das Rückgrat der Indianerin überwinden diese Intoleranz.</de>
 						<en>A large imposing mountain man and his Arapahoe Indian wife, whose father led raids on the local settlers face untold prejudice at the hands of Dodge townsfolk, but it's her strength and resilience that overcome the intolerance.</en>
-					<pl></pl>
+						<pl>Wielki, imponujący góral i jego żona, Indianka Arapahoe, której ojciec prowadził najazdy na lokalnych osadników, spotykają się z niewypowiedzianymi uprzedzeniami ze strony mieszkańców Dodge, ale to jej siła i odporność przezwyciężają nietolerancję.</pl>
 					</description>
 				</programme>
 				<programme id="2dadd103-2234-417a-ba2b-8df5423b8f93" product="2" licence_type="2" imdb_id="tt0594120" creator="9551">
@@ -54019,12 +54019,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Aufrechte Bürger</de>
 						<en>Gone Straight</en>
-						<pl></pl>
+						<pl>Gone Straight</pl>
 					</title_original>
 					<description>
 						<de>Matt erhält die unangenehme Aufgabe, einen Haftbefehl gegen ein ehemaliges Mitglied der Bande von Billy the Kid in der Kleinstadt Tascosa, Texas, zuzustellen. Doch es gibt Probleme, als drei Männer, die ein völlig normales Leben führen, auf die ihm vorgelegte Kurzbeschreibung passen.</de>
 						<en>Matt is given the unpleasant task of serving a warrant on an ex-member of Billy the Kid's gang in the small town of Tascosa, Texas but problems arise when three men living completely normal lives fit the limited description supplied to him.</en>
-					<pl></pl>
+						<pl>Matt otrzymuje nieprzyjemne zadanie doręczenia nakazu aresztowania byłego członka gangu Billy'ego Kida w małym miasteczku Tascosa w Teksasie, ale problemy pojawiają się, gdy trzech mężczyzn prowadzących zupełnie normalne życie pasuje do ograniczonego opisu, który mu dostarczono.</pl>
 					</description>
 				</programme>
 				<programme id="9925d390-2fee-48ce-9bf9-e71bcf63250e" product="2" licence_type="2" imdb_id="tt0594008" creator="9551">
@@ -54035,12 +54035,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Blut an den Händen</de>
 						<en>Bloody Hands</en>
-						<pl></pl>
+						<pl>Krwawe dłonie</pl>
 					</title_original>
 					<description>
 						<de>Matt schaltet drei Bankräuber in einer heftigen Schießerei aus, und als das überlebende Mitglied der Bande ihn einen „Schlächter“ nennt, gerät er in einen emotionalen Strudel.</de>
 						<en>Matt guns down three bank robbers in a fierce gunfight, and when the surviving member of the gang calls him a "butcher" it sends him into an emotional tailspin.</en>
-						<pl></pl>
+						<pl>Matt zabija trzech rabusiów bankowych w zaciekłej strzelaninie, a kiedy pozostały przy życiu członek gangu nazywa go "rzeźnikiem", wpędza go to w emocjonalny wir.</pl>
 					</description>
 				</programme>
 				<programme id="00f90ad8-6d9f-4a80-94c2-c1cbbf4e6af6" product="2" licence_type="2" imdb_id="tt0594039" creator="9551">
@@ -54051,12 +54051,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Billige Arbeitskraft</de>
 						<en>Cheap Labor</en>
-						<pl></pl>
+						<pl>Tania siła robocza</pl>
 					</title_original>
 					<description>
 						<de>Ein anmaßender Bruder schikaniert und misshandelt seine Schwester, dominiert ihr Leben und betrachtet sie nur als Hilfskraft, was zu Feindseligkeit führt, als eine neue Fremde in der Stadt ihr Interesse zeigt.</de>
 						<en>An overbearing brother badgers and mistreats his sister, dominating her life and regarding her only as hired help which creates animosity when a new stranger in town shows her interest.</en>
-					<pl></pl>
+						<pl>Nadopiekuńczy brat dręczy i źle traktuje swoją siostrę, dominując jej życie i traktując ją jedynie jako najemną pomoc, co wywołuje wrogość, gdy nowy nieznajomy w mieście okazuje jej zainteresowanie.</pl>
 					</description>
 				</programme>
 				<programme id="01c9dff3-420d-4f08-b650-aa47f0e4a19f" product="2" licence_type="2" imdb_id="tt0594583" creator="9551">
@@ -54067,12 +54067,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Wer das Schwert ergreift</de>
 						<en>Who Lives by the Sword</en>
-						<pl></pl>
+						<pl>Kto żyje mieczem</pl>
 					</title_original>
 					<description>
 						<de>Ein niederträchtiger Revolverheld erschießt zwei von Dodges geliebten Brüdern, und Matts sofortige emotionale Erwiderung lässt den Revolvermann in Verzweiflung stürzen.</de>
 						<en>A loathsome gunslinger shoots and kills two of Dodge's beloved brothers and Matt's immediate emotional backlash sends the gunman reeling into despair.</en>
-						<pl></pl>
+						<pl>Odrażający rewolwerowiec strzela i zabija dwóch ukochanych braci Dodge'a, a natychmiastowa reakcja emocjonalna Matta wpędza rewolwerowca w rozpacz.</pl>
 					</description>
 				</programme>
 				<programme id="007c9a43-3b56-41b5-9046-51841e42dec3" product="2" licence_type="2" imdb_id="tt0594174" creator="9551">
@@ -54083,12 +54083,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Eifersucht</de>
 						<en>Jealousy</en>
-						<pl></pl>
+						<pl>Zazdrość</pl>
 					</title_original>
 					<description>
 						<de>Ein verletzter Kartenhändler, der von Matt verschmäht wurde, will sich rächen und setzt Gerüchte in die Welt, dass der Marshal der Frau seines alten Freundes den Hof macht.</de>
 						<en>An injured card dealer spurned by Matt wants revenge and starts spreading rumors that the Marshal is courting his old friend's wife.</en>
-						<pl></pl>
+						<pl>Zraniony krupier odrzucony przez Matta chce się zemścić i zaczyna rozpowiadać plotki, że szeryf stara się o żonę swojego dawnego przyjaciela.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54101,12 +54101,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Rauchende Colts (Staffel 3)</de>
 				<en>Gunsmoke (Season 3)</en>
-				<pl></pl>
+				<pl>Gunsmoke (Sezon 3)</pl>
 			</title_original>
 			<description>
 				<de>Die Serie befasst sich auch mit Matts Freundschaft mit drei anderen Bürgern von Dodge City: Galen („Doc“), der Arzt der Stadt; Kitty, Saloonmädchen und spätere Besitzerin des Long Branch Saloon; und Chester, Matts Assistent.</de>
 				<en>The series also focuses on Matt's friendship with three other citizens of Dodge City: Galen ("Doc"), the town's physician; Kitty, saloon girl and later owner of the Long Branch Saloon; and Chester, Matt's assistant.</en>
-			<pl></pl>
+				<pl>Serial skupia się również na przyjaźni Matta z trzema innymi mieszkańcami Dodge City: Galenem ("Doc"), miejskim lekarzem; Kitty, dziewczyną z saloonu i późniejszą właścicielką Long Branch Saloon; oraz Chesterem, asystentem Matta.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">f3a79a97-1645-408c-b74e-373eb3d74557</member>
@@ -54126,12 +54126,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Aufgebracht</de>
 						<en>Crack-Up</en>
-						<pl></pl>
+						<pl>Pęknięcie</pl>
 					</title_original>
 					<description>
 						<de>Matt glaubt, dass ein Auftragskiller mit einem stahlharten Ruf sein Selbstvertrauen verloren hat, als dieser anfängt, angespannt und ängstlich zu wirken, was ihn noch gefährlicher macht.</de>
 						<en>Matt believes a hired gunman with a steel-nerved reputation has lost his confidence when he begins to act tense and anxious, which makes him even more dangerous.</en>
-						<pl></pl>
+						<pl>Matt jest przekonany, że najemny strzelec o stalowej reputacji stracił pewność siebie, gdy zaczyna zachowywać się spięty i niespokojny, co czyni go jeszcze bardziej niebezpiecznym.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="dd965d68-9ecc-47b5-a51d-43a9924dad91" />
@@ -54145,12 +54145,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Waffe für Chester</de>
 						<en>Gun for Chester</en>
-						<pl></pl>
+						<pl>Pistolet dla Chestera</pl>
 					</title_original>
 					<description>
 						<de>Chester erkennt einen Mann, der gerade in die Stadt geritten ist, als jemanden, den er damals in Missouri kannte, und sagt Matt, dass er wirklich hier ist, um ihn zu töten.</de>
 						<en>Chester recognizes a man that just rode into town as someone he knew back in Missouri and tells Matt that he's really here to kill him.</en>
-						<pl></pl>
+						<pl>Chester rozpoznaje mężczyznę, który właśnie wjechał do miasta, jako kogoś, kogo znał w Missouri i mówi Mattowi, że naprawdę jest tutaj, aby go zabić.</pl>
 					</description>
 				</programme>
 				<programme id="83100ee4-cbf6-4c79-956e-0ddd30f2466c" product="2" licence_type="2" imdb_id="tt0594270" creator="9551">
@@ -54161,12 +54161,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Niemand belästigt Chester</de>
 						<en>Never Pester Chester</en>
-						<pl></pl>
+						<pl>Nigdy nie nękaj Chestera</pl>
 					</title_original>
 					<description>
 						<de>Matt macht Jagd auf zwei Herumtreiber, die Chester hinter ihren Pferden hergeschleift und zum Sterben zurückgelassen haben.</de>
 						<en>Matt hunts down two drifters who dragged Chester behind their horses and left him for dead.</en>
-						<pl></pl>
+						<pl>Matt poluje na dwóch drifterów, którzy zaciągnęli Chestera za swoimi końmi i zostawili go na pewną śmierć.</pl>
 					</description>
 				</programme>
 				<programme id="4b5cf143-10bc-4a1d-80e9-f9823fb4f6c8" product="2" licence_type="2" imdb_id="tt0594158" creator="9551">
@@ -54177,12 +54177,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Wie man eine Frau tötet</de>
 						<en>How to Kill a Woman</en>
-						<pl></pl>
+						<pl>Jak zabić kobietę</pl>
 					</title_original>
 					<description>
 						<de>Matt und Chester halten an einer Pferderaststelle Ausschau nach einem skrupellosen Killer, der die Passagiere von Postkutschen kaltblütig ermordet.</de>
 						<en>Matt and Chester keep close watch at a stage stop for a ruthless killer who is murdering stagecoach passengers in cold blood.</en>
-						<pl></pl>
+						<pl>Matt i Chester poszukują bezwzględnego zabójcy, który z zimną krwią morduje pasażerów dyliżansów.</pl>
 					</description>
 				</programme>
 				<programme id="10df62bb-a777-4d01-9a32-960d4e66053a" product="2" licence_type="2" imdb_id="tt0594084" creator="9551">
@@ -54193,12 +54193,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Belohnung für Doc</de>
 						<en>Doc's Reward</en>
-						<pl></pl>
+						<pl>Nagroda doktora</pl>
 					</title_original>
 					<description>
 						<de>Doc tötet einen störrischen Mann, der ihm den Weg versperrt, und erschießt dann sein Pferd. Als der Bruder des Mannes davon erfährt, kommt er nach Dodge und sinnt auf Rache.</de>
 						<en>Doc kills a stubborn man who blocks his way and then shoots his horse, and when the man's brother finds out, he comes to Dodge hell-bent on revenge.</en>
-						<pl></pl>
+						<pl>Doc zabija upartego mężczyznę blokującego mu drogę, a następnie strzela do jego konia. Kiedy brat mężczyzny dowiaduje się o tym, przyjeżdża do Dodge'a i szuka zemsty.</pl>
 					</description>
 				</programme>
 				<programme id="84705311-bb7a-4f10-aa0e-bc419b8d1554" product="2" licence_type="2" imdb_id="tt0594021" creator="9551">
@@ -54209,12 +54209,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Büffelmann</de>
 						<en>Buffalo Man</en>
-						<pl></pl>
+						<pl>Buffalo Man</pl>
 					</title_original>
 					<description>
 						<de>Matt und Chester reiten zum Lager eines Büffeljägers, um den Tod eines Mannes zu untersuchen, den Doc zuvor gefunden hat.</de>
 						<en>Matt and Chester ride out to a buffalo hunter's camp to investigate the death of a man Doc found earlier.</en>
-						<pl></pl>
+						<pl>Matt i Chester jadą do obozu łowców bizonów, aby zbadać śmierć mężczyzny znalezionego wcześniej przez Doca.</pl>
 					</description>
 				</programme>
 				<programme id="6b175c15-d745-4ee3-9ee4-3db838d6170d" product="2" licence_type="2" imdb_id="tt0594409" creator="9551">
@@ -54225,12 +54225,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Die Hütte</de>
 						<en>The Cabin</en>
-						<pl></pl>
+						<pl>Chata</pl>
 					</title_original>
 					<description>
 						<de>Matt sucht in einer Hütte Schutz vor einem Schneesturm und stößt auf zwei psychopathische Kriminelle, die den Besitzer ermordet und seine Tochter versklavt und missbraucht haben.</de>
 						<en>Matt seeks shelter from a blizzard in a cabin and encounters two psychopathic criminals who murdered the owner and enslaved and abused his daughter.</en>
-						<pl></pl>
+						<pl>Matt szuka schronienia przed burzą śnieżną w domku i natrafia na dwóch psychopatycznych przestępców, którzy zamordowali właściciela i zniewolili jego córkę.</pl>
 					</description>
 				</programme>
 				<programme id="29b9dfd5-23d6-4d87-8415-bed7b3b64a67" product="2" licence_type="2" imdb_id="tt0594183" creator="9551">
@@ -54241,12 +54241,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Witz geht auf uns</de>
 						<en>Joke's on Us</en>
-						<pl></pl>
+						<pl>Żarty się nas trzymają</pl>
 					</title_original>
 					<description>
 						<de>Ein Mann, der des Pferdediebstahls verdächtigt wird, wird gehängt, aber innerhalb weniger Minuten finden die Täter heraus, dass er unschuldig war.</de>
 						<en>A man suspected of horse theft is hanged, but within minutes the perpetrators find out that he was innocent.</en>
-						<pl></pl>
+						<pl>Mężczyzna podejrzany o kradzież konia zostaje powieszony, ale w ciągu kilku minut sprawcy dowiadują się, że był niewinny.</pl>
 					</description>
 				</programme>
 				<programme id="9cb0803d-e6dc-42c5-a841-402f0fe76056" product="2" licence_type="2" imdb_id="tt0594300" creator="9551">
@@ -54257,12 +54257,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Overland-Express</de>
 						<en>Overland Express</en>
-						<pl></pl>
+						<pl>Overland Express</pl>
 					</title_original>
 					<description>
 						<de>Ein Gesetzloser, der sich als Passagier ausgibt, will eine Postkutsche überfallen, in der sich auch Matt und sein Gefangener befinden.</de>
 						<en>An outlaw masquerading as a passenger has plans to hold up a stagecoach including Matt and his prisoner.</en>
-						<pl></pl>
+						<pl>Banita udający pasażera chce zatrzymać dyliżans, w którym znajduje się również Matt i jego więzień.</pl>
 					</description>
 				</programme>
 				<programme id="24f34131-cb3a-4fa3-8317-5623fd5577fd" product="2" licence_type="2" imdb_id="tt0594438" creator="9551">
@@ -54273,12 +54273,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Der Gentleman</de>
 						<en>The Gentleman</en>
-						<pl></pl>
+						<pl>Dżentelmen</pl>
 					</title_original>
 					<description>
 						<de>Ein charmanter und eleganter Glücksspieler kommt nach Dodge und begibt sich mitten hinein in eine brisante Beziehung.</de>
 						<en>A charming and debonair gambler comes to Dodge and puts himself smack in the middle of a torrid relationship.</en>
-						<pl></pl>
+						<pl>Czarujący i elegancki hazardzista przybywa do Dodge i znajduje się w środku niestabilnego związku.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54291,12 +54291,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Rauchende Colts (Staffel 4)</de>
 				<en>Gunsmoke (Season 4)</en>
-				<pl></pl>
+				<pl>Gunsmoke (Sezon 4)</pl>
 			</title_original>
 			<description>
 				<de>„Die Inszenierung der amerikanischen epischen Legende des Westens. Unsere eigene Ilias und Odyssee, geschaffen aus Standardelementen des Groschenromans und des Pulp-Westerns. Wahrhaftig der Stoff, aus dem Legenden sind.“</de>
 				<en>"The dramatization of the American epic legend of the west. Our own Iliad and Odyssey, created from standard elements of the dime novel and the pulp Western. It was ever the stuff of legend."</en>
-			<pl></pl>
+				<pl>"Inscenizacja amerykańskiej epickiej legendy Zachodu. Nasza własna Iliada i Odyseja, stworzona ze standardowych elementów powieści groszowej i pulpowego westernu. Prawdziwa rzecz, z której powstają legendy".</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">f3a79a97-1645-408c-b74e-373eb3d74557</member>
@@ -54316,12 +54316,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Wegen Mordes</de>
 						<en>Matt for Murder</en>
-						<pl></pl>
+						<pl>Matt za morderstwo</pl>
 					</title_original>
 					<description>
 						<de>Matt wird der Mord an einem Mann angehängt.</de>
 						<en>Matt is being framed for killing a man.</en>
-						<pl></pl>
+						<pl>Matt zostaje wrobiony w morderstwo mężczyzny.</pl>
 					</description>
 				</programme>
 				<programme id="b7481ea9-837f-4c65-b360-b4e114af9732" product="2" licence_type="2" imdb_id="tt0594257" creator="9551">
@@ -54332,12 +54332,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Das Monopol</de>
 						<en>Monopoly</en>
-						<pl></pl>
+						<pl>Monopoly</pl>
 					</title_original>
 					<description>
 						<de>Ein skrupelloser Geschäftsmann aus dem Osten kauft alle örtlichen Frachtlinien auf.</de>
 						<en>An unscrupulous Eastern businessman is purchasing all the local freight lines.</en>
-						<pl></pl>
+						<pl>Pozbawiony skrupułów biznesmen ze Wschodu wykupuje wszystkie lokalne linie towarowe.</pl>
 					</description>
 				</programme>
 				<programme id="009d420d-4394-4210-94b9-0fa46b31ad13" product="2" licence_type="2" imdb_id="tt0594213" creator="9551">
@@ -54348,12 +54348,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Gesetzliche Vorschriften</de>
 						<en>Letter of the Law</en>
-						<pl></pl>
+						<pl>Litera prawa</pl>
 					</title_original>
 					<description>
 						<de>Matt zögert, bei einem Mann und seiner schwangeren Frau die Zwangsräumung ihrer Ranch durchzuführen.</de>
 						<en>Matt is reluctant in evicting a man and his expectant wife from their ranch.</en>
-						<pl></pl>
+						<pl>Matt waha się, czy eksmitować mężczyznę i jego ciężarną żonę z ich rancza.</pl>
 					</description>
 				</programme>
 				<programme id="39d64157-01a5-4e38-bbc3-8d429c6efeed" product="2" licence_type="2" imdb_id="tt0594221" creator="9551">
@@ -54364,12 +54364,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Verlorenes Gewehr</de>
 						<en>Lost Rifle</en>
-						<pl></pl>
+						<pl>Zagubiona strzelba</pl>
 					</title_original>
 					<description>
 						<de>Ohne weitere Beweise zögert Matt, seinen Freund zu verhaften, der eine anhaltende Fehde mit einem Mann hatte, der mit einem Schuss in den Rücken aufgefunden wurde.</de>
 						<en>Without more evidence, Matt is reluctant to arrest his friend who had an ongoing feud with a man found shot in the back.</en>
-						<pl></pl>
+						<pl>Nie mając dalszych dowodów, Matt waha się, czy aresztować swojego przyjaciela, który miał ciągły konflikt z mężczyzną znalezionym postrzelonym w plecy.</pl>
 					</description>
 				</programme>
 				<programme id="c443744f-5591-4707-8bca-9450622f6973" product="2" licence_type="2" imdb_id="tt0594173" creator="9551">
@@ -54380,12 +54380,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Jayhawkers</de>
 						<en>Jayhawkers</en>
-						<pl></pl>
+						<pl>Jayhawkers</pl>
 					</title_original>
 					<description>
 						<de>Matt hilft einem Viehzüchter, Jayhawkers abzuwehren, indem er seine Rinderherde nach Dodge eskortiert.</de>
 						<en>Matt helps a trail boss fend off Jayhawkers by escorting his cattle herd to Dodge.</en>
-						<pl></pl>
+						<pl>Matt pomaga ranczerowi odeprzeć Jayhawkers, eskortując jego stado bydła do Dodge.</pl>
 					</description>
 				</programme>
 				<programme id="6d3e37fe-3fe7-4930-bbb0-879ee8722a61" product="2" licence_type="2" imdb_id="tt0594429" creator="9551">
@@ -54396,12 +54396,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Versaut und Vermasselt</de>
 						<en>The F.U.</en>
-						<pl></pl>
+						<pl>The F.U.</pl>
 					</title_original>
 					<description>
 						<de>Matt untersucht eine Reihe von Verbrechen, die mit einem Mann in Verbindung stehen, aber Chester vermasselt das Ergebnis.</de>
 						<en>Matt investigates a series of crimes linked to one man, but Chester bungles the outcome.</en>
-						<pl></pl>
+						<pl>Matt prowadzi śledztwo w sprawie serii przestępstw powiązanych z pewnym mężczyzną, ale Chester psuje jego wynik.</pl>
 					</description>
 				</programme>
 				<programme id="cdcb948c-9a9d-460d-a084-8a11c2a14b8b" product="2" licence_type="2" imdb_id="tt0594107" creator="9551">
@@ -54412,12 +54412,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Mischling</de>
 						<en>Fawn</en>
-						<pl></pl>
+						<pl>Płowy</pl>
 					</title_original>
 					<description>
 						<de>Matt und Chester befreien eine weiße Frau und ihre halbindianische Tochter, die seit zehn Jahren gefangen gehalten werden.</de>
 						<en>Matt and Chester rescue a white woman and her half-Indian daughter held captive for ten years.</en>
-						<pl></pl>
+						<pl>Matt i Chester uwalniają białą kobietę i jej pół-indiańską córkę, które były przetrzymywane w niewoli przez dziesięć lat.</pl>
 					</description>
 				</programme>
 				<programme id="673ecf5b-9103-4cd3-b3b9-81fdc74c563b" product="2" licence_type="2" imdb_id="tt0594548" creator="9551">
@@ -54428,12 +54428,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Es gab nie ein Pferd</de>
 						<en>There Was Never a Horse</en>
-						<pl></pl>
+						<pl>Nigdy nie było konia</pl>
 					</title_original>
 					<description>
 						<de>Ein bekannter Revolverheld kommt nach Dodge und will seinen Ruf weiter ausbauen, indem er Matt tötet.</de>
 						<en>A well-known gunfighter comes to Dodge and wants to add to his reputation by killing Matt.</en>
-						<pl></pl>
+						<pl>Do Dodge przyjeżdża znany rewolwerowiec, który chce podnieść swoją reputację zabijając Matta.</pl>
 					</description>
 				</programme>
 				<programme id="f212cff6-9b63-4d9e-861e-a8164d02ca6c" product="2" licence_type="2" imdb_id="tt0594010" creator="9551">
@@ -54444,12 +54444,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Blaues Pferd</de>
 						<en>Blue Horse</en>
-						<pl></pl>
+						<pl>Niebieski koń</pl>
 					</title_original>
 					<description>
 						<de>Matt ist verletzt und befindet sich in einem moralischen Dilemma, als ein gesuchter Indianer ihm zu Hilfe kommt.</de>
 						<en>Matt is injured and is in a moral dilemma when a sought Indian comes to his rescue.</en>
-						<pl></pl>
+						<pl>Matt zostaje ranny i staje przed dylematem moralnym, gdy z pomocą przychodzi mu poszukiwany Indianin.</pl>
 					</description>
 				</programme>
 				<programme id="321031db-a8f7-475d-bf7f-68bf1d5bb1d0" product="2" licence_type="2" imdb_id="tt0594047" creator="9551">
@@ -54460,12 +54460,12 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 					<title_original>
 						<de>Cheyennes</de>
 						<en>Cheyennes</en>
-						<pl></pl>
+						<pl>Cheyennes</pl>
 					</title_original>
 					<description>
 						<de>Während die Calvary nach einer kleinen Gruppe von Cheyennes sucht, konzentrieren sich Matt und Chester auf die Waffenschmuggler, die die Abtrünnigen mit Gewehren versorgt haben.</de>
 						<en>While the Calvary searches for a small band of Cheyenne, Matt and Chester focus on the gunrunners that supplied the renegades with rifles.</en>
-						<pl></pl>
+						<pl>Podczas gdy Calvary szuka małej grupy Cheyennesów, Matt i Chester skupiają się na handlarzach bronią, którzy zaopatrywali renegatów w karabiny.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54478,14 +54478,15 @@ Młody samotnik na krucjacie w obronie niewinnych, bezradnych i bezsilnych w św
 			<title_original>
 				<de>Die Waltons (Staffel 1)</de>
 				<en>The Waltons (Season 1)</en>
-				<pl></pl>
+				<pl>The Waltons (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>„Gute Nacht, John Boy.“ - „Gute Nacht.“
 Eine amerikanisch-historische Drama-Fernsehserie über eine Familie im ländlichen Virginia während der Großen Depression und des Zweiten Weltkriegs, basierend auf einem Buch.</de>
 				<en>"Good night, John Boy." - "Good night, everyone."
 An American historical drama television series about a family in rural Virginia during the Great Depression and World War II, based on a book.</en>
-<pl></pl>
+				<pl>"Dobranoc, John chłopcze". - "Dobranoc".
+Amerykański serial historyczny opowiadający o rodzinie z wiejskiej Wirginii w czasach Wielkiego Kryzysu i II wojny światowej, oparty na książce.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">3b76fd30-a736-465c-83e4-55b9c4ceafd1</member>
@@ -54509,12 +54510,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Das Findelkind</de>
 						<en>The Foundling</en>
-						<pl></pl>
+						<pl>Założyciel</pl>
 					</title_original>
 					<description>
 						<de>Die Familie nimmt ein taubes Mädchen auf, das von deren Mutter auf der Veranda zurückgelassen wurde, weil ihr Vater darauf bestand, sie in ein Heim einzuweisen.</de>
 						<en>The family shelters a deaf girl left on their back porch by her mother because her father insisted on institutionalizing her.</en>
-						<pl></pl>
+						<pl>Rodzina przygarnia głuchoniemą dziewczynkę, którą matka zostawiła na werandzie, ponieważ ojciec nalegał na jej zinstytucjonalizowanie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="1e0670ec-6943-43a7-8cc6-40df10cc0dbd" />
@@ -54528,12 +54529,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Junge Prediger</de>
 						<en>The Sinner</en>
-						<pl></pl>
+						<pl>Grzesznik</pl>
 					</title_original>
 					<description>
 						<de>Ein junger Prediger kommt zum Haus der Familie, frisch vom Seminar, wo er den zu der Zeit populären „Feuer und Schwefel“-Stil des Predigens gelernt hat.</de>
 						<en>A young preacher comes to the family's home, fresh from seminary, where he has learned the currently-popular fire and brimstone style of preaching.</en>
-						<pl></pl>
+						<pl>Młody kaznodzieja przybywa do rodzinnego domu, świeżo po ukończeniu seminarium, gdzie nauczył się popularnego wówczas stylu głoszenia "ognia i siarki".</pl>
 					</description>
 				</programme>
 				<programme id="3930db75-8767-4b44-bf8a-af531df23e65" product="2" licence_type="2" imdb_id="tt0743785" creator="9551">
@@ -54544,12 +54545,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Der Schriftsteller</de>
 						<en>The Literary Man</en>
-						<pl></pl>
+						<pl>Człowiek Literatury</pl>
 					</title_original>
 					<description>
 						<de>Ein umherreisender, belesener Mann, der behauptet, ein Schriftsteller zu sein, kommt zum Haus der Familie, freundet sich mit John-Boy an, und hilft ihm beim Schreiben.</de>
 						<en>A wandering, well-read man claiming to be a writer, comes to the family's home and befriends John-Boy, helping him with his writing.</en>
-						<pl></pl>
+						<pl>Podróżujący, oczytany mężczyzna, który twierdzi, że jest pisarzem, przyjeżdża do rodzinnego domu, zaprzyjaźnia się z John-Boyem i pomaga mu w pisaniu.</pl>
 					</description>
 				</programme>
 				<programme id="8a47b027-cbe2-42f3-ada3-88996e0c65e1" product="2" licence_type="2" imdb_id="tt0743821" creator="9551">
@@ -54560,12 +54561,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Der große Familientag</de>
 						<en>The Reunion</en>
-						<pl></pl>
+						<pl>Spotkanie</pl>
 					</title_original>
 					<description>
 						<de>Die Baldwin-Schwestern planen ein Familientreffen, als ihr Cousin Homer zu Besuch kommt. Doch Homer macht sich mit über 100 Gläsern des „Rezepts“ davon, die für das Treffen bestimmt waren, und plant, sie in Charlottesville zu verkaufen.</de>
 						<en>The Baldwin sisters plan to hold a family reunion when their cousin Homer visits, but Homer runs off with their batch of over 100 jars of the "Recipe" intended for the reunion, planning to sell it in Charlottesville.</en>
-					<pl></pl>
+						<pl>Siostry Baldwin planują zjazd rodzinny, na który przyjeżdża ich kuzyn Homer. Homer zabiera jednak ponad 100 słoików z "przepisem" przeznaczonym na zjazd i planuje sprzedać je w Charlottesville.</pl>
 					</description>
 				</programme>
 				<programme id="428dd684-43d6-40f7-812e-6fb83a2a109e" product="2" licence_type="2" imdb_id="tt0743720" creator="9551">
@@ -54576,12 +54577,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>John-Boy und die große Stadt</de>
 						<en>The Deed</en>
-						<pl></pl>
+						<pl>Akt</pl>
 					</title_original>
 					<description>
 						<de>Als eine Holzfabrik versucht, den „Mountain“ für sich zu beanspruchen, entdeckt die Familie, dass ihre Vorfahren nie einen Rechtsanspruch auf ihr Land angemeldet hatten.</de>
 						<en>When a lumber company tries to claim the Mountain, the family discovers that their ancestors never filed for legal title to their land.</en>
-						<pl></pl>
+						<pl>Kiedy fabryka drewna próbuje przejąć "Górę" dla siebie, rodzina odkrywa, że ich przodkowie nigdy nie zarejestrowali prawnych roszczeń do swojej ziemi.</pl>
 					</description>
 				</programme>
 				<programme id="2bdef306-9d5c-48af-bef1-b40f33e22afe" product="2" licence_type="2" imdb_id="tt0743829" creator="9551">
@@ -54592,12 +54593,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Die Schülerin</de>
 						<en>The Scholar</en>
-						<pl></pl>
+						<pl>Uczeni</pl>
 					</title_original>
 					<description>
 						<de>Verdie Grant bittet John-Boy, ihr das Lesen und Schreiben beizubringen, unter der Bedingung, dass er es streng geheim hält.</de>
 						<en>Verdie Grant asks John-Boy to teach her how to read and write, on the condition that he keep it a strict secret.</en>
-						<pl></pl>
+						<pl>Verdie Grant prosi Johna-Boya, by nauczył ją czytać i pisać pod warunkiem, że zachowa to w ścisłej tajemnicy.</pl>
 					</description>
 				</programme>
 				<programme id="b3df881d-a335-4c76-bc1f-d9aedbdaa7d9" product="2" licence_type="2" imdb_id="tt0743724" creator="9551" comment="No German version of this episode seems to exist, applying translation of title.">
@@ -54608,12 +54609,12 @@ An American historical drama television series about a family in rural Virginia 
 					<title_original>
 						<de>Eine Ostergeschichte</de>
 						<en>An Easter Story</en>
-						<pl></pl>
+						<pl>Opowieść wielkanocna</pl>
 					</title_original>
 					<description>
 						<de>Olivia erkrankt an Kinderlähmung, als sie von der Kirche zurückkommt. Als sich Schmerzen und Müdigkeit in Taubheit und Lähmung verwandeln, stellt sie sich mutig der Aussicht auf eine dauerhafte Behinderung.</de>
 						<en>Olivia is stricken with polio after returning from church. When pain and fatigue turn into numbness and paralysis, she faces the prospect of permanent disability with courage.</en>
-					<pl></pl>
+						<pl>Olivia zaraża się polio po powrocie z kościoła. Ból i zmęczenie przeradzają się w głuchotę i paraliż, a dziewczyna odważnie stawia czoła perspektywie trwałego kalectwa.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54626,14 +54627,15 @@ An American historical drama television series about a family in rural Virginia 
 			<title_original>
 				<de>Die Waltons (Staffel 2)</de>
 				<en>The Waltons (Season 2)</en>
-				<pl></pl>
+				<pl>The Waltons (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>„Gute Nacht, John Boy.“ - „Gute Nacht.“
 Dies wurde zu einer der bekanntesten Floskeln in den 1970er Jahren. In der Endsequenz der Sendung sagen sich die Familienmitglieder gegenseitig gute Nacht, bevor sie in den Schlaf gleiten.</de>
 				<en>"Good night, John Boy." - "Good night, everyone."
 This became one of the most common catchphrases of the 1970s. The show's end sequence featured the family saying goodnight to one another before drifting off to sleep.</en>
-<pl></pl>
+				<pl>"Dobranoc, John chłopcze". - "Dobranoc."
+Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcowej sekwencji programu członkowie rodziny mówią sobie dobranoc przed zaśnięciem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">3b76fd30-a736-465c-83e4-55b9c4ceafd1</member>
@@ -54657,12 +54659,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Hochzeit am Meer</de>
 						<en>The Journey</en>
-						<pl></pl>
+						<pl>Podróż</pl>
 					</title_original>
 					<description>
 						<de>Eine ältere, verwitwete Nachbarin bittet John-Boy, mit ihr nach Virginia Beach zu fahren, aber der will mit einem Mädchen zum Tanz. Schließlich sagt er sein Date ab und fährt mit Mrs. McKenzie an die Küste, wo sie in Erinnerungen an ihre Flitterwochen schwelgt.</de>
 						<en>An elderly widowed neighbor asks John-Boy to take her to Virginia Beach, but he has plans instead to take a girl to a dance. He finally breaks his date and takes Mrs. McKenzie to the shore, where she relives memories of her honeymoon.</en>
-					<pl></pl>
+						<pl>Starsza, owdowiała sąsiadka prosi Johna-Boya, by zabrał ją do Virginia Beach, ale ten zamiast tego planuje zabrać dziewczynę na tańce. W końcu przerywa randkę i zabiera panią McKenzie na wybrzeże, gdzie przeżywa wspomnienia z miesiąca miodowego.</pl>
 					</description>
 				</programme>
 				<programme id="a1ffaff8-c807-4603-8e27-f109c2f7bfad" product="2" licence_type="2" imdb_id="tt0743850" creator="9551">
@@ -54673,12 +54675,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Verdacht</de>
 						<en>The Theft</en>
-						<pl></pl>
+						<pl>Kradzież</pl>
 					</title_original>
 					<description>
 						<de>Eine reiche Witwe beschuldigt John Sr. des Diebstahls von Familiensilber, nachdem er eine Reparatur für sie durchgeführt hat.</de>
 						<en>A wealthy widow accuses John Sr. of stealing some family silver after he has done a repair job for her.</en>
-						<pl></pl>
+						<pl>Bogata wdowa oskarża Johna Seniora o kradzież rodzinnego srebra po tym, jak ten wykonuje dla niej naprawę.</pl>
 					</description>
 				</programme>
 				<programme id="1a559586-d110-4a4c-bf71-875528b7da30" product="2" licence_type="2" imdb_id="tt0743849" creator="9551">
@@ -54689,12 +54691,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Zeit der schweren Prüfungen</de>
 						<en>The Thanksgiving Story</en>
-						<pl></pl>
+						<pl>Historia Święta Dziękczynienia</pl>
 					</title_original>
 					<description>
 						<de>John-Boy wird bei der Arbeit im Sägewerk von einem losen Keilriemen getroffen und zu Boden gestoßen. Er verheimlicht, dass ihm schwindlig ist und er verschwommen sieht, weil er eine Aufnahmeprüfung ablegen will, die er aber nicht schafft.</de>
 						<en>John-Boy is hit by a loose fan belt while working the sawmill and knocked down. He conceals his dizziness and blurred vision because he wants to take an entrance exam, but he cannot finish it.</en>
-					<pl></pl>
+						<pl>John-Boy zostaje uderzony luźnym pasem klinowym podczas pracy w tartaku i powalony na ziemię. Ukrywa fakt, że ma zawroty głowy i niewyraźne widzenie, ponieważ chce przystąpić do egzaminu wstępnego, ale nie udaje mu się.</pl>
 					</description>
 				</programme>
 				<programme id="c8104130-70b3-4e83-8b44-766d73ad7e2e" product="2" licence_type="2" imdb_id="tt0743684" creator="9551">
@@ -54705,12 +54707,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Erbschaft</de>
 						<en>The Bequest</en>
-						<pl></pl>
+						<pl>Spadek</pl>
 					</title_original>
 					<description>
 						<de>Großmutter erhält einen Brief, in dem ihr mitgeteilt wird, dass eine alte Freundin gestorben ist und ihr 250 Dollar vermacht hat, die sie nun mit der Familie und der Kirche teilen möchte.</de>
 						<en>Grandma receives a letter informing her that an old friend has died and bequeathed her $250, which she decides to share with the family and church.</en>
-						<pl></pl>
+						<pl>Babcia otrzymuje list z informacją, że zmarła jej dawna przyjaciółka i zostawiła jej 250 dolarów, którymi chce się podzielić z rodziną i kościołem.</pl>
 					</description>
 				</programme>
 				<programme id="04d020f8-6abd-4664-9cc3-1be2b74ca227" product="2" licence_type="2" imdb_id="tt0743749" creator="9551">
@@ -54721,12 +54723,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Nur noch ein Jahr</de>
 						<en>The Gift</en>
-						<pl></pl>
+						<pl>Prezent</pl>
 					</title_original>
 					<description>
 						<de>Jasons enger Freund Seth Turner, der seine Liebe zur Musik teilt, schnitzt aus einem Apfelbaumzweig, den Jason ihm schenkt, eine Blockflöte und bietet Jason an, ihm das Spielen beizubringen.</de>
 						<en>Jason's close friend Seth Turner, who shares his love for music, carves a recorder from an apple tree branch Jason gives him and offers to teach Jason how to play it.</en>
-					<pl></pl>
+						<pl>Bliski przyjaciel Jasona, Seth Turner, który podziela jego zamiłowanie do muzyki, rzeźbi flet z gałęzi jabłoni, którą Jason mu daje i oferuje, że nauczy Jasona grać.</pl>
 					</description>
 				</programme>
 				<programme id="8e5d5c7e-bc95-411d-91e6-67d5c71dc39f" product="2" licence_type="2" imdb_id="tt0743752" creator="9551">
@@ -54737,12 +54739,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Abschlußprüfung</de>
 						<en>The Graduation</en>
-						<pl></pl>
+						<pl>Ukończenie szkoły</pl>
 					</title_original>
 					<description>
 						<de>John-Boys Highschool-Abschluss rückt immer näher, und die Familie kauft ihm zu diesem Anlass einen neuen Anzug.</de>
 						<en>John-Boy's high school graduation finally approaches, and the family buys him a new suit for the occasion.</en>
-						<pl></pl>
+						<pl>Zbliża się matura Johna-Boya i z tej okazji rodzina kupuje mu nowy garnitur.</pl>
 					</description>
 				</programme>
 				<programme id="7b78c4a9-4bc6-44ef-89c6-a393a8a9f95a" product="2" licence_type="2" imdb_id="tt0743700" creator="9551">
@@ -54753,12 +54755,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Das Auto</de>
 						<en>The Car</en>
-						<pl></pl>
+						<pl>Auto</pl>
 					</title_original>
 					<description>
 						<de>John-Boy will sich ein Auto kaufen, das er für das College braucht. Auf einen Tipp hin bietet er an, die Sturmschäden am Haus eines zurückgezogen lebenden Paares zu reparieren und dafür das schöne Auto zu bekommen, das sie in ihrer Garage haben.</de>
 						<en>John-Boy looks to buy a car which he will need to get to college. On a tip, he offers to repair the storm damage to the home of a reclusive couple in exchange for the beautiful car they keep in their garage.</en>
-					<pl></pl>
+						<pl>John-Boy chce kupić samochód, którego potrzebuje na studia. Po otrzymaniu cynku oferuje naprawę szkód wyrządzonych przez burzę w domu samotnej pary w zamian za ładny samochód, który mają w garażu.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54771,12 +54773,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Lassie (Staffel 1)</de>
 				<en>Lassie (Season 1)</en>
-				<pl></pl>
+				<pl>Lassie (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Die Heldentaten einer Langhaarcollie-Hündin, die mit dem elfjährigen Jeff auf einer Farm und drumherum viele Abenteuer erlebt.</de>
 				<en>The heroic tales of a female Rough Collie dog who goes through many adventures with eleven-year-old Jeff on a farm and all around it.</en>
-				<pl></pl>
+				<pl>Wyczyny długowłosego psa collie, który przeżywa wiele przygód z jedenastoletnim Jeffem na farmie i wokół niej.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">5a01c566-022b-408d-88bc-37946fd27127</member>
@@ -54796,12 +54798,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Erbschaft</de>
 						<en>Inheritance</en>
-						<pl></pl>
+						<pl>Dziedziczenie</pl>
 					</title_original>
 					<description>
 						<de>Der elfjährige Jeff erbt eine Langhaarcollie-Hündin von einem verstorbenen Farmer. Doch die läuft ständig davon und kehrt zu ihrem alten Zuhause zurück. Opa Gramps bringt dem untröstlichen Jeff bei, dass die Hündin ihre eigene Entscheidung treffen muss.</de>
 						<en>Eleven-year-old Jeff inherits a female Rough Collie from a deceased farmer. But the dog keeps running away and keeps returning to her old home. Gramps teaches the heartbroken Jeff that the dog must make her own decision.</en>
-					<pl></pl>
+						<pl>Jedenastoletni Jeff dziedziczy długowłosego psa rasy collie po zmarłym farmerze. Pies jednak ciągle ucieka i wraca do swojego starego domu. Dziadek Gramps uczy niepocieszonego Jeffa, że pies musi podjąć własną decyzję.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="5ba259d2-cb8c-46a0-aed3-ac1ef352a1b9" />
@@ -54815,12 +54817,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Sträfling</de>
 						<en>The Convict</en>
-						<pl></pl>
+						<pl>Skazaniec</pl>
 					</title_original>
 					<description>
 						<de>Jeff und der Collie treffen auf einen entflohenen Sträfling, der droht, den Pflegeeltern des Jungen etwas anzutun, wenn man ihm kein Essen und keine Kleidung bringt. Jeff beschließt, den Mann in seiner geheimen Höhle zu verstecken.</de>
 						<en>Jeff and the Collie meet an escaped convict who threatens to harm the boy's caretakers if he isn't brought any food and clothing. Jeff decides to hide the man in his secret cave.</en>
-					<pl></pl>
+						<pl>Jeff i collie natrafiają na zbiegłego skazańca, który grozi, że skrzywdzi przybranych rodziców chłopca, jeśli nie przyniosą mu jedzenia i ubrań. Jeff postanawia ukryć mężczyznę w swojej tajnej jaskini.</pl>
 					</description>
 				</programme>
 				<programme id="3efe084c-f6b2-454e-bf9a-00a55fd21745" product="2" licence_type="2" imdb_id="tt0885950" creator="9551">
@@ -54831,12 +54833,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Sorge um Großvater</de>
 						<en>Gramps</en>
-						<pl></pl>
+						<pl>Martwienie się o dziadka</pl>
 					</title_original>
 					<description>
 						<de>Als Gramps Schmerzen in der Brust hat, übernehmen Jeff und Ellen seine Aufgaben, bis Doc Stuart das Problem diagnostizieren kann. Doch Gramps leidet unter den Einschränkungen, und seine Heimlichtuerei nach der Schlafenszeit wird ihm fast zum Verhängnis.</de>
 						<en>When Gramps has chest pains, Jeff and Ellen take over his chores until Doc Stuart can diagnose the problem. But Gramps chafes under the restrictions, and his sneaking out after bedtime almost proves his undoing.</en>
-					<pl></pl>
+						<pl>Kiedy Gramps ma bóle w klatce piersiowej, Jeff i Ellen przejmują jego obowiązki, dopóki doktor Stuart nie zdiagnozuje problemu. Ale Gramps cierpi z powodu ograniczeń, a jego podstępność po spaniu prawie staje się jego zgubą.</pl>
 					</description>
 				</programme>
 				<programme id="10c5188f-12c2-488a-9c83-8b0853afba58" product="2" licence_type="2" imdb_id="tt0625549" creator="9551">
@@ -54847,12 +54849,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Lassie wird Mutter</de>
 						<en>Lassie's Pups</en>
-						<pl></pl>
+						<pl>Szczeniaki Lassie</pl>
 					</title_original>
 					<description>
 						<de>Die Colliehündin ist kurz davor, Welpen zu bekommen, aber weil draußen ein Sturm tobt, muss Gramps dem Ruf der Freiwilligen Feuerwehr folgen und überlässt es Ellen und Jeff, sich um sie zu kümmern.</de>
 						<en>The Collie is about to have puppies, but as a storm rages outside, Gramps must respond to the summons of the volunteer fire department's bell, leaving Ellen and Jeff to tend her.</en>
-					<pl></pl>
+						<pl>Collie ma mieć szczenięta, ale ponieważ na zewnątrz szaleje burza, dziadek musi odpowiedzieć na wezwanie ochotniczej straży pożarnej, pozostawiając Ellen i Jeffowi opiekę nad nią.</pl>
 					</description>
 				</programme>
 				<programme id="e53bfa10-5527-4908-91cf-a8a18bf699f8" product="2" licence_type="2" imdb_id="tt0625616" creator="9551">
@@ -54863,12 +54865,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Job</de>
 						<en>The Job</en>
-						<pl></pl>
+						<pl>Praca</pl>
 					</title_original>
 					<description>
 						<de>Als ein Kaufhausbesitzer Ellen in der Kirche singen hört, bietet er ihr einen Job als Sängerin in der von ihm gesponserten Radioshow an - aber sie und Jeff müssen eine Wohnung in der Stadt nehmen und den Hund auf der Farm lassen.</de>
 						<en>When a department store owner hears Ellen singing at church, he offers her a job singing on the radio show he sponsors - but she and Jeff must take an apartment in the city and leave the dog at the farm.</en>
-					<pl></pl>
+						<pl>Kiedy właściciel domu towarowego słyszy Ellen śpiewającą w kościele, oferuje jej pracę piosenkarki w sponsorowanym przez siebie programie radiowym - ale ona i Jeff muszą wziąć mieszkanie w mieście i zostawić psa na farmie.</pl>
 					</description>
 				</programme>
 				<programme id="eaefbca3-9bf4-4b66-ad0e-9c0c7df9c9c9" product="2" licence_type="2" imdb_id="tt0625592" creator="9551">
@@ -54879,12 +54881,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Ein kleiner Schlingel</de>
 						<en>The Brat</en>
-						<pl></pl>
+						<pl>Mały łobuziak</pl>
 					</title_original>
 					<description>
 						<de>Ellen bietet den Jungs das Geld für einen Chemiebaukasten an, wenn sie auf einen kleinen Jungen aufpassen, während sie zu einer Kirchenversammlung gerufen wird.</de>
 						<en>Ellen offers the boys the money they need for a chemistry set if they will babysit a little boy while she is called out to a church meeting.</en>
-						<pl></pl>
+						<pl>Ellen oferuje chłopcom pieniądze na zestaw chemiczny, jeśli zaopiekują się małym chłopcem, podczas gdy ona zostanie wezwana na spotkanie kościelne.</pl>
 					</description>
 				</programme>
 				<programme id="ccb86c84-1d87-40d6-93e6-5d6dd6eeea5a" product="2" licence_type="2" imdb_id="tt0885953" creator="9551">
@@ -54895,12 +54897,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Bär</de>
 						<en>The Bear</en>
-						<pl></pl>
+						<pl>Niedźwiedź</pl>
 					</title_original>
 					<description>
 						<de>Jeffs lang erwarteter Angelausflug mit Opa findet endlich statt; sie haben eine tolle Zeit, bis Opa sich den Rücken verrenkt. Jeff kommt gut zurecht und hält das Camp am Laufen - bis ein Bär beginnt, sie zu belästigen.</de>
 						<en>Jeff's long-anticipated fishing trip with Gramps is finally taking place; they're having a great time until Gramps wrenches his back. Jeff is carrying on pretty well keeping the camp going—until a bear begins harassing them.</en>
-					<pl></pl>
+						<pl>Długo oczekiwana wyprawa Jeffa z dziadkiem na ryby w końcu się odbywa; świetnie się bawią, dopóki dziadek nie skręci sobie pleców. Jeff dobrze sobie radzi i utrzymuje obóz - dopóki niedźwiedź nie zaczyna ich nękać.</pl>
 					</description>
 				</programme>
 			</children>
@@ -54913,12 +54915,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Lassie (Staffel 2)</de>
 				<en>Lassie (Season 2)</en>
-				<pl></pl>
+				<pl>Lassie (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Die Sendung über die Abenteuer der Langhaarcollie-Hündin lief von 1954 bis 1973 und ist die siebtlängste US-Primetime-Fernsehserie aller Zeiten.</de>
 				<en>The show about the adventures of the female Rough Collie dog ran from 1954-1973 and is the seventh longest-running U.S. primetime television series of all time.</en>
-				<pl></pl>
+				<pl>Program o przygodach długowłosego psa rasy collie był emitowany w latach 1954-1973 i jest siódmym najdłużej emitowanym serialem telewizyjnym wszech czasów w USA.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">5a01c566-022b-408d-88bc-37946fd27127</member>
@@ -54938,12 +54940,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Das Lieblingskind</de>
 						<en>The Runt</en>
-						<pl></pl>
+						<pl>Ulubione dziecko</pl>
 					</title_original>
 					<description>
 						<de>Alle Welpen wurden weggegeben, bis auf Laddie, den kleinsten, und die Collie-Hündin versteckt ihn in einem verlassenen Minenschacht, damit er nicht weggebracht wird.</de>
 						<en>All of the puppies have been given away except for Laddie, the runt, and the Collie hides him in an abandoned mineshaft so he won't be taken away.</en>
-						<pl></pl>
+						<pl>Wszystkie szczeniaki zostały oddane, z wyjątkiem najmniejszego Laddiego, którego suka collie ukrywa w opuszczonym szybie kopalni, aby nie został zabrany.</pl>
 					</description>
 				</programme>
 				<programme id="a2bba151-84de-40b2-a942-22289ee67aa7" product="2" licence_type="2" imdb_id="tt0625625" creator="9551">
@@ -54954,12 +54956,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die neue Lehrerin</de>
 						<en>The School</en>
-						<pl></pl>
+						<pl>Szkoła</pl>
 					</title_original>
 					<description>
 						<de>Jeff, Woody und einige der anderen Kinder freuen sich auf die neue Lehrerin, bis sie herausfinden, dass diese nicht will, dass die Hunde während des Unterrichts unter den Schulbänken liegen, wie das früher der Fall war.</de>
 						<en>Jeff, Woody, and some of the other children are excited about the new schoolteacher, until they find out the she does not want the dogs to lie underneath the desks during the school day as was done previously.</en>
-					<pl></pl>
+						<pl>Jeff, Woody i niektóre inne dzieci z niecierpliwością czekają na nową nauczycielkę, dopóki nie dowiadują się, że nie chce ona, aby psy leżały pod biurkami podczas lekcji, jak to miało miejsce wcześniej.</pl>
 					</description>
 				</programme>
 				<programme id="98877ad0-c9b9-4bb5-9099-df7337ade064" product="2" licence_type="2" imdb_id="tt0911872" creator="9551">
@@ -54970,12 +54972,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Tüchtige Reporter</de>
 						<en>The Newspaper</en>
-						<pl></pl>
+						<pl>Gazeta</pl>
 					</title_original>
 					<description>
 						<de>Als die Buben in den Besitz einer Kopiermaschine kommen, hat Jeff die Idee, eine Zeitung zu gründen, um dem Calverton Chronicle Konkurrenz zu machen. Er und Porky nehmen einen Kredit für das nötige Material auf, wobei der Collie als Sicherheit dient.</de>
 						<en>When the boys come into possession of a mimeograph machine, Jeff comes up with the idea to start a newspaper to compete with the Calverton Chronicle. He and Porky take out a loan for supplies using the Collie as collateral.</en>
-					<pl></pl>
+						<pl>Kiedy chłopcy wchodzą w posiadanie kserokopiarki, Jeff wpada na pomysł założenia gazety, która miałaby konkurować z Calverton Chronicle. Razem z Porkym zaciągają pożyczkę na niezbędne materiały, wykorzystując collie jako zabezpieczenie.</pl>
 					</description>
 				</programme>
 				<programme id="2b9f49c3-636a-4fd6-893f-55fc7c8f32eb" product="2" licence_type="2" imdb_id="tt0908598" creator="9551">
@@ -54986,12 +54988,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Sturm</de>
 						<en>The Twister</en>
-						<pl></pl>
+						<pl>Twister</pl>
 					</title_original>
 					<description>
 						<de>Als Jenny die Nachbarschaft per Telefon vor einem herannahenden Sturm warnt, machen die Millers die Schotten dicht. Doch merkwürdige Geräusche und die Nachricht von einer umgestürzten Stromleitung schicken Gramps mitten in das Unwetter hinein.</de>
 						<en>When Jenny telephones warning the neighboring area of an approaching storm, the Millers batten down the hatches. But odd noises and news of a downed power line send Gramps out into the thick of the fury.</en>
-					<pl></pl>
+						<pl>Kiedy Jenny dzwoni do sąsiadów, by ostrzec ich przed zbliżającą się burzą, Millerowie zamykają się w domach. Jednak dziwne odgłosy i wiadomość o upadku linii energetycznej wysyłają Grampsa w sam środek burzy.</pl>
 					</description>
 				</programme>
 				<programme id="34f3c509-6d23-488e-8444-6e2f55b5ed58" product="2" licence_type="2" imdb_id="tt0625631" creator="9551">
@@ -55002,12 +55004,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Lassie vor Gericht</de>
 						<en>The Trial</en>
-						<pl></pl>
+						<pl>Rozprawa</pl>
 					</title_original>
 					<description>
 						<de>Als Gramps sich weigert, die Farm an einige fiese Familienmitglieder des verstorbenen Vorbesitzers des Collies zu verkaufen, geben diese vor, dass ein Stacheldrahtkratzer von einem Hundebiss herrührt.</de>
 						<en>When Gramps refuses to sell the farm to some nasty family members of the deceased previous owner of the Collie, they pretend that a barbed wire scratch stems from a dog's bite.</en>
-					<pl></pl>
+						<pl>Kiedy dziadek odmawia sprzedaży farmy paskudnym członkom rodziny zmarłego poprzedniego właściciela collie, udają, że zadrapanie drutem kolczastym jest wynikiem ugryzienia psa.</pl>
 					</description>
 				</programme>
 				<programme id="5264db24-0324-4dd5-8ace-7ec6f5e31bc9" product="2" licence_type="2" imdb_id="tt0910314" creator="9551">
@@ -55018,12 +55020,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Das Ferienkind</de>
 						<en>The Visitor</en>
-						<pl></pl>
+						<pl>Odwiedzający</pl>
 					</title_original>
 					<description>
 						<de>Die Millers nehmen Haru, einen japanischen Austauschschüler, bei sich auf. Doch die Nachbarn reagieren mit Bigotterie, insbesondere weil sich Haru mit Ju-Jitsu wehrte, nachdem er mit Steinschleudern angegriffen wurde.</de>
 						<en>The Millers welcome Haru, a Japanese exchange student, only to run into bigotry from the neighbors, especially because Haru used ju-jitsu after being pelted with stones from slingshots.</en>
-					<pl></pl>
+						<pl>Millerowie witają Haru, japońskiego studenta z wymiany, tylko po to, by natknąć się na bigoterię ze strony sąsiadów, zwłaszcza dlatego, że Haru używał ju-jitsu po tym, jak został obrzucony kamieniami z procy.</pl>
 					</description>
 				</programme>
 				<programme id="c87dc4b9-b0cf-4f91-88a6-2b13f2387bff" product="2" licence_type="2" imdb_id="tt0921367" creator="9551">
@@ -55034,12 +55036,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Arztbesuch</de>
 						<en>The Journey</en>
-						<pl></pl>
+						<pl>Podróż</pl>
 					</title_original>
 					<description>
 						<de>Als Gramps und Ellen ihm mitteilen, dass der Collie erblindet, nimmt Jeff den Hund mit auf eine lange Reise zum Krankenhaus in Capitol City, um den Arzt zu finden, der ihr das Augenlicht wiedergeben kann.</de>
 						<en>When Gramps and Ellen tell him that the Collie is going blind, Jeff takes the dog on a long journey to the hospital in Capitol City to find the doctor that can restore her sight.</en>
-					<pl></pl>
+						<pl>Kiedy dziadek i Ellen mówią mu, że collie ślepnie, Jeff zabiera psa w długą podróż do szpitala w Capitol City, aby znaleźć lekarza, który może przywrócić jej wzrok.</pl>
 					</description>
 				</programme>
 				<programme id="ec2c5ff7-415b-4bca-842a-d734f7155d86" product="2" licence_type="2" imdb_id="tt0931936" creator="9551">
@@ -55050,12 +55052,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Vergiftet</de>
 						<en>The Crop Duster</en>
-						<pl></pl>
+						<pl>Opryskiwacz</pl>
 					</title_original>
 					<description>
 						<de>Gramps schiebt die plötzliche und schwere Erkrankung des Welpen Laddie auf das Spray, das von einem örtlichen Schädlingsbekämpfer eingesetzt wurde, der aber darauf besteht, dass das Insektizid nicht die Ursache war.</de>
 						<en>Gramps blames puppy Laddie's sudden and serious illness on the spray used by a local crop duster, who insists the insecticide was not the cause.</en>
-						<pl></pl>
+						<pl>Gramps obwinia nagłą i ciężką chorobę szczeniaka Laddiego za oprysk, który został zastosowany przez lokalnego operatora zajmującego się zwalczaniem szkodników, który twierdzi, że środek owadobójczy nie był przyczyną.</pl>
 					</description>
 				</programme>
 				<programme id="9ec87688-2b0b-463c-badc-b6a372c901f0" product="2" licence_type="2" imdb_id="tt0956874" creator="9551">
@@ -55066,12 +55068,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Eine haarige Sache</de>
 						<en>The Haircut</en>
-						<pl></pl>
+						<pl>Strzyżenie</pl>
 					</title_original>
 					<description>
 						<de>Als die Millers zur Hochzeit eines Verwandten eingeladen werden, muss Ellen Jeff und Gramps überreden, daran teilzunehmen. Nachdem sie die beiden überzeugt hat, muss sie nun darum kämpfen, dass sie vorher zum Friseur gehen.</de>
 						<en>When the Millers are invited to a relative's wedding, Ellen has to persuade Jeff and Gramps to attend. Having convinced them, she now has to fight to get them to the barber shop beforehand.</en>
-					<pl></pl>
+						<pl>Kiedy Millerowie zostają zaproszeni na wesele krewnego, Ellen musi przekonać Jeffa i dziadka, by wzięli w nim udział. Przekonawszy ich, musi teraz walczyć o to, by poszli wcześniej do fryzjera.</pl>
 					</description>
 				</programme>
 				<programme id="9135aeea-a69e-40cb-8d41-95dfea0dff2b" product="2" licence_type="2" imdb_id="tt0966146" creator="9551">
@@ -55082,12 +55084,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Frosch</de>
 						<en>The Frog</en>
-						<pl></pl>
+						<pl>Żaba</pl>
 					</title_original>
 					<description>
 						<de>Als Jeff und Porky entdecken, dass ihr Wettkampf-Springfrosch ein Weibchen ist und bald Eier legt, treiben sie Gramps und Ellen bis zur Erschöpfung in ihrem Bestreben, dafür zu sorgen, dass die Eier befruchtet werden und Nachkommen produzieren.</de>
 						<en>When Jeff and Porky discover their competition jumping frog is female and about to lay eggs, they drive Gramps and Ellen to exhaustion in their quest to see the eggs are fertilized and produce offspring.</en>
-					<pl></pl>
+						<pl>Kiedy Jeff i Porky odkrywają, że ich konkurencyjna skacząca żaba jest samicą i ma zamiar złożyć jaja, doprowadzają Grampsa i Ellen do wyczerpania, starając się zapewnić, że jaja zostaną zapłodnione i wydadzą na świat potomstwo.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55100,12 +55102,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Kojak - Einsatz in Manhattan (Staffel 1)</de>
 				<en>Kojak (Season 1)</en>
-				<pl></pl>
+				<pl>Kojak (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Lolli gefällig? Der New Yorker Polizist Theodoros K. erledigt seine Fälle so, wie er es für richtig hält. Mit zynischem Humor spürt der glatzköpfige Grieche die Schlupfwinkel dunkler Elemente selbst auf Partys der High Society auf.</de>
 				<en>A lollipop anyone? New York police officer Theodoros K. handles his cases the way he sees fit. With cynical humor, the bald Greek tracks down the lairs of dark elements even at high society parties.</en>
-			<pl></pl>
+				<pl>Masz ochotę na lizaka? Nowojorski policjant Theodoros K. prowadzi swoje sprawy według własnego uznania. Z cynicznym poczuciem humoru, łysy Grek wykrywa kryjówki mrocznych elementów nawet na imprezach wyższych sfer.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">8881cef3-2cc5-44f3-beab-aec3435567fe</member>
@@ -55124,12 +55126,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Mordfall Marcus-Nelson</de>
 						<en>The Marcus-Nelson Murders</en>
-						<pl></pl>
+						<pl>Morderstwa Marcusa-Nelsona</pl>
 					</title_original>
 					<description>
 						<de>Der Protagonist Lt. Theo K. glaubt, dass ein schwarzer Jugendlicher, der den Mord an zwei weißen Mädchen gestanden hat, von seinen polizeilichen Verhörern geschlagen und genötigt wurde und an dem Verbrechen unschuldig ist. Basiert auf wahren Begebenheiten.</de>
 						<en>Protagonist Lt. Theo K. believes that a black youth who confessed to the murder of two white girls was beaten and coerced by his police interrogators and is innocent of the crime. Based on real-life incidents.</en>
-					<pl></pl>
+						<pl>Główny bohater, porucznik Theo K., wierzy, że czarnoskóry młodzieniec, który przyznał się do zabójstwa dwóch białych dziewcząt, został pobity i zmuszony przez policyjnych przesłuchujących i jest niewinny zbrodni. Oparty na prawdziwych wydarzeniach.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="9818699c-7e93-4cfb-aca5-c75679dce21f" />
@@ -55143,12 +55145,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Belagerung</de>
 						<en>Siege of Terror</en>
-						<pl></pl>
+						<pl>Oblężenie terroru</pl>
 					</title_original>
 					<description>
 						<de>Theo hat zwei Stunden Zeit, die Geiseln von drei Räubern in einem Army Surplus Store zu befreien.</de>
 						<en>Theo has two hours to free the hostages from three robbers in an Army surplus store.</en>
-						<pl></pl>
+						<pl>Theo ma dwie godziny na uwolnienie zakładników trzech rabusiów w sklepie Army Surplus.</pl>
 					</description>
 				</programme>
 				<programme id="9c293fcb-10cd-47d5-a533-615039ed2725" product="2" licence_type="2" imdb_id="tt0621313" creator="9551">
@@ -55159,12 +55161,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Theo in der Klemme</de>
 						<en>Cop in a Cage</en>
-						<pl></pl>
+						<pl>Gliniarz w klatce</pl>
 					</title_original>
 					<description>
 						<de>Frisch aus dem Gefängnis entlassen, will sich ein Krimineller rächen, der von Theo überführt worden war, und hat es auf Theos Nichte an deren Hochzeitstag abgesehen.</de>
 						<en>Freshly freed from prison, a criminal jailed by Theo wants revenge and is targeting Theo's niece on her wedding day.</en>
-						<pl></pl>
+						<pl>Świeżo zwolniony z więzienia przestępca, który został skazany przez Theo, chce się zemścić i celuje w siostrzenicę Theo w dniu jej ślubu.</pl>
 					</description>
 				</programme>
 				<programme id="3105927f-c5c4-4195-8154-8906c68a409a" product="2" licence_type="2" imdb_id="tt0621320" creator="9551">
@@ -55175,12 +55177,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Tote machen kein Examen</de>
 						<en>Death Is Not a Passing Grade</en>
-						<pl></pl>
+						<pl>Śmierć nie jest oceną dopuszczającą</pl>
 					</title_original>
 					<description>
 						<de>Während er an einem örtlichen College einen Kurs in Strafjustiz unterrichtet, bringt Theo einen Studenten mit kriminellem Hintergrund in Verlegenheit und zwingt ihn, einen gestohlenen Gegenstand zu übergeben.</de>
 						<en>While teaching a criminal justice class at a local college, Theo embarrasses a student with a criminal background, forcing him to leave a stolen item.</en>
-						<pl></pl>
+						<pl>Prowadząc zajęcia z prawa karnego w lokalnym college'u, Theo zawstydza studenta z kryminalną przeszłością i zmusza go do oddania skradzionego przedmiotu.</pl>
 					</description>
 				</programme>
 				<programme id="3de89d06-7588-41ca-bc03-7547845e5559" product="2" licence_type="2" imdb_id="tt0621394" creator="9551">
@@ -55191,12 +55193,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Bombenleger</de>
 						<en>Therapy in Dynamite</en>
-						<pl></pl>
+						<pl>Terapia Dynamitem</pl>
 					</title_original>
 					<description>
 						<de>Ein psychopathischer Bombenleger hat es auf Menschen abgesehen, die seine Freundin, die Frau eines Ehebrechers, verletzt haben. Theo muss eine Verbindung zwischen den Opfern herstellen, um den Verdächtigen zu finden.</de>
 						<en>A psychopathic bomber targets people who hurt his friend, who is the wife of an adulterer. Theo must find a link between the victims in order to find the suspect.</en>
-						<pl></pl>
+						<pl>Psychopatyczny zamachowiec atakuje ludzi, którzy skrzywdzili jego dziewczynę, żonę cudzołożnika. Theo musi znaleźć powiązanie między ofiarami, aby znaleźć podejrzanego.</pl>
 					</description>
 				</programme>
 				<programme id="7ba29c6e-3cb6-42dd-a94d-8fe985c5f972" product="2" licence_type="2" imdb_id="tt0621388" creator="9551">
@@ -55207,12 +55209,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Weg ohne Wiederkehr</de>
 						<en>The Only Way Out</en>
-						<pl></pl>
+						<pl>Jedyne wyjście</pl>
 					</title_original>
 					<description>
 						<de>Ein 12-jähriger Junge bittet Theo um Hilfe bei der Suche nach seinem verschwundenen Vater. Der Fall nimmt eine interessante Wendung, denn Theo wird nicht zu dem Vater geführt, sondern zu einem Dieb, der mit gestohlenen 25 Millionen Dollar nach Brasilien geflohen ist.</de>
 						<en>A 12-year-old boy wants Theo's help in locating his missing father. The case takes an interesting twist in which Theo is not led to the father, but to a thief who fled to Brazil with stolen $25 million.</en>
-					<pl></pl>
+						<pl>12-letni chłopiec prosi Theo o pomoc w odnalezieniu zaginionego ojca. Sprawa przybiera interesujący obrót, ponieważ Theo nie jest prowadzony do ojca, ale do złodzieja, który uciekł do Brazylii ze skradzionymi 25 milionami dolarów.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55225,12 +55227,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Kojak - Einsatz in Manhattan (Staffel 2)</de>
 				<en>Kojak (Season 2)</en>
-				<pl></pl>
+				<pl>Kojak (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>[0|Last] beschrieb seine Rolle Theo K. als einen „im Grunde ehrlichen Charakter, hart, aber mit Gefühlen - die Art von Kerl, der einer Nutte in den Hintern treten würde, wenn er müsste, aber sie würden einander verstehen, weil sie vielleicht im selben Viertel aufgewachsen sind.“</de>
 				<en>[0|Last] described his role Theo K. as a "basically honest character, tough but with feelings - the kind of guy who might kick a hooker in the tail if he had to, but they'd understand each other because maybe they grew up on the same kind of block."</en>
-			<pl></pl>
+				<pl>[0|Last] opisał swoją postać Theo K. jako "zasadniczo uczciwą postać, twardą, ale z uczuciami - typ faceta, który skopałby tyłek dziwce, gdyby musiał, ale zrozumieliby się nawzajem, ponieważ mogli dorastać w tej samej okolicy".</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">8881cef3-2cc5-44f3-beab-aec3435567fe</member>
@@ -55249,12 +55251,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Rivalen der Mafia</de>
 						<en>The Chinatown Murders</en>
-						<pl></pl>
+						<pl>Morderstwa w Chinatown</pl>
 					</title_original>
 					<description>
 						<de>Eine Reihe von Syndikatsmorden in Chinatown führt zu einem kleinen Bandenkrieg. Theo findet heraus, dass diese Morde zwei rivalisierenden Organisationen in die Schuhe geschoben werden, damit die wahren Täter das Gebiet übernehmen können.</de>
 						<en>A series of syndicate murders in Chinatown is leading to a small gang war. Theo finds out that those murders are blamed on a pair of rival organizations so that the real culprits can move in and take over the territory.</en>
-					<pl></pl>
+						<pl>Seria syndykatowych morderstw w Chinatown prowadzi do małej wojny gangów. Theo odkrywa, że winę za morderstwa zrzuca się na dwie rywalizujące ze sobą organizacje, aby prawdziwi sprawcy mogli przejąć kontrolę nad okolicą.</pl>
 					</description>
 				</programme>
 				<programme id="7405fa2e-162e-4576-a6cf-2be3ba89d8c4" product="2" licence_type="2" imdb_id="tt0621328" creator="9551">
@@ -55265,12 +55267,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Verbrechen ohne Opfer</de>
 						<en>Hush Now, Don't You Die</en>
-						<pl></pl>
+						<pl>Cicho teraz, nie umieraj</pl>
 					</title_original>
 					<description>
 						<de>Ein College-Mädchen wurde entführt, in ein Lagerhaus gebracht und von zwei Killern vergewaltigt. Einer wird von einem anderen erschossen und das Mädchen entkommt. Aus Angst davor, öffentlich zu sagen, dass sie vergewaltigt wurde, geht sie nicht zur Polizei.</de>
 						<en>A college girl has been kidnapped, taken to a warehouse and raped by two assassins. One is shot by another and the girl escapes. Because of fear from publicly saying that she was raped, she's not going to police.</en>
-					<pl></pl>
+						<pl>Dziewczyna z college'u zostaje porwana, zabrana do magazynu i zgwałcona przez dwóch zabójców. Jeden z nich zostaje zastrzelony przez drugiego, a dziewczyna ucieka. Dziewczyna nie zgłasza się na policję, bojąc się publicznie powiedzieć, że została zgwałcona.</pl>
 					</description>
 				</programme>
 				<programme id="2217b087-e4c3-45fc-96ad-edd3483a52d8" product="2" licence_type="2" imdb_id="tt0621364" creator="9551">
@@ -55281,12 +55283,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Königin der Zigeuner</de>
 						<en>Queen of the Gypsies</en>
-						<pl></pl>
+						<pl>Królowa Cyganów</pl>
 					</title_original>
 					<description>
 						<de>Eine Zigeunerin wird Zeugin eines Banküberfalls und rekrutiert die Diebe vom Fleck weg für einen Beutezug. Dann kontrolliert sie jeden Aspekt der Ermittlungen und stellt ihren Dieben eine Falle. Theo merkt, sie ist eine der unglaublichsten Menschen, die er je traf.</de>
 						<en>A Gypsy woman, witness to a bank robbery, recruits the thieves on the spot for a heist. She then controls every aspect of the investigations while setting up her thieves. Theo realizes she is one of the most incredible persons he has ever met.</en>
-					<pl></pl>
+						<pl>Cyganka jest świadkiem napadu na bank i natychmiast rekrutuje złodziei do napadu. Następnie kontroluje każdy aspekt śledztwa i zastawia pułapkę na złodziei. Theo zdaje sobie sprawę, że jest ona jedną z najbardziej niesamowitych osób, jakie kiedykolwiek spotkał.</pl>
 					</description>
 				</programme>
 				<programme id="61df3c32-89ec-4054-85d6-ab981789197f" product="2" licence_type="2" imdb_id="tt0621325" creator="9551">
@@ -55297,12 +55299,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der goldene Schlüssel</de>
 						<en>Elegy in an Asphalt Graveyard</en>
-						<pl></pl>
+						<pl>Złoty klucz</pl>
 					</title_original>
 					<description>
 						<de>Der Mord an einem Playgirl in Manhattan hat Auswirkungen auf mehrere Leben, auch auf das von Theo.</de>
 						<en>The murder of a Manhattan playgirl affects several lives, including Theo's.</en>
-						<pl></pl>
+						<pl>Morderstwo playgirl na Manhattanie ma wpływ na życie kilku osób, w tym Theo.</pl>
 					</description>
 				</programme>
 				<programme id="684fd3ff-a1bf-40c5-8421-1c7ab1894e84" product="2" licence_type="2" imdb_id="tt0621393" creator="9551">
@@ -55313,12 +55315,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Erpressung</de>
 						<en>The Trade-Off</en>
-						<pl></pl>
+						<pl>Kompromis</pl>
 					</title_original>
 					<description>
 						<de>Ein Drogendealer, der vor Gericht steht, entführt die Frau von Captain McNeil und verlangt von Theo die Herausgabe der Beweise.</de>
 						<en>A narcotics dealer facing prosecution kidnaps Capt. McNeil's wife and demands Theo return the evidence.</en>
-						<pl></pl>
+						<pl>Diler narkotyków, któremu wytoczono proces, porywa żonę kapitana McNeila i żąda od Theo przekazania dowodów.</pl>
 					</description>
 				</programme>
 				<programme id="ca87acca-f58d-46af-b85c-912e7ae16556" product="2" licence_type="2" imdb_id="tt0621330" creator="9551">
@@ -55329,12 +55331,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Alle Träume werden wahr</de>
 						<en>I Want to Report a Dream</en>
-						<pl></pl>
+						<pl>Chcę zgłosić marzenie</pl>
 					</title_original>
 					<description>
 						<de>Eine Hellseherin berichtet der Polizei von einem Traum, in dem sie einen Mord sieht.</de>
 						<en>A psychic reports to the police a dream in which she sees a murder committed.</en>
-						<pl></pl>
+						<pl>Jasnowidzka opowiada policji o śnie, w którym widzi morderstwo.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55347,12 +55349,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Bezaubernde Jeannie (Staffel 1)</de>
 				<en>I Dream of Jeannie (Season 1)</en>
-				<pl></pl>
+				<pl>I Dream of Jeannie (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Ein Astronaut findet auf einer Insel eine wunderhübsche Flaschengeist-Dame, die dort für zweitausend Jahre verbannt war. Er nimmt sie mit nach Hause und versucht nun in dieser ungewöhnlichen Situation, den Alltag mit ihr zu meistern.</de>
 				<en>An astronaut finds a very beautiful genie-lady on an island who was banished there for two thousand years. He takes her home and now tries to master this unusual situation and everyday life with her.</en>
-			<pl></pl>
+				<pl>Astronauta odnajduje na wyspie piękną dżinkę, która została tam wygnana na dwa tysiące lat. Zabiera ją ze sobą do domu i próbuje poradzić sobie z codziennym życiem z nią w tej niezwykłej sytuacji.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">494f5b8d-5f76-4f45-b3d7-4412e4606a76</member>
@@ -55373,12 +55375,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Eine Jeannie aus der Flasche</de>
 						<en>The Lady in the Bottle</en>
-						<pl></pl>
+						<pl>Dama w butelce</pl>
 					</title_original>
 					<description>
 						<de>Der Astronaut Tony Nelson von der NASA stürzt nach einem Raketenfehlstart auf einer abgelegenen Insel im Südpazifik ab. Am Strand findet er eine Flasche und erlebt eine Überraschung, als er sie öffnet.</de>
 						<en>NASA astronaut Tony Nelson crashes on a remote island in the South Pacific after a rocket launch failure. On the beach he finds a bottle and experiences a surprise when he opens it.</en>
-					<pl></pl>
+						<pl>Astronauta NASA Tony Nelson rozbija się na odległej wyspie na południowym Pacyfiku po awarii rakiety. Na plaży znajduje butelkę, której otwarcie jest dla niego niespodzianką.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="4d7ec725-e788-495d-be03-d5f99a14731d" />
@@ -55392,12 +55394,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Kein Stolz der Kompanie</de>
 						<en>G.I. Jeannie</en>
-						<pl></pl>
+						<pl>G.I. Jeannie</pl>
 					</title_original>
 					<description>
 						<de>Weil Tonys hübsche Sekretärin Mitglied der Air Force ist, will sich die Flaschengeistdame ebenfalls rekrutieren lassen und durchläuft die W.A.F.-Ausbildung. Dort richtet sie viel Unfug an.</de>
 						<en>Because Tony's pretty secretary is a member of the Air Force, the genie-lady also wants to be recruited and goes through W.A.F. training. There she causes a lot of mischief.</en>
-					<pl></pl>
+						<pl>Ponieważ piękna sekretarka Tony'ego jest członkiem Sił Powietrznych, kobieta w butelce również chce zostać zwerbowana i przechodzi szkolenie W.A.F. Tam wdaje się w wiele psot.</pl>
 					</description>
 				</programme>
 				<programme id="92597c7c-39c3-4af4-8f95-43a6a5107a7a" product="2" licence_type="2" imdb_id="tt0609151" creator="9551">
@@ -55408,12 +55410,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Russisches Roulette</de>
 						<en>Russian Roulette</en>
-						<pl></pl>
+						<pl>Rosyjska ruletka</pl>
 					</title_original>
 					<description>
 						<de>Roger schenkt unwissentlich die Zauberflasche einer russischen Kosmonautin als Symbol der Freundschaft. Tony unternimmt alles, um die Flasche zurückzubekommen, aber nicht bevor die Kosmonautin merkt, dass sie nun einen Flaschengeist hat.</de>
 						<en>Roger unwittingly gifts the magic bottle to a Russian cosmonaut lady as a symbol of friendship. Tony does everything he can to get the bottle back, but not before the cosmonaut realizes that she now has a genie of her own.</en>
-					<pl></pl>
+						<pl>Roger nieświadomie daje magiczną butelkę rosyjskiemu kosmonaucie jako symbol przyjaźni. Tony robi wszystko, co w jego mocy, aby odzyskać butelkę, ale nie wcześniej niż kosmonautka zda sobie sprawę, że ma teraz dżina.</pl>
 					</description>
 				</programme>
 				<programme id="192b401d-55f2-436c-8a32-920b01d964f3" product="2" licence_type="2" imdb_id="tt0609180" creator="9551">
@@ -55424,12 +55426,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Jeannies Verlobter</de>
 						<en>What House Across the Street?</en>
-						<pl></pl>
+						<pl>Jaki dom po drugiej stronie ulicy?</pl>
 					</title_original>
 					<description>
 						<de>Mütter wissen es in der Regel am besten, und so beschließt die Flaschengeistdame, dem Rat ihrer Mutter zu folgen und Tony eifersüchtig zu machen, indem sie einen Heiratsantrag annimmt.</de>
 						<en>Mothers usually know best, so the genie-lady decides to follow her mother's advice and make Tony jealous by accepting a marriage proposal.</en>
-					<pl></pl>
+						<pl>Matki zwykle wiedzą najlepiej, więc dżin w butelce postanawia pójść za radą swojej mamy i wzbudzić zazdrość Tony'ego, przyjmując propozycję małżeństwa.</pl>
 					</description>
 				</programme>
 				<programme id="7a4c6cbd-b502-4a49-bfe0-92dcacc43308" product="2" licence_type="2" imdb_id="tt0609149" creator="9551">
@@ -55440,12 +55442,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Roger gehört die Welt</de>
 						<en>The Richest Astronaut in the Whole Wide World</en>
-						<pl></pl>
+						<pl>Najbogatszy astronauta na całym świecie</pl>
 					</title_original>
 					<description>
 						<de>Roger findet zufällig das Geheimnis um die Flaschengeistdame heraus und stiehlt die Flasche. Sie macht ihn extrem reich, mit großen Häusern, Autos und Jachten. Roger wird nun aber verdächtigt, Regierungsgeheimnisse an das Ausland zu verkaufen.</de>
 						<en>Roger accidentally finds out the secret about the genie-lady and steals the bottle. She makes him extremely rich, with big houses, cars and yachts. However, Roger is now suspected of selling government secrets to foreign countries.</en>
-					<pl></pl>
+						<pl>Roger przypadkowo odkrywa sekret dżina i kradnie butelkę. Dzięki niej staje się niezwykle bogaty, ma duże domy, samochody i jachty. Jednak Roger jest teraz podejrzany o sprzedaż tajemnic rządowych obcym krajom.</pl>
 					</description>
 				</programme>
 				<programme id="9f344920-bbad-4764-a38a-c961a84d4c6d" product="2" licence_type="2" imdb_id="tt0609099" creator="9551">
@@ -55456,12 +55458,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Eine Jeannie ist genug</de>
 						<en>Is There an Extra Genie in the House?</en>
-						<pl></pl>
+						<pl>Czy w domu jest dodatkowy dżin?</pl>
 					</title_original>
 					<description>
 						<de>Roger verärgert Dr. Bellows, nachdem er dessen Nichte bei einem Date zu lange ausgeführt hatte, und als Ausgleich bereitet Dr. Bellows vor, Roger für einen Monat auf eine Insel wegzuschicken. Roger bittet Tony daraufhin, einen Flaschengeist für ihn zu finden.</de>
 						<en>Roger crosses Dr. Bellows by keeping his niece out too late on a date, and in retribution, Dr. Bellows prepares to send Roger away for a month. Roger thereupon asks Tony to find a genie for him.</en>
-					<pl></pl>
+						<pl>Roger denerwuje doktora Bellowsa po tym, jak zabiera swoją siostrzenicę na zbyt długą randkę, a w ramach rekompensaty doktor Bellows przygotowuje się do wysłania Rogera na wyspę na miesiąc. Roger prosi Tony'ego o znalezienie dla niego dżina.</pl>
 					</description>
 				</programme>
 				<programme id="f90ba852-1300-4791-ae65-83666e8c1abc" product="2" licence_type="2" imdb_id="tt0609125" creator="9551">
@@ -55472,12 +55474,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Tony geht in die Luft</de>
 						<en>My Master, the Magician</en>
-						<pl></pl>
+						<pl>Mój mistrz, magik</pl>
 					</title_original>
 					<description>
 						<de>Dr. Bellows sieht Tony auf einem Stuhl schlafen, der über dem Boden schwebt. Als er um eine Erklärung gebeten wird, sagt Tony, er sei ein Amateurzauberer. Daraufhin soll er für die NASA eine Zaubershow vorführen.</de>
 						<en>Dr. Bellows sees Tony asleep in a chair floating above the floor. When asked to explain, Tony says he is an amateur magician. He is then asked to perform a magic show for NASA.</en>
-					<pl></pl>
+						<pl>Dr Bellows widzi Tony'ego śpiącego na krześle unoszącym się nad podłogą. Zapytany o wyjaśnienie, Tony mówi, że jest magikiem amatorem. Następnie zostaje poproszony o wykonanie magicznego pokazu dla NASA.</pl>
 					</description>
 				</programme>
 				<programme id="ea262470-b9e5-4765-b80e-73c25a25393d" product="2" licence_type="2" imdb_id="tt0786149" creator="9551">
@@ -55488,12 +55490,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Gedächtnisschwund</de>
 						<en>I'll Never Forget What's Her Name</en>
-						<pl></pl>
+						<pl>Nigdy nie zapomnę, jak ma na imię</pl>
 					</title_original>
 					<description>
 						<de>Tony muss eine Freundin seiner Tante aus Denver ausführen. Er wird jedoch von einer Vase getroffen, erleidet daraufhin eine Amnesie, denkt die Flaschengeistdame ist Francine und verliebt sich auf der Stelle in sie.</de>
 						<en>Tony has to take out a friend of his aunt from Denver. However, he is hit by a vase, suffers amnesia as a result, thinks the genie-lady is Francine and falls in love with her on the spot.</en>
-					<pl></pl>
+						<pl>Tony musi zabrać przyjaciela swojej ciotki z Denver. Zostaje jednak uderzony przez wazon, cierpi na amnezję, myśli, że kobieta w butelce to Francine i zakochuje się w niej na miejscu.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55506,12 +55508,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Bezaubernde Jeannie (Staffel 2)</de>
 				<en>I Dream of Jeannie (Season 2)</en>
-				<pl></pl>
+				<pl>I Dream of Jeannie (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Ein Motiv der Serie ist, dass NASA-Psychiater Dr. Bellows Tony der Unzurechnungsfähigkeit verdächtigt, nachdem der Astronaut ihm bei einer Untersuchung unvorsichtigerweise alles über seine erste Begegnung mit der Flaschengeistdame erzählt hatte.</de>
 				<en>One theme of the series is that NASA psychiatrist Dr. Bellows suspects Tony of insanity after the astronaut during an examination carelessly told him all about his first encounter with the genie-lady.</en>
-			<pl></pl>
+				<pl>Jednym z motywów serialu jest to, że psychiatra NASA dr Bellows podejrzewa Tony'ego o szaleństwo po tym, jak astronauta nieostrożnie opowiedział mu wszystko o swoim pierwszym spotkaniu z dżinem podczas badania.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">494f5b8d-5f76-4f45-b3d7-4412e4606a76</member>
@@ -55533,12 +55535,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die falsche Flasche</de>
 						<en>Happy Anniversary</en>
-						<pl></pl>
+						<pl>Szczęśliwej rocznicy</pl>
 					</title_original>
 					<description>
 						<de>Um ihren ersten Jahrestag zu feiern, lässt die Flaschengeistdame Tony auf derselben einsamen Insel landen, auf der er sie ursprünglich gefunden hat. Tony findet eine weitere Flasche mit einem bösen blauen Dschinn darin.</de>
 						<en>To celebrate their first anniversary, the genie-lady has Tony land on the same desert island where he originally found her. Tony finds another bottle with an evil blue genie in it.</en>
-					<pl></pl>
+						<pl>Aby uczcić ich pierwszą rocznicę, dama dżinów każe Tony'emu wylądować na tej samej bezludnej wyspie, na której ją znalazł. Tony znajduje kolejną butelkę ze złym niebieskim dżinem w środku.</pl>
 					</description>
 				</programme>
 				<programme id="638a5dda-4323-44d8-8e46-e9426968e627" product="2" licence_type="2" imdb_id="tt0609068" creator="9551">
@@ -55549,12 +55551,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Sonntags immer</de>
 						<en>Always on Sunday</en>
-						<pl></pl>
+						<pl>Zawsze w niedzielę</pl>
 					</title_original>
 					<description>
 						<de>Die Flaschengeistdame ist fest entschlossen ihrem Meister die wohlverdiente Ruhe zu gönnen und macht jeden Tag zum Sonntag, damit niemand arbeiten muss.</de>
 						<en>The genie-lady is determined to give her master some well-deserved rest and makes every day a Sunday so no one has to work.</en>
-						<pl></pl>
+						<pl>Dama dżin jest zdeterminowana, aby dać swojemu panu zasłużony odpoczynek i czyni każdy dzień niedzielą, aby nikt nie musiał pracować.</pl>
 					</description>
 				</programme>
 				<programme id="b9e63a5a-77ea-4a4f-ac19-3b20a5685179" product="2" licence_type="2" imdb_id="tt0958601" creator="9551">
@@ -55565,12 +55567,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Gelegenheit macht Liebe</de>
 						<en>How to Be a Genie in 10 Easy Lessons</en>
-						<pl></pl>
+						<pl>Jak zostać dżinem w 10 prostych lekcjach</pl>
 					</title_original>
 					<description>
 						<de>Tony beschwert sich, dass die Flaschengeistdame ihn ständig in Schwierigkeiten bringt. Sie entgegnet, sie habe noch nicht viel Übung darin, ein Flaschengeist zu sein. Roger ist derweil auf Tony neidisch und denkt sich ein Intrigenspiel aus.</de>
 						<en>Tony complains that the genie-lady keeps getting him into trouble. She counters that she hasn't had much practice at being a genie. Roger, meanwhile, is jealous of Tony and comes up with a game of intrigue.</en>
-					<pl></pl>
+						<pl>Tony narzeka, że pani dżin ciągle wpędza go w kłopoty. Ona odpowiada, że nie miała zbyt wiele praktyki w byciu dżinem. W międzyczasie Roger jest zazdrosny o Tony'ego i wymyśla grę intryg.</pl>
 					</description>
 				</programme>
 				<programme id="b69bb8e4-9594-48b2-a4e2-a611a47977da" product="2" licence_type="2" imdb_id="tt0609095" creator="9551">
@@ -55581,12 +55583,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Kleine Lügen erhalten die Freundschaft</de>
 						<en>How Do You Beat Superman?</en>
-						<pl></pl>
+						<pl>Jak pokonać Supermana?</pl>
 					</title_original>
 					<description>
 						<de>Während die American-Football-Saison in vollem Gange ist, klebt Tony ständig vor dem Fernseher. Die Flaschengeistdame merkt, dass sie etwas tun muss, um seine Aufmerksamkeit zu erregen und beschließt, Tony eifersüchtig zu machen.</de>
 						<en>With the American football season in full swing, Tony is constantly glued to the TV. The genie-lady realizes she has to do something to get his attention and decides to make Tony jealous.</en>
-					<pl></pl>
+						<pl>Podczas gdy sezon futbolu amerykańskiego jest w pełnym rozkwicie, Tony jest stale przyklejony do telewizora. Dama dżin zdaje sobie sprawę, że musi zrobić coś, aby przyciągnąć jego uwagę i postanawia wzbudzić zazdrość Tony'ego.</pl>
 					</description>
 				</programme>
 				<programme id="2fccac4e-b221-4204-88e1-558ce000895f" product="2" licence_type="2" imdb_id="tt0609124" creator="9551">
@@ -55597,12 +55599,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Einmal und nie wieder</de>
 						<en>My Master, the Great Caruso</en>
-						<pl></pl>
+						<pl>Mój Mistrz, Wielki Caruso</pl>
 					</title_original>
 					<description>
 						<de>Tony erzählt der Flaschengeistdame, dass die Luftwaffe jedes Jahr eine TV-Talentshow veranstaltet, an der Teilnehmer aus allen Stützpunkten teilnehmen. Sie besteht daraufhin, dass Tony teilnimmt, da sie eine Trophäe für den Kaminsims brauchen.</de>
 						<en>Tony tells the genie-lady that every year the Air Force holds a TV talent show that includes contestants from all of the bases. She insists that Tony participate because they need a trophy for the mantel.</en>
-					<pl></pl>
+						<pl>Tony mówi dżinnie, że co roku Siły Powietrzne organizują telewizyjny pokaz talentów, w którym biorą udział uczestnicy ze wszystkich baz. Nalega, aby Tony wziął udział, ponieważ potrzebują trofeum na kominek.</pl>
 					</description>
 				</programme>
 				<programme id="c51ada0b-82be-4a70-be28-4403c698bd34" product="2" licence_type="2" imdb_id="tt0609159" creator="9551" comment="TODO: episode guest star: Groucho Marx as himself">
@@ -55613,12 +55615,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Wünschen will gelernt sein</de>
 						<en>The Greatest Invention in the World</en>
-						<pl></pl>
+						<pl>Największy wynalazek na świecie</pl>
 					</title_original>
 					<description>
 						<de>Nachdem Roger versehentlich einen freien Wunsch von der Flaschengeistdame benutzt, um einen Fleck auf Tonys Uniform zu reinigen, wird die Uniform unempfindlich gegen Risse, Flecken, Schnitte oder Verbrennungen.</de>
 						<en>After Roger accidentally uses a free wish from the genie-lady to clean a stain on Tony's uniform, the uniform becomes impervious to rips, stains, cuts or burns.</en>
-						<pl></pl>
+						<pl>Po tym, jak Roger przypadkowo używa darmowego życzenia od dżina, aby wyczyścić plamę na mundurze Tony'ego, mundur staje się odporny na rozdarcia, plamy, skaleczenia lub oparzenia.</pl>
 					</description>
 				</programme>
 				<programme id="94b3344a-9272-4cdf-9467-cd9f7691d184" product="2" licence_type="2" imdb_id="tt0609158" creator="9551">
@@ -55629,12 +55631,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Ein Zwilling kommt selten allein</de>
 						<en>The Greatest Entertainer in the World</en>
-						<pl></pl>
+						<pl>Największy artysta rozrywkowy na świecie</pl>
 					</title_original>
 					<description>
 						<de>Tony braucht den Musiker [5|Full] als Entertainer für General Petersons 10-jähriges Jubiläum bei der NASA, aber der ist bereits gebucht. Die Flaschengeistdame kommt zur Rettung, indem sie ein Duplikat von [5|First] erstellt.</de>
 						<en>Tony needs the musician [5|Full] to be the entertainer for General Peterson's 10th anniversary at NASA, but he's already booked. The genie-lady comes to the rescue by creating a duplicate of [5|First].</en>
-					<pl></pl>
+						<pl>Tony potrzebuje muzyka [5|Full] jako konferansjera na 10. rocznicę generała Petersona w NASA, ale jest on już zarezerwowany. Dżin przychodzi na ratunek, tworząc duplikat [5|First].</pl>
 					</description>
 					<staff>
 						<member index="5" function="2">29d28546-ed92-4c74-93bd-bf5893c0ec5d</member>
@@ -55648,12 +55650,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Wie soll das weitergehen?</de>
 						<en>The Birds and the Bees Bit</en>
-						<pl></pl>
+						<pl>Ptaki i pszczoły</pl>
 					</title_original>
 					<description>
 						<de>Tony erfährt, dass Dschinns ihre Kräfte verlieren, wenn sie Sterbliche heiraten. Also macht er einen Heiratsantrag. Obermotz-Dschinn Haji blickt in die Zukunft und sieht, dass es die perfekte Ehe sein wird. Allerdings sieht er noch etwas anderes voraus.</de>
 						<en>Tony learns that genies lose their powers when they marry mortals. Thereupon he makes a marriage proposal. Supreme boss jinn Haji looks into the future and sees it will be the perfect union. However, he also foresees something else.</en>
-					<pl></pl>
+						<pl>Tony dowiaduje się, że djinn tracą swoje moce, gdy poślubiają śmiertelników. Proponuje więc małżeństwo. Szef djinn Haji spogląda w przyszłość i widzi, że będzie to idealne małżeństwo. Przewiduje jednak coś jeszcze.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55666,12 +55668,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Gilligans Insel (Staffel 1)</de>
 				<en>Gilligan's Island (Season 1)</en>
-				<pl></pl>
+				<pl>Wyspa Gilligana (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>„Macht's euch bequem, lehnt euch zurück, wir zeigen euch ein Schiff.“ Der unglückselige erste Maat Willie G. und die anderen Schiffbrüchigen versuchen, ein normales Leben auf einer abgelegenen Insel zu führen, und natürlich auch, gerettet zu werden.</de>
 				<en>"Now Sit Right Back and You'll Hear a Tale, a tale of a fateful trip." The hapless first mate Willie G. and the other castaways try to live a normal life on a secluded island, and, of course, also to get rescued.</en>
-			<pl></pl>
+				<pl>W trakcie strasznego sztormu statek S.S. Minnow rozbija się na nieznanej tropikalnej wyspie. Grupa rozbitków liczy siedem osób, są to: kapitan Jonas Grumby, jego nieudolny pierwszy oficer Gilligan, Howellowie - para milionerów, gwiazda filmowa Ginger Grant, seksowna wiejska dziewczyna Mary Ann Summers i  Profesor.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">244aa284-0465-4622-85ea-05e957eb17f9</member>
@@ -55694,12 +55696,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Gestrandet</de>
 						<en>Marooned</en>
-						<pl></pl>
+						<pl>Zatopiony</pl>
 					</title_original>
 					<description>
 						<de>Sieben Menschen finden sich auf einer kleinen, unbewohnten Insel wieder, nachdem ihr Schiff während eines Sturms an Land gespült wurde.</de>
 						<en>Seven people find themselves marooned on a small, uninhabited island after their boat washes ashore during a storm.</en>
-						<pl></pl>
+						<pl>Siedem osób znajduje się na małej, niezamieszkanej wyspie po tym, jak ich statek został wyrzucony na brzeg podczas sztormu.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="697a5a20-c36a-4401-bc0f-35ba810599cc" />
@@ -55713,12 +55715,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Zwei auf einem Floß</de>
 						<en>Two on a Raft</en>
-						<pl></pl>
+						<pl>Dwoje na tratwie</pl>
 					</title_original>
 					<description>
 						<de>Skipper und Willie G. stechen mit einem Floß in See, um Hilfe zu holen. Die übrigen Schiffbrüchigen sind besorgt über mögliche Kopfjäger.</de>
 						<en>Skipper and Willie G. set sail on a raft to get help. The remaining castaways are worried about possible headhunters.</en>
-						<pl></pl>
+						<pl>Skipper i Willie G. wyruszają tratwą po pomoc. Pozostali rozbitkowie martwią się o potencjalnych łowców głów.</pl>
 					</description>
 				</programme>
 				<programme id="ce410195-c636-4152-8181-f590574138cb" product="2" licence_type="2" imdb_id="tt0588109" creator="9551">
@@ -55729,12 +55731,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Wrongway Feldman</de>
 						<en>Wrongway Feldman</en>
-						<pl></pl>
+						<pl>Wrongway Feldman</pl>
 					</title_original>
 					<description>
 						<de>Als der berühmte Flieger Wrongway Feldman mit einem beschädigten Flugzeug auf der Insel entdeckt wird, bieten die Schiffbrüchigen ihre Hilfe bei der Reparatur an. Doch jedes Mal, wenn Wrongway abheben will, geht etwas mit dem Flugzeug schief, als ob es sabotiert worden wäre.</de>
 						<en>Famed aviator Wrongway Feldman is discovered living on the island with a damaged plane, so the castaways offer to help fix it. But each time Wrongway is about to take off, something goes wrong with the plane as if it had been sabotaged.</en>
-					<pl></pl>
+						<pl>Kiedy słynny lotnik Wrongway Feldman zostaje znaleziony na wyspie z uszkodzonym samolotem, rozbitkowie oferują pomoc w jego naprawie. Ale za każdym razem, gdy Wrongway chce wystartować, coś idzie nie tak z samolotem, jakby został sabotowany.</pl>
 					</description>
 				</programme>
 				<programme id="dd49a9f3-a233-4f9e-8549-7a903c68fc3f" product="2" licence_type="2" imdb_id="tt0784358" creator="9551">
@@ -55745,12 +55747,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Auf Wiedersehen, Insel</de>
 						<en>Goodbye Island</en>
-						<pl></pl>
+						<pl>Żegnaj wyspo</pl>
 					</title_original>
 					<description>
 						<de>Willie entdeckt den perfekten, dauerhaften Klebstoff aus Baumsaft, als er versucht, Pfannkuchensirup herzustellen. Die Schiffbrüchigen beschließen, diesen „Kleber“ zu verwenden, um das Wrack der Minnow zu flicken.</de>
 						<en>Willie discovers the perfect, permanent glue from tree sap when trying to make pancake syrup. The castaways decide to use this "glue" to patch the wreckage of the Minnow.</en>
-					<pl></pl>
+						<pl>Willie odkrywa doskonały, trwały klej z soku drzewnego podczas próby zrobienia syropu do naleśników. Rozbitkowie postanawiają użyć tego "kleju" do załatania wraku Minnowa.</pl>
 					</description>
 				</programme>
 				<programme id="3f77cc85-df6f-4332-83a3-4ca1846d69b5" product="2" licence_type="2" imdb_id="tt0784365" creator="9551">
@@ -55761,12 +55763,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Goldmine</de>
 						<en>The Big Gold Strike</en>
-						<pl></pl>
+						<pl>Wielkie poszukiwanie złota</pl>
 					</title_original>
 					<description>
 						<de>Mr. Howell und Willie entdecken auf der Insel eine Goldmine, und schon bald werden die Schiffbrüchigen von Gier und „Goldfieber“ gepackt.</de>
 						<en>Mr. Howell and Willie discover a gold mine on the island and soon greed and 'gold fever' overcome the castaways.</en>
-						<pl></pl>
+						<pl>Pan Howell i Willie odkrywają na wyspie kopalnię złota, a rozbitków wkrótce ogarnia chciwość i "gorączka złota".</pl>
 					</description>
 				</programme>
 				<programme id="a5f4a468-ae0f-4add-8d40-641c054403b0" product="2" licence_type="2" imdb_id="tt0588094" creator="9551">
@@ -55777,12 +55779,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Tut mir leid, ist meine Insel jetzt</de>
 						<en>So Sorry, My Island Now</en>
-						<pl></pl>
+						<pl>Przepraszam, teraz to moja wyspa</pl>
 					</title_original>
 					<description>
 						<de>Ein japanischer Seemann, der glaubt, es sei immer noch der Zweite Weltkrieg, nimmt alle außer Willie und dem Skipper gefangen.</de>
 						<en>A Japanese sailor, who thinks it's still WWII, captures everyone except Willie and the Skipper.</en>
-						<pl></pl>
+						<pl>Japoński marynarz, który wierzy, że wciąż trwa II wojna światowa, porywa wszystkich oprócz Williego i kapitana.</pl>
 					</description>
 				</programme>
 				<programme id="a6cdfd94-54de-496c-896f-aeb571a95b89" product="2" licence_type="2" imdb_id="tt0588087" creator="9551">
@@ -55793,12 +55795,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Aller Musik wohnt ein Zauber inne</de>
 						<en>Music Hath Charms</en>
-						<pl></pl>
+						<pl>Muzyka ma swój urok</pl>
 					</title_original>
 					<description>
 						<de>Mrs. Howell will die Insel mit einem Orchester zivilisieren. Doch Willies Trommelschläge werden von einem Stamm auf einer anderen Insel als Kriegserklärung missverstanden. Die Eingeborenen umzingeln die Insel und landen auf ihr.</de>
 						<en>Mrs. Howell wants to civilize the island with an orchestra. But Willie's drumbeats are mistaken by a tribe on another island as a declaration of war. The natives surround and land on the island.</en>
-					<pl></pl>
+						<pl>Pani Howell chce ucywilizować wyspę za pomocą orkiestry. Ale bębny Williego zostają pomylone przez plemię na innej wyspie jako wypowiedzenie wojny. Tubylcy otaczają wyspę i lądują na niej.</pl>
 					</description>
 				</programme>
 				<programme id="97238008-440b-4a17-968c-985b766fa8f0" product="2" licence_type="2" imdb_id="tt0784363" creator="9551">
@@ -55809,12 +55811,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Geheimnisvolle Stimmen</de>
 						<en>New neighbor Sam</en>
-						<pl></pl>
+						<pl>Nowy sąsiad Sam</pl>
 					</title_original>
 					<description>
 						<de>Die Schiffbrüchigen befürchten, dass eine Gruppe von Gangstern auf der Insel ist. Es stellt sich heraus, dass es sich nur um einen Papagei handelt, der zudem wild kreischt, wenn er die Worte „Boot“ und „Juwelen“ hört.</de>
 						<en>The castaways are scared that a group of gangsters are on the island. It turns out just to be a parrot who also squawks wildly when he hears the words "boat" and "jewelry".</en>
-					<pl></pl>
+						<pl>Rozbitkowie boją się, że na wyspie przebywa grupa gangsterów. Okazuje się, że to tylko papuga, która również dziko skrzeczy, gdy słyszy słowa "łódź" i "biżuteria".</pl>
 					</description>
 				</programme>
 				<programme id="fb69c02f-97bf-4ac9-aa10-a16faa2525d7" product="2" licence_type="2" imdb_id="tt0784370" creator="9551">
@@ -55825,12 +55827,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Das Götzenauge</de>
 						<en>Three to Get Ready</en>
-						<pl></pl>
+						<pl>Trzech do przygotowania</pl>
 					</title_original>
 					<description>
 						<de>Der Skipper glaubt, dass Willie einen Glücksstein, das „Auge des Idols“, gefunden hat, mit dem er sich bis zum Ende des Tages drei Wünsche erfüllen kann. Der Professor hält dies jedoch nur für einen dummen Aberglauben.</de>
 						<en>The Skipper believes that Willie found a lucky stone, "The Eye of the Idol", that entitles him to three wishes before the end of the day. However, the Professor believes it is just a silly superstition.</en>
-					<pl></pl>
+						<pl>Kapitan wierzy, że Willie znalazł szczęśliwy kamień, "oko bożka", dzięki któremu może spełnić trzy życzenia do końca dnia. Profesor uważa jednak, że to tylko głupi przesąd.</pl>
 					</description>
 				</programme>
 				<programme id="f556f532-8921-4edb-b670-c11d6ea9dc60" product="2" licence_type="2" imdb_id="tt0832620" creator="9551">
@@ -55841,12 +55843,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die geschwollene Nase</de>
 						<en>A Nose by Any Other Name</en>
-						<pl></pl>
+						<pl>Nos pod każdą inną nazwą</pl>
 					</title_original>
 					<description>
 						<de>Willies Nase schwillt an und sein Ego schwindet, nachdem er von einer Kokospalme gefallen ist. Der Professor gibt allen einen Erste-Hilfe-Kurs, aber der verläuft nicht so wie erwartet.</de>
 						<en>Willie's nose swells and his ego fades after he falls out of a coconut tree. The Professor gives everyone first aid lessons, but things don't go well.</en>
-						<pl></pl>
+						<pl>Po upadku z drzewa kokosowego Williemu puchnie nos, a jego ego słabnie. Profesor daje wszystkim kurs pierwszej pomocy, ale nie przebiega on zgodnie z oczekiwaniami.</pl>
 					</description>
 				</programme>
 			</children>
@@ -55859,12 +55861,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Gilligans Insel (Staffel 2)</de>
 				<en>Gilligan's Island (Season 2)</en>
-				<pl></pl>
+				<pl>Wyspa Gilligana (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Trotz Verriss von Kritikern, dem anfänglich nur mittelmäßigen Erfolg beim Publikum und den vergleichsweise wenigen Staffeln wurde die Serie oft wiederholt und hat sich vor allem in den USA ins kollektive Gedächtnis gebrannt.</de>
 				<en>Despite critics' scathing reviews, the initially only mediocre success with audiences, and the comparatively few seasons, the series had many reruns over the years, and it burned into the collective memory, especially in the US.</en>
-			<pl></pl>
+				<pl>Pomimo krytyki, początkowego miernego sukcesu wśród widzów i stosunkowo niewielu sezonów, serial był często powtarzany i zapisał się w zbiorowej pamięci, zwłaszcza w USA.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">244aa284-0465-4622-85ea-05e957eb17f9</member>
@@ -55887,12 +55889,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Gilligans Schwiegermutter</de>
 						<en>Gilligan's Mother-in-Law</en>
-						<pl></pl>
+						<pl>Teściowa Gilligana</pl>
 					</title_original>
 					<description>
 						<de>Eine einheimische Familie kommt auf die Insel und sucht einen Ehemann für ihre füllige Tochter. Sie entscheiden sich für Willie, der dann einen „Heiratstest“ bestehen muss.</de>
 						<en>A native family arrives on the island looking for a husband for their ample daughter. They choose Willie, who must then pass a "marriage test".</en>
-						<pl></pl>
+						<pl>Miejscowa rodzina przybywa na wyspę i szuka męża dla swojej pulchnej córki. Decydują się na Williego, który musi przejść "test małżeński".</pl>
 					</description>
 				</programme>
 				<programme id="065413f6-85a9-4677-a713-afd84b02d114" product="2" licence_type="2" imdb_id="tt0784353" creator="9551">
@@ -55903,12 +55905,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Schön ist was schön macht</de>
 						<en>Beauty Is as Beauty Does</en>
-						<pl></pl>
+						<pl>Piękno jest tym, co czyni cię piękną</pl>
 					</title_original>
 					<description>
 						<de>Nachdem außer ihm jeder der Männer eine andere Frau als Schönste der Insel nominiert hat - der Skipper Ginger, Mr. Howell seine Frau und der Professor Mary Ann - schlägt Willie einen Schönheitswettbewerb zur Wahl der Miss Schiffbrüchig vor.</de>
 						<en>After each of the other men nominate a different woman as the fairest on the island, with the Skipper nominating Ginger, Mr. Howell nominating his wife, and the Professor nominating Mary Ann, Willie suggests a beauty contest to decide Miss Castaway.</en>
-					<pl></pl>
+						<pl>Po tym, jak każdy z mężczyzn oprócz niego wyznaczył inną kobietę jako najpiękniejszą na wyspie - kapitan Ginger, pan Howell jego żona i profesor Mary Ann - Willie proponuje konkurs piękności, aby wybrać Miss Castaway.</pl>
 					</description>
 				</programme>
 				<programme id="074d148c-a9d9-4f4a-9d67-e5e5733febd7" product="2" licence_type="2" imdb_id="tt0844550" creator="9551">
@@ -55919,12 +55921,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Schiffbruch-Filme präsentiert</de>
 						<en>Castaways Pictures Presents</en>
-						<pl></pl>
+						<pl>Castaways Pictures przedstawia</pl>
 					</title_original>
 					<description>
 						<de>Willie entdeckt ein gesunkenes Schiff in der Lagune. Es ist nur noch halb erhalten, aber die Ladung ist intakt: zwei Kisten mit Filmproduktionsausrüstung. Der Professor kommt auf die Idee, einen Film zu drehen, ihn mit einem Floß loszuschicken und auf Rettung zu hoffen.</de>
 						<en>Willie discovers a sunken ship in the lagoon. It is only half there, but the cargo is intact: two crates of movie production equipment. The Professor then comes up with the idea to make a film, send it out on a raft, and hope for rescue.</en>
-					<pl></pl>
+						<pl>Willie odkrywa w lagunie zatopiony statek. Jest tylko w połowie nienaruszony, ale ładunek jest nienaruszony: dwie skrzynie ze sprzętem do produkcji filmowej. Profesor wpada na pomysł nakręcenia filmu i wysłania go na tratwie w nadziei na ratunek.</pl>
 					</description>
 				</programme>
 				<programme id="345ea726-6f81-4424-8d27-84a573110fbc" product="2" licence_type="2" imdb_id="tt1230840" creator="9551">
@@ -55935,12 +55937,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Hi-Fi Gilligan</de>
 						<en>Hi Fi Gilligan</en>
-						<pl></pl>
+						<pl>Hi Fi Gilligan</pl>
 					</title_original>
 					<description>
 						<de>Willies Mund wird zum Radio, als die Füllung einer seiner Zähe herausbricht. Nun möchte jeder, dass Willie den jeweiligen eigenen Lieblingssender zur Verfügung stellt, vom Fitnessprogramm bis zur Oscar-Verleihung.</de>
 						<en>Willie's mouth becomes a radio when a filling in a tooth is knocked loose. Everyone wants Willie to provide their own station, from exercise programs to the Academy Awards.</en>
-					<pl></pl>
+						<pl>Usta Williego stają się radiem, gdy plomba w zębie zostaje poluzowana. Każdy chce, by Willie nadawał własną stację, od programów do ćwiczeń po Oscary.</pl>
 					</description>
 				</programme>
 				<programme id="b7c88ef8-2361-42e9-aafc-66ab3697d42d" product="2" licence_type="2" imdb_id="tt0588072" creator="9551">
@@ -55951,12 +55953,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Ärgere die "Mosquitoes" nicht</de>
 						<en>Don't Bug the Mosquitoes</en>
-						<pl></pl>
+						<pl>Nie denerwuj "Mosquitoes"</pl>
 					</title_original>
 					<description>
 						<de>Die „Mosquitoes“, eine Popsensation, landen auf der Insel, um dringend benötigte Ruhe zu finden. Sie wollen mehrere Monate bleiben. Die Schiffbrüchigen hoffen darauf, sie wegekeln zu können, um mit abgeholt zu werden. Letztlich freilich erfolglos.</de>
 						<en>The "Mosquitoes", a pop sensation, land on the island for much needed peace and quiet. They plan to stay for several months. The castaways hope to annoy them and make them leave, so they'll be picked up with them. Ultimately, of course, unsuccessfully.</en>
-					<pl></pl>
+						<pl>"Mosquitoes", sensacja muzyki pop, ląduje na wyspie, aby znaleźć tak bardzo potrzebny spokój i ciszę. Chcą zostać na kilka miesięcy. Rozbitkowie mają nadzieję, że uda im się ich zwabić, aby mogli zostać odebrani. Ostatecznie jednak bezskutecznie.</pl>
 					</description>
 				</programme>
 				<programme id="5a4d3f4e-7d03-48a7-9294-f18c69d0f556" product="2" licence_type="2" imdb_id="tt0588088" creator="9551">
@@ -55967,12 +55969,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Nicht schuldig</de>
 						<en>Not Guilty</en>
-						<pl></pl>
+						<pl>Niewinny</pl>
 					</title_original>
 					<description>
 						<de>Wer hat Randolph Blake getötet? Laut einer an Land gespülten Zeitung hat es einer der Schiffbrüchigen in der Nacht vor der verhängnisvollen Tour getan. Fünf der Schiffbrüchigen kannten Mr. Blake, und jeder hatte ein Motiv, ihn zu töten.</de>
 						<en>Who killed Randolph Blake? According to a newspaper that washed ashore, one of the castaways did it the night before the fateful tour. Five of the castaways actually knew Mr. Blake, and each had a motive to kill him.</en>
-					<pl></pl>
+						<pl>Kto zabił Randolpha Blake'a? Według gazety, która wypłynęła na brzeg, jeden z rozbitków zrobił to w noc poprzedzającą fatalną podróż. Pięciu rozbitków znało pana Blake'a i każdy z nich miał motyw, by go zabić.</pl>
 					</description>
 				</programme>
 				<programme id="f936a5b0-319f-4d87-aa13-d15cfd0744e6" product="2" licence_type="2" imdb_id="tt1230843" creator="9551">
@@ -55983,12 +55985,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Seher Gilligan</de>
 						<en>Seer Gilligan</en>
-						<pl></pl>
+						<pl>Jasnowidz Gilligan</pl>
 					</title_original>
 					<description>
 						<de>Willie hat einen Busch gefunden, der Samen liefert, mit denen jeder, der sie isst, die Gedanken von Menschen lesen kann. Da wollen alle mit dabei sein.</de>
 						<en>Willie has found a bush that provides seeds that enable anyone who eats the seeds to read people's minds. Everyone wants in on the action.</en>
-						<pl></pl>
+						<pl>Willie znalazł krzew, który produkuje nasiona, dzięki którym każdy, kto je zje, może czytać w myślach. Każdy chce być tego częścią.</pl>
 					</description>
 				</programme>
 				<programme id="eb65fa60-fccb-414d-98e8-7c114711cf25" product="2" licence_type="2" imdb_id="tt0588075" creator="9551">
@@ -55999,12 +56001,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Geisterstunde</de>
 						<en>Ghost-a-Go-Go</en>
-						<pl></pl>
+						<pl>Ghost-a-Go-Go</pl>
 					</title_original>
 					<description>
 						<de>Ein Geist auf der Insel lässt die Schiffbrüchigen um ihr Leben fürchten. Der Geist sagt Willie, dass die Schiffbrüchigen die Insel verlassen müssen, und gibt ihnen ein Boot, mit dem sie die Insel verlassen können.</de>
 						<en>A ghost on the island has the castaways scared for their lives. The ghost tells Willie that the castaways must leave the island, giving them a boat so that they can get off the island.</en>
-					<pl></pl>
+						<pl>Duch na wyspie sprawia, że rozbitkowie boją się o swoje życie. Duch mówi Williemu, że rozbitkowie muszą opuścić wyspę i daje im łódź, którą mogą opuścić wyspę.</pl>
 					</description>
 				</programme>
 				<programme id="bbaf9475-efa8-41ae-9768-f7b042442fa0" product="2" licence_type="2" imdb_id="tt0588097" creator="9551">
@@ -56015,12 +56017,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der freundliche Doktor</de>
 						<en>The Friendly Physician</en>
-						<pl></pl>
+						<pl>Przyjazny doktor</pl>
 					</title_original>
 					<description>
 						<de>Ein verrückter Wissenschaftler kommt zur „Rettung“. Zunächst bringt er den Skipper und Willie auf seine nahe gelegene Insel. Dort treffen sie den Bediensteten Igor und einen Hund, der miaut, und sie erfahren die wahren Absichten des Doktors.</de>
 						<en>A mad scientist comes for the "rescue". At first he brings the Skipper and Willie to his nearby island. There they meet servant Igor and a dog that meows, and they learn about the doctor's real motives.</en>
-					<pl></pl>
+						<pl>Na ratunek przybywa szalony naukowiec. Najpierw zabiera kapitana i Williego na pobliską wyspę. Tam spotykają służącego Igora i psa, który miauczy, i poznają prawdziwe intencje doktora.</pl>
 					</description>
 				</programme>
 				<programme id="d8c46a23-8535-4a36-8383-7cdac8d7a1a0" product="2" licence_type="2" imdb_id="tt0784362" creator="9551">
@@ -56031,12 +56033,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Begegnung mit dem Meteor</de>
 						<en>Meet the Meteor</en>
-						<pl></pl>
+						<pl>Poznaj meteoryt</pl>
 					</title_original>
 					<description>
 						<de>Ein Meteor kracht auf die Insel. Als der Professor beobachtet, dass seitdem die Bäume schnell wachsen, kommt er zu dem Schluss, dass kosmische Strahlen die Alterungsprozesse beschleunigen, und dass sie alle innerhalb einer Woche sterben werden.</de>
 						<en>A meteor crashes onto the island. Observing that trees grow rapidly since then, the Professor concludes that cosmic rays are speeding up the aging processes, and that they all will die within a week.</en>
-					<pl></pl>
+						<pl>Na wyspę spada meteor. Kiedy profesor zauważa, że od tego czasu drzewa gwałtownie rosną, dochodzi do wniosku, że promienie kosmiczne przyspieszają proces starzenia i że wszystkie umrą w ciągu tygodnia.</pl>
 					</description>
 				</programme>
 			</children>
@@ -56049,12 +56051,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Hawaii Fünf-Null (Staffel 1)</de>
 				<en>Hawaii Five-O (Season 1)</en>
-				<pl></pl>
+				<pl>Hawaii Five-O (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Krimiserie, die sich um eine fiktive Elite-Polizeieinheit im 50. Bundesstaat der USA dreht, angeführt vom früheren Navy SEAL Steve McGarret. Die erste Staffel lief damals recht schwach an.</de>
 				<en>Crime series revolving around a fictional elite police unit in the 50th state of the USA, led by former Navy SEAL Steve McGarret. The first season got off to a rather weak start back then.</en>
-			<pl></pl>
+				<pl>Serial kryminalny skupiający się na fikcyjnej elitarnej jednostce policyjnej w 50. stanie USA, dowodzonej przez byłego Navy SEAL Steve'a McGarreta. Pierwszy sezon miał wówczas dość słaby start.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">5ddc8396-6826-4e24-90a2-8ebf73e767e1</member>
@@ -56074,12 +56076,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der gigantische Kokon</de>
 						<en>Cocoon</en>
-						<pl></pl>
+						<pl>Cocoon</pl>
 					</title_original>
 					<description>
 						<de>Ein chinesischer Agent setzt eine sensorische Deprivationskammer ein, um Informationen aus US-Agenten herauszuholen. McGarrett lässt sich gefangen nehmen und in die Kammer bringen. Kann er die Folter überstehen?</de>
 						<en>A Chinese agent uses a sensory deprivation chamber to extract information from U.S. agents. McGarrett allows himself to be captured and taken into the chamber. Can he endure the torture?</en>
-					<pl></pl>
+						<pl>Chiński agent wykorzystuje komorę deprywacji sensorycznej, aby wydobyć informacje od amerykańskich agentów. McGarrett pozwala się schwytać i zabrać do komory. Czy uda mu się przetrwać tortury?</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="e25bcc22-8534-41b5-8cb9-b650ab71697f" />
@@ -56093,12 +56095,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Reise ohne Wiederkehr</de>
 						<en>Full Fathom Five</en>
-						<pl></pl>
+						<pl>Full Fathom Five</pl>
 					</title_original>
 					<description>
 						<de>Der Gouverneur von Hawaii beauftragt McGarrett, einen Betrügerring zu zerschlagen, der reiche Witwen auf Urlaub betrügt und tötet.</de>
 						<en>The governor of Hawaii assigns McGarrett to break a ring of con artists swindling andkilling visiting rich widows.</en>
-						<pl></pl>
+						<pl>Gubernator Hawajów zatrudnia McGarretta do rozbicia grupy oszustów, którzy wyłudzają pieniądze i zabijają bogate wdowy na wakacjach.</pl>
 					</description>
 				</programme>
 				<programme id="5194125a-ef6e-4184-a428-a32632e7effb" product="2" licence_type="2" imdb_id="tt0598253" creator="9551">
@@ -56109,12 +56111,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Nach 15 Jahren</de>
 						<en>Yesterday Died and Tomorrow Won't Be Born</en>
-						<pl></pl>
+						<pl>Wczoraj umarło, a jutro się nie narodzi</pl>
 					</title_original>
 					<description>
 						<de>Auf der Suche nach dem Mörder, der Steve schwer verletzt hat, verrät Danny dummerweise den Mörder, als er die Frau des Verdächtigen befragt, anstatt ihr Haus zu observieren.</de>
 						<en>While searching for the killer who critically wounded Steve, Danny foolishly tips his hand to the killer when he questions the suspect's wife instead of staking out her home.</en>
-					<pl></pl>
+						<pl>Podczas poszukiwań mordercy, który poważnie zranił Steve'a, Danny nierozsądnie zdradza zabójcę, przesłuchując żonę podejrzanego, zamiast obserwować jej dom.</pl>
 					</description>
 				</programme>
 				<programme id="bbe4f913-f5f3-4b3f-ae19-ef500ac75e10" product="2" licence_type="2" imdb_id="tt0598037" creator="9551">
@@ -56125,12 +56127,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Kronzeuge</de>
 						<en>Deathwatch</en>
-						<pl></pl>
+						<pl>Deathwatch</pl>
 					</title_original>
 					<description>
 						<de>Das Fünf-Null-Team kämpft darum, das Leben eines Gangsters zu retten, damit er gegen seinen Boss aussagen kann.</de>
 						<en>The Five-O team fights to save the life of a gangster so that he can testify against his boss.</en>
-						<pl></pl>
+						<pl>Drużyna Five-Zero walczy o uratowanie życia gangstera, aby ten mógł zeznawać przeciwko swojemu szefowi.</pl>
 					</description>
 				</programme>
 				<programme id="7d8fb9b0-e25b-442b-9e69-ba77472c6784" product="2" licence_type="2" imdb_id="tt0598112" creator="9551">
@@ -56141,12 +56143,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Blutprobe</de>
 						<en>Once Upon a Time</en>
-						<pl></pl>
+						<pl>Dawno, dawno temu</pl>
 					</title_original>
 					<description>
 						<de>Ein erfolgreicher junger Boxer wird ermordet, und McGarrett muss den Mörder finden, bevor es der verzweifelte Vater tut.</de>
 						<en>A successful young boxer is murdered, and McGarrett has to find the murderer before the grieving father does.</en>
-						<pl></pl>
+						<pl>Odnoszący sukcesy młody bokser zostaje zamordowany, a McGarrett musi znaleźć zabójcę, zanim zrobi to jego zdesperowany ojciec.</pl>
 					</description>
 				</programme>
 				<programme id="0528b9ed-d08d-4a20-9cbe-d06bf23bf952" product="2" licence_type="2" imdb_id="tt0598159" creator="9551" comment="TODO: somehow link with Kahuna Burger ad?">
@@ -56157,12 +56159,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Pele, die Feuergöttin</de>
 						<en>The Big Kahuna</en>
-						<pl></pl>
+						<pl>The Big Kahuna</pl>
 					</title_original>
 					<description>
 						<de>Ein beliebter prominenter Hawaiianer glaubt, dass er von einem bösartigen Geist heimgesucht wird.</de>
 						<en>A beloved prominent Hawaiian believes he is being haunted by a malevolent spirit.</en>
-						<pl></pl>
+						<pl>Popularny hawajski celebryta wierzy, że jest nawiedzany przez złowrogiego ducha.</pl>
 					</description>
 				</programme>
 			</children>
@@ -56175,12 +56177,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Hawaii Fünf-Null (Staffel 2)</de>
 				<en>Hawaii Five-O (Season 2)</en>
-				<pl></pl>
+				<pl>Hawaii Five-O (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Die Serie, die von 1968 bis 1980 lief, ist dafür bekannt, dass sie sehr stark Hawaii repräsentiert, wo sie auch fast vollständig gedreht wurde. Der ikonische Titelsong wird regelmäßig bei Heimspielen von Sportmannschaften aus Hawaii gespielt.</de>
 				<en>Running from 1968 to 1980, this show is known to very strongly represent Hawaii, where it also was almost completely shot. Its iconic theme song is regularly played at home games for Hawaii sports teams.</en>
-			<pl></pl>
+				<pl>Serial, który był emitowany w latach 1968-1980, jest znany z silnego reprezentowania Hawajów, gdzie został nakręcony prawie w całości. Kultowa piosenka przewodnia jest regularnie odtwarzana podczas meczów domowych drużyn sportowych z Hawajów.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">5ddc8396-6826-4e24-90a2-8ebf73e767e1</member>
@@ -56200,12 +56202,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die vierte Witwe</de>
 						<en>A Thousand Pardons - You're Dead!</en>
-						<pl></pl>
+						<pl>Tysiąc ułaskawień - jesteś martwy!</pl>
 					</title_original>
 					<description>
 						<de>Nachdem die Bräute dreier in Vietnam getöteter GIs tot aufgefunden werden, deckt das Fünf-Null-Team einen Versicherungsbetrug auf, der von einem Sergeant betrieben wird, der einen mörderischen Zorn hegt.</de>
 						<en>After the brides of three GIs killed in Vietnam turn up dead, the Five-O team uncovers an insurance scam run by a sergeant with a murderous grudge.</en>
-						<pl></pl>
+						<pl>Po tym, jak narzeczone trzech poległych w Wietnamie żołnierzy zostają znalezione martwe, zespół Five Zero odkrywa oszustwo ubezpieczeniowe prowadzone przez sierżanta, który żywi morderczy gniew.</pl>
 					</description>
 				</programme>
 				<programme id="3a9ea7b8-7c82-4fe9-8b44-2ad4dba1a4cb" product="2" licence_type="2" imdb_id="tt0598055" creator="9551">
@@ -56216,12 +56218,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>"Wo Fat" kehrt zurück</de>
 						<en>Forty Feet High and It Kills!</en>
-						<pl></pl>
+						<pl>Czterdzieści stóp wysokości i zabija!</pl>
 					</title_original>
 					<description>
 						<de>Gerüchte über einen bevorstehenden Tsunami sorgen für Panik auf Hawaii, doch McGarrett entdeckt die wahre Bedrohung: Der chinesische Agent ist zurück. Er hat einen renommierten Genetiker entführt und plant, eine überlegene Rasse zu schaffen.</de>
 						<en>Fear spreads through Hawaii after rumors of a imminent tsunami, but McGarrett discovers the true threat: the Chinese agent is back. He has kidnapped a renowned geneticist and plans to create a superior race.</en>
-					<pl></pl>
+						<pl>Pogłoski o zbliżającym się tsunami wywołują panikę na Hawajach, ale McGarrett odkrywa prawdziwe zagrożenie: chiński agent powrócił. Porwał on znanego genetyka i planuje stworzyć rasę wyższą.</pl>
 					</description>
 				</programme>
 				<programme id="8445c1ce-6b66-46f0-af64-84715e402d47" product="2" licence_type="2" imdb_id="tt0598077" creator="9551">
@@ -56232,12 +56234,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Heißer Schnee</de>
 						<en>Just Lucky, I Guess</en>
-						<pl></pl>
+						<pl>Chyba po prostu szczęście</pl>
 					</title_original>
 					<description>
 						<de>Eine Prostituierte wurde von einem Gangster ermordet, aber der einzige Zeuge des Verbrechens - ein respektabler Haushaltswarenhändler aus einer Kleinstadt - hat Angst, auszusagen.</de>
 						<en>A prostitute has been murdered by a gangster, but the sole witness to the crime - a respectable small-town hardware salesman - is afraid to testify.</en>
-					<pl></pl>
+						<pl>Prostytutka zostaje zamordowana przez gangstera, ale jedyny świadek zbrodni - szanowany właściciel sklepu z narzędziami z małego miasteczka - boi się zeznawać.</pl>
 					</description>
 				</programme>
 				<programme id="f6e07a0e-e077-415e-acb7-52b1b2177afe" product="2" licence_type="2" imdb_id="tt0598014" creator="9551">
@@ -56248,12 +56250,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Der Blinde und die Unbekannte</de>
 						<en>Blind Tiger</en>
-						<pl></pl>
+						<pl>Ślepy Tygrys</pl>
 					</title_original>
 					<description>
 						<de>Eine Überraschungs-Geburtstagsfeier für McGarrett endet mit einem Knall - einer Autobombenexplosion. Durch diese ist McGarrett erblindet. Während er sich erholt, sucht das Fünf-Null-Team auf den Inseln nach dem Täter.</de>
 						<en>A surprise birthday party for McGarrett ends with a bang - a car-bomb explosion, which leaves McGarrett blinded. As he recuperates, the Five-O team searches the islands for the perpetrator.</en>
-					<pl></pl>
+						<pl>Niespodziewane przyjęcie urodzinowe McGarretta kończy się z hukiem - wybuchem bomby w samochodzie. McGarrett traci wzrok. Podczas gdy on dochodzi do siebie, zespół Five-Zero przeszukuje wyspy w poszukiwaniu sprawcy.</pl>
 					</description>
 				</programme>
 				<programme id="a0af767d-dc9e-4aa1-810b-e26eb020f943" product="2" licence_type="2" imdb_id="tt0598217" creator="9551">
@@ -56264,12 +56266,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Drei Kadaver am Makapuu</de>
 						<en>Three Dead Cows at Makapuu</en>
-						<pl></pl>
+						<pl>Trzy martwe krowy w Makapuu</pl>
 					</title_original>
 					<description>
 						<de>Ein brillanter, aber psychisch instabiler Wissenschaftler ist verschwunden. Er hat eine biologische Mutation entdeckt, die er „Q-Stamm“ nennt und die er als Protest gegen bakterielle Kriegsführung freisetzen will.</de>
 						<en>A brilliant but emotionally unstable scientist has disappeared. He discovered a biological mutation which he calls "Q strain", which he plans to unleash as a protest against germ warfare.</en>
-					<pl></pl>
+						<pl>Genialny, ale niestabilny psychicznie naukowiec zniknął. Odkrył on mutację biologiczną, którą nazwał "szczepem Q" i którą chce uwolnić jako protest przeciwko wojnie bakteryjnej.</pl>
 					</description>
 				</programme>
 				<programme id="3cf65e5d-e30f-400f-a81b-77497aa32d1f" product="2" licence_type="2" imdb_id="tt0598082" creator="9551">
@@ -56280,12 +56282,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Die Königin von Polynesien</de>
 						<en>Kiss the Queen Goodbye</en>
-						<pl></pl>
+						<pl>Pocałuj królową na pożegnanie</pl>
 					</title_original>
 					<description>
 						<de>Ein Juwelendieb, der sich als Gesellschaftsdame ausgibt, versucht, einen unbezahlbaren Smaragd, „Die Königin von Polynesien“, von der Gala des Gouverneurs zu stehlen. Doch das Fünf-Null-Team wartet auf den Dieb - getarnt als Arbeiter auf der Veranstaltung.</de>
 						<en>A jewel thief masquerading as a socialite attempts to steal a priceless emerald, "The Queen of Polynesia", from the governor's gala. But Five-O are waiting for the thief - disguised as workers at the event.</en>
-					<pl></pl>
+						<pl>Złodziej klejnotów podający się za osobę z towarzystwa próbuje ukraść bezcenny szmaragd, "Królową Polinezji", z gali gubernatora. Ale zespół Five-Zero czeka na złodzieja - przebrany za pracownika imprezy.</pl>
 					</description>
 				</programme>
 			</children>
@@ -56298,12 +56300,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Mein Name ist Hase</de>
 				<en>The Bugs Bunny Show</en>
-				<pl></pl>
+				<pl>Królik Bugs przedstawia</pl>
 			</title_original>
 			<description>
 				<de>Jubel Trubel Heiterkeit, seid zur Heiterkeit bereit! Die Große Bunte Bunny Show.</de>
 				<en>Overture, curtain, lights, this is it, the night of nights! Tonight what heights we'll hit. On with the show, this is it.</en>
-				<pl></pl>
+				<pl>Serial przedstawia przygody królika Bugsa oraz jego przyjaciół, m.in. Kaczora Daffy'ego, Świnki Porky, Elmera Fudda, Yosemite Sama, Diabła Tasmańskiego i wielu innych.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">various-voice-artists</member>
@@ -56324,12 +56326,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Von Teufeln und Heinzelmännchen</de>
 						<en>Rabbit Every Monday / A Mouse Divided / Tree For Two</en>
-						<pl></pl>
+						<pl>Królik w każdy poniedziałek / Mysz podzielona / Drzewo dla dwojga</pl>
 					</title_original>
 					<description>
 						<de>Falsches Spiel mit der Konkurrenz / Narren unter sich / Auf zur Jagd! / Mäuse und Moneten</de>
 						<en>Putty Tat Trouble / Wise Quackers / Speedy Gonzales / Wild Over You / Go Fly a Kit / Mouse Warming</en>
-						<pl></pl>
+						<pl>Fałszywa gra z konkurencją / Głupcy między sobą / Chodźmy na polowanie! / Myszy i pieniądze</pl>
 					</description>
 				</programme>
 				<programme id="0fb38ff1-e77a-413f-91aa-2926b6e5f210" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56340,12 +56342,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Guten Appetit!</de>
 						<en>To Itch His Own / Gee Whiz-z-z-z-z-z-z / Whoa, Be Gone!</en>
-						<pl></pl>
+						<pl>Smacznego!</pl>
 					</title_original>
 					<description>
 						<de>Essen und gefressen werden / Höllenangst / Jagd-Gründe / Neues aus der Technik</de>
 						<en>Canary Row / Knights Must Fall / For Scent-imental Reasons</en>
-						<pl></pl>
+						<pl>Jedz i bądź jedzony / Strach przed piekłem / Powody do polowania / Wieści ze świata technologii</pl>
 					</description>
 				</programme>
 				<programme id="56652441-ac6d-41dd-96f4-515c6e8e37f0" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56356,12 +56358,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Wer glaubt schon an den Storch</de>
 						<en>Long-Haired Hare / Sandy Claws / Mouse Wreckers</en>
-						<pl></pl>
+						<pl>Zając długowłosy / Piaskowe pazury / Niszczyciele myszy</pl>
 					</title_original>
 					<description>
 						<de>Attacke! / Dummheit tonnenweise / Ziemlich seltene Fälle / Leichte Beute</de>
 						<en>Bully for Bugs / Tweety's SOS / One Froggy Evening / My Bunny Lies Over the Sea / Scaredy Cat / Scent-imental Romeo</en>
-						<pl></pl>
+						<pl>Atak! / Głupota na tony / Dość rzadkie przypadki / Łatwa zdobycz</pl>
 					</description>
 				</programme>
 				<programme id="62e99ee1-6069-4507-8635-15652872cb94" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56372,12 +56374,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Am Hofe König Arthurs</de>
 						<en>Bunker Hill Bunny / Each Dawn I Crow / Golden Yeggs</en>
-						<pl></pl>
+						<pl>Na dworze króla Artura</pl>
 					</title_original>
 					<description>
 						<de>Es folgt die Sportschau / Von Freunden und Feinden / Manche mögens heiss / Es war einmal zur Weihnachtszeit</de>
 						<en>Which Is Witch / Mouse Mazurka / Kit for Cat / Two's a Crowd / All a Bir-r-r-rd / The Hasty Hare</en>
-						<pl></pl>
+						<pl>Następuje sportowe show / O przyjaciołach i wrogach / Niektórzy lubią gorąco / Dawno, dawno temu w Boże Narodzenie</pl>
 					</description>
 				</programme>
 				<programme id="931d0772-4ace-44f4-aadb-e08f854c9be3" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56388,12 +56390,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Konzert der Tiere</de>
 						<en>What's Up, Doc? / Early to Bet / Pop 'Im Pop</en>
-						<pl></pl>
+						<pl>Koncert zwierząt</pl>
 					</title_original>
 					<description>
 						<de>Tatendrang macht lebensfroh / Erst ruft der Räuber, dann der Berg / Eigener Herd ist Goldes wert / Reisen bildet</de>
 						<en>A-Lad-In His Lamp / Dog Gone South / A Fractured Leghorn / Ant Pasted / The Fair-Haired Hare / I Gopher You</en>
-						<pl></pl>
+						<pl>Zapał do działania sprawia, że jesteś radosny / Najpierw dzwoni rabuś, potem góra / Twoja własna kuchenka jest na wagę złota / Podróżowanie kształci</pl>
 					</description>
 				</programme>
 				<programme id="df44f506-a7df-4817-9a50-63fcea226554" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56404,12 +56406,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Bei Gold hört der Spass auf</de>
 						<en>Rocket Squad / Daffy Dilly / Drip-Along Daffy</en>
-						<pl></pl>
+						<pl>Zabawa kończy się na złocie</pl>
 					</title_original>
 					<description>
 						<de>Das Gute siegt doch ab und zu / Heute angesagt, Die wilde Jagd / Alles was Recht ist / Auf der Jagd nach kleinen Tieren</de>
 						<en>The Leghorn Blows at Midnight / Hot Cross Bunny / His Bitter Half / Lovelorn Leghorn / Who's Kitten Who / The Windblown Hare</en>
-						<pl></pl>
+						<pl>Dobre rzeczy od czasu do czasu wygrywają / Dzisiejszy gorący temat, Dzikie polowanie / Wszystko, co dobre / Na polowaniu na małe zwierzęta</pl>
 					</description>
 				</programme>
 				<programme id="75dd73b2-ad89-43b6-b322-a42a1ccc2e1a" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56420,12 +56422,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Nicht immer lacht das Glück im Haus</de>
 						<en>High Diving Hare / Don't Give Up the Sheep / Stooge for a Mouse</en>
-						<pl></pl>
+						<pl>W domu szczęście nie zawsze się uśmiecha</pl>
 					</title_original>
 					<description>
 						<de>Nichtstun verhindert Unheil / Schlag auf Schlag / Unter fremden Dächern / Lust auf fremde Federn</de>
 						<en>Mutiny on the Bunny / Punch Trunk / Fast and Furry-ous / Rabbit of Seville / The Scarlet Pumpernickel / Stop! Look! And Hasten!</en>
-						<pl></pl>
+						<pl>Nic nie robienie zapobiega katastrofie / Cios za ciosem / Pod cudzymi dachami / Żądza cudzych piór</pl>
 					</description>
 				</programme>
 				<programme id="be03f940-9718-4feb-a078-14eb8369fb8f" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56436,12 +56438,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Gegensätze ziehen sich an</de>
 						<en>Hillbilly Hare / Hippety Hopper / You Were Never Duckier</en>
-						<pl></pl>
+						<pl>Przeciwieństwa się przyciągają</pl>
 					</title_original>
 					<description>
 						<de>Hoch hinaus / Wo die Liebe hinfällt / Not macht erfinderisch / Artgenossen unter sich</de>
 						<en>The Turn-Tale Wolf / Paying the Piper / Beanstalk Bunny / Big House Bunny / Canned Feud / Home Tweet Home</en>
-						<pl></pl>
+						<pl>Celując wysoko / Gdzie spada miłość / Konieczność jest matką wynalazku / Kumple wśród kumpli</pl>
 					</description>
 				</programme>
 				<programme id="b11fc3c7-6002-4a3c-99f1-c7091b88e618" product="2" licence_type="2" imdb_id="" creator="9551">
@@ -56452,12 +56454,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Neues auf dem Speiseplan</de>
 						<en>Mississippi Hare / Terrier Stricken / Cheese Chasers</en>
-						<pl></pl>
+						<pl>Nowości w menu</pl>
 					</title_original>
 					<description>
 						<de>Heiterkeit mit Eitelkeit / Tempo Tempo / Geisterstündchen / Finstere Zeiten</de>
 						<en>Henhouse Henery / Curtain Razor / Devil May Hare / Hare We Go / The Foghorn Leghorn / Little Red Rodent Hood</en>
-						<pl></pl>
+						<pl>Henhouse Henery / Curtain Razor / Devil May Hare / Hare We Go / The Foghorn Leghorn / Little Red Rodent Hood</pl>
 					</description>
 				</programme>
 			</children>
@@ -56470,12 +56472,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 			<title_original>
 				<de>Der 7. Sinn (Best of)</de>
 				<en>The 7th Sense (Best of)</en>
-				<pl></pl>
+				<pl>Siódmy zmysł (Best of)</pl>
 			</title_original>
 			<description>
 				<de>Die Mutter aller Verkehrserziehungssendungen. Eine ganze Stunde lang [1|Full], und das in 4 Episoden! Die wichtigsten Tipps für umsichtige Autofahrer und alle erwachsenen Teilnehmer im täglichen Straßenverkehr, aus den vielen Sendejahren zusammengestellt.</de>
 				<en>From Germany comes the mother of all traffic education shows. One whole hour of [1|Full], and that in 4 episodes! The most important tips for careful drivers and all adult road users in everyday traffic, compiled from the many years of broadcasting.</en>
-			<pl></pl>
+				<pl>Matka wszystkich programów edukacyjnych o ruchu drogowym. Cała godzina [1|Full], w 4 odcinkach! Najważniejsze porady dla ostrożnych kierowców i wszystkich dorosłych uczestników codziennego ruchu drogowego, zebrane na podstawie wielu lat emisji.</pl>
 			</description>
 			<staff>
 				<member index="0" function="21">dda26fcf-74fc-4ac4-94bb-a69d6b1c048d</member>
@@ -56494,12 +56496,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Unfälle und Gefahren der Nacht</de>
 						<en>Accidents and Dangers of the Night</en>
-						<pl></pl>
+						<pl>Wypadki i zagrożenia w nocy</pl>
 					</title_original>
 					<description>
 						<de>Außerdem: Hupe und Vollgas, Wenn es glatt wird, Züge, Bahnübergänge, Versicherungen, Urlaubsvorbereitungen, Frau am Steuer, Geschwindigkeit, Rückwärts fahren, Wer abbiegen will, Einordnen und Abbiegen, u.v.m.</de>
 						<en>Also: Honking and full throttle, When it gets slippery, Trains, Railroad crossings, Insurance, Vacation preparations, Women drivers, Speeding, Reversing, When you want to turn, Getting in lane and turning, etc.</en>
-					<pl></pl>
+						<pl>Ponadto: klakson i pełny gaz, gdy robi się ślisko, pociągi, przejazdy kolejowe, ubezpieczenie, przygotowania do wakacji, kobiety za kierownicą, prędkość, cofanie, kto chce skręcić, wjeżdżanie na pasy i skręcanie oraz wiele więcej.</pl>
 					</description>
 				</programme>
 				<programme id="cf5d0f9f-9343-4031-ab37-d54ea7ff546c" product="2" licence_type="2" imdb_id="" fictional="1" creator="9551">
@@ -56510,12 +56512,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Autobahn und Glätte</de>
 						<en>Highways and Icy Roads</en>
-						<pl></pl>
+						<pl>Autostrady i oblodzone drogi</pl>
 					</title_original>
 					<description>
 						<de>Außerdem: Das Reißverschlußverfahren, Tunnel, Kleinkrafträder, Mofafahren leicht gemacht, Roller aber sicher!, Bundeswehr, ABS, Sicherheitsgurt, Gefahr durch defekte Stoßdämpfer, Achtung Straßenbahnen, Abfall, u.v.m.</de>
 						<en>Also: The zip merge, Tunnels, Small motorcycles, Riding a moped made easy, Scooters but safe!, Federal Armed Forces, ABS, Seat belts, Danger due to defective shock absorbers, Be mindful of the tram, Litter, etc.</en>
-					<pl></pl>
+						<pl>Ponadto: metoda zamka błyskawicznego, tunele, motorowery, łatwa jazda na motorowerze, skutery, ale bezpieczne!, niemiecka armia, ABS, pasy bezpieczeństwa, niebezpieczeństwo wadliwych amortyzatorów, uwaga tramwaje, odpady i wiele więcej.</pl>
 					</description>
 				</programme>
 				<programme id="5b5ec006-e35a-44e7-9f8e-9196c5e578e9" product="2" licence_type="2" imdb_id="" fictional="1" creator="9551">
@@ -56526,12 +56528,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Kinder und Ältere Menschen im Straßenverkehr</de>
 						<en>Children and Elderly People in Road Traffic</en>
-						<pl></pl>
+						<pl>Dzieci i osoby starsze w ruchu drogowym</pl>
 					</title_original>
 					<description>
 						<de>Außerdem: Wir wollen über die Straße, Sicher über die Straße (auch für die mittleren Alters), Radfahrer leben gefährlich!, Hunde, Aggression im Straßenverkehr, Deutlich fahren!, Kreisverkehr, Anhänger, Parkhaus, Wohnmobile, Polizei-Zeichen beachten, u.v.m.</de>
 						<en>Also: We want to cross the road, Safe crossing the road (also for the middle-aged), Cyclists live dangerously!, Dogs, Aggression in traffic, Drive distinctly!, Roundabouts, Trailers, Parking garage, Motor homes, Observe police signs, etc.</en>
-					<pl></pl>
+						<pl>Ponadto: Chcemy przechodzić przez jezdnię, Bezpieczne przechodzenie przez jezdnię (nawet dla osób w średnim wieku), Rowerzyści żyją niebezpiecznie!, Psy, Agresja w ruchu drogowym, Jedź wyraźnie!, Ronda, Przyczepy, Parkingi, Samochody kempingowe, Przestrzegaj znaków policyjnych i wiele innych.</pl>
 					</description>
 				</programme>
 				<programme id="b6121888-5bed-455a-8cca-f3d65b8fc041" product="2" licence_type="2" imdb_id="" fictional="1" creator="9551">
@@ -56542,12 +56544,12 @@ This became one of the most common catchphrases of the 1970s. The show's end seq
 					<title_original>
 						<de>Rettungsgasse und Haftung von Helfern</de>
 						<en>Emergency Lanes and Liability of Helpers</en>
-						<pl></pl>
+						<pl>Pas ratunkowy i odpowiedzialność ratowników</pl>
 					</title_original>
 					<description>
 						<de>Außerdem: Erste Hilfe, Rettungseinsatz, Erst 18 und schon so wagemutig, Wenn das Auto brennt, Alkohol am Steuer, Nebel, Gut vorbereitet in den Urlaub, Transportsicherung, Unsichere Ladung LKW &amp; PKW, u.v.m.</de>
 						<en>Also: First aid, Ambulance operations, Just being of age and already so audacious, When the car is on fire, Drinking and driving, Fog, Well prepared for your vacation, Transport safety, Unsafe loads on trucks &amp; cars, etc.</en>
-					<pl></pl>
+						<pl>Ponadto: Pierwsza pomoc, Akcje ratunkowe, Tylko 18 lat, a już tak odważnie, Kiedy samochód się pali, Picie i jazda, Mgła, Dobre przygotowanie do wakacji, Bezpieczeństwo transportu, Niebezpieczne ładunki na ciężarówkach i samochodach i wiele więcej.</pl>
 					</description>
 				</programme>
 			</children>
