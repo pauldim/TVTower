@@ -2053,7 +2053,7 @@ Colorful action with [1|Full].</en>
 Anrührender Film, geplant als TV-Serie - es blieb beim Piloten.</de>
 				<en>As a firefighter, [1|Full] must find a way to stop the assassinations of himself and his colleagues.
 Stirring film, planned as a TV series - it ended with the pilot.</en>
-				<pl><en>Jako strażak ([1|Full]) musi znaleźć sposób na powstrzymanie zamachów na siebie i swoich kolegów.
+				<pl>Jako strażak ([1|Full]) musi znaleźć sposób na powstrzymanie zamachów na siebie i swoich kolegów.
 Poruszający film, planowany jako serial telewizyjny - skończyło się na pilocie.</pl>
 			</description>
 			<staff>
@@ -58929,12 +58929,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Transformers (Staffel 2)</de>
 				<en>The Transformers (Season 2)</en>
-				<pl>The Transformers (Sezon 2)</pl>
+				<pl>Transformers (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Was ist noch besser als Roboter? Natürlich Dinosaurier-Roboter! Diese spielen weiterhin eine wichtige Rolle, und die Entstehungsgeschichte des Krieges und der Rivalität zwischen Optimus Prime und Megatron wird enthüllt.</de>
 				<en>What's even better than robots? Of course, dinosaur robots! They continue to play an important role, and the origin story of the war and the rivalry between Optimus Prime and Megatron is revealed.</en>
-				<pl></pl>
+				<pl>Co jest jeszcze lepsze niż roboty? Oczywiście roboty dinozaury! Nadal odgrywają ważną rolę, a historia wojny i rywalizacji między Optimusem Prime'em i Megatronem zostaje ujawniona.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">6c01bea7-fe39-4a45-a6dd-15dc362a0d53</member>
@@ -58956,12 +58956,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Autobot Spike</de>
 						<en>Autobot Spike</en>
-						<pl></pl>
+						<pl>Autobot Spike</pl>
 					</title_original>
 					<description>
 						<de>Bei einem Angriff der Decepticons wird Spike verwundet. Um das Leben seines Sohnes zu retten, hilft Sparkplug den Autobots, Spikes Geist in den Körper eines experimentellen Roboters namens Autobot X zu übertragen.</de>
 						<en>A Decepticon attack leaves Spike wounded. To save his son's life, Sparkplug helps the Autobots transfer Spike's mind to the body of an experimental robot called Autobot X.</en>
-					<pl></pl>
+						<pl>W wyniku ataku Decepticonów Spike zostaje ranny. Aby uratować życie syna, Sparkplug pomaga Autobotom przenieść umysł Spike'a do ciała eksperymentalnego robota o nazwie Autobot X.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="Stukov_Transformers_Der_Kampf_um_Cybertron" />
@@ -58975,12 +58975,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Insel der Dinobots</de>
 						<en>Dinobot Island</en>
-						<pl></pl>
+						<pl>Wyspa Dinobotów</pl>
 					</title_original>
 					<description>
 						<de>Obwohl sie über große Kraft verfügen, erweisen sich die wohlmeinenden Dinobots als ebenso gefährlich wie die Decepticons. Der neueste Fall zeigt Optimus und den anderen Autobots, wie sehr sich das ändern muss.</de>
 						<en>Despite possessing great power, the well-meaning Dinobots prove to be just as dangerous as Decepticons. The latest instance shows Optimus and the other Autobots just how much this needs to change.</en>
-					<pl></pl>
+						<pl>Pomimo posiadania wielkiej mocy, Dinoboty o dobrych intencjach okazują się równie niebezpieczne jak Deceptikony. Najnowszy przypadek pokazuje Optimusowi i innym Autobotom, jak bardzo musi się to zmienić.</pl>
 					</description>
 				</programme>
 				<programme id="73c74db2-2717-4f80-961e-4eee2b80e3a3" product="2" licence_type="2" imdb_id="tt0733020" creator="9551">
@@ -58991,12 +58991,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Unterwasserstadt</de>
 						<en>Atlantis, Arise!</en>
-						<pl></pl>
+						<pl>Atlantydo, powstań!</pl>
 					</title_original>
 					<description>
 						<de>Die Decepticons stoßen auf einen großartigen Fund: das legendäre Atlantis. Sie glauben, dass die Kräfte von Atlantis von unschätzbarem Wert sein könnten, wenn sie den Krieg endlich gewinnen wollen.</de>
 						<en>The Decepticons stumble upon a magnificent find: the legendary Atlantis. They believe that Atlantean forces could prove invaluable to them finally winning the war.</en>
-					<pl></pl>
+						<pl>Deceptikony natrafiają na wspaniałe znalezisko: legendarną Atlantydę. Wierzą, że atlantydzkie siły mogą okazać się nieocenione dla ich ostatecznego zwycięstwa w wojnie.</pl>
 					</description>
 				</programme>
 				<programme id="53706831-cb31-490e-ad68-0bf01806bc07" product="2" licence_type="2" imdb_id="tt0808858" creator="9551">
@@ -59007,12 +59007,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Energieturm</de>
 						<en>The Master Builders</en>
-						<pl></pl>
+						<pl>Master Builders</pl>
 					</title_original>
 					<description>
 						<de>Die Constructicons sind plötzlich auf die in der Wüste lebenden Grapple und Hoist aufmerksam geworden. Sie behaupten jedoch, nicht auf einen Kampf aus zu sein, sondern stattdessen die Autobots unterstützen zu wollen.</de>
 						<en>The Constructicons suddenly get the drop on the desert-bound Grapple and Hoist. However, they claim to not be looking for a fight but instead looking to help in the Autobot cause.</en>
-					<pl></pl>
+						<pl>Constructicony niespodziewanie dopadają Grapple'a i Hoist'a na pustyni. Twierdzą jednak, że nie szukają walki, lecz pomocy w sprawie Autobotów.</pl>
 					</description>
 				</programme>
 				<programme id="f0756840-bbc7-4254-85a3-49daa87ed6c1" product="2" licence_type="2" imdb_id="tt0808833" creator="9551">
@@ -59023,12 +59023,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Megatrons Großer Plan</de>
 						<en>Megatron's Master Plan</en>
-						<pl></pl>
+						<pl>Główny plan Megatrona</pl>
 					</title_original>
 					<description>
 						<de>Mit der Hilfe des wohlhabenden Shawn Berger bringt Megatron die Öffentlichkeit gegen die Autobots auf. Die Autobots werden für schuldig befunden und von der Erde verbannt.</de>
 						<en>With the help of the wealthy Shawn Berger, Megatron turns the public against the Autobots. The Autobots are found guilty and banished from Earth.</en>
-						<pl></pl>
+						<pl>Z pomocą bogatego Shawna Bergera, Megatron zwraca opinię publiczną przeciwko Autobotom. Autoboty zostają uznane za winne i wygnane z Ziemi.</pl>
 					</description>
 				</programme>
 				<programme id="0a373aee-787b-4283-a644-8b4695b76f0a" product="2" licence_type="2" imdb_id="tt0808824" creator="9551">
@@ -59039,12 +59039,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Abtrünnige Dinobots</de>
 						<en>Desertion of the Dinobots</en>
-						<pl></pl>
+						<pl>Dezercja dinobotów</pl>
 					</title_original>
 					<description>
 						<de>Die Dinobots fühlen sich in letzter Zeit für selbstverständlich genommen. Doch der Zeitpunkt könnte nicht schlechter sein, denn eine tödliche Plage befällt alle übrigen Roboter.</de>
 						<en>The Dinobots feel taken for granted lately. This couldn't have come at a worse time, though, as a deadly scourge strikes every other robot.</en>
-						<pl></pl>
+						<pl>Dinoboty czują się ostatnio traktowane jak coś oczywistego. Nie mogło to jednak nadejść w gorszym momencie, ponieważ śmiertelna plaga uderza w każdego innego robota.</pl>
 					</description>
 				</programme>
 				<programme id="71eba5a5-2dec-49d2-8388-7b2600f16cd9" product="2" licence_type="2" imdb_id="tt0808811" creator="9551">
@@ -59055,12 +59055,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Sprung in die Vergangenheit</de>
 						<en>A Decepticon Raider in King Arthur's Court</en>
-						<pl></pl>
+						<pl>Decepticon Raider na dworze króla Artura</pl>
 					</title_original>
 					<description>
 						<de>Die Entdeckung eines mysteriösen Zeittransporters schickt Spike und die Roboter ins Mittelalter, wo Starscream plant, das Haus eines Ritters namens Sir Aethling der Rote zu übernehmen.</de>
 						<en>The discovery of a mysterious time transporter sends Spike and the robots to medieval times, where Starscream plots to take over the home of a knight named Sir Aethling the Red.</en>
-					<pl></pl>
+						<pl>Odkrycie tajemniczego transportera czasu przenosi Spike'a i roboty do czasów średniowiecza, gdzie Starscream planuje przejąć dom rycerza o imieniu Sir Aethling the Red.</pl>
 					</description>
 				</programme>
 				<programme id="121b62e5-9c39-48a7-9ff7-c6869efd0b67" product="2" licence_type="2" imdb_id="tt0808845" creator="9551">
@@ -59071,12 +59071,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Erde in Gefahr</de>
 						<en>The Core</en>
-						<pl></pl>
+						<pl>Rdzeń</pl>
 					</title_original>
 					<description>
 						<de>Es wird eine Möglichkeit gefunden, Devastator gewaltsam für die Seite des Guten einzusetzen. Das erweist sich als Glücksfall, denn Megatron und die Decepticons schmieden einen neuen, gefährlichen Plan.</de>
 						<en>A means to forcibly use Devastator for the side of good is found. This proves quite fortuitous, as Megatron and the Decepticons are embarking on a new, dangerous plan.</en>
-					<pl></pl>
+						<pl>Znaleziono sposób na przymusowe wykorzystanie Devastatora po stronie dobra. Okazuje się to dość fortunne, ponieważ Megatron i Decepticony rozpoczynają nowy, niebezpieczny plan.</pl>
 					</description>
 				</programme>
 				<programme id="c72babda-5115-4331-bfab-a5fcb67ccb57" product="2" licence_type="2" imdb_id="tt0808844" creator="9551">
@@ -59087,12 +59087,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Wer ist der schnellste Autobot?</de>
 						<en>The Autobot Run</en>
-						<pl></pl>
+						<pl>Bieg Autobotów</pl>
 					</title_original>
 					<description>
 						<de>Auf den Highways ist der Teufel los. Ein Rennen wird veranstaltet. Megatron glaubt, dass die Autobots im Rennmodus leichte Beute sind, und benutzt eine neue Waffe, um das herauszufinden.</de>
 						<en>All hell is breaking loose on the highways. A race is being held. Megatron thinks that the Autobots are sitting ducks in race mode and uses a new weapon to find out.</en>
-						<pl></pl>
+						<pl>Na autostradach rozpętuje się piekło. Trwa wyścig. Megatron myśli, że Autoboty są łatwym celem w trybie wyścigu i używa nowej broni, aby się o tym przekonać.</pl>
 					</description>
 				</programme>
 				<programme id="445a16c8-9f03-4240-ba1d-658273d2e2bf" product="2" licence_type="2" imdb_id="tt0808829" creator="9551">
@@ -59103,12 +59103,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die goldene Lagune</de>
 						<en>The Golden Lagoon</en>
-						<pl></pl>
+						<pl>Złota Laguna</pl>
 					</title_original>
 					<description>
 						<de>In einer wilden Aktion stolpern Beachcomber und Thrust über Electrum, ein flüssiger Schlüssel zur Unbesiegbarkeit. Das Zeug ist in einer Waldlagune zu finden, aber nur die Decepticons können sie für sich beanspruchen.</de>
 						<en>Fierce action leads both Beachcomber and Thrust to stumble upon electrum, a liquid key to invincibility. There is a forest lagoon's worth of the stuff, but only the Decepticons succeed in making a claim.</en>
-					<pl></pl>
+						<pl>Zaciekła akcja prowadzi zarówno Beachcombera, jak i Thrusta do natknięcia się na elektrum, płynny klucz do niezwyciężoności. Jest go pełno w leśnej lagunie, ale tylko Deceptikonom udaje się go zdobyć.</pl>
 					</description>
 				</programme>
 				<programme id="33b30ccc-6f97-4879-a4e0-cd397a5da19e" product="2" licence_type="2" imdb_id="tt0808853" creator="9551">
@@ -59119,12 +59119,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das Mädchen, das sich in Powerglide verliebte</de>
 						<en>The Girl Who Loved Powerglide</en>
-						<pl></pl>
+						<pl>Dziewczyna, która kochała Powerglide'a</pl>
 					</title_original>
 					<description>
 						<de>Powerglide freundet sich mit einer jungen Frau namens Astoria an, die von den Decepticons verfolgt wird. Als die Decepticons sie entführen, muss Powerglide sie finden und retten.</de>
 						<en>Powerglide befriends a young woman named Astoria who is being targeted by the Decepticons. When the Decepticons abduct her, Powerglide must find her and rescue her.</en>
-						<pl></pl>
+						<pl>Powerglide zaprzyjaźnia się z młodą kobietą o imieniu Astoria, która jest celem Decepticonów. Kiedy Decepticony ją porywają, Powerglide musi ją odnaleźć i uratować.</pl>
 					</description>
 				</programme>
 				<programme id="1daaef19-83a9-4790-9a0e-28eed292098a" product="2" licence_type="2" imdb_id="tt0808830" creator="9551">
@@ -59135,12 +59135,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Hoist geht zum Film</de>
 						<en>Hoist Goes Hollywood</en>
-						<pl></pl>
+						<pl>Hoist idzie do Hollywood</pl>
 					</title_original>
 					<description>
 						<de>Hollywood-Produktionen verlaufen nicht immer reibungslos, und in einem Fall geraten die Stuntmen fast in echte Schwierigkeiten. Da der bloße Dank nicht ausreicht, hat Hoist nun die Chance, auf der Leinwand zu erscheinen.</de>
 						<en>Hollywood productions don't always run smoothly, and one case almost sees stuntmen in for real-life trouble. Since mere thanks aren't enough, Hoist now has a shot at being on the silver screen.</en>
-					<pl></pl>
+						<pl>Hollywoodzkie produkcje nie zawsze przebiegają gładko, a w jednym przypadku kaskaderzy niemal znaleźli się w prawdziwych tarapatach. Ponieważ same podziękowania nie wystarczą, Hoist ma teraz szansę pojawić się na srebrnym ekranie.</pl>
 					</description>
 				</programme>
 				<programme id="011cf8fd-32b3-4ae6-897b-d1b6a86b1671" product="2" licence_type="2" imdb_id="tt0808856" creator="9551">
@@ -59151,12 +59151,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Vector Sigma</de>
 						<en>The Key to Vector Sigma</en>
-						<pl></pl>
+						<pl>Klucz do wektora Sigma</pl>
 					</title_original>
 					<description>
 						<de>Mit Hilfe der Stunticons hoffen die Decepticons, die Autobots ein für alle Mal zu vernichten. Das Problem ist nur, dass die Stunticons ohne Vector Sigma immer leblose Metallstücke sein werden.</de>
 						<en>With the Stunticons at their disposal, the Decepticons hope to crush the Autobots once and for all. Problem is, the Stunticons will always be lifeless pieces of metal without Vector Sigma.</en>
-					<pl></pl>
+						<pl>Mając do dyspozycji Stunticony, Decepticony mają nadzieję zmiażdżyć Autoboty raz na zawsze. Problem w tym, że bez Vectora Sigmy Stunticony zawsze będą martwymi kawałkami metalu.</pl>
 					</description>
 				</programme>
 				<programme id="4125094c-906f-4e30-a511-094dcab126b0" product="2" licence_type="2" imdb_id="tt0733023" creator="9551">
@@ -59167,12 +59167,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Perfekte Tarnung</de>
 						<en>Masquerade</en>
-						<pl></pl>
+						<pl>Maskarada</pl>
 					</title_original>
 					<description>
 						<de>Die Decepticons führen etwas im Schilde, und eine Reihe von Diebstählen durch die Stunticons hängt damit zusammen. Die Stunticons selbst haben sich mit einigen Autobots angelegt und werden eingesperrt.</de>
 						<en>The Decepticons are up to something and a series of thefts by the Stunticons are related. The Stunticons themselves end up biting off more than they can chew against some Autobots and get locked up.</en>
-					<pl></pl>
+						<pl>Decepticony coś knują, a seria kradzieży dokonanych przez Stunticony jest z tym powiązana. Sami Kaskaderzy w końcu odgryzają więcej, niż są w stanie przeżuć przeciwko niektórym Autobotom i zostają zamknięci.</pl>
 					</description>
 				</programme>
 				<programme id="601da1f5-291a-4144-9bbd-001f1642bdd3" product="2" licence_type="2" imdb_id="tt0808861" creator="9551">
@@ -59183,12 +59183,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Trans-Europa-Express</de>
 						<en>Trans-Europe Express</en>
-						<pl></pl>
+						<pl>Trans-Europe Express</pl>
 					</title_original>
 					<description>
 						<de>Die Autobots sind plötzlich auf dem Weg nach Europa zu einem Wohltätigkeitsrennen. Sie und alle menschlichen Fahrer, einschließlich Augie Canary, wollen gewinnen und die anderen in den Schatten stellen.</de>
 						<en>Autobots are suddenly Europe-bound for a charity race. They and every human driver including Augie Canary intend to win and leave the others in their dust.</en>
-						<pl></pl>
+						<pl>Autoboty niespodziewanie wyruszają do Europy na wyścig charytatywny. Oni i każdy ludzki kierowca, w tym Augie Canary, zamierzają wygrać i zostawić innych w kurzu.</pl>
 					</description>
 				</programme>
 				<programme id="cdc9ab6d-df4d-4e84-93ab-37792e81251e" product="2" licence_type="2" imdb_id="tt0733026" creator="9551">
@@ -59199,12 +59199,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Kriegsdämmerung</de>
 						<en>War Dawn</en>
-						<pl></pl>
+						<pl>Świt wojny</pl>
 					</title_original>
 					<description>
 						<de>Die Aerialbots werden durch eine Zeitmaschine 9 Millionen Jahre in der Vergangenheit gefangen. Dort freunden sie sich mit einem freundlichen Roboter namens Orion Pax an und retten ihm das Leben.</de>
 						<en>The Aerialbots become trapped 9 million years in the past via a time machine. There they befriend and save the life of a gentle robot named Orion Pax.</en>
-						<pl></pl>
+						<pl>Aerialboty zostają uwięzione 9 milionów lat w przeszłości za pomocą wehikułu czasu. Tam zaprzyjaźniają się z łagodnym robotem o imieniu Orion Pax i ratują mu życie.</pl>
 					</description>
 				</programme>
 				<programme id="a2e90485-84ea-4f88-b447-9430102fdfcb" product="2" licence_type="2" imdb_id="tt0808841" creator="9551">
@@ -59215,12 +59215,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Starscreams großer Kampf</de>
 						<en>Starscream's Brigade</en>
-						<pl></pl>
+						<pl>Brygada Starscreama</pl>
 					</title_original>
 					<description>
 						<de>Ein weiterer Fehlschlag beim Versuch, Megatron zu stürzen, und eine prompte Verbannung auf eine Insel halten Starscream kaum ab. Verlassene Vehikel aus dem 2. Weltkrieg und gestohlene Persönlichkeitskomponenten liefern ihm die benötigten Werkzeuge.</de>
 						<en>Another failure to topple Megatron and a prompt island exile hardly deter Starscream. Abandoned World War II-era vehicles and stolen personality components provide the tools that he needs.</en>
-					<pl></pl>
+						<pl>Kolejna porażka w obaleniu Megatrona i szybkie wygnanie na wyspę nie zniechęcają Starscreama. Porzucone pojazdy z czasów II wojny światowej i skradzione elementy osobowości zapewniają mu narzędzia, których potrzebuje.</pl>
 					</description>
 				</programme>
 				<programme id="1e21aacc-bb15-4ef0-85a7-b5a1d271861a" product="2" licence_type="2" imdb_id="tt0808839" creator="9551">
@@ -59231,12 +59231,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Bruticus Rache</de>
 						<en>The Revenge of Bruticus</en>
-						<pl></pl>
+						<pl>Zemsta Bruticusa</pl>
 					</title_original>
 					<description>
 						<de>Die jüngste Niederlage hat Starscream und die Combaticons nicht in ihrer Entschlossenheit gebremst, was für alle anderen eine schlechte Nachricht bedeutet. Sie manipulieren die Raumbrücke, um die Erde und die Sonne viel näher zusammenzubringen.</de>
 						<en>The recent defeat has not dampened Starscream and the Combaticons' resolve, which spells bad news for everyone else. They tamper with the space bridge to bring Earth and the sun a lot closer together.</en>
-					<pl></pl>
+						<pl>Niedawna porażka nie osłabiła determinacji Starscreama i Combaticonów, co oznacza złe wieści dla wszystkich innych. Majstrują przy kosmicznym moście, aby zbliżyć Ziemię do Słońca.</pl>
 					</description>
 				</programme>
 				<programme id="15001420-3d81-4c79-8e37-385fdec5d360" product="2" licence_type="2" imdb_id="tt0808815" creator="9551">
@@ -59247,11 +59247,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>B.O.T.</de>
 						<en>B.O.T.</en>
-						<pl></pl>
+						<pl>B.O.T.</pl>
 					</title_original>
 					<description>
 						<de>Die Combaticons verfolgen einen persönlichen Plan, den die Protectobots gerne durchkreuzen. Swindle, der das als einziger heil überstanden hat, macht sich auf Kosten der anderen Combaticons aus dem Staub, indem er sie Stück für Stück verkauft.</de>
 						<en>The Combaticons pursue a personal agenda, which the Protectobots gladly interrupt. The only one to make it out in one piece, Swindle cuts his losses at the other Combaticons' expense by selling them off piece by piece.</en>
+						<pl>Combaticony realizują osobisty plan, który Protectoboty chcą udaremnić. Swindle, który jako jedyny przetrwał to bez szwanku, zarabia kosztem innych Combaticonów, sprzedając je kawałek po kawałku.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59264,12 +59265,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Transformers (Staffel 3)</de>
 				<en>The Transformers (Season 3)</en>
-				<pl></pl>
+				<pl>Transformers (Sezon 3)</pl>
 			</title_original>
 			<description>
 				<de>Die Autobots arbeiten daran, ihre Heimatwelt wiederherzustellen und als Friedensstifter für Welten in der ganzen Galaxis zu dienen. Die Decepticons befinden sich derweil im Exil auf der zerstörten Welt Chaar und werden nun von Galvatron angeführt.</de>
 				<en>The Autobots are working to restore their homeworld and to serve as peacemakers for worlds all across the galaxy. The Decepticons, meanwhile, are in exile on the ruined world of Chaar, led now by Galvatron.</en>
-			<pl></pl>
+				<pl>Autoboty pracują nad przywróceniem swojej ojczyzny i służą jako rozjemcy dla światów w całej galaktyce. Deceptikony tymczasem przebywają na wygnaniu na zrujnowanym świecie Chaar, dowodzonym teraz przez Galvatrona.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">6c01bea7-fe39-4a45-a6dd-15dc362a0d53</member>
@@ -59291,12 +59292,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die fünf Gesichter der Finsternis</de>
 						<en>Five Faces of Darkness</en>
-						<pl></pl>
+						<pl>Pięć twarzy ciemności</pl>
 					</title_original>
 					<description>
 						<de>Unter der Führung von Rodimus Prime haben die Autobots ihren Heimatplaneten von der Kontrolle der Decepticons befreit, was zu einem neuen Zeitalter des Friedens und des Glücks führt. Doch dieses hält nicht ewig an.</de>
 						<en>Under Rodimus Prime's leadership, the Autobots have freed their home planet from Decepticon control, which results in a new age of peace and happiness. But this does not last forever.</en>
-					<pl></pl>
+						<pl>Pod przywództwem Rodimusa Prime'a Autoboty uwolniły swoją ojczystą planetę spod kontroli Deceptikonów, co zaowocowało nową erą pokoju i szczęścia. Nie trwa to jednak wiecznie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="74c728ea-cfd8-4d7d-bb87-bbc0f92bf0de" />
@@ -59310,12 +59311,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Erwachen im Dunkel</de>
 						<en>Dark Awakening</en>
-						<pl></pl>
+						<pl>Mroczne przebudzenie</pl>
 					</title_original>
 					<description>
 						<de>Während sie in einem Mausoleum für die gefallenen Autobot-Helden des Großen Krieges Zuflucht suchen, entdecken die Autobots, dass Optimus Prime auf mysteriöse Weise ins Leben zurückgekehrt ist.</de>
 						<en>While taking refuge in a mausoleum for the fallen Autobot heroes of the Great War, the Autobots discover that Optimus Prime has mysteriously returned to life.</en>
-						<pl></pl>
+						<pl>Schroniwszy się w mauzoleum poległych bohaterów Wielkiej Wojny, Autoboty odkrywają, że Optimus Prime w tajemniczy sposób powrócił do życia.</pl>
 					</description>
 				</programme>
 				<programme id="20cec8f1-5f0b-4a5f-8fd4-215e46f7cfbe" product="2" licence_type="2" imdb_id="tt0808842" creator="9551">
@@ -59326,12 +59327,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Geist von Starscream</de>
 						<en>Starscream's Ghost</en>
-						<pl></pl>
+						<pl>Duch Starscreama</pl>
 					</title_original>
 					<description>
 						<de>Octane, ein Verräter der Decepticons, ist auf der Flucht, und die Decepticons verfolgen ihn quer durch die Galaxie. Trotz der Hilfe von Sandstorm können ihm die Autobots nur wenig Schutz bieten.</de>
 						<en>Octane, a Decepticon traitor, is on the run and the Decepticons are pursuing him across the galaxy. Despite Sandstorm's help, there is little protection that the Autobots can actually offer him.</en>
-					<pl></pl>
+						<pl>Octane, zdrajca Decepticonów, ucieka, a Decepticony ścigają go w całej galaktyce. Pomimo pomocy Sandstorma, Autoboty niewiele mogą mu zaoferować.</pl>
 					</description>
 				</programme>
 				<programme id="5f2381df-92ee-4368-a138-6bde90c03ac4" product="2" licence_type="2" imdb_id="tt0808828" creator="9551">
@@ -59342,12 +59343,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Geist im Roboter</de>
 						<en>Ghost in the Machine</en>
-						<pl></pl>
+						<pl>Duch w maszynie</pl>
 					</title_original>
 					<description>
 						<de>Obwohl er sich den Körper von Scourge aneignet, beschließt Starscream, einen Deal mit dem Oberhaupt von Unicron einzugehen, um seinen alten Körper zurückzubekommen.</de>
 						<en>Although he commandeers Scourge's body, Starscream decides to cut a deal with the head of Unicron to get his old body back.</en>
-						<pl></pl>
+						<pl>Chociaż przejął ciało Scourge'a, Starscream decyduje się zawrzeć układ z głową Unicrona, aby odzyskać swoje stare ciało.</pl>
 					</description>
 				</programme>
 				<programme id="915f30b2-98bb-49f6-9d30-7891e421aae1" product="2" licence_type="2" imdb_id="tt0809064" creator="9551">
@@ -59358,12 +59359,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das geheimnisvolle Orakel</de>
 						<en>Call of the Primitives</en>
-						<pl></pl>
+						<pl>Wezwanie Pierwotnych</pl>
 					</title_original>
 					<description>
 						<de>Der böse Primacron hat Pläne für die universelle Eroberung, zu denen auch die Erschaffung von Tornadron gehört, einem wolkenartigen Wesen, das jeden Roboter und alles, was sich ihm in den Weg stellt, zu vernichten droht.</de>
 						<en>The evil Primacron has plans for universal conquest, which includes giving life to Tornadron, a cloud-like entity that threatens to destroy every robot and whatever else gets in his way.</en>
-					<pl></pl>
+						<pl>Zły Primacron planuje podbój całego świata, w tym powołanie do życia Tornadrona, chmuropodobnej istoty, która grozi zniszczeniem każdego robota i wszystkiego, co stanie mu na drodze.</pl>
 					</description>
 				</programme>
 				<programme id="ab5204a3-0c9d-47c4-bb2b-e83aa191b3a3" product="2" licence_type="2" imdb_id="tt0809075" creator="9551">
@@ -59374,12 +59375,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Rückkehr von Optimus Prime</de>
 						<en>The Return of Optimus Prime</en>
-						<pl></pl>
+						<pl>Powrót Optimusa Prime</pl>
 					</title_original>
 					<description>
 						<de>Ein verbitterter Wissenschaftler und sein Partner beschließen, dass es an der Zeit ist, sich von den Robotern auf der Erde zu befreien. Sie benutzen den leblosen Körper von Optimus Prime, um die Autobots in ihr Labor zu locken.</de>
 						<en>An embittered scientist and his partner decide that it's time to rid themselves of the robots on Earth. They use the lifeless body of Optimus Prime to lure the Autobots to their laboratory.</en>
-					<pl></pl>
+						<pl>Rozgoryczony naukowiec i jego partner decydują, że nadszedł czas, aby pozbyć się robotów z Ziemi. Wykorzystują martwe ciało Optimusa Prime'a, by zwabić Autoboty do swojego laboratorium.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59392,12 +59393,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Transformers (Staffel 4)</de>
 				<en>The Transformers (Season 4)</en>
-				<pl></pl>
+				<pl>Transformers (Sezon 4)</pl>
 			</title_original>
 			<description>
 				<de>Die Autobots und Decepticons treffen auf die fremde Welt Nebulos, wo sie sich mit den einheimischen Nebulanern zusammenschließen, um Headmasters und Targetmasters zu werden.</de>
 				<en>The Autobots and Decepticons encounter the alien world of Nebulos, where they bond with the native Nebulans to become Headmasters and Targetmasters.</en>
-				<pl></pl>
+				<pl>Autoboty i Decepticony napotykają obcy świat Nebulos, gdzie łączą się z rdzennymi Nebulanami, aby stać się Headmasterami i Targetmasterami.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">6372340b-a8a8-4d66-8669-27f56d18ba61</member>
@@ -59419,12 +59420,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Wiedergeburt, Teil 1</de>
 						<en>The Rebirth - Part 1</en>
-						<pl></pl>
+						<pl>Odrodzenie - część 1</pl>
 					</title_original>
 					<description>
 						<de>Die Decepticons beschließen, den Schlüssel zur Plasma-Energiekammer zu stehlen, der Schmiede, in der die ursprünglichen Autobots vor Millionen von Jahren erschaffen wurden.</de>
 						<en>The Decepticons decide to steal the key to the Plasma Energy Chamber, the forge where the original Autobots were created millions of years ago.</en>
-						<pl></pl>
+						<pl>Decepticony postanawiają ukraść klucz do Komory Energii Plazmowej, kuźni, w której miliony lat temu powstały oryginalne Autoboty.</pl>
 					</description>
 				</programme>
 				<programme id="efc02fbc-6b3c-459f-b5d7-b8dae347a959" product="2" licence_type="2" imdb_id="tt0809073" creator="9551">
@@ -59435,12 +59436,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Wiedergeburt, Teil 2</de>
 						<en>The Rebirth - Part 2</en>
-						<pl></pl>
+						<pl>Odrodzenie - część 2</pl>
 					</title_original>
 					<description>
 						<de>Die Fusion der Autobots und Nebulaner zu Headmastern und die Rettung ihrer gefangenen Freunde war ein Erfolg. Doch die Decepticons verbünden sich mit den gnadenlosen Hive, um einen Gegenangriff zu starten.</de>
 						<en>The merge of the Autobots and Nebulans into Headmasters and the rescue their captured friends was a success. But the Decepticons join forces with the merciless Hive to counter-attack.</en>
-					<pl></pl>
+						<pl>Połączenie Autobotów i Nebulan w Headmasterów i uratowanie pojmanych przyjaciół zakończyło się sukcesem. Ale Deceptikony łączą siły z bezlitosnym Rojem, by kontratakować.</pl>
 					</description>
 				</programme>
 				<programme id="c68be485-97b3-42d3-b9e7-6e1bba69831f" product="2" licence_type="2" imdb_id="tt0809074" creator="9551">
@@ -59451,12 +59452,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Wiedergeburt, Teil 3</de>
 						<en>The Rebirth - Part 3</en>
-						<pl></pl>
+						<pl>Odrodzenie - część 3</pl>
 					</title_original>
 					<description>
 						<de>Während Daniel und die Autobots gefangen genommen werden, findet Spike einen Weg, die Decepticons ein für alle Mal aufzuhalten. Die Antwort zur Rettung seines Sohnes und seiner Freunde liegt in der verlorenen Stadt der Hive.</de>
 						<en>With Daniel and the Autobots captured, Spike finds a way to stop the Decepticons once and for all. The answer to saving his son and friends lies in the lost city of the Hive.</en>
-					<pl></pl>
+						<pl>Po pojmaniu Daniela i Autobotów Spike znajduje sposób, by raz na zawsze powstrzymać Decepticony. Odpowiedź na pytanie, jak uratować syna i przyjaciół, znajduje się w zaginionym mieście Hive.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59469,12 +59470,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Welt am Draht</de>
 				<en>World on a Wire</en>
-				<pl></pl>
+				<pl>Welt am Draht - Świat na drucie</pl>
 			</title_original>
 			<description>
 				<de>Bereits 1964 erschien ein Roman über simulierte Welten, und 1973 diese erste Verfilmung als TV-Zweiteiler. Allerdings finden sich die Bewohner der Simulation hier noch nicht so leicht mit ihrem Schicksal ab.</de>
 				<en>As early as 1964, a novel about simulated worlds came out, and in 1973, this first film adaptation as a TV two-parter. However, the inhabitants of the simulation here do not yet so easily resign to their fate.</en>
-			<pl></pl>
+				<pl>Fred Stiller jest pracownikiem Instytutu Cybernetyki, w którym opracowano wirtualny świat. Wszystko układa się pomyślnie do momentu śmierci jego twórcy, profesora Vollmera, w wyniku której Stiller przejmuje jego stanowisko. Po pewnym czasie dochodzi on do wniosku, że w firmie dzieje się coś dziwnego, zaczynają znikać kolejne osoby, a śmierć samego Vollmera mogła nie być przypadkowa.</pl>
 			</description>
 			<staff>
 				<member index="0" function="5">c9541cda-d802-4421-bc52-30747c163db0</member>
@@ -59498,12 +59499,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Teil 1</de>
 						<en>Episode 1</en>
-						<pl></pl>
+						<pl>Odcinek 1</pl>
 					</title_original>
 					<description>
 						<de>Am „Institut für Kybernetik und Zukunftsforschung“ wurde ein Supercomputer entwickelt, der eine Kleinstadt simuliert. Fred Stiller wird zum neuen Technischen Direktor befördert, nachdem sein Vorgänger unter ungeklärten Umständen ums Leben kam.</de>
 						<en>At the "Institute for Cybernetics and Futurology", a supercomputer has been developed that simulates a small town. Fred Stiller is promoted to the new technical director after his predecessor dies under unexplained circumstances.</en>
-					<pl></pl>
+						<pl>W "Instytucie Cybernetyki i Futurologii" opracowano superkomputer, który symuluje małe miasteczko. Fred Stiller zostaje awansowany na nowego dyrektora technicznego po tym, jak jego poprzednik umiera w niewyjaśnionych okolicznościach.</pl>
 					</description>
 				</programme>
 				<programme id="b2e4419d-c951-4688-862e-3976f95e96a2" product="2" licence_type="2" imdb_id="tt7553410" creator="9551">
@@ -59514,12 +59515,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Teil 2</de>
 						<en>Episode 2</en>
-						<pl></pl>
+						<pl>Odcinek 2</pl>
 					</title_original>
 					<description>
 						<de>Stiller glaubt immer mehr, dass die Kontakteinheit namens „Einstein“ Recht mit seiner Behauptung hatte und auch seine eigene Welt nicht die wirkliche Welt ist. Mit Hilfe eines Journalisten sucht er nach Beweisen.</de>
 						<en>Stiller believes more and more that the contact unit named "Einstein" was right with his claim and that his own world is not the real world either. With the help of a journalist, he searches for proof.</en>
-					<pl></pl>
+						<pl>Stiller coraz bardziej wierzy, że jednostka kontaktowa o nazwie "Einstein" miała rację w swoim twierdzeniu i że jego własny świat również nie jest prawdziwym światem. Z pomocą dziennikarza szuka dowodów.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59532,12 +59533,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Mr. Ed (Staffel 1)</de>
 				<en>Mister Ed (Season 1)</en>
-				<pl></pl>
+				<pl>Ed, koń, który mówi (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Basierend auf Kurzgeschichten über ein schlaues, freches, sprechendes Pferd. Es spricht aber nur mit seinem neuen Besitzer, dem Architekten Wilbur, nicht mit seiner Frau oder den Nachbarn.</de>
 				<en>Based on short stories about a smart, cheeky, talking horse. But it only talks to its new owner, architect Wilbur, not to his wife or neighbors.</en>
-			<pl></pl>
+				<pl>Ed jest koniem należącym do młodego architekta Wilbura Posta. Mało tego, Ed jest koniem bez dwóch zdań wyjątkowym, potrafi bowiem mówić. Problem w tym, że nie chce.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">d2ad4b17-9503-4601-a62d-23dd3aafc2ea</member>
@@ -59557,12 +59558,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Unser Pferd kann sprechen</de>
 						<en>The First Meeting</en>
-						<pl></pl>
+						<pl>Pierwsze spotkanie</pl>
 					</title_original>
 					<description>
 						<de>Das frisch verheiratete Ehepaar Wilbur und Carol zieht in ihr erstes gemeinsames Haus und stellt fest, dass der Vormieter sein Pferd in der Scheune zurückgelassen hat. Wilbur möchte es behalten. Zu seiner Überraschung stimmt das Pferd ihm zu. Mit klaren Worten.</de>
 						<en>Newlyweds Wilbur and Carol move into their first house together, and find that the previous tenant left his horse behind in the barn. Wilbur wants to keep it. To his surprise, the horse agrees with him. Speaking out clearly.</en>
-					<pl></pl>
+						<pl>Nowożeńcy Wilbur i Carol wprowadzają się do swojego pierwszego wspólnego domu i odkrywają, że poprzedni lokator zostawił konia w stajni. Wilbur chce go zatrzymać. Ku jego zaskoczeniu, koń zgadza się z nim. Mówiąc wyraźnie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="421850be-e53f-40ec-b9aa-04e69f85aa81" />
@@ -59576,12 +59577,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Bauchredner</de>
 						<en>The Ventriloquist</en>
-						<pl></pl>
+						<pl>Brzuchomówca</pl>
 					</title_original>
 					<description>
 						<de>Roger hört, wie Ed und Wilbur miteinander reden. Er glaubt nun, dass Wilbur ein großartiger Bauchredner sei.</de>
 						<en>Roger hears Ed and Wilbur talking to each other. He now believes that Wilbur is a great ventriloquist.</en>
-						<pl></pl>
+						<pl>Roger słyszy, jak Ed i Wilbur rozmawiają ze sobą. Teraz wierzy, że Wilbur jest świetnym brzuchomówcą.</pl>
 					</description>
 				</programme>
 				<programme id="bd84d217-7e0c-4bf4-974a-0f921c2cb1c4" product="2" licence_type="2" imdb_id="tt0649768" creator="9551">
@@ -59592,12 +59593,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Frauenclub</de>
 						<en>Busy Wife</en>
-						<pl></pl>
+						<pl>Zapracowana żona</pl>
 					</title_original>
 					<description>
 						<de>Kay bringt Carol dazu, sich in einem Frauenclub zu engagieren. Bald ist sie immer sehr beschäftigt mit dem Club. Wilbur beschließt, sich der Malerei als Hobby zu widmen und holt sich ein weibliches Modell.</de>
 						<en>Kay gets Carol involved with a woman's club. Soon she is always very busy with the club. Wilbur decides to take up painting as a hobby, and brings in a female model.</en>
-						<pl></pl>
+						<pl>Kay angażuje Carol do klubu dla kobiet. Wkrótce jest bardzo zajęta pracą w klubie. Wilbur postanawia zająć się malarstwem jako hobby i sprowadza modelkę.</pl>
 					</description>
 				</programme>
 				<programme id="3480a2ab-508d-42a1-bb9c-1bc375cf515a" product="2" licence_type="2" imdb_id="tt0649859" creator="9551">
@@ -59608,12 +59609,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Drei in einem Stall</de>
 						<en>Stable for Three</en>
-						<pl></pl>
+						<pl>Stajnia dla trzech osób</pl>
 					</title_original>
 					<description>
 						<de>Ed verschlingt das gesamte Gemüse in Carols Garten. Als Carol das herausfindet, verbannt sie Wilbur in die Scheune. Roger schließt sich ihm nach einem Streit mit seiner Frau an. Ed gibt vor, ein Einbrecher zu sein.</de>
 						<en>Ed devours all the vegetables in Carol's garden. When Carol finds out, she banishes Wilbur to the barn. Roger joins him after an argument with his wife. Ed pretends to be a burglar.</en>
-					<pl></pl>
+						<pl>Ed pożera wszystkie warzywa w ogrodzie Carol. Kiedy Carol się o tym dowiaduje, wypędza Wilbura do stodoły. Roger dołącza do niego po kłótni z żoną. Ed udaje włamywacza.</pl>
 					</description>
 				</programme>
 				<programme id="9eed665e-7b87-4422-a271-fe66137b1786" product="2" licence_type="2" imdb_id="tt0649858" creator="9551">
@@ -59624,12 +59625,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Maskottchen Mister Ed</de>
 						<en>Sorority House</en>
-						<pl></pl>
+						<pl>Dom bractwa</pl>
 					</title_original>
 					<description>
 						<de>Wilbur leiht einer örtlichen Studentenverbindung Ed als Maskottchen. Ed wird dann von einer rivalisierenden Burschenschaft gestohlen und im Keller eines Studentenwohnheims versteckt.</de>
 						<en>Wilbur lends a local fraternity Ed to be their mascot. Ed is then stolen by a rival fraternity house and hidden in a sorority house basement.</en>
-					<pl></pl>
+						<pl>Wilbur pożycza Edowi maskotkę lokalnego bractwa. Ed zostaje skradziony przez konkurencyjne bractwo i ukryty w piwnicy domu bractwa.</pl>
 					</description>
 				</programme>
 				<programme id="69638866-d13b-4e00-9e84-c58208a1087e" product="2" licence_type="2" imdb_id="tt0649871" creator="9551">
@@ -59640,12 +59641,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ab heute wird gespart</de>
 						<en>The Missing Statue</en>
-						<pl></pl>
+						<pl>Zaginiona figurka</pl>
 					</title_original>
 					<description>
 						<de>Ed gibt telefonisch Renntipps ab. Carol kauft eine 50-Dollar-Statue, die sie für ihr Haus haben möchte. Wilbur besteht darauf, dass sie die Ausgaben niedrig halten müssen.</de>
 						<en>Ed is phoning in racing tips. Carol buys a $50 statue she wants for the house. Wilbur insists they need to keep spending down.</en>
-						<pl></pl>
+						<pl>Ed dzwoni z poradami dotyczącymi wyścigów. Carol kupuje za 50 dolarów figurkę, którą chce mieć w domu. Wilbur nalega, by ograniczyli wydatki.</pl>
 					</description>
 				</programme>
 				<programme id="25d11d45-156d-4689-b1e8-c1b3f5ef33d2" product="2" licence_type="2" imdb_id="tt0649812" creator="9551">
@@ -59656,12 +59657,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Wette gilt</de>
 						<en>Ed the Tout</en>
-						<pl></pl>
+						<pl>Ed the Tout</pl>
 					</title_original>
 					<description>
 						<de>Als Ed anfängt, Wilbur lauter gewinnbringende Tipps auf der Rennbahn zu geben, will jeder auf den Zug aufspringen - auch Carol und Kays Milchkasse für die Schulkinder.</de>
 						<en>After Ed starts giving Wilbur nothing but winning picks at the race track, everyone wants to get in on the gravy train - including Carol and Kay's milk fund for the school kids.</en>
-					<pl></pl>
+						<pl>Po tym, jak Ed zaczyna dawać Wilburowi tylko zwycięskie typy na torze wyścigowym, wszyscy chcą się do niego przyłączyć - w tym fundusz mleczny Carol i Kay dla dzieci w wieku szkolnym.</pl>
 					</description>
 				</programme>
 				<programme id="9ca17c94-fe87-4172-be14-74c7df5d6385" product="2" licence_type="2" imdb_id="tt0649821" creator="9551">
@@ -59672,12 +59673,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das allerschönste Haus</de>
 						<en>Ed's New Shoes</en>
-						<pl></pl>
+						<pl>Nowe podkowy</pl>
 					</title_original>
 					<description>
 						<de>Wilbur heuert einen unbeholfenen Handwerker an, um das Haus in Erwartung des Besuchs einer Zeitschrift in Ordnung zu bringen, und Ed möchte neue Hufeisen, um ein Stutfohlen zu beeindrucken.</de>
 						<en>Wilbur hires a bumbling handyman to fix up the house in anticipation of a visit from a magazine, and Ed wants new shoes to impress a filly.</en>
-						<pl></pl>
+						<pl>Wilbur zatrudnia nieudolną złotą rączkę, aby naprawił dom w oczekiwaniu na wizytę z magazynu, a Ed chce mieć podkowy, aby zaimponować klaczce.</pl>
 					</description>
 				</programme>
 				<programme id="8aedda0d-5df9-4e79-a9da-59c5d349ed6d" product="2" licence_type="2" imdb_id="tt0649872" creator="9551">
@@ -59688,12 +59689,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die andere Frau</de>
 						<en>The Other Woman</en>
-						<pl></pl>
+						<pl>Inna kobieta</pl>
 					</title_original>
 					<description>
 						<de>Zu Carols Entsetzen flüstert Wilbur im Schlaf den Namen einer anderen Frau. Sie ist erst wütend und aufgebracht, dann aber erleichtert, als sie erfährt, dass es sich um ein weibliches Pferd handelt, das Ed für den Stall angeschafft haben wollte.</de>
 						<en>To Carol's shock, Wilbur whispers the name of another woman in his sleep. After being mad and upset, she is relieved to learn that it is about female horse that Ed wanted to be bought for the barn.</en>
-					<pl></pl>
+						<pl>Ku szokowi Carol, Wilbur szepcze przez sen imię innej kobiety. Po tym, jak była wściekła i zdenerwowana, z ulgą dowiaduje się, że chodzi o konia płci żeńskiej, którego Ed chciał kupić do stajni.</pl>
 					</description>
 				</programme>
 				<programme id="d301bf16-b3e9-4992-999a-d0ef09869e9f" product="2" licence_type="2" imdb_id="tt0649880" creator="9551">
@@ -59704,12 +59705,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ed wird verkauft</de>
 						<en>Wilbur Sells Ed</en>
-						<pl></pl>
+						<pl>Wilbur Sprzedaje Eda</pl>
 					</title_original>
 					<description>
 						<de>Ed verliebt sich in ein Stutfohlen, das einem wichtigen Bauunternehmer gehört. Ed überredet Wilbur, ihn dem Bauunternehmer zu geben, um ihr näher zu sein.</de>
 						<en>Ed falls in love with a filly owned by an important builder. Ed convinces Wilbur to give him to the builder in order to be closer to her.</en>
-						<pl></pl>
+						<pl>Ed zakochuje się w klaczce należącej do ważnego budowniczego. Ed przekonuje Wilbura, by oddał go budowniczemu, by być bliżej niej.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59722,12 +59723,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Mr. Ed (Staffel 2)</de>
 				<en>Mister Ed (Season 2)</en>
-				<pl></pl>
+				<pl>Ed, koń, który mówi (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Ein Pferd ist ein Pferd, ja eh, ja eh, und sprechen tut ein Pferd nicht, ja eh, das gilt, ja eh, jedoch dann nicht für den famosen Ed, das Pferd.</de>
 				<en>A horse is a horse, of course, of course, and no one can talk to a horse of course, that is, of course, unless the horse is the famous horse named Ed.</en>
-			<pl></pl>
+				<pl>Koń to koń, oczywiście, oczywiście, i nikt nie może rozmawiać z koniem, oczywiście, to znaczy, oczywiście, chyba że koń jest słynnym koniem o imieniu Ed.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">d2ad4b17-9503-4601-a62d-23dd3aafc2ea</member>
@@ -59748,12 +59749,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Vaterfreuden</de>
 						<en>My Son, My Son</en>
-						<pl></pl>
+						<pl>Mój syn, mój syn</pl>
 					</title_original>
 					<description>
 						<de>Ed hat väterliche Gefühle und überredet Wilbur, ein kleines Pony als Sohn für ihn zu adoptieren. Aber nachdem Snuffy, das Pony, alle von Rogers Preisäpfeln aufgefressen hat, meint Wilbur, dass es wieder gehen muss.</de>
 						<en>Ed's having paternal feelings, so he talks Wilbur into adopting a little pony as a son for him. But, after Snuffy the pony eats up all of Roger's prize apples, Wilbur says he has to go back.</en>
-					<pl></pl>
+						<pl>Ed ma ojcowskie uczucia, więc namawia Wilbura, by adoptował małego kucyka jako syna dla niego. Ale po tym, jak kucyk Snuffy zjada wszystkie jabłka Rogera, Wilbur mówi, że musi wracać.</pl>
 					</description>
 				</programme>
 				<programme id="a6a7c01f-c55e-4fbe-b7dc-953f311f512e" product="2" licence_type="2" imdb_id="tt1349137" creator="9551">
@@ -59764,12 +59765,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Eds Vorfahren</de>
 						<en>Ed's Ancestors</en>
-						<pl></pl>
+						<pl>Przodkowie Eda</pl>
 					</title_original>
 					<description>
 						<de>Carol möchte, dass Ed als Modell für eine historische Statue dient. Aber durch Rogers List glaubt Ed, dass er ein schändliches Erbe hat, und läuft von zu Hause weg.</de>
 						<en>Carol wants Ed to be the model for an historic statue. But, through Roger's trickery, Ed believes that he has a shameful heritage, so he runs away from home.</en>
-					<pl></pl>
+						<pl>Carol chce, by Ed został modelem historycznego posągu. Ale dzięki podstępowi Rogera Ed wierzy, że ma haniebne dziedzictwo, więc ucieka z domu.</pl>
 					</description>
 				</programme>
 				<programme id="e88d2e21-7373-4f4c-bf62-d12ff496de4b" product="2" licence_type="2" imdb_id="tt0649800" creator="9551">
@@ -59780,12 +59781,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Trick 17</de>
 						<en>Ed the Jumper</en>
-						<pl></pl>
+						<pl>Ed skoczek</pl>
 					</title_original>
 					<description>
 						<de>Wilbur wettet mit seinem alten College-Rivalen Karl um „5 Scheine“, dass Ed besser springen kann als dessen Pferd. Als ihm klar wird, dass „5 Scheine“ 500 Dollar entsprechen, hat er Bedenken. Ed schafft es, Karls Pferd zu überreden, nicht zu springen.</de>
 						<en>Wilbur bets old college rival Karl "5 bills" that Ed can out-jump his horse. He has second thoughts after he realizes that "5 bills" equals $500. Ed manages to talk Karl's horse into not jumping.</en>
-					<pl></pl>
+						<pl>Wilbur zakłada się z dawnym rywalem Karlem o "5 banknotów", że Ed przeskoczy jego konia. Wilbur rozmyśla się po tym, jak zdaje sobie sprawę, że "5 banknotów" to 500 dolarów. Edowi udaje się przekonać konia Karla, by nie skakał.</pl>
 					</description>
 				</programme>
 				<programme id="eab0eeb6-611f-40e9-b36c-faf416dd51d0" product="2" licence_type="2" imdb_id="tt0649825" creator="9551">
@@ -59796,12 +59797,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ed, der Telefonverkäufer</de>
 						<en>Ed, the Salesman</en>
-						<pl></pl>
+						<pl>Ed, sprzedawca</pl>
 					</title_original>
 					<description>
 						<de>Carols ständiges Geplauder hat zu einer hohen Telefonrechnung geführt, so dass sie einen Job als Tanzlehrerin annimmt. Ed geht mit und nimmt einen Job als Immobilienverkäufer am Telefon an, um sich einen Farbfernseher kaufen zu können.</de>
 						<en>Carol's constant chattering has rung up a huge phone bill, so she takes a job as a dance instructor. Ed gets in on the act by taking a job selling real estate over the telephone so he can by a color TV.</en>
-					<pl></pl>
+						<pl>Ciągła paplanina Carol spowodowała wzrost rachunków telefonicznych, więc podejmuje pracę jako instruktorka tańca. Ed wkracza do akcji, podejmując pracę przy telefonicznej sprzedaży nieruchomości, aby móc kupić kolorowy telewizor.</pl>
 					</description>
 				</programme>
 				<programme id="d9ea83db-9871-4d11-aa7f-c82405129024" product="2" licence_type="2" imdb_id="tt0649832" creator="9551">
@@ -59812,12 +59813,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Pferdewäsche</de>
 						<en>Horse Wash</en>
-						<pl></pl>
+						<pl>Mycie koni</pl>
 					</title_original>
 					<description>
 						<de>Carols Vater kommt zum ersten Mal zu Besuch, und Ed hat eine heiße Verabredung, so dass er die örtliche Autowaschanlage besucht, um eine gute Dusche zu bekommen. Ed und Wilbur helfen, Carols Vater vor einem schlechten Geschäft zu bewahren.</de>
 						<en>Carol's dad comes to visit for the first time, and Ed has a hot date, so he visits the local car wash to get a good shower. Ed and Wilbur help to prevent Carol's father from making a bad business deal.</en>
-					<pl></pl>
+						<pl>Tata Carol przyjeżdża w odwiedziny po raz pierwszy, a Ed ma gorącą randkę, więc odwiedza lokalną myjnię samochodową, aby wziąć dobry prysznic. Ed i Wilbur pomagają powstrzymać ojca Carol przed zawarciem złej umowy biznesowej.</pl>
 					</description>
 				</programme>
 				<programme id="638b04f8-51b8-420d-8503-9a4a5588407c" product="2" licence_type="2" imdb_id="tt1349141" creator="9551">
@@ -59828,12 +59829,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ehrenwort</de>
 						<en>Ed's Word of Honor</en>
-						<pl></pl>
+						<pl>Słowo honoru Eda</pl>
 					</title_original>
 					<description>
 						<de>Ed kommt zur Hilfe bei Lady Linda, ein von Addison gekauftes Rennpferd, das Liebeskummer hat und nicht laufen will. Als das Pferd ein Auge auf ihn wirft, gerät er selbst in Schwierigkeiten.</de>
 						<en>Ed comes to the rescue of Lady Linda, a race horse purchased by Addison who is lovesick and will not run. He then finds himself in over his head when the horse sets her eyes on him.</en>
-					<pl></pl>
+						<pl>Ed przychodzi na ratunek Lady Lindzie, koniowi wyścigowemu zakupionemu przez Addisona, który jest zakochany i nie chce biegać. </pl>
 					</description>
 				</programme>
 				<programme id="e95afd8f-dd5f-4661-a5b0-2c738416a0e1" product="2" licence_type="2" imdb_id="tt0649792" creator="9551">
@@ -59844,12 +59845,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ed, der Strandgammler</de>
 						<en>Ed the Beachcomber</en>
-						<pl></pl>
+						<pl>Ed Plażowicz</pl>
 					</title_original>
 					<description>
 						<de>Ed leidet unter dem Gefühl der Zurückweisung und zieht an den Strand, um mit einer Gruppe ausgestoßener Beatniks zu leben. Roger gehört das Strandgrundstück und will sie alle vertreiben.</de>
 						<en>Ed is suffering from feelings of rejection, so he moves to the beach to live with a group of outcast beatniks. Roger owns the beach property, and he wants to evict the whole lot of them.</en>
-					<pl></pl>
+						<pl>Ed cierpi z powodu poczucia odrzucenia, więc przeprowadza się na plażę, by zamieszkać z grupą wyrzutków beatników. Roger jest właścicielem posiadłości na plaży i chce ich wszystkich eksmitować.</pl>
 					</description>
 				</programme>
 				<programme id="4a38453d-e49e-494c-8dc1-857415e5eb68" product="2" licence_type="2" imdb_id="tt0649837" creator="9551">
@@ -59860,12 +59861,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Lügendetektor</de>
 						<en>Lie Detector</en>
-						<pl></pl>
+						<pl>Wykrywacz kłamstw</pl>
 					</title_original>
 					<description>
 						<de>Roger bringt den selbstgebauten Lügendetektor eines befreundeten Erfinders mit nach Hause und schließt ihn an Wilbur an, der ihn später an Ed anschließt, und die Wahrheit bringt unerwünschte Probleme für alle.</de>
 						<en>Roger brings home an inventor-friend's homemade lie detector, and he hooks it up to Wilbur, who later hooks it up to Ed and the truth brings unwanted problems for all.</en>
-					<pl></pl>
+						<pl>Roger przynosi do domu domowy wykrywacz kłamstw przyjaciela-wynalazcy i podłącza go do Wilbura, który później podłącza go do Eda, a prawda przynosi niechciane problemy dla wszystkich.</pl>
 					</description>
 				</programme>
 				<programme id="7d4850fe-1ccb-4d7d-8d19-64f1726960b4" product="2" licence_type="2" imdb_id="tt0649770" creator="9551">
@@ -59876,12 +59877,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ed verjagt Clint Eastwood</de>
 						<en>Clint Eastwood Meets Mister Ed</en>
-						<pl></pl>
+						<pl>Clint Eastwood spotyka się z Mister Edem</pl>
 					</title_original>
 					<description>
 						<de>[4|Full] zieht mit einem Pferd in die Nachbarschaft, das alle Stutfohlen von Ed stiehlt. Ed richtet eine Party-Line zu [4|First]s Haus ein, was Herrn [4|Last] nichts als Probleme bereitet.</de>
 						<en>[4|Full] moves into the neighborhood with a horse that steals all of Ed's fillies. Ed sets up a party line with [4|First]'s house, which causes nothing but problems for Mr. [4|Last].</en>
-					<pl></pl>
+						<pl>Do sąsiedztwa wprowadza się [4|Full] z koniem, który kradnie wszystkie klaczki Eda. Ed zakłada linię imprezową z domem [4|First], co powoduje same problemy dla pana [4|Last].</pl>
 					</description>
 					<staff>
 						<member index="4" function="2">ec20fc5a-a552-4119-8d1e-d310650c2830</member>
@@ -59895,12 +59896,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ein Freund für Emmy-Lou</de>
 						<en>Ed, the Matchmaker</en>
-						<pl></pl>
+						<pl>Ed, swat</pl>
 					</title_original>
 					<description>
 						<de>Emmy, die jugendliche Tochter der neuen Nachbarn, bittet Wilbur um eine Haarlocke aus Eds Schweif zur Herstellung eines Liebestranks, um einen Jungen zu erobern. Ed beschließt, ihr heimlich zu helfen.</de>
 						<en>Emmy, the teenage daughter of the new neighbors, is asking Wilbur for a locket of hair from Ed's tail to make a love potion to win over a boy. Ed decides to secretly assist her.</en>
-					<pl></pl>
+						<pl>Emmy, nastoletnia córka nowych sąsiadów, prosi Wilbura o pukiel włosów z ogona Eda do sporządzenia eliksiru miłosnego, aby zdobyć chłopaka. Ed postanawia potajemnie jej pomóc.</pl>
 					</description>
 				</programme>
 			</children>
@@ -59913,12 +59914,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Twin Peaks (Staffel 1)</de>
 				<en>Twin Peaks (Season 1)</en>
-				<pl></pl>
+				<pl>Twin Peaks (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Der exzentrische FBI-Agent Cooper wird in eine verschlafene, ländliche amerikanische Kleinstadt gerufen, in der jeder jeden zu kennen scheint, nachdem Highschool-Abschluss-Schülerin und Ballkönigin Laura tot in Plastik eingewickelt aufgefunden wird.</de>
 				<en>In a sleepy, rural American town where everyone seems to know everyone, eccentric FBI agent Cooper is called after high school senior and homecoming queen Laura is discovered dead and wrapped in plastic.</en>
-			<pl></pl>
+				<pl>W sennym, wiejskim amerykańskim miasteczku, gdzie każdy wydaje się znać każdego, ekscentryczny agent FBI Cooper zostaje wezwany po tym, jak uczennica liceum i królowa balu maturalnego Laura zostaje znaleziona martwa i owinięta w folię.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">c41d6da8-46ab-4a91-af57-814a2a24d979</member>
@@ -59944,12 +59945,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Pilotfilm: Das Geheimnis von Twin Peaks</de>
 						<en>Pilot: Northwest Passage</en>
-						<pl></pl>
+						<pl>Pilot: Przejście Północno-Zachodnie</pl>
 					</title_original>
 					<description>
 						<de>Auch Lauras Klassenkameradin Ronette wird geschlagen und traumatisiert aufgefunden. Ein Stück Papier unter Lauras Fingernagel mit dem Buchstaben „R“ deutet darauf hin, dass ein Mörder aus dem letzten Jahr erneut zugeschlagen haben könnte.</de>
 						<en>Also Laura's classmate Ronette is found, beaten and traumatized. A piece of paper under Laura's fingernail with the letter "R" indicates that a killer from last year may have struck again.</en>
-					<pl></pl>
+						<pl>Również koleżanka Laury z klasy, Ronette, zostaje znaleziona pobita i doznaje traumy. Kawałek papieru pod paznokciem Laury z literą "R" wskazuje, że zabójca z zeszłego roku mógł uderzyć ponownie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="27679e52-a092-4473-a3eb-c27891ad5a49" />
@@ -59963,12 +59964,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Spuren ins Nichts</de>
 						<en>Traces to Nowhere</en>
-						<pl></pl>
+						<pl>Ślady prowadzące donikąd</pl>
 					</title_original>
 					<description>
 						<de>Cooper lernt Audrey kennen, eine renitente Hotelbesitzer-Teenagertochter. Cooper und Sheriff Truman verhören Lauras heimlichen Liebhaber James, der enthüllt, dass Laura kokainsüchtig war, sich aber bis zu einem Rückfall in der letzten Woche erholt hatte.</de>
 						<en>Cooper meets Audrey, the unruly teenage daughter of a hotel owner. Cooper and Sheriff Truman interrogate Laura's secret lover James, who reveals Laura was a cocaine addict, but that she had been recovering until a relapse in the previous week.</en>
-					<pl></pl>
+						<pl>Cooper poznaje Audrey, niesforną nastoletnią córkę właściciela hotelu. Cooper i szeryf Truman przesłuchują sekretnego kochanka Laury, Jamesa, który ujawnia, że Laura była uzależniona od kokainy, ale wracała do zdrowia aż do nawrotu w poprzednim tygodniu.</pl>
 					</description>
 				</programme>
 				<programme id="343448e5-aa5c-41d6-9f9e-6a5ce24b6de5" product="2" licence_type="2" imdb_id="tt0734843" creator="9551">
@@ -59979,12 +59980,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Zen oder die Kunst, einen Mörder zu fassen</de>
 						<en>Zen, or the Skill to Catch a Killer</en>
-						<pl></pl>
+						<pl>Zen, czyli umiejętność złapania zabójcy</pl>
 					</title_original>
 					<description>
 						<de>Der bissige FBI-Gerichtsmediziner Rosenfield trifft ein, um Lauras Autopsie durchzuführen. Cooper hat einen surrealen Traum über einen einarmigen Mann und einen bösartigen Geist, der schwört, „wieder zu töten“.</de>
 						<en>Acerbic FBI forensics specialist Rosenfield arrives to perform Laura's autopsy. Cooper has a surreal dream about a one-armed man and a malevolent spirit who vows to "kill again".</en>
-					<pl></pl>
+						<pl>Dale pokazuje szeryfowi dziwne techniki dedukcyjne. Benjamin i jego brat wybierają się na wycieczkę. Donna i James planują rozwiązać sprawę morderstwa Laury.</pl>
 					</description>
 				</programme>
 				<programme id="d54cd604-32fb-4f4f-abaa-7653c43ce594" product="2" licence_type="2" imdb_id="tt0734831" creator="9551">
@@ -59995,12 +59996,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ruhe in Unfrieden</de>
 						<en>Rest in Pain</en>
-						<pl></pl>
+						<pl>Odpoczywaj w bólu</pl>
 					</title_original>
 					<description>
 						<de>Um Cooper, in den sie verknallt ist, mit ihren detektivischen Fähigkeiten zu beeindrucken, verrät Audrey, dass es im Casino-Bordell One Eyed Jacks Hinweise geben könnte, und dass Laura und Ronette in einer Parfümabteilung gearbeitet haben.</de>
 						<en>To impress Cooper, on whom she has a crush, with her investigative skills, Audrey reveals the casino-brothel One Eyed Jacks may hold a clue and that Laura and Ronette worked at a perfume counter.</en>
-					<pl></pl>
+						<pl>Mieszkańcy Twin Peaks zbierają się na pogrzebie Laury Palmer. Agent Cooper zaczyna interpretować swoje sny o zabójcy. Truman wyjawia Cooperowi sekret na temat Bookhouse Boys.</pl>
 					</description>
 				</programme>
 				<programme id="a168b174-d535-4648-9456-65d528e542c6" product="2" licence_type="2" imdb_id="tt0734837" creator="9551">
@@ -60011,12 +60012,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Einarmige</de>
 						<en>The One-Armed Man</en>
-						<pl></pl>
+						<pl>Jednoręki mężczyzna</pl>
 					</title_original>
 					<description>
 						<de>Lauras exzentrischer Psychiater Jacoby gibt zu, dass Lauras Probleme sexueller Natur waren und dass sie ihm von einem Mann erzählt hat, der einen roten Sportwagen fährt, woraufhin Truman feststellt, dass dieser dem gewalttätigen Trucker Leo gehört.</de>
 						<en>Laura's eccentric psychiatrist Jacoby admits Laura's problems were of a sexual nature and that she told him about a man who drives a red sports car, which Truman realizes belongs to violent trucker Leo.</en>
-					<pl></pl>
+						<pl>Cooper i Truman namierzają uzbrojonego mężczyznę i znajdują kilka dziwnych dowodów. Norma idzie na przesłuchanie w sprawie zwolnienia warunkowego swojego męża. Audrey rozpoczyna własne śledztwo.</pl>
 					</description>
 				</programme>
 				<programme id="d081f9ee-857f-49a1-9369-5341e6cbdf91" product="2" licence_type="2" imdb_id="tt0734818" creator="9551">
@@ -60027,12 +60028,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Coopers Träume</de>
 						<en>Cooper's Dreams</en>
-						<pl></pl>
+						<pl>Marzenia Coopera</pl>
 					</title_original>
 					<description>
 						<de>Die Polizei durchsucht die Wohnung des Roadhouse-Barkeepers Jacques und findet Leos blutverschmiertes Hemd und ein schäbiges Magazin, in dem Laura und Ronette für sexuelle Dienstleistungen warben.</de>
 						<en>The police search Roadhouse bartender Jacques's apartment and find Leo's bloodstained shirt and a seedy magazine where Laura and Ronette advertised sexual services.</en>
-					<pl></pl>
+						<pl>Cooper i Truman odkrywają w lesie dowody związane ze śmiercią Laury Palmer. Cooper rozmawia z doktorem Jacobym i dowiaduje się, że ten śledził człowieka podejrzanego o popełnienie morderstwa. Audrey postanawia dostać się do lokalu Jednooki Jack.</pl>
 					</description>
 				</programme>
 				<programme id="d1ad514d-8338-46c1-9407-ea6daa49d35c" product="2" licence_type="2" imdb_id="tt0734830" creator="9551">
@@ -60043,12 +60044,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Zeit des Erkennens</de>
 						<en>Realization Time</en>
-						<pl></pl>
+						<pl>Czas realizacji</pl>
 					</title_original>
 					<description>
 						<de>Cooper tröstet Audrey und überzeugt sie davon, dass sie nie eine Beziehung haben könnten. Ein Vogel, der die menschliche Sprache nachahmen kann, sagt „Laura“, „Geh nicht dorthin“ und „Leo, nein!“, bevor er heimlich von Leo erschossen wird.</de>
 						<en>Cooper comforts Audrey, convincing her they could never have a relationship. A bird, able to mimic human speech, says "Laura", "Don't go there", and "Leo, no!" before being secretly shot by Leo.</en>
-					<pl></pl>
+						<pl>Jednooki Jack otrzymuje niespodziewaną wizytę. Wydaje się, że wie on, gdzie szukać Jacquesa Renaulta. Donna, James i Maddy są przekonani, że mordercą dziewczyny jest doktor Jacoby.</pl>
 					</description>
 				</programme>
 				<programme id="179c7b15-a08e-4c11-b5d3-062900168373" product="2" licence_type="2" imdb_id="tt0734835" creator="9551">
@@ -60059,12 +60060,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der letzte Abend</de>
 						<en>The Last Evening</en>
-						<pl></pl>
+						<pl>Ostatni wieczór</pl>
 					</title_original>
 					<description>
 						<de>Lauras Freundin Donna und James finden ein weiteres Tonband in Jacobys Büro. Jacoby erleidet einen Herzinfarkt, nachdem er auf der Suche nach „Laura“ von einem unsichtbaren Täter angegriffen wurde.</de>
 						<en>Laura's friend Donna and James find another tape in Jacoby's office. Jacoby suffers a heart attack after being attacked by an unseen assailant while searching for "Laura".</en>
-					<pl></pl>
+						<pl>Donna i James znajdują u Jacoby'ego naszyjnik Laury. Jacques mówi Cooperowi o wydarzeniach z wieczora przed śmiercią dziewczyny. Leo próbuje zemścić się na Shelly.</pl>
 					</description>
 				</programme>
 			</children>
@@ -60077,12 +60078,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Twin Peaks (Staffel 2)</de>
 				<en>Twin Peaks (Season 2)</en>
-				<pl></pl>
+				<pl>Twin Peaks (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Cooper setzt seine Ermittlungen fort, erforscht die geheimnisvolle „Schwarze Hütte“, die der Schlüssel zu den Ereignissen in der Stadt sein könnte, und findet schließlich die Identität von Lauras Mörder heraus.</de>
 				<en>Cooper continues his investigations, explores the elusive "Black Lodge", which may hold the key to the events occurring in the town, and eventually discovers the identity of Laura's killer.</en>
-			<pl></pl>
+				<pl>Cooper kontynuuje swoje śledztwo, odkrywa nieuchwytną "Czarną Lożę", która może być kluczem do wydarzeń w miasteczku, i ostatecznie odkrywa tożsamość zabójcy Laury.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">c41d6da8-46ab-4a91-af57-814a2a24d979</member>
@@ -60108,12 +60109,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Riese sei mit dir</de>
 						<en>May the Giant Be with You</en>
-						<pl></pl>
+						<pl>Niech Olbrzym będzie z tobą</pl>
 					</title_original>
 					<description>
 						<de>Als Cooper mit blutender Wunde daliegt, hat er eine Vision von einem senilen Kellner und einem geheimnisvollen Riesen, der ihm mehrere Hinweise gibt, vor allem, dass drei Personen Lauras Mörder gesehen haben, aber keiner seine Leiche gesehen hat.</de>
 						<en>As Cooper lies bleeding from his wound, he has a vision of a senile waiter and a mysterious giant who gives him several clues, notably that three people have seen Laura's killer, but none have seen his body.</en>
-					<pl></pl>
+						<pl>W hotelu Great Northern dochodzi do dziwnego incydentu. Śledztwo w sprawie śmierci Laury Palmer nadal trwa. Pojawiają się informacje pochodzące z nieoczekiwanego źródła.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="f8c29de5-418e-4906-9e0b-24dacf2880eb" />
@@ -60127,12 +60128,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Koma</de>
 						<en>Coma</en>
-						<pl></pl>
+						<pl>Koma</pl>
 					</title_original>
 					<description>
 						<de>Rosenfield enthüllt, dass Coopers geisteskranker ehemaliger Partner Earle aus einer Psychiatrie ausgebrochen ist. Donna nimmt Lauras Platz bei Essen auf Rädern ein, um mögliche Verdächtige aufzuspüren. Ronette erwacht aus ihrem Koma.</de>
 						<en>Rosenfield reveals that Cooper's insane former partner Earle has escaped from a mental hospital. Donna takes Laura's place at Meals on Wheels to investigate potential suspects. Ronette awakens from her coma.</en>
-					<pl></pl>
+						<pl>Do agenta Coopera docierają niepożądane wiadomości. Podczas swojej pracy otrzymuje niechcianą pomoc. Audrey wpada w coraz większe kłopoty.</pl>
 					</description>
 				</programme>
 				<programme id="de6e8512-a115-4337-acdb-017855b29610" product="2" licence_type="2" imdb_id="tt0734819" creator="9551">
@@ -60143,12 +60144,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Dämonen</de>
 						<en>Demons</en>
-						<pl></pl>
+						<pl>Demony</pl>
 					</title_original>
 					<description>
 						<de>James rettet Donna und Lauras Cousine Maddy, denen es nicht gelingt, Lauras Tagebuch zu ergattern. Cooper und Truman stellen fest, dass Audrey eine fast tödliche Dosis Heroin abbekommen hat. Jacques' älterer Bruder Jean stellt sich als bedeutender Drogenschmuggler heraus.</de>
 						<en>James rescues Donna and Laura's cousin Maddy, who fail to take Laura's diary. Cooper and Truman discern that Audrey has received a near-lethal dose of heroin. Jacques' older brother Jean turns out to be a major drug trafficker.</en>
-					<pl></pl>
+						<pl>Przełożony Coopera, Gordon Cole, przybywa ze złowieszczymi wiadomościami z Windom Earle. Cooper kontaktuje się z Mikem przy pomocy opętanego Philipa Gerarda. Josie znajduje się pod presją. Shelly i Bobby organizują przyjęcie powitalne dla Leo.</pl>
 					</description>
 				</programme>
 				<programme id="91ef3622-e1c9-4576-bbe2-559583c0d97d" product="2" licence_type="2" imdb_id="tt0734824" creator="9551">
@@ -60159,12 +60160,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Einsame Seelen</de>
 						<en>Lonely Souls</en>
-						<pl></pl>
+						<pl>Samotne dusze</pl>
 					</title_original>
 					<description>
 						<de>Deputy Hawk ermittelt gegen den Essen-auf-Rädern-Zusteller Harold, nachdem Donna enthüllt, dass er Lauras Tagebuch hat, doch er stellt fest, dass er sich erhängt und einen Abschiedsbrief mit dem Text „J'ai une âme solitaire“ hinterlassen hat.</de>
 						<en>Deputy Hawk investigates Meals on Wheels deliveree Harold after Donna reveals he has Laura's diary, but discovers he has hanged himself, leaving a suicide note reading "J'ai une âme solitaire".</en>
-					<pl></pl>
+						<pl>Maddy przygotowuje się do opuszczenia Twin Peaks. Tojamura ujawnia Pete’owi swoją tożsamość. Cooper aresztuje Bena Horne za morderstwo Laury Palmer tylko po to, by otrzymać druzgoczącą wiadomość.</pl>
 					</description>
 				</programme>
 				<programme id="7ce81a6f-83fe-478b-827e-21fae6183812" product="2" licence_type="2" imdb_id="tt0734822" creator="9551">
@@ -60175,12 +60176,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Spazierfahrt mit einer Toten</de>
 						<en>Drive with a Dead Girl</en>
-						<pl></pl>
+						<pl>Jazda z martwą dziewczyną</pl>
 					</title_original>
 					<description>
 						<de>James und Donna besuchen Lauras Haus, um sich von Maddy zu verabschieden, aber ein jovialer Leland, Lauras Vater, teilt ihnen mit, dass sie bereits weg ist.</de>
 						<en>James and Donna visit Laura's house to say goodbye to Maddy, but a jovial Leland, Laura's father, tells them she has already left.</en>
-					<pl></pl>
+						<pl>Bena odwiedza jego prawnik, Jerry. Lucy otrzymuje wizytę od swojej wścibskiej siostry. Matka Judy wraz ze swoim nowym mężem przyjeżdża do Twin Peaks. Bobby i Catherine planują szantażować Bena. BOB próbuje zatrzeć ślady, ale Mike depcze mu po piętach.</pl>
 					</description>
 				</programme>
 				<programme id="96b57ef4-4955-4638-9d83-a6c03a21757d" product="2" licence_type="2" imdb_id="tt0734814" creator="9551">
@@ -60191,12 +60192,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Selbstjustiz</de>
 						<en>Arbitrary Law</en>
-						<pl></pl>
+						<pl>Arbitralne prawo</pl>
 					</title_original>
 					<description>
 						<de>Cooper bittet Truman, Maddys Tod noch nicht zu melden, da er glaubt, er stehe kurz davor, den Fall zu lösen. Donna stellt verzweifelt fest, dass Maddy tot ist, und informiert James, der die Stadt auf seinem Motorrad ins Exil verlässt.</de>
 						<en>Cooper asks Truman not to report Maddy's death yet, believing he is the verge of solving the case. Donna realizes with despair that Maddy is dead and tells James, who leaves town on his motorcycle in exile.</en>
-					<pl></pl>
+						<pl>Cooper, po odkryciu zwłok Maddy, próbuje w końcu zidentyfikować prawdziwego zabójcę Laury. Używa swoich wizji jako wskazówek. Lucy pragnie dowiedzieć się, kto jest ojcem jej dziecka.</pl>
 					</description>
 				</programme>
 				<programme id="ebf10081-8570-44cf-b2d6-ecf108b2af2c" product="2" licence_type="2" imdb_id="tt0734827" creator="9551">
@@ -60207,12 +60208,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Nacht der Entscheidung</de>
 						<en>Miss Twin Peaks</en>
-						<pl></pl>
+						<pl>Miss Twin Peaks</pl>
 					</title_original>
 					<description>
 						<de>Cooper wird klar, dass Earle die Gewinnerin des Schönheitswettbewerbs, Annie, zur Schwarzen Hütte bringen wird, was er auch tut, verkleidet als die exzentrische „Log Lady“, die Lichter ausschaltend und Rauchbomben zündend.</de>
 						<en>Cooper realizes that Earle will take the winner of the beauty contest, Annie, to the Black Lodge, which he does, disguised as the eccentric "Log Lady", shutting off lights and setting off smoke bombs.</en>
-					<pl></pl>
+						<pl>Leo ryzykuje swoim życiem. Donna odkrywa rodzinną tajemnicę. Cooper i Truman próbują odszyfrować drogę do Czarnej Chaty. Muszą też spróbować chronić życie nowej Miss Twin Peaks.</pl>
 					</description>
 				</programme>
 				<programme id="258ab3a7-9573-4cfe-aec7-d12d08c53774" product="2" licence_type="2" imdb_id="tt0734815" creator="9551">
@@ -60223,12 +60224,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Jenseits von Leben und Tod</de>
 						<en>Beyond Life and Death</en>
-						<pl></pl>
+						<pl>Poza życiem i śmiercią</pl>
 					</title_original>
 					<description>
 						<de>Earle bringt Annie in den Wald, wo sie hinter den Vorhängen des roten Zimmers verschwinden. Cooper folgt ihnen, begegnet Figuren aus seinen Träumen und einer Laura, die ihm sagt: „Wir sehen uns in 25 Jahren wieder“.</de>
 						<en>Earle takes Annie to the woods, where they vanish behind the curtains of the red room. Cooper follows them, encounters figures from his dreams and a Laura who tells him "I'll see you again in 25 years".</en>
-					<pl></pl>
+						<pl>Lucy wybiera ojca dla swojego dziecka. Nadine odzyskuje pamięć. Ojciec Donny atakuje Bena. Czy Cooperowi uda się pokonać swoje największe lęki, wkraczając do Czarnej Chaty, by ocalić Annie?</pl>
 					</description>
 				</programme>
 			</children>
@@ -60241,12 +60242,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Popeye (Staffel 1)</de>
 				<en>Popeye the Sailor (Season 1)</en>
-				<pl></pl>
+				<pl>Popeye(Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Der äußerst beliebte 1929 geschaffene Comic-Held, der Spinat und seine Olivia liebt und dabei gegen Brutus und die Seehexe kämpft, ist auch als ein früher Vorläufer des Superhelden-Genres anzusehen.</de>
 				<en>The wildly popular comic hero created in 1929 who loves spinach and his Olive while fighting against Brutus and the Sea Hag can also be seen an early precursor to the superhero genre.</en>
-			<pl></pl>
+				<pl>Serial animowany opowiadający o nieustraszonym marynarzu Popeye, który uwielbia szpinak. Po zjedzeniu go nabiera ogromnej siły i odwagi. Popeye kocha się w Olive, ale w niemal każdym odcinku musi o nią walczyć z silnym piratem Bluto.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">various-voice-artists</member>
@@ -60267,12 +60268,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Käseplanet</de>
 						<en>Hits and Missiles</en>
-						<pl></pl>
+						<pl>Hits and Missiles</pl>
 					</title_original>
 					<description>
 						<de>Popeye muss die Käsebewohner des Mondes retten.</de>
 						<en>Popeye must rescue the cheese denizens of the Moon.</en>
-						<pl></pl>
+						<pl>Popeye musi uratować serowych mieszkańców Księżyca.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="1ce47452-dfec-439f-bc8e-51702029d91f" />
@@ -60286,12 +60287,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Mit Vollgas ins Glück</de>
 						<en>Hoppy Jalopy</en>
-						<pl></pl>
+						<pl>Hoppy Jalopy</pl>
 					</title_original>
 					<description>
 						<de>Beim Autorennen gegen Brutus tut Popeye alles, um Olivia vor vor ihm zu schützen, da er überall auf der Strecke Todesfallen aufstellt.</de>
 						<en>During the car race against Brutus, Popeye does everything he can to protect Olive from him, as he places death traps around the track.</en>
-					<pl></pl>
+						<pl>Podczas wyścigu samochodowego z Brutusem Popeye robi wszystko, co w jego mocy, aby chronić przed nim Olive, umieszczając wokół toru śmiertelne pułapki.</pl>
 					</description>
 				</programme>
 				<programme id="be8c8457-1441-461f-b99d-e1cf9a35eef1" product="2" licence_type="2" imdb_id="tt0982453" creator="9551">
@@ -60302,12 +60303,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeyes Urahnen</de>
 						<en>Caveman Capers</en>
-						<pl></pl>
+						<pl>Caveman Capers</pl>
 					</title_original>
 					<description>
 						<de>Popeye erinnert sich an die Entdeckung des Spinats durch seinen prähistorischen Vorfahren.</de>
 						<en>Popeye remembers his prehistoric ancestor's discovery of spinach.</en>
-						<pl></pl>
+						<pl>Popeye wspomina odkrycie szpinaku przez swojego prehistorycznego przodka.</pl>
 					</description>
 				</programme>
 				<programme id="8b9f76c3-fd3c-4564-afc1-0e77f082af40" product="2" licence_type="2" imdb_id="tt0982450" creator="9551">
@@ -60318,12 +60319,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye der Ufonaut</de>
 						<en>Ace of Space</en>
-						<pl></pl>
+						<pl>Ace of Space</pl>
 					</title_original>
 					<description>
 						<de>Popeye kommt Olivia zu Hilfe, als sie von einer fliegenden Untertasse entführt wird.</de>
 						<en>Popeye comes to Olivia's rescue when she is abducted by a flying saucer.</en>
-						<pl></pl>
+						<pl>Popeye przybywa na ratunek Olivii, gdy ta zostaje porwana przez latający spodek.</pl>
 					</description>
 				</programme>
 				<programme id="125d9658-696a-499e-8e37-c882a32e5c45" product="2" licence_type="2" imdb_id="tt0976933" creator="9551">
@@ -60334,12 +60335,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Schule der harten Schläge</de>
 						<en>College of Hard Knocks</en>
-						<pl></pl>
+						<pl>College of Hard Knocks</pl>
 					</title_original>
 					<description>
 						<de>Popeye geht aufs College. Dort erklärt ihm Professor Brutus die Gesetze der Physik mit üblen Tricks.</de>
 						<en>Popeye goes to college. There, Professor Brutus explains to him the laws of physics with nasty tricks.</en>
-					<pl></pl>
+						<pl>Popeye idzie na studia. Tam profesor Brutus wyjaśnia mu prawa fizyki za pomocą paskudnych sztuczek.</pl>
 					</description>
 				</programme>
 				<programme id="84bded87-3aaf-44ad-929c-49841a9bc881" product="2" licence_type="2" imdb_id="tt0982448" creator="9551">
@@ -60350,12 +60351,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der furchterregende Schneemann</de>
 						<en>Abdominal Snowman</en>
-						<pl></pl>
+						<pl>Abdominal Snowman - Brzuszny bałwan</pl>
 					</title_original>
 					<description>
 						<de>Popeye erforscht, was es mit dem sagenhaften Schneemenschen Yeti auf sich hat.</de>
 						<en>Popeye investigates what the legendary snowman Yeti is all about.</en>
-						<pl></pl>
+						<pl>Popeye bada, czym jest legendarny bałwan Yeti.</pl>
 					</description>
 				</programme>
 				<programme id="6ac3ed90-2fde-4695-a376-4216dee815ea" product="2" licence_type="2" imdb_id="tt0982463" creator="9551">
@@ -60366,12 +60367,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Unter Piraten</de>
 						<en>Irate Pirate</en>
-						<pl></pl>
+						<pl>Irate Pirate</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Olivia probieren ihr neues Boot aus. Dabei treffen sie Jolly Roger, einen modernen Piraten, der sich sogleich mit Olivia davonmacht.</de>
 						<en>Popeye and Olivia try out their new boat. In the process, they meet Jolly Roger, a modern-day pirate, who immediately makes off with Olivia.</en>
-					<pl></pl>
+						<pl>Popeye i Olivia wypróbowują swoją nową łódź. W trakcie tego procesu spotykają Jolly Rogera, współczesnego pirata, który natychmiast ucieka z Olivią.</pl>
 					</description>
 				</programme>
 				<programme id="0f740d66-9785-4386-b45c-e1486aba2198" product="2" licence_type="2" imdb_id="tt0982459" creator="9551">
@@ -60382,12 +60383,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Foola-Foola Vogel</de>
 						<en>Foola-Foola Bird</en>
-						<pl></pl>
+						<pl>Foola-Foola Bird</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Olivia jagen den letzten der Foola-Foola-Vögel, für den eine Belohnung von einer Million Dollar ausgesetzt ist. Aber auch Brutus ist hinter dem Vogel her.</de>
 						<en>Popeye and Olivia are hunting the last of the Foola-Foola birds, for which a reward of one million dollars is offered. But Brutus is also after the bird.</en>
-					<pl></pl>
+						<pl>Popeye i Olivia polują na ostatniego z ptaków Foola-Foola, za którego wyznaczono nagrodę w wysokości miliona dolarów. Ale Brutus również poluje na ptaka.</pl>
 					</description>
 				</programme>
 				<programme id="e710d944-4de4-4ff6-818c-c78d4efd3d69" product="2" licence_type="2" imdb_id="tt0982474" creator="9551">
@@ -60398,12 +60399,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ein Gorilla kommt selten allein</de>
 						<en>Uranium on the Cranium</en>
-						<pl></pl>
+						<pl>Uranium on the Cranium</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Brutus liefern sich ein Rennen zu einer Insel, die Uran birgt.</de>
 						<en>Popeye and Brutus race to an island containing uranium.</en>
-						<pl></pl>
+						<pl>Popeye i Brutus ścigają się na wyspę zawierającą uran.</pl>
 					</description>
 				</programme>
 				<programme id="6c80e49d-1827-4368-8206-d9fdd0e1a52f" product="2" licence_type="2" imdb_id="tt0982467" creator="9551">
@@ -60414,12 +60415,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der schafsköpfige Schafshirte</de>
 						<en>Sheepish Sheep-Herder</en>
-						<pl></pl>
+						<pl>Sheepish Sheep-Herder</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Poopdeck geraten mit Viehdieben aneinander.</de>
 						<en>Popeye and Poopdeck clash with rustlers.</en>
-						<pl></pl>
+						<pl>Popeye i Poopdeck ścierają się ze złodziejami.</pl>
 					</description>
 				</programme>
 				<programme id="a162155c-4189-4b24-8183-ee672aa28cff" product="2" licence_type="2" imdb_id="tt0982472" creator="9551">
@@ -60430,12 +60431,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Sportskanonen</de>
 						<en>Track Meet Cheat</en>
-						<pl></pl>
+						<pl>Track Meet Cheat</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Olivia sind Zuschauer bei einem Wettkampf, bei dem Brutus mit seinen sportlichen Leistungen angibt. Da Olivia tatsächlich stark beeindruckt ist, wird Popeye eifersüchtig.</de>
 						<en>Popeye and Olivia are spectators at a competition where Brutus is showing off his athletic prowess. Since Olivia is indeed very impressed, Popeye becomes jealous.</en>
-					<pl></pl>
+						<pl>Popeye i Olivia obserwują zawody, podczas których Brutus popisuje się swoimi atletycznymi umiejętnościami. Ponieważ Olivia jest pod wielkim wrażeniem, Popeye staje się zazdrosny.</pl>
 					</description>
 				</programme>
 				<programme id="db6f8f69-e593-4003-8ab5-ff2ae12f717c" product="2" licence_type="2" imdb_id="tt0982462" creator="9551">
@@ -60446,12 +60447,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das gestörte Nickerchen</de>
 						<en>Interrupted Lullaby</en>
-						<pl></pl>
+						<pl>Interrupted Lullaby - Przerwana kołysanka</pl>
 					</title_original>
 					<description>
 						<de>Brutus erfährt aus einer Zeitungsschlagzeile, dass Swee'Pea 1 Million Dollar geerbt hat. Er schmiedet einen Plan, um das Baby zu entführen, muss aber an Popeye vorbeikommen, der auf das Baby aufpassen muss, während Olivia einkauft.</de>
 						<en>Brutus learns from a newspaper headline that Swee'Pea has inherited 1 million dollars. He devises a plot to kidnap the baby, but must get past Popeye, who has been left to babysit while Olive shops.</en>
-					<pl></pl>
+						<pl>Brutus dowiaduje się z nagłówka gazety, że Swee'Pea odziedziczyła milion dolarów. Obmyśla spisek mający na celu porwanie dziecka, ale musi ominąć Popeye'a, który został pozostawiony do opieki nad dzieckiem, podczas gdy Olive robi zakupy.</pl>
 					</description>
 				</programme>
 				<programme id="b231a94d-ed94-4850-b4d8-ec0d068de28c" product="2" licence_type="2" imdb_id="tt0996232" creator="9551">
@@ -60462,12 +60463,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der doppelte Popeye</de>
 						<en>Seeing Double</en>
-						<pl></pl>
+						<pl>Seeing Double - Podwójne widzenie</pl>
 					</title_original>
 					<description>
 						<de>Ein Gangsterboss baut einen Roboter, der genau wie Popeye aussieht und lässt ihn eine Bank überfallen. Natürlich glaubt die Polizei, dass Popeye der Täter ist.</de>
 						<en>A gangster boss builds a robot that looks exactly like Popeye and has him rob a bank. Of course, the police believe that Popeye is the culprit.</en>
-					<pl></pl>
+						<pl>Szef gangsterów buduje robota, który wygląda dokładnie jak Popeye i zleca mu napad na bank. Oczywiście policja uważa, że to Popeye jest sprawcą.</pl>
 					</description>
 				</programme>
 				<programme id="c66a4dc8-1ce5-455a-b77b-3b0c48401d88" product="2" licence_type="2" imdb_id="tt0996236" creator="9551">
@@ -60478,12 +60479,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die versunkene Stadt Bubble-Lon</de>
 						<en>The Lost City of Bubble-Lon</en>
-						<pl></pl>
+						<pl>The Lost City of Bubble-Lon</pl>
 					</title_original>
 					<description>
 						<de>Brutus überfällt ein Unterwasserkönigreich.</de>
 						<en>Brutus raids an undersea kingdom.</en>
-						<pl></pl>
+						<pl>Brutus napada na podmorskie królestwo.</pl>
 					</description>
 				</programme>
 				<programme id="69aefc38-9498-4edb-82b9-fda92f52b6bf" product="2" licence_type="2" imdb_id="tt0996237" creator="9551">
@@ -60494,12 +60495,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der komische Kostümball</de>
 						<en>There's No Space Like Home</en>
-						<pl></pl>
+						<pl>There's No Space Like Home - Nie ma takiego miejsca jak dom</pl>
 					</title_original>
 					<description>
 						<de>Brutus nutzt eine Kostümparty aus, um Olivia für sich zu gewinnen.</de>
 						<en>Brutus exploits a costume party in an attempt to win Olive.</en>
-						<pl></pl>
+						<pl>Brutus wykorzystuje bal przebierańców, by zdobyć Olive.</pl>
 					</description>
 				</programme>
 				<programme id="f48f3678-ac5f-4fed-81e8-658886b2d980" product="2" licence_type="2" imdb_id="tt0996230" creator="9551">
@@ -60510,12 +60511,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ein Rasierwasser mit durchschlagender Wirkung</de>
 						<en>Potent Lotion</en>
-						<pl></pl>
+						<pl>Potent Lotion - Balsam o silnym działaniu</pl>
 					</title_original>
 					<description>
 						<de>Popeye bekommt ein „Rasierwasser“, das bei jedem, der es riecht, Aggressionen auslöst, während Brutus und seine Komplizen die Bank ausrauben.</de>
 						<en>Popeye receives an "aftershave lotion" that induces aggression in anyone who smells him while Brutus and his cronies rob the bank.</en>
-					<pl></pl>
+						<pl>Popeye otrzymuje "balsam po goleniu", który wywołuje agresję u każdego, kto go powącha, podczas gdy Brutus i jego kumple rabują bank.</pl>
 					</description>
 				</programme>
 				<programme id="ca8104db-f6d0-4233-aacc-bb9e5e0d658b" product="2" licence_type="2" imdb_id="tt0996224" creator="9551">
@@ -60526,12 +60527,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye knackt eine Astronuß</de>
 						<en>Astro-Nut</en>
-						<pl></pl>
+						<pl>Astro-Nut</pl>
 					</title_original>
 					<description>
 						<de>Popeye stellt sich freiwillig als Testperson für die Raumkapsel zur Verfügung und muss für die nächsten 60 Tage darin bleiben.</de>
 						<en>Popeye volunteers to be the test subject for the space capsule and must remain inside for the next 60 days.</en>
-					<pl></pl>
+						<pl>Popeye zgłasza się na ochotnika jako obiekt testowy kapsuły kosmicznej i musi pozostać w jej wnętrzu przez następne 60 dni.</pl>
 					</description>
 				</programme>
 				<programme id="72f29211-b317-4d35-b2d7-6a6265b560dc" product="2" licence_type="2" imdb_id="tt0996238" creator="9551">
@@ -60542,12 +60543,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Wo ein letzter Wille ist, ist auch ein Weg</de>
 						<en>Where There's a Will</en>
-						<pl></pl>
+						<pl>Where There's a Will - Tam, gdzie jest wola</pl>
 					</title_original>
 					<description>
 						<de>Brutus und Popeye sind gemeinsam in einem Testament begünstigt. Irgendwann schleudert Brutus eine Dose Spinat auf Popeye und sagt dann: „Ups, das hätte ich nicht tun sollen!“</de>
 						<en>Brutus and Popeye are co-beneficiaries in a will. At one point Brutus hurls a can of spinach at Popeye, then says: "Oops, I shouldn't have done that!"</en>
-					<pl></pl>
+						<pl>Brutus i Popeye są współbeneficjentami w testamencie. W pewnym momencie Brutus rzuca puszką szpinaku w Popeye'a, po czym mówi: "Ups, nie powinienem był tego robić!".</pl>
 					</description>
 				</programme>
 				<programme id="ca81120a-852f-487e-9a65-25fc2d3fe7be" product="2" licence_type="2" imdb_id="tt0998888" creator="9551">
@@ -60558,12 +60559,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ein Sheriff in Gefahr</de>
 						<en>Jeopardy Sheriff</en>
-						<pl></pl>
+						<pl>Jeopardy Sheriff</pl>
 					</title_original>
 					<description>
 						<de>Nachdem Popeye Poopdeck dafür getadelt hat, dass er Swee'Pea Lügengeschichten aus seiner Zeit als berühmter Sheriff erzählt hat, macht sich der alte Mann auf den Weg, um sich zu beweisen, und verhindert einen Banküberfall.</de>
 						<en>After Popeye reprimands Pappy for telling Swee'Pea tall tales of his days as a famous sheriff, the old man sets out to prove himself by stopping a bank robbery.</en>
-					<pl></pl>
+						<pl>Po tym, jak Popeye upomina Pappy'ego za opowiadanie Swee'Pea bajek o jego czasach jako słynnego szeryfa, starzec postanawia udowodnić swoją wartość, powstrzymując napad na bank.</pl>
 					</description>
 				</programme>
 				<programme id="e0174b20-a3fb-43f4-8072-51cf1bc8efdd" product="2" licence_type="2" imdb_id="tt0998887" creator="9551">
@@ -60574,12 +60575,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Königin der Goon-Inseln</de>
 						<en>Goon with the Wind</en>
-						<pl></pl>
+						<pl>Goon with the Wind</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Olivia genießen einen ruhigen Ausflug auf dem Boot und erreichen die Goon-Insel mit einer ganzen Horde von Goons.</de>
 						<en>Popeye and Olive enjoy a quiet stroll on the boat, arriving in Goon Island with the whole group of Goons.</en>
-					<pl></pl>
+						<pl>Popeye i Olivia cieszą się spokojną podróżą łodzią i docierają do Wyspy Goonów z całą hordą zbirów.</pl>
 					</description>
 				</programme>
 				<programme id="34dd5eeb-a123-45ea-9da4-1b9aa4f67234" product="2" licence_type="2" imdb_id="tt0998884" creator="9551">
@@ -60590,12 +60591,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Ein total verbiberter Sommer</de>
 						<en>Beaver or Not</en>
-						<pl></pl>
+						<pl>Beaver or Not</pl>
 					</title_original>
 					<description>
 						<de>Zwei Biber bauen einen Damm, der das Grundstück von Popeye überflutet.</de>
 						<en>Two beavers build a dam that floods property owned by Popeye.</en>
-						<pl></pl>
+						<pl>Dwa bobry budują tamę, która zalewa posiadłość Popeye'a.</pl>
 					</description>
 				</programme>
 				<programme id="223a37ab-03fc-435c-83aa-453caec1f39b" product="2" licence_type="2" imdb_id="tt1123771" creator="9551">
@@ -60606,12 +60607,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Tiefschläge für Brutus</de>
 						<en>Skinned Divers</en>
-						<pl></pl>
+						<pl>Skinned Divers</pl>
 					</title_original>
 					<description>
 						<de>Popeye erlernt die Kunst des Schnorchelns, um nach vergrabenen Schätzen zu suchen. Er trifft auf Unterwasserkreaturen, darunter die Meerjungfrau Olivia. Er rettet sie aus den Fängen eines anderen Tauchers - Brutus.</de>
 						<en>Popeye takes up the art of skin diving to hunt for buried treasure. He meets underwater creatures including mermaid Olive. He saves her from the clutches of another skindiver - Brutus.</en>
-					<pl></pl>
+						<pl>Popeye podejmuje sztukę nurkowania w poszukiwaniu zakopanego skarbu. Spotyka podwodne stworzenia, w tym syrenkę Olive. Ratuje ją ze szponów innego nurka - Brutusa.</pl>
 					</description>
 				</programme>
 				<programme id="1fe9f2ba-14c6-4c4b-bed3-b77addc42eac" product="2" licence_type="2" imdb_id="tt1123769" creator="9551">
@@ -60622,12 +60623,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye als Tankwart</de>
 						<en>Popeye's Service Station</en>
-						<pl></pl>
+						<pl>Popeye's Service Station</pl>
 					</title_original>
 					<description>
 						<de>Popeye betreibt eine Tankstelle, die kostenlose Dienstleistungen anbietet. Die Kunden wollen diese in Anspruch nehmen, darunter auch Brutus, der Olivia sieht und versucht, ein Date mit ihr zu bekommen.</de>
 						<en>Popeye runs a gas station featuring free services. Customers want these, including Brutus, who sees Olive and tries to get a date with her.</en>
-					<pl></pl>
+						<pl>Popeye prowadzi stację benzynową oferującą darmowe usługi. Klienci chcą z nich korzystać, w tym Brutus, który widzi Olive i próbuje umówić się z nią na randkę.</pl>
 					</description>
 				</programme>
 				<programme id="192a5db2-ec44-4e7b-b4d1-d9506f97c9e2" product="2" licence_type="2" imdb_id="tt1137686" creator="9551">
@@ -60638,12 +60639,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Walfänger Popeye</de>
 						<en>The Blubbering Whaler</en>
-						<pl></pl>
+						<pl>The Blubbering Whaler</pl>
 					</title_original>
 					<description>
 						<de>Popeye erzählt Swee'Pea eine Geschichte: Er hat einmal kleine Walbabys in den Schlaf gesungen. Brutus war dabei der Kapitän eines Walfängers.</de>
 						<en>Popeye tells Swee'Pea a story: he once sang little baby whales to sleep. Brutus was the captain of a whaler at the time.</en>
-					<pl></pl>
+						<pl>Popeye opowiada Swee'Pea historię: kiedyś śpiewał małym wielorybkom do snu. Brutus był wtedy kapitanem wielorybnika.</pl>
 					</description>
 				</programme>
 				<programme id="de01bb87-0f42-4635-b82b-a7b070734f58" product="2" licence_type="2" imdb_id="tt0990878" creator="9551">
@@ -60654,12 +60655,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Olivia Wittchen und die sieben Sweapeas</de>
 						<en>Olive Drab and the Seven Sweapeas</en>
-						<pl></pl>
+						<pl>Olive Drab and the Seven Sweapeas</pl>
 					</title_original>
 					<description>
 						<de>Die schöne Prinzessin Olivia Wittchen lebt zusammen mit den sieben Sweapeas in einem kleinen Königreich. Prinz Popeye soll ihrem Vater eine Schiffsladung Gold zurückbringen. Diese hat die böse Seehexe gestohlen.</de>
 						<en>The beautiful Princess Olive Drab lives in a small kingdom together with the Seven Sweapeas. Prince Popeye has to bring back a shipload of gold to her father. It had been stolen by the evil Sea Hag.</en>
-					<pl></pl>
+						<pl>Piękna księżniczka Olive Drab mieszka w małym królestwie wraz z Siedmioma Sweapeasami. Książę Popeye musi przywieźć jej ojcu statek pełen złota. Złoto zostało skradzione przez złego Morskiego Wieprza.</pl>
 					</description>
 				</programme>
 				<programme id="dcf4d0b2-160f-4851-bb50-611bac9d905d" product="2" licence_type="2" imdb_id="tt1138355" creator="9551">
@@ -60670,12 +60671,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Eine Nacht unter Sternen</de>
 						<en>Popeye in the Woods</en>
-						<pl></pl>
+						<pl>Popeye in the Woods</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Wimpy gehen in den Wald. Wimpy will Hamburger braten, doch Popeye sagt: „Leg dich hin und schlaf!“ Wimpy träumt von Hamburgern. Popeye macht jedoch kein Auge zu. Denn überall aus dem Wald dringen Laute.</de>
 						<en>Popeye and Wimpy go into the forest. Wimpy wants to fry hamburgers, but Popeye says, "Lie down and go to sleep!" Wimpy dreams of hamburgers. Popeye, however, does not sleep a wink. Because sounds are coming from everywhere in the forest.</en>
-					<pl></pl>
+						<pl>Popeye i Wimpy idą do lasu. Wimpy chce usmażyć hamburgery, ale Popeye mówi: "Połóż się i śpij!". Wimpy śni o hamburgerach. Popeye jednak nie zmrużył oka. Ponieważ dźwięki dochodzą z całego lasu.</pl>
 					</description>
 				</programme>
 				<programme id="25ad6425-4822-4d8b-857f-db0e5301cdb9" product="2" licence_type="2" imdb_id="tt1138362" creator="9551">
@@ -60686,12 +60687,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye der Schlips- und Kragenmann</de>
 						<en>Popeye the White Collar Man</en>
-						<pl></pl>
+						<pl>Popeye the White Collar Man</pl>
 					</title_original>
 					<description>
 						<de>Olivia überredet Popeye, ein Büroangestellter zu werden.</de>
 						<en>Olive convinces Popeye to become a white collar worker.</en>
-						<pl></pl>
+						<pl>Olivia przekonuje Popeye'a, by został pracownikiem umysłowym.</pl>
 					</description>
 				</programme>
 				<programme id="754f7d9c-cf3c-4e4c-990f-0dc9383caf06" product="2" licence_type="2" imdb_id="tt1138369" creator="9551">
@@ -60702,12 +60703,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye bleibt am Ball</de>
 						<en>Coach Popeye</en>
-						<pl></pl>
+						<pl>Coach Popeye</pl>
 					</title_original>
 					<description>
 						<de>Popeye erklärt Swee'Pea und Diesel, wie wichtig es beim Sport ist, fair zu kämpfen. Brutus macht sich aber lieber selbst seine Regeln.</de>
 						<en>Popeye explains to Swee'Pea and Deezil how important it is to fight fairly in sports. Brutus, however, prefers to make his own rules.</en>
-					<pl></pl>
+						<pl>Popeye wyjaśnia Swee'Pea i Deezilowi, jak ważna jest uczciwa walka w sporcie. Brutus jednak woli ustalać własne zasady.</pl>
 					</description>
 				</programme>
 				<programme id="94256c12-6022-4bd6-89e9-0ebf2b796a49" product="2" licence_type="2" imdb_id="tt1011855" creator="9551">
@@ -60718,12 +60719,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das Pop-Ei des Columbus</de>
 						<en>Popeyed Columbus</en>
-						<pl></pl>
+						<pl>Popeyed Columbus</pl>
 					</title_original>
 					<description>
 						<de>Popeye reist durch die Zeit und landet in Spanien, kurz bevor Columbus nach Amerika aufbricht. Brutus will die Fahrt vereiteln.</de>
 						<en>Popeye travels through time and lands in Spain just before Columbus sets off for America. Brutus wants to thwart the voyage.</en>
-					<pl></pl>
+						<pl>Popeye podróżuje w czasie i ląduje w Hiszpanii tuż przed wyruszeniem Kolumba do Ameryki. Brutus chce udaremnić podróż.</pl>
 					</description>
 				</programme>
 				<programme id="61a103c0-10a4-49b9-bf71-5121e87d7946" product="2" licence_type="2" imdb_id="tt1011857" creator="9551">
@@ -60734,12 +60735,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Bei Geistern zu Gast</de>
 						<en>The Ghost Host</en>
-						<pl></pl>
+						<pl>The Ghost Host</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Olivia werden bei einer Spazierfahrt von einem Gewitter überrascht. Sie suchen in einem alten Haus Zuflucht. Dort jedoch wohnen drei übermütige Geister.</de>
 						<en>Popeye and Olivia are surprised by a thunderstorm while out for a drive. They seek refuge in an old house. However, three boisterous ghosts live there.</en>
-					<pl></pl>
+						<pl>Podczas przejażdżki Popeye i Olivia zostają zaskoczeni przez burzę. Szukają schronienia w starym domu. Jednak mieszkają tam trzy hałaśliwe duchy.</pl>
 					</description>
 				</programme>
 				<programme id="3ab95386-a001-4337-9403-c629df28d4f3" product="2" licence_type="2" imdb_id="tt0976941" creator="9551">
@@ -60750,12 +60751,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye im Schlußverkauf</de>
 						<en>Popeye Goes Sale-ing</en>
-						<pl></pl>
+						<pl>Popeye Goes Sale-ing</pl>
 					</title_original>
 					<description>
 						<de>Olivia schleppt Popeye zu einen unangenehmen Schlussverkauf im Kaufhaus.</de>
 						<en>Olive drags Popeye into a nasty department store sale.</en>
-						<pl></pl>
+						<pl>Olive wciąga Popeye'a w nieprzyjemną wyprzedaż w domu towarowym.</pl>
 					</description>
 				</programme>
 			</children>
@@ -60768,12 +60769,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Popeye (Staffel 2)</de>
 				<en>Popeye the Sailor (Season 2)</en>
-				<pl></pl>
+				<pl>Popeye (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>„Ne Schlägermütz', ne Pfeife und ne Dose mit Spinat, er ist der weltbeste Pirat. Seine Fäuste sind aus Stahl, als Seeman er oft rebelliert, er hat sich auf den Unterarm nen Anker tättowiert.“</de>
 				<en>"I'm strong to the finich cause I eats me spinach. I'm one tough Gazookus which hates all Palookas wot ain't on the up and square. I biffs 'em and buffs 'em and always out roughs 'em, but none of 'em gets nowhere."</en>
-			<pl></pl>
+				<pl>"Jestem silny do końca, bo jem szpinak. Jestem twardym Gazookusem, który nienawidzi wszystkich Palooków, którzy nie są w porządku. Uderzam ich, poleruję i zawsze ich prześcigam, ale żaden z nich nigdzie nie dociera".</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">various-voice-artists</member>
@@ -60794,12 +60795,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Olivia im Ölrausch</de>
 						<en>Oil's Well That Ends Well</en>
-						<pl></pl>
+						<pl>Oil's Well That Ends Well</pl>
 					</title_original>
 					<description>
 						<de>Brutus verleitet Olivia dazu, eine offenbar trockene Ölquelle zu kaufen.</de>
 						<en>Brutus cons Olive into purchasing a seemingly dry oil well.</en>
-						<pl></pl>
+						<pl>Brutus przekonuje Olive do zakupu pozornie suchego szybu naftowego.</pl>
 					</description>
 				</programme>
 				<programme id="e8b68e74-b08d-4296-ae8a-c200315a2c53" product="2" licence_type="2" imdb_id="tt0982456" creator="9551">
@@ -60810,12 +60811,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das große Duell</de>
 						<en>Duel to the Finish</en>
-						<pl></pl>
+						<pl>Duel to the Finish</pl>
 					</title_original>
 					<description>
 						<de>Popeye wird extrem eifersüchtig, als Wimpy beginnt, Olivia zu umgarnen.</de>
 						<en>Popeye gets extremely jealous when Wimpy starts sweet-talking Olive.</en>
-						<pl></pl>
+						<pl>Popeye staje się bardzo zazdrosny, gdy Wimpy zaczyna rozmawiać z Olive.</pl>
 					</description>
 				</programme>
 				<programme id="40b343b7-a7cc-47e0-8043-06643a6b7e78" product="2" licence_type="2" imdb_id="tt0976944" creator="9551">
@@ -60826,12 +60827,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Schatz der Waldgeister</de>
 						<en>The Leprechaun</en>
-						<pl></pl>
+						<pl>The Leprechaun</pl>
 					</title_original>
 					<description>
 						<de>Die Seehexe stiehlt irisches Gold von einem Zwerg.</de>
 						<en>The Sea Hag steals Irish gold from a leprechaun.</en>
-						<pl></pl>
+						<pl>Sea Hag kradnie irlandzkie złoto od skrzata.</pl>
 					</description>
 				</programme>
 				<programme id="4621dee6-b590-4e47-938f-3d7a406c229a" product="2" licence_type="2" imdb_id="tt1269305" creator="9551">
@@ -60842,12 +60843,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die zweite Jugend</de>
 						<en>Kiddie Kapers</en>
-						<pl></pl>
+						<pl>Kiddie Kapers</pl>
 					</title_original>
 					<description>
 						<de>Ein von der Seehexe hergestellter Trank verwandelt Brutus in einen attraktiven jungen Mann, als der er Olivia beeindruckt und umwirbt. Nachdem Popeye Brutus' Attraktivität durchschaut hat, verwendet er denselben Trank, der ihn jedoch in ein Baby verwandelt.</de>
 						<en>A potion created by the Sea Hag turns Brutus into an attractive young man, and he uses it to impress and woo Olive. After Popeye sees through Brutus' attractiveness, he uses the same potion, but it turns him into a baby.</en>
-					<pl></pl>
+						<pl>Mikstura stworzona przez Sea Hag zmienia Brutusa w atrakcyjnego młodego mężczyznę, który wykorzystuje ją, by zaimponować Olive. Gdy Popeye dostrzega atrakcyjność Brutusa, używa tej samej mikstury, ale zamienia go ona w dziecko.</pl>
 					</description>
 				</programme>
 				<programme id="43620bd5-0236-4f21-96e0-ebe90363841d" product="2" licence_type="2" imdb_id="tt0996229" creator="9551">
@@ -60858,12 +60859,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die mysteriöse Melodie</de>
 						<en>Myskery Melody</en>
-						<pl></pl>
+						<pl>Myskery Melody</pl>
 					</title_original>
 					<description>
 						<de>Poopdeck wird von einer eindringlichen Flötenmelodie hypnotisiert.</de>
 						<en>Poopdeck is hypnotized by a haunting flute melody.</en>
-						<pl></pl>
+						<pl>Poopdeck jest zahipnotyzowany nawiedzoną melodią fletu.</pl>
 					</description>
 				</programme>
 				<programme id="a4544181-543a-4f88-8ce9-24bae96a4749" product="2" licence_type="2" imdb_id="tt1265897" creator="9551">
@@ -60874,12 +60875,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye, der Angsthase</de>
 						<en>Scairdy Cat</en>
-						<pl></pl>
+						<pl>Scairdy Cat</pl>
 					</title_original>
 					<description>
 						<de>Brutus kreiert ein Parfüm, das Popeye in einen verängstigten, wehrlosen Schwächling verwandelt.</de>
 						<en>Brutus creates a perfume that turns Popeye into a frightened, defenseless weakling.</en>
-						<pl></pl>
+						<pl>Brutus tworzy perfumy, które zmieniają Popeye'a w przerażonego, bezbronnego słabeusza.</pl>
 					</description>
 				</programme>
 				<programme id="62fefe4b-6c88-48e2-8c3a-eceb42c30755" product="2" licence_type="2" imdb_id="tt1279871" creator="9551">
@@ -60890,12 +60891,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Olivias Geburtstagsgeschenk</de>
 						<en>A Poil for Olive Oyl</en>
-						<pl></pl>
+						<pl>A Poil for Olive Oyl</pl>
 					</title_original>
 					<description>
 						<de>Popeye möchte Olivia eine schicke Halskette schenken, aber die im Juweliergeschäft kostet zu viel. Er beschließt, nach Muschelperlen im Meer zu tauchen. Doch die Perlen gehören der Seehexe, und sie versucht, ihn daran zu hindern.</de>
 						<en>Popeye wants to give Olive a stylish necklace, but the one in the jewelry store costs too much. He decides to dive into the sea for pearls from clams. However, the pearls belong to the Sea Hag, and she tries to stop him.</en>
-					<pl></pl>
+						<pl>Popeye chce podarować Olive stylowy naszyjnik, ale ten w sklepie jubilerskim kosztuje zbyt dużo. Postanawia zanurkować w morzu w poszukiwaniu pereł z małży. Perły należą jednak do Morskiej czarownicy, która próbuje go powstrzymać.</pl>
 					</description>
 				</programme>
 				<programme id="91bcdd09-393a-43bf-83da-36cfcbe8e095" product="2" licence_type="2" imdb_id="tt1268731" creator="9551">
@@ -60906,12 +60907,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das Burgfräulein Olivia</de>
 						<en>My Fair Olive</en>
-						<pl></pl>
+						<pl>My Fair Olive</pl>
 					</title_original>
 					<description>
 						<de>Popeye und Brutus treten in einem mittelalterlichen Turnier gegeneinander an, um Olivias Zuneigung zu gewinnen.</de>
 						<en>Popeye and Brutus compete in a medieval joust to win Olive's affection.</en>
-						<pl></pl>
+						<pl>Popeye i Brutus rywalizują w średniowiecznej potyczce o uczucie Olive.</pl>
 					</description>
 				</programme>
 				<programme id="b403300a-62c6-4a7b-86cb-77ccecff123b" product="2" licence_type="2" imdb_id="tt1260453" creator="9551">
@@ -60922,12 +60923,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Schatz im Zaubertunnel</de>
 						<en>Giddy Gold</en>
-						<pl></pl>
+						<pl>Giddy Gold</pl>
 					</title_original>
 					<description>
 						<de>Der Zaubertunnel wird in eine Goldmine verwandelt, und Olivia beschließt, alles zu holen, aber sie und Popeye müssen drei gefährliche Situationen überstehen, wenn sie ihren Schatz mitnehmen wollen.</de>
 						<en>The Tunnel of Love is transformed into a gold mine, and Olive decides to loot it all, but she and Popeye must pass through three dangerous situations, if they are to leave with their treasure.</en>
-					<pl></pl>
+						<pl>Tunel Miłości zamienia się w kopalnię złota, a Olive postanawia wszystko splądrować, ale ona i Popeye muszą przejść przez trzy niebezpieczne sytuacje.</pl>
 					</description>
 				</programme>
 				<programme id="4aa88497-f49c-4be3-8e45-e3319e1fd556" product="2" licence_type="2" imdb_id="tt1279224" creator="9551">
@@ -60938,12 +60939,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Motorsport</de>
 						<en>Spoil Sport</en>
-						<pl></pl>
+						<pl>Spoil Sport</pl>
 					</title_original>
 					<description>
 						<de>Olivia möchte das „Sportwagen-Style“-Leben führen und wird von Brutus' teurem Cabrio geködert.</de>
 						<en>Olive wants to live the "sports car set" life and is baited by Brutus' expensive convertible.</en>
-					<pl></pl>
+						<pl>Olive chce prowadzić życie "sportowego samochodu" i jest zwabiona drogim kabrioletem Brutusa.</pl>
 					</description>
 				</programme>
 				<programme id="131fee36-ae8e-470a-baef-d9bad704cc3b" product="2" licence_type="2" imdb_id="tt1279219" creator="9551">
@@ -60954,12 +60955,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Popeye, der Wunderknabe</de>
 						<en>Intellectual Interlude</en>
-						<pl></pl>
+						<pl>Intellectual Interlude</pl>
 					</title_original>
 					<description>
 						<de>Olivia sagt Popeye, dass er intellektueller werden muss, und so meldet sie sich und Popeye zu einem Volkshochschulkurs an. Dort probiert er den Zaubertrank „Intellektueller Spinat“ eines Wissenschaftlers, der ihn zum Genie macht.</de>
 						<en>Olive Oyl tells Popeye that he needs to be more intellectual, so she enrolls herself and Popeye into adult education classes. While there, he samples a scientist's "Intellectual Spinach" potion which turns him to a genius.</en>
-					<pl></pl>
+						<pl>Olive Oyl mówi Popeye'owi, że musi być bardziej intelektualny, więc zapisuje siebie i Popeye'a na zajęcia dla dorosłych. Tam Popeye próbował eliksiru "Intelektualny szpinak", który zmienił go w geniusza.</pl>
 					</description>
 				</programme>
 			</children>
@@ -60972,12 +60973,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Die Straßen von San Francisco (Staffel 1)</de>
 				<en>The Streets of San Francisco (Season 1)</en>
-				<pl></pl>
+				<pl>Ulice San Francisco (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Mit [1|Full] als Det. Insp. Heller in der Rolle, die ihn zum Star machte, und [0|Full] als Det. Lt. Stone und die Vaterfigur nicht nur vor, sondern auch hinter der Kamera.</de>
 				<en>Starring [1|Full] as Det. Insp. Keller in the role that made him a star and [0|Full] as Det. Lt. Stone and the father figure not only in front of the camera, but also behind it.</en>
-			<pl></pl>
+				<pl>W rolach głównych [1|Full] jako detektyw inspektor Keller w roli, która uczyniła go gwiazdą oraz [0|Full] jako detektyw porucznik Stone i postać ojca nie tylko przed kamerą, ale także za nią.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">TheRob-TowerTV-CharlieWalden</member>
@@ -60995,12 +60996,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Pilot</de>
 						<en>Pilot</en>
-						<pl></pl>
+						<pl>Pilot</pl>
 					</title_original>
 					<description>
 						<de>SFPD-Detective Lieutenant Stone und der junge College-Absolvent Inspector Heller ermitteln gemeinsam im Fall eines in der Bucht tot aufgefundenen Mädchens, mit Verbindungen zu einem Anwalt, den sie kannte, als Hauptverdächtigen.</de>
 						<en>SFPD Detective Lieutenant Stone is partnered with young college-educated Inspector Keller, as they investigate a girl found dead in the bay, with ties to a lawyer she knew as the primary suspect.</en>
-					<pl></pl>
+						<pl>Detektyw SFPD porucznik Stone współpracuje z młodym inspektorem Kellerem, który prowadzi śledztwo w sprawie dziewczyny znalezionej martwej w zatoce, powiązanej z prawnikiem, którego znała jako głównego podejrzanego.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="4b15947f-64a3-4e96-8b04-4908278f1b8b" />
@@ -61014,12 +61015,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Jagt Charnovskys Mörder</de>
 						<en>The Thirty-Year Pin</en>
-						<pl></pl>
+						<pl>Trzydziestoletnia szpilka</pl>
 					</title_original>
 					<description>
 						<de>Ein seit dreißig Jahren tätiger Polizist und langjähriger Freund von Stone wird bei einem versuchten Raubüberfall erschossen. Stone beginnt einen Rachefeldzug, um den Schützen zu fassen, wobei die Grenzen zwischen Beruf und Privatleben verschwimmen.</de>
 						<en>A thirty-year veteran beat cop and longtime friend of Stone's is shot during an attempted robbery. Stone sets off with a vendetta to get the gunman, blurring the line between professional and personal.</en>
-					<pl></pl>
+						<pl>Trzydziestoletni weteran policji i wieloletni przyjaciel Stone'a zostaje zastrzelony podczas próby napadu. Stone wyrusza z wendetą, by dopaść strzelca, zacierając granicę między sprawami zawodowymi a osobistymi.</pl>
 					</description>
 				</programme>
 				<programme id="730782c7-b6f4-452f-a2f9-772e36ec66f3" product="2" licence_type="2" imdb_id="tt0711574" creator="9551">
@@ -61030,12 +61031,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Kugel</de>
 						<en>The Bullet</en>
-						<pl></pl>
+						<pl>Pocisk</pl>
 					</title_original>
 					<description>
 						<de>Ein College-Professor, der versehentlich angeschossen wurde, als er einen Erpresser auszahlen wollte, weigert sich, mit Stones Ermittlungen zu kooperieren, weil er befürchtet, dass er durch die Publicity eine bevorstehende Beförderung verlieren könnte.</de>
 						<en>A college professor, shot accidentally while trying to pay off a blackmailer, refuses to cooperate with Stone's investigation for fear that the publicity will lose him an upcoming promotion.</en>
-					<pl></pl>
+						<pl>Profesor college'u, postrzelony przypadkowo podczas próby spłacenia szantażysty, odmawia współpracy w śledztwie Stone'a w obawie, że straci nadchodzący awans.</pl>
 					</description>
 				</programme>
 				<programme id="87320f0b-487d-4599-8b03-98ecb5151546" product="2" licence_type="2" imdb_id="tt0711499" creator="9551">
@@ -61046,12 +61047,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Köder ist die Beute</de>
 						<en>Act of Duty</en>
-						<pl></pl>
+						<pl>Akt obowiązku</pl>
 					</title_original>
 					<description>
 						<de>In ihrem Eifer, einen Serienvergewaltiger zu fassen, setzt sich eine junge Polizistin über Stones Anweisungen hinweg und bringt damit nicht nur Stones und Hellers sorgfältig choreografierte Überwachung, sondern auch ihr eigenes Leben in Gefahr.</de>
 						<en>In her zeal to capture a serial rapist, a rookie cop flouts Stone's orders, jeopardizing not only Stone and Keller's carefully choreographed stakeout but her own life.</en>
-					<pl></pl>
+						<pl>Chcąc złapać seryjnego gwałciciela, młoda policjantka nie słucha rozkazów Stone'a, narażając na niebezpieczeństwo nie tylko starannie zaplanowaną inwigilację Stone'a i Hellera, ale także własne życie.</pl>
 					</description>
 				</programme>
 				<programme id="63a6c071-cd86-4eab-a192-f8c0dd80aa84" product="2" licence_type="2" imdb_id="tt0711582" creator="9551">
@@ -61062,12 +61063,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das unheimliche Haus</de>
 						<en>The House on Hyde Street</en>
-						<pl></pl>
+						<pl>Dom przy Hyde Street</pl>
 					</title_original>
 					<description>
 						<de>Drei Jungen öffnen die Büchse der Pandora, als sie sich auf das Anwesen eines exzentrischen alten Mannes schleichen, ein mysteriöses Haus, von dem ihre Eltern munkeln, dass es einen Millionenschatz birgt.</de>
 						<en>Three young boys open a Pandora's Box when they sneak into an eccentric old man's home, a mysterious house rumored by their parents to contain a million-dollar treasure.</en>
-					<pl></pl>
+						<pl>Trzej chłopcy otwierają puszkę Pandory, gdy zakradają się do posiadłości ekscentrycznego starca, tajemniczego domu, o którym ich rodzice plotkowali, że skrywa skarb wart miliony.</pl>
 					</description>
 				</programme>
 				<programme id="b281ab1b-d6b3-4515-bb3c-10a1abfa90e8" product="2" licence_type="2" imdb_id="tt0711503" creator="9551">
@@ -61078,12 +61079,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Mörder mit der Mundharmonika</de>
 						<en>Beyond Vengeance</en>
-						<pl></pl>
+						<pl>Poza zemstą</pl>
 					</title_original>
 					<description>
 						<de>Ein mörderischer Vergewaltiger, den Stone zwölf Jahre zuvor weggesperrt hatte, wird freigelassen und beginnt, einen psychologischen Krieg gegen Stone zu führen, indem er seine Tochter Jeannie stalkt.</de>
 						<en>A homicidal rapist that Stone had put away twelve years earlier is released and begins waging psychological warfare on Stone by stalking his daughter Jeannie.</en>
-					<pl></pl>
+						<pl>Zabójczy gwałciciel, którego Stone zamknął dwanaście lat wcześniej, zostaje zwolniony i zaczyna prowadzić wojnę psychologiczną przeciwko Stone'owi, prześladując jego córkę Jeannie.</pl>
 					</description>
 				</programme>
 				<programme id="0cc3edf5-b9d4-42d3-940a-2dfb2a48522a" product="2" licence_type="2" imdb_id="tt0792759" creator="9551">
@@ -61094,12 +61095,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Mord, Gesetz und Alibi</de>
 						<en>The Albatross</en>
-						<pl></pl>
+						<pl>Albatros</pl>
 					</title_original>
 					<description>
 						<de>Bei einem verpfuschten Einbruch wird ein Kind ermordet, und der Mörder wird aufgrund eines juristischen Formfehlers freigelassen. Trotz Stones energischer Einwände ist der trauernde Vater entschlossen, die Gerechtigkeit selbst in die Hand zu nehmen.</de>
 						<en>A child is murdered in a bungled burglary and the killer is set free on a legal technicality. Despite Stone's strenuous objections, the grieving father is determined to take justice into his own hands.</en>
-					<pl></pl>
+						<pl>Dziecko zostaje zamordowane w wyniku nieudanego włamania, a zabójca zostaje uwolniony z przyczyn prawnych. Pomimo usilnych sprzeciwów Stone'a, pogrążony w żałobie ojciec jest zdeterminowany, by wziąć sprawiedliwość w swoje ręce.</pl>
 					</description>
 				</programme>
 				<programme id="2cab136d-587e-4e44-a768-54659ca59805" product="2" licence_type="2" imdb_id="tt0711541" creator="9551">
@@ -61110,12 +61111,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Legion der Verlorenen</de>
 						<en>Legion of the Lost</en>
-						<pl></pl>
+						<pl>Legion Zagubionych</pl>
 					</title_original>
 					<description>
 						<de>Nachdem drei Alkoholiker brutal zu Tode geprügelt wurden, geht Stone undercover als Obdachloser.</de>
 						<en>After three winos are brutally beaten to death, Stone goes undercover as a homeless man.</en>
-					<pl></pl>
+						<pl>Po tym, jak trzech winiarzy zostaje brutalnie pobitych na śmierć, Stone udaje się pod przykrywką jako bezdomny.</pl>
 					</description>
 				</programme>
 			</children>
@@ -61128,12 +61129,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Die Straßen von San Francisco (Staffel 2)</de>
 				<en>The Streets of San Francisco (Season 2)</en>
-				<pl></pl>
+				<pl>Ulice San Francisco (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Wie bei keiner anderen Krimiserie seither bemühten sich die Schauspieler und Autoren der Serie um eine authentische Darstellung des San Francisco Police Department.</de>
 				<en>Unique among crime shows since, the show's actors and writers took great pains to ensure an authentic portrayal of the San Francisco Police Department.</en>
-			<pl></pl>
+				<pl>Wyjątkowy wśród seriali kryminalnych od tamtego czasu, aktorzy i scenarzyści serialu dołożyli wszelkich starań, aby zapewnić autentyczny portret Departamentu Policji San Francisco.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">TheRob-TowerTV-CharlieWalden</member>
@@ -61151,12 +61152,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Auf der Flucht erschossen</de>
 						<en>A Wrongful Death</en>
-						<pl></pl>
+						<pl>Niesłuszna śmierć</pl>
 					</title_original>
 					<description>
 						<de>Der Vater eines von Heller getöteten mutmaßlichen Räubers besteht darauf, dass sein Junge unbewaffnet war.</de>
 						<en>The father of a robbery suspect killed by Keller insists his boy was unarmed.</en>
-						<pl></pl>
+						<pl>Ojciec podejrzanego o kradzież zabitego przez Hellera twierdzi, że jego syn był nieuzbrojony.</pl>
 					</description>
 				</programme>
 				<programme id="9e67e6ca-fdef-4853-bff6-5da465f55744" product="2" licence_type="2" imdb_id="tt0711502" creator="9551">
@@ -61167,12 +61168,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Mord vor der Kamera</de>
 						<en>Betrayed</en>
-						<pl></pl>
+						<pl>Zdradzona</pl>
 					</title_original>
 					<description>
 						<de>Eine der Freundinnen eines jungen Charmeurs erfährt, dass er eine Bank ausgeraubt hat.</de>
 						<en>One of the girlfriends of a young charmer learns that he has robbed a bank.</en>
-						<pl></pl>
+						<pl>Jedna z dziewczyn młodego amanta dowiaduje się, że napadł on na bank.</pl>
 					</description>
 				</programme>
 				<programme id="e6eed97b-bd97-4b64-b6d5-a25b892de6b7" product="2" licence_type="2" imdb_id="tt0779690" creator="9551">
@@ -61183,12 +61184,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Connors letztes Ziel</de>
 						<en>Before I Die</en>
-						<pl></pl>
+						<pl>Zanim umrę</pl>
 					</title_original>
 					<description>
 						<de>Ein Polizist, der erfährt, dass er unheilbar krank ist, macht sich auf den Weg, um einen Gangster zu töten, den er seit anderthalb Jahren jagt.</de>
 						<en>A cop who finds out that he has a terminal illness sets out to kill a racketeer who's been his quarry for the last year and a half.</en>
-					<pl></pl>
+						<pl>Policjant, który dowiaduje się, że jest śmiertelnie chory, postanawia zabić gangstera, na którego polował przez półtora roku.</pl>
 					</description>
 				</programme>
 				<programme id="a6a45093-e4f6-4b5e-8bce-ee06a19505a5" product="2" licence_type="2" imdb_id="tt0711531" creator="9551">
@@ -61199,12 +61200,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Harem</de>
 						<en>Harem</en>
-						<pl></pl>
+						<pl>Harem</pl>
 					</title_original>
 					<description>
 						<de>Ein Flöte spielender „Rattenfänger“ überredet Teenager-Mädchen zur Prostitution. Er verspricht, sich um sie zu kümmern; in Wirklichkeit ist er ein skrupelloser Killer, der vor nichts zurückschreckt, um sich zu schützen.</de>
 						<en>A flute-playing "Pied Piper" talks teenage girls into prostitution. He promises to take care of them; he's actually a ruthless killer who will stop at nothing to protect himself.</en>
-					<pl></pl>
+						<pl>Grający na flecie namawia nastoletnie dziewczyny do prostytucji. Obiecuje, że się nimi zaopiekuje, a w rzeczywistości jest bezwzględnym zabójcą, który nie cofnie się przed niczym, by chronić siebie.</pl>
 					</description>
 				</programme>
 				<programme id="67f20e57-6b9c-46f8-9402-e193565fb068" product="2" licence_type="2" imdb_id="tt0793266" creator="9551">
@@ -61215,12 +61216,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Tödliches Gold</de>
 						<en>The Twenty-Four Karat Plague</en>
-						<pl></pl>
+						<pl>Dwudziestoczterokaratowa plaga</pl>
 					</title_original>
 					<description>
 						<de>Entführer stehlen mehr, als sie erwartet haben, denn sie wissen nicht, dass das Gold, das sie entwendet haben, mit tödlichem Uran versetzt ist.</de>
 						<en>Hijackers steal more than they bargained for, not knowing the gold they took is mixed with deadly uranium.</en>
-					<pl></pl>
+						<pl>Porywacze kradną więcej, niż się spodziewali, ponieważ nie zdają sobie sprawy, że złoto, które ukradli, zawiera śmiertelnie niebezpieczny uran.</pl>
 					</description>
 				</programme>
 				<programme id="31661a26-4f9b-481e-b8e7-02fa5a5f2133" product="2" licence_type="2" imdb_id="tt0711506" creator="9551">
@@ -61231,12 +61232,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Blockade</de>
 						<en>Blockade</en>
-						<pl></pl>
+						<pl>Blokada</pl>
 					</title_original>
 					<description>
 						<de>Eine Frau, die ihr Leben einer prominenten Familie gewidmet hat, bemerkt nicht, dass ihr vernachlässigter Sohn sich mit einem Psychopathen eingelassen hat - und ihm möglicherweise geholfen hat, eine Frau zu töten.</de>
 						<en>A woman who has dedicated her life to a prominent family fails to see her neglected son has fallen in with a psycho - and may have helped him kill a woman.</en>
-					<pl></pl>
+						<pl>Kobieta, która poświęciła swoje życie wybitnej rodzinie, nie zdaje sobie sprawy, że jej zaniedbywany syn związał się z psychopatą - i mógł pomóc mu zabić kobietę.</pl>
 					</description>
 				</programme>
 				<programme id="2e11e396-e9e6-47fb-98e4-8143db7f967c" product="2" licence_type="2" imdb_id="tt0792758" creator="9551">
@@ -61247,12 +61248,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Selbstjustiz</de>
 						<en>Rampage</en>
-						<pl></pl>
+						<pl>Rampa</pl>
 					</title_original>
 					<description>
 						<de>Eine Gruppe verärgerter Väter, die die Kriminalität in ihrer Nachbarschaft satt haben, versuchen, das Problem mit Selbstjustiz zu lösen.</de>
 						<en>A team of angry fathers, who are fed up with crime in their neighborhood, take a vigilante approach at solving the problem.</en>
-					<pl></pl>
+						<pl>Grupa niezadowolonych ojców, mających dość przestępczości w swojej okolicy, próbuje rozwiązać problem za pomocą czujnej sprawiedliwości.</pl>
 					</description>
 				</programme>
 				<programme id="eebe0974-103e-41cc-9c43-e7827cc01340" product="2" licence_type="2" imdb_id="tt0711520" creator="9551">
@@ -61263,12 +61264,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Tod in der High Society</de>
 						<en>Death and the Favored Few</en>
-						<pl></pl>
+						<pl>Śmierć i uprzywilejowana garstka</pl>
 					</title_original>
 					<description>
 						<de>Die gesellschaftliche Elite von San Francisco gerät unter Verdacht, als ein Verleger, der sie erpresst hat, ermordet aufgefunden wird.</de>
 						<en>San Francisco's social elite are suspects when a publisher who blackmailed them is found murdered.</en>
-					<pl></pl>
+						<pl>Elita społeczna San Francisco staje się podejrzana, gdy szantażujący ich wydawca zostaje znaleziony zamordowany.</pl>
 					</description>
 				</programme>
 			</children>
@@ -61281,12 +61282,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Die Schlümpfe (Staffel 1)</de>
 				<en>The Smurfs (Season 1)</en>
-				<pl></pl>
+				<pl>Smerfy (Sezon 1)</pl>
 			</title_original>
 			<description>
 				<de>Schlumpfhausen im „Verwunschenen Land“ ist für einen Menschen nur zu erreichen, wenn ein Schlumpf ihn ins Dorf führt, oder die Sternkonstellation das Dorf sichtbar macht.</de>
 				<en>Smurf's Village in the "Enchanted Land" can only be reached by a human if a Smurf leads him to the village, or if the constellation of stars makes the village visible.</en>
-			<pl></pl>
+				<pl>Smerfy to malutkie, niebieskie postacie zamieszkujące grzyby muchomory głęboko w lesie. Przewodzi nimi stary Papa Smerf, a każda postać jest całkiem inna od drugiej. Niestety, cudowny świat smerfów często zakłóca zły czarownik Gargamel z kotem Klakierem.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">1d86a38d-4b31-4993-aa60-7bf8bd4396c5</member>
@@ -61308,12 +61309,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Astroschlumpf</de>
 						<en>The Astrosmurf</en>
-						<pl></pl>
+						<pl>Astrosmerf</pl>
 					</title_original>
 					<description>
 						<de>Traumi wünscht sich zum Geburtstag, dass er zu einem anderen Planeten fliegen kann, bevor er die Kerzen auspustet, und findet sich dann tatsächlich auf einem anderen Planeten wieder.</de>
 						<en>Dreamy makes a birthday wish that he could fly to another planet before blowing out the candles and then indeed finds himself on another planet.</en>
-					<pl></pl>
+						<pl>Marzyciel przed zdmuchnięciem świeczek wypowiada życzenie urodzinowe, aby polecieć na inną planetę, a następnie faktycznie znajduje się na innej planecie.</pl>
 					</description>
 					<effects>
 						<effect trigger="broadcastFirstTime" type="modifyProgrammeAvailability" enable="1" guid="3c981d17-ee9a-4d28-8cda-5cae9fd68a0e" />
@@ -61327,12 +61328,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Suppe à la Schlumpf</de>
 						<en>Soup a La Smurf</en>
-						<pl></pl>
+						<pl>Zupa a La Smerf</pl>
 					</title_original>
 					<description>
 						<de>Der Riese Großmaul wünscht sich dank Gargamel eine Schlumpfsuppe.</de>
 						<en>Big Mouth wants Soup a La Smurf, thanks to Gargamel.</en>
-						<pl></pl>
+						<pl>Łasuch chce Zupę La Smerf, dzięki Gargamelowi.</pl>
 					</description>
 				</programme>
 				<programme id="80d3033e-1392-41bd-bf5d-68ce028d5612" product="2" licence_type="2" imdb_id="tt0873397" creator="9551">
@@ -61343,12 +61344,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das magische Ei / Schlumpfonie in C-Dur</de>
 						<en>The Magic Egg / Smurphony in 'C'</en>
-						<pl></pl>
+						<pl>Magiczne jajko / Smerfonia w 'C'</pl>
 					</title_original>
 					<description>
 						<de>Die Schlümpfe finden ein Ei, das Wünsche erfüllt. / Gargamel bringt Harmonie dazu, die anderen Schlümpfe in einen tiefen Schlaf zu versetzen.</de>
 						<en>The Smurfs find an egg that grants wishes. / Gargamel tricks Harmony into putting the other Smurfs into a deep sleep.</en>
-					<pl></pl>
+						<pl>Smerfy znajdują jajko spełniające życzenia. / Gargamel oszukuje Smerfetkę, aby wprowadzić pozostałe Smerfy w głęboki sen.</pl>
 					</description>
 				</programme>
 				<programme id="06e86312-626e-4436-8e0b-3573203e823f" product="2" licence_type="2" imdb_id="tt0873391" creator="9551">
@@ -61359,12 +61360,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Superschlumpf / Das geschlumpfte Paradies</de>
 						<en>Supersmurf / Paradise Smurfed</en>
-						<pl></pl>
+						<pl>Supersmerf / Smerfny Raj</pl>
 					</title_original>
 					<description>
 						<de>Schlaubi erhält Superkräfte, um das Dorf vor Großmaul zu schützen. / Fauli, Torti und Schlaubi finden einen Ort, der wie das Paradies ist.</de>
 						<en>Brainy gains superpowers to protect the village from Bigmouth. / Lazy, Greedy and Brainy find a place that is like paradise.</en>
-					<pl></pl>
+						<pl>Ważniak zyskuje supermoce, by chronić wioskę przed Łasuchem. / Spioch, Ważniak i Laluś znajdują miejsce, które przypomina raj.</pl>
 					</description>
 				</programme>
 				<programme id="32513867-0d0b-4bc7-88ec-a054428a06cb" product="2" licence_type="2" imdb_id="tt0873387" creator="9551">
@@ -61375,12 +61376,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Abenteuer im Spukschloss / Die Schlümpfe sehen rot</de>
 						<en>Haunted Smurf / The Purple Smurfs</en>
-						<pl></pl>
+						<pl>Nawiedzony Smerf / Fioletowe Smerfy</pl>
 					</title_original>
 					<description>
 						<de>Die Schlümpfe suchen nach Nahrung und betreten ein Schloss, wo es scheinbar spukt. / Eine lila Fliege sticht Fauli und er wird lila, was ihn dazu veranlasst, die anderen Schlümpfe zu beißen, was sie ebenfalls in böse, wütende lila Schlümpfe verwandelt.</de>
 						<en>The Smurfs leave to look for food and enter a castle that they think is haunted.  / A purple fly bites Lazy and he turns purple, causing him to bite the other Smurfs, turning them into nasty, angry purple smurfs as well.</en>
-					<pl></pl>
+						<pl>Smerfy wyruszają na poszukiwanie jedzenia i wchodzą do zamku, który ich zdaniem jest nawiedzony.  / Fioletowa mucha gryzie Śpiocha, a ten zmienia kolor na fioletowy i gryzie inne Smerfy, zamieniając je również w paskudne, wściekłe fioletowe smerfy.</pl>
 					</description>
 				</programme>
 				<programme id="8afbed87-07ce-4d49-b211-908b7b582f48" product="2" licence_type="2" imdb_id="tt0873406" creator="9551">
@@ -61391,12 +61392,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Brunnen von Schlumpf</de>
 						<en>The Fountain of Smurf</en>
-						<pl></pl>
+						<pl>Fontanna Smerfów</pl>
 					</title_original>
 					<description>
 						<de>Die Schlümpfe schenken Papa Schlumpf einen Trunk aus dem Jungbrunnen, aber er trinkt zu viel und wird wieder zum Kind.</de>
 						<en>The Smurfs give Papa Smurf a drink from the Fountain of Youth as gift, but he drinks too much and goes back to being a kid.</en>
-					<pl></pl>
+						<pl>Smerfy dają Papa Smerfowi w prezencie napój z Fontanny Młodości, ale on wypija za dużo i wraca do bycia dzieckiem.</pl>
 					</description>
 				</programme>
 				<programme id="d394543c-bee9-48ed-9799-35d2454c023e" product="2" licence_type="2" imdb_id="tt0873383" creator="9551">
@@ -61407,12 +61408,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Hefty, der Riese / Handy, der Wettermacher</de>
 						<en>The Magnifying Mixture / Foul Weather Smurf</en>
-						<pl></pl>
+						<pl>Mieszanka powiększająca / Smerf na złą pogodę</pl>
 					</title_original>
 					<description>
 						<de>Schlaubi stolpert und vergrößert Hefty ungewollt mit Zauberpulver. / Handy baut eine Maschine, um das Wetter zu kontrollieren.</de>
 						<en>Brainy trips and unintentionally enlarges Hefty with magic powder. / Handy makes a machine to control the weather.</en>
-					<pl></pl>
+						<pl>Ważniak potyka się i niechcący powiększa Osiłka magicznym proszkiem. / Laluś tworzy maszynę do kontrolowania pogody.</pl>
 					</description>
 				</programme>
 				<programme id="29923b14-80ad-4e07-bb0e-b3a06d401896" product="2" licence_type="2" imdb_id="tt0873411" creator="9551">
@@ -61423,12 +61424,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Die Schlumpfine</de>
 						<en>The Smurfette</en>
-						<pl></pl>
+						<pl>Smerfetka</pl>
 					</title_original>
 					<description>
 						<de>Gargamel erschafft eine Schlumpfine, um die Schlümpfe in seine Hände zu locken. Schlumpfine beweist, dass sie ein echter Schlumpf ist, als sie die anderen vor Gargamel rettet.</de>
 						<en>Gargamel creates a Smurfette to lure the Smurfs into his hands. Smurfette proves to be a true Smurf when she saves the others from Gargamel.</en>
-					<pl></pl>
+						<pl>Gargamel tworzy Smerfetkę, aby zwabić Smerfy w swoje ręce. Smerfetka okazuje się prawdziwym Smerfem, gdy ratuje pozostałych przed Gargamelem.</pl>
 					</description>
 				</programme>
 				<programme id="f843b449-4573-4674-9b05-5835c55a0ebe" product="2" licence_type="2" imdb_id="tt0873395" creator="9551">
@@ -61439,12 +61440,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Schlumpflehrling / Die rosa-schlumpfige Brille</de>
 						<en>The Smurf's Apprentice / Smurf-Colored Glasses</en>
-						<pl></pl>
+						<pl>Uczeń Smerfa / Smerfne kolorowe okulary</pl>
 					</title_original>
 					<description>
 						<de>Clumsy, der beliebt sein will, stiehlt einen von Gargamels Zaubersprüchen, aber der geht nach hinten los und verwandelt ihn in einen Drachen. / Handy macht Schlumpfine eine Brille mit roten Gläsern, die alles und jeden charmant aussehen lässt.</de>
 						<en>Wanting to be popular, Clumsy steals one of Gargamel's magic spells, but it backfires and turns him into a dragon. / Handy makes Smurfette red-lensed glasses which makes everything and everyone look charming.</en>
-					<pl></pl>
+						<pl>Chcąc być popularnym, Niezdara kradnie jedno z magicznych zaklęć Gargamela, ale to przynosi odwrotny skutek i zamienia go w smoka. / Pracuś robi Smerfetce okulary z czerwonymi soczewkami, które sprawiają, że wszystko i wszyscy wyglądają uroczo.</pl>
 					</description>
 				</programme>
 				<programme id="39c46f06-345b-482b-86ed-582d1986b692" product="2" licence_type="2" imdb_id="tt0356051" creator="9551">
@@ -61455,12 +61456,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Aufziehschlumpf</de>
 						<en>The Clockwork Smurf</en>
-						<pl></pl>
+						<pl>Smerf Zegarmistrz</pl>
 					</title_original>
 					<description>
 						<de>Handy baut einen mechanischen Aufziehschlumpf.</de>
 						<en>Handy makes a mechanical Clockwork Smurf.</en>
-						<pl></pl>
+						<pl>Pracuś tworzy mechanicznego Smerfa Zegarmistrza.</pl>
 					</description>
 				</programme>
 			</children>
@@ -61473,12 +61474,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 			<title_original>
 				<de>Die Schlümpfe (Staffel 2)</de>
 				<en>The Smurfs (Season 2)</en>
-				<pl></pl>
+				<pl>Smerfy (Sezon 2)</pl>
 			</title_original>
 			<description>
 				<de>Der böse Zauberer Gargamel jagt die Schlümpfe stets, denn er braucht sie für ein Rezept zur Herstellung von Gold. Oder auch einfach nur zum Kochen einer Schlumpfsuppe.</de>
 				<en>The evil wizard Gargamel is always chasing the Smurfs, because he needs them for a recipe to make gold. Or even just to cook a Smurf soup.</en>
-			<pl></pl>
+				<pl>Zły czarodziej Gargamel zawsze ściga Smerfy, ponieważ potrzebuje ich do przepisu na złoto. Albo po prostu do ugotowania smerfnej zupy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">1d86a38d-4b31-4993-aa60-7bf8bd4396c5</member>
@@ -61500,12 +61501,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Man kann's nicht allen recht machen</de>
 						<en>The Smurf Who Couldn't Say No</en>
-						<pl></pl>
+						<pl>Smerf, który nie potrafił powiedzieć nie</pl>
 					</title_original>
 					<description>
 						<de>Gimpli ist es leid, die Aufgaben aller anderen Schlümpfe zu erledigen.</de>
 						<en>Pushover Smurf gets tired of doing every other Smurf's chores.</en>
-						<pl></pl>
+						<pl>Łasuch jest zmęczony wykonywaniem obowiązków każdego innego Smerfa.</pl>
 					</description>
 				</programme>
 				<programme id="3fbefc79-5fea-4b90-aa69-28bf0ffe0c9f" product="2" licence_type="2" imdb_id="tt1220088" creator="9551">
@@ -61516,12 +61517,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Schnuffi, der Wetterfrosch / Schwester Schlumpf</de>
 						<en>S-Shivering S-Smurfs / Sister Smurf</en>
-						<pl></pl>
+						<pl>S-Smerfy z dreszczykiem / Siostra Smerfetka</pl>
 					</title_original>
 					<description>
 						<de>Schnuffi spürt einen Schneesturm kommen, und die anderen Schlümpfe sind unvorbereitet. / Schlumpfine hat es satt, ignoriert zu werden, und freundet sich mit Menschenmädchen Laura an, die mit ihren beiden Brüdern ebenso nicht zurechtkommt.</de>
 						<en>Tracker Smurf senses a blizzard coming and the other Smurfs are unprepared. / Smurfette is tired of being ignored and befriends human girl, Laura, who also doesn't get along with her two brothers.</en>
-					<pl></pl>
+						<pl>Smerf Tropiciel wyczuwa nadchodzącą śnieżycę, a pozostałe Smerfy są nieprzygotowane. / Smerfetka ma dość bycia ignorowaną i zaprzyjaźnia się z ludzką dziewczynką, Laurą, która również nie dogaduje się ze swoimi dwoma braćmi.</pl>
 					</description>
 				</programme>
 				<programme id="f8004be6-466a-43cb-876d-1f0581849770" product="2" licence_type="2" imdb_id="tt1221757" creator="9551">
@@ -61532,12 +61533,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Jokeys himmlische Idee / Ein Schlumpf aus dem Weltall</de>
 						<en>Heavenly Smurfs / It Came from Outer Smurf</en>
-						<pl></pl>
+						<pl>Niebiańskie Smerfy / To przyszło z Zewnętrznych Smerfów</pl>
 					</title_original>
 					<description>
 						<de>Die Schlümpfe überlisten Gargamel, indem sie ihn glauben lassen, er sei tot. / Ein Außerirdischer tarnt sich als Schlumpf.</de>
 						<en>The Smurfs trick Gargamel into making him think he is dead. / An alien disguises itself as a Smurf.</en>
-					<pl></pl>
+						<pl>Smerfy oszukują Gargamela, aby ten myślał, że nie żyje. / Kosmita przebiera się za Smerfa.</pl>
 					</description>
 				</programme>
 				<programme id="f702a19c-1510-404c-9e6b-400b4009c201" product="2" licence_type="2" imdb_id="tt1221758" creator="9551">
@@ -61548,12 +61549,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Johanns Heer</de>
 						<en>Johan's Army</en>
-						<pl></pl>
+						<pl>Armia Johana</pl>
 					</title_original>
 					<description>
 						<de>Perot nimmt das Schloss des Königs ein.</de>
 						<en>Perot takes the King's castle.</en>
-						<pl></pl>
+						<pl>Perot przejmuje zamek króla.</pl>
 					</description>
 				</programme>
 				<programme id="d95c96f6-237e-4948-81dc-91202eb24dd3" product="2" licence_type="2" imdb_id="tt1221755" creator="9551">
@@ -61564,12 +61565,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Gargamel zu Stein erstarrt / Die bewundernswerten Schlümpfe</de>
 						<en>For the Love of Gargamel / The A-Maze-ing Smurfs</en>
-						<pl></pl>
+						<pl>Z miłości do Gargamela / Smerfy w labiryncie</pl>
 					</title_original>
 					<description>
 						<de>Gargamel und Azrael werden in Stein verwandelt, und die Schlümpfe helfen ihnen, wieder normal zu werden. / Melchior ist krank und bittet Papa Schlumpf um Hilfe.</de>
 						<en>Gargamel and Azrael get turned to stone and the Smurfs help them return to normal. / Malchior is sick and asks Papa Smurf for help.</en>
-					<pl></pl>
+						<pl>Gargamel i Azrael zostają zamienieni w kamień, a Smerfy pomagają im wrócić do normalności. / Malchior jest chory i prosi Papę Smerfa o pomoc.</pl>
 					</description>
 				</programme>
 				<programme id="264ea5eb-8bfc-4b19-aafc-40a2bbeb2981" product="2" licence_type="2" imdb_id="tt1223773" creator="9551">
@@ -61580,12 +61581,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Ring von Castellac</de>
 						<en>The Ring of Castellac</en>
-						<pl></pl>
+						<pl>Pierścień z Castellac</pl>
 					</title_original>
 					<description>
 						<de>Ein Herzog flieht aus Castellac, verliert aber seinen Ring. Der Ring wird dann von Schlaubi gefunden.</de>
 						<en>A duke escapes from Castellac but loses his ring. The ring is then found by Brainy.</en>
-						<pl></pl>
+						<pl>Książę ucieka z Castellac, ale gubi swój pierścień. Pierścień zostaje odnaleziony przez Pracusia.</pl>
 					</description>
 				</programme>
 				<programme id="47678b65-2890-4ecf-b0f6-cc1e9e312f3f" product="2" licence_type="2" imdb_id="tt1223774" creator="9551">
@@ -61596,12 +61597,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Himmel schlumpft / Schlaubi, ein Verräter?</de>
 						<en>The Sky Is Smurfing, the Sky Is Smurfing / Turncoat Smurf</en>
-						<pl></pl>
+						<pl>Niebo się smerfuje, niebo się smerfuje / Smerf Twardziel</pl>
 					</title_original>
 					<description>
 						<de>Papa Schlumpf hat eine Erkältung, also machen sich Hefty und Fürchti auf die Suche nach den Zutaten für das Heilmittel. / Papa Schlumpf legt sich für drei Tage schlafen und Schlaubi gibt jedem Schlumpf eine Aufgabe, die er erledigen muss.</de>
 						<en>Papa Smurf has a cold, so Hefty and Scaredy go on a quest to get some ingredients for the remedy. / Papa Smurf puts himself to sleep for three days and Brainy gives every Smurf a chore to do.</en>
-					<pl></pl>
+						<pl>Papa Smerf jest przeziębiony, więc Osiłek i Zgrywus wyruszają na wyprawę po składniki na lekarstwo. / Papa Smerf kładzie się spać na trzy dni, a Pracuś daje każdemu Smerfowi zadanie do wykonania.</pl>
 					</description>
 				</programme>
 				<programme id="4f362f5a-99a7-4743-bbae-ac10e50599d4" product="2" licence_type="2" imdb_id="tt1223763" creator="9551">
@@ -61612,12 +61613,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Schlümpfe in Not / Fauli wird fleißig</de>
 						<en>Bubble, Bubble, Smurfs in Trouble / Smurf Van Winkle</en>
-						<pl></pl>
+						<pl>Bąbel, Bąbel, Smerfy w opałach / Smerf Van Winkle</pl>
 					</title_original>
 					<description>
 						<de>Fürchti leiht sich den Zauberstab eines Wasser-Kobolds. / Die Schlümpfe tricksen Fauli aus, damit er denkt, dass sie alle alt sind und Papa Schlumpf tot ist.</de>
 						<en>Scaredy borrows a water sprite's wand. / The smurfs trick Lazy to make him think that every one of them is old and Papa Smurf is dead.</en>
-					<pl></pl>
+						<pl>Zgrywus pożycza różdżkę wodnego duszka. / Smerfy oszukują Śpiocha, aby ten myślał, że każdy z nich jest stary, a Papa Smerf nie żyje.</pl>
 					</description>
 				</programme>
 				<programme id="bb39c0bc-37cc-4527-afc3-a54ab46829cf" product="2" licence_type="2" imdb_id="tt1223770" creator="9551">
@@ -61628,12 +61629,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Peewee und der Prinz</de>
 						<en>The Prince and the Peewit</en>
-						<pl></pl>
+						<pl>Książę i Peewit</pl>
 					</title_original>
 					<description>
 						<de>Peewee sieht genauso aus wie ein Prinz, der entkommen ist.</de>
 						<en>Peewit looks identical to a prince who has escaped.</en>
-						<pl></pl>
+						<pl>Peewit wygląda identycznie jak książę, który uciekł.</pl>
 					</description>
 				</programme>
 				<programme id="3031dd31-c41a-447a-81e1-41bbd6ae06cf" product="2" licence_type="2" imdb_id="tt1223767" creator="9551">
@@ -61644,12 +61645,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Das Zauberbaby</de>
 						<en>The Enchanted Baby</en>
-						<pl></pl>
+						<pl>Zaczarowane dziecko</pl>
 					</title_original>
 					<description>
 						<de>Ein Baby verschwindet und taucht wieder auf, als es in Gefahr ist.</de>
 						<en>A baby disappears and reappears when he is in danger.</en>
-						<pl></pl>
+						<pl>Dziecko znika i pojawia się ponownie, gdy jest w niebezpieczeństwie.</pl>
 					</description>
 				</programme>
 				<programme id="b76ecb1a-221a-4c89-82d4-bc1c6f170725" product="2" licence_type="2" imdb_id="tt1223775" creator="9551">
@@ -61660,12 +61661,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Der Schlumpf, aus dem die Träume sind / Tricks aus der Schachtel</de>
 						<en>The Stuff Dreams Are Smurfed Of / The Box of Dirty Tricks</en>
-						<pl></pl>
+						<pl>Smerfne marzenia / Pudełko brudnych sztuczek</pl>
 					</title_original>
 					<description>
 						<de>Die Schlümpfe können alle nicht schlafen, weil sie einen schrecklichen Albtraum hatten. / Die Schlümpfe finden eine Zauberkiste und fragen sich, ob sie sie öffnen sollen.</de>
 						<en>Every Smurf cannot sleep because they had a terrible nightmare. / The Smurfs find a magic box and wonder if they should open it.</en>
-					<pl></pl>
+						<pl>Każdy Smerf nie może spać, ponieważ miał straszny koszmar. / Smerfy znajdują magiczne pudełko i zastanawiają się, czy powinny je otworzyć.</pl>
 					</description>
 				</programme>
 				<programme id="b0203737-6ffb-44ff-b3bb-8c89bc05f543" product="2" licence_type="2" imdb_id="tt1223765" creator="9551">
@@ -61676,12 +61677,12 @@ Stało się to jednym z najbardziej znanych zwrotów w latach 70-tych. W końcow
 					<title_original>
 						<de>Papas Hochzeitstag</de>
 						<en>Papa's Wedding Day</en>
-						<pl></pl>
+						<pl>Dzień ślubu Papy</pl>
 					</title_original>
 					<description>
 						<de>Papa Schlumpf trifft eine Waldnymphe namens Blumenbell.</de>
 						<en>Papa Smurf meets a wood nymph named Flowerbell.</en>
-						<pl></pl>
+						<pl>Papa Smerf spotyka nimfę leśną o imieniu Flowerbell.</pl>
 					</description>
 				</programme>
 			</children>
