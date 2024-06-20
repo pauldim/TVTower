@@ -6,12 +6,12 @@
 			<title>
 				<de>Beer, Bier, Pivo</de>
 				<en>Beer, Bier, Pivo</en>
-				<pl></pl>
+				<pl>Beer, Bier, Piwo</pl>
 			</title>
 			<description>
 				<de>Alle 987 Biersorten werden vorgestellt und von einem Obdachlosen, einem Alkoholiker und einem Steuerberater getestet. </de>
 				<en>All 987 types of beer are presented and tested by a homeless man, an alcoholic and a tax consultant. </en>
-				<pl></pl>
+				<pl>Wszystkie 987 rodzajów piwa są prezentowane i testowane przez bezdomnego, alkoholika i doradcę podatkowego.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">59f79e7c-9a72-4585-9d83-82ced5b6c191</member>
@@ -27,12 +27,12 @@
 			<title>
 				<de>Biedermeier - (K)eine Zeit zum Feiern</de>
 				<en>Biedermeier - (Not) A time for celebration</en>
-				<pl></pl>
+				<pl>Biedermeier - (Nie) czas na świętowanie</pl>
 			</title>
 			<description>
 				<de>Gibt es noch heute Biedermeier? Wie war das damals? Diesen und anderen Fragen geht diese Sendung auf den Grund und versucht nicht ganz ernsthafte Antworten zu geben.</de>
 				<en>Does Biedermeier still exist today? What was it like back then? This program gets to the bottom of these and other questions and tries to give not entirely serious answers.</en>
-				<pl></pl>
+				<pl>Czy biedermeier nadal istnieje? Jak to wyglądało w tamtych czasach? Ten program dociera do sedna tych i innych pytań i próbuje udzielić nie do końca poważnych odpowiedzi.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">be56dbc0-3bf4-4326-a2a5-f30edf94fd2a</member>
@@ -46,12 +46,12 @@
 			<title>
 				<de>Der Hammer fällt LIVE</de>
 				<en>The Hammer Falls LIVE</en>
-				<pl></pl>
+				<pl>Młot spada NA ŻYWO</pl>
 			</title>
 			<description>
 				<de>Nur im Fernsehen und nirgends sonst werden diese Ramschartikel an Ahnungslose versteigert.</de>
 				<en>Only on television and nowhere else are these junk items auctioned off to the unsuspecting.</en>
-				<pl></pl>
+				<pl>Tylko w telewizji i nigdzie indziej te śmieciowe przedmioty nie są sprzedawane na aukcjach niczego niepodejrzewającym osobom.</pl>
 			</description>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="B" year="2011" distribution="2" maingenre="0" subgenre="" flags="128" blocks="2" price_mod="0.85" />
@@ -61,12 +61,12 @@
 			<title>
 				<de>Die Demoskopie des Menschen</de>
 				<en>The Demoscopy of Man</en>
-				<pl></pl>
+				<pl>Demoskopia człowieka</pl>
 			</title>
 			<description>
 				<de>[1|Full] führt den Zuschauer durch subjektiv ausgewählte Kurzberichte über das Leben fanatischer Kirchgänger.</de>
 				<en>[1|Full] takes the viewer through subjectively selected short reports on the lives of fanatical churchgoers.</en>
-				<pl></pl>
+				<pl>[1|Full] prowadzi widza przez subiektywnie wybrane krótkie reportaże z życia fanatycznych wyznawców kościoła.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc</member>
@@ -80,12 +80,12 @@
 			<title>
 				<de>Die große Verarsche-Show</de>
 				<en>The Big Bullshitting-You Show</en>
-				<pl></pl>
+				<pl>Wielki pokaz bzdur</pl>
 			</title>
 			<description>
 				<de>Hier treten Männer gegen Frauen an. Das Geschlecht mit den meisten Anrufen gewinnt.</de>
 				<en>Here, men compete against women. The gender with the most calls wins.</en>
-				<pl></pl>
+				<pl>Tutaj mężczyźni rywalizują z kobietami. Wygrywa płeć z największą liczbą połączeń.</pl>
 			</description>
 			<groups target_groups="0" pro_pressure_groups="0" contra_pressure_groups="0" />
 			<data country="D" year="2000" distribution="2" maingenre="0" subgenre="" flags="128" blocks="2" price_mod="0.9" />
@@ -95,12 +95,12 @@
 			<title>
 				<de>Ein Ei zum Frühstück?</de>
 				<en>An egg for breakfast?</en>
-				<pl></pl>
+				<pl>Jajko na śniadanie?</pl>
 			</title>
 			<description>
 				<de>Locker flockig bringt uns diese Dokumentation dem Thema nahe: Wie gesund ist das Ei zum Frühstück? Schadet ein zweites zum Abendessen?</de>
 				<en>In a light and fluffy way, this documentary brings us closer to the topic: How healthy is the egg for breakfast? Does a second one for dinner do any harm?</en>
-				<pl></pl>
+				<pl>Ten dokument w lekki i puszysty sposób przybliża nam ten temat: Jak zdrowe jest jajko na śniadanie? Czy drugie na kolację szkodzi?</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">common-amateur-actors</member>
@@ -113,12 +113,12 @@
 			<title>
 				<de>Faszination Plusquamperfekt</de>
 				<en>Fascination Plusquamperfect</en>
-				<pl></pl>
+				<pl>Fascynacja Plusquamperfect</pl>
 			</title>
 			<description>
 				<de>Wissenschaftliche, künstlerische und sprachkulturelle Aufarbeitung der spannendsten Tempora in den schönsten Sprachen dieser Welt.</de>
 				<en>Scientific, artistic and linguistic-cultural reappraisal of the most exciting tempora in the most beautiful languages of this world.</en>
-				<pl></pl>
+				<pl>Naukowa, artystyczna i językowo-kulturowa ocena najbardziej ekscytujących zwrotów w najpiękniejszych językach tego świata.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc</member>
@@ -132,12 +132,12 @@
 			<title>
 				<de>Kakiemon-Porzellanmanufakturen in Japan</de>
 				<en>Cacomon porcelain manufactories in Japan</en>
-				<pl></pl>
+				<pl>Manufaktury porcelany kakomonowej w Japonii</pl>
 			</title>
 			<description>
 				<de>Dokumentation über traditionelle Handwerker bei ihrer beschaulichen Arbeit.</de>
 				<en>Documentary about traditional craftsmen at their contemplative work.</en>
-				<pl></pl>
+				<pl>Film dokumentalny o tradycyjnych rzemieślnikach podczas ich kontemplacyjnej pracy.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">336ebe49-3b96-46f4-8cd5-da6f64ff8c38</member>
@@ -150,12 +150,12 @@
 			<title>
 				<de>Kaminfeuer</de>
 				<en>Chimney fire</en>
-				<pl></pl>
+				<pl>Ogień w kominie</pl>
 			</title>
 			<description>
 				<de>Entspannen Sie vor Ihrem Fernseher. Das Feuer wirkt als wenn es vor Ihnen knisterte. Alte TV-Geräte erzeugen sogar die Wärme!</de>
 				<en>Relax in front of your TV. The fire acts as if it crackled in front of you. Old TV sets even generate the heat!</en>
-				<pl></pl>
+				<pl>Zrelaksuj się przed telewizorem. Ogień działa tak, jakby trzaskał przed tobą. Stare telewizory nawet generują ciepło!</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">fa5cf4fe-7704-4eab-808b-5ea8f3935c6d</member>
@@ -168,12 +168,12 @@
 			<title>
 				<de>Klimax Kulturgeschichte: Eine weibliche Erörterung</de>
 				<en>Climax Cultural History: A Female Discourse</en>
-				<pl></pl>
+				<pl>Punkt kulminacyjny historii kultury: Kobiecy dyskurs</pl>
 			</title>
 			<description>
 				<de>[1|Full] präsentiert und erörtert die spannendsten kulturellen Entwicklungen der letzten 150 Jahre aus einem weiblichen Blickwinkel.</de>
 				<en>[1|Full] presents and discusses the most exciting cultural developments of the last 150 years from a female point of view.</en>
-				<pl></pl>
+				<pl>[1|Full] przedstawia i omawia najbardziej ekscytujące wydarzenia kulturalne ostatnich 150 lat z kobiecego punktu widzenia.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">24967622-b169-4413-90df-6dc574464b65</member>
@@ -188,12 +188,12 @@
 			<title>
 				<de>Kultur Heute</de>
 				<en>Culture Today</en>
-				<pl></pl>
+				<pl>Kultura dzisiaj</pl>
 			</title>
 			<description>
 				<de>[1|Full] erzählt exklusiv von den neuesten kulturellen Errungenschaften des freien Westens.</de>
 				<en>[1|Full] tells exclusively about the latest cultural achievements of the free West.</en>
-				<pl></pl>
+				<pl>[1|Full] opowiada wyłącznie o najnowszych osiągnięciach kulturalnych wolnego Zachodu.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">24967622-b169-4413-90df-6dc574464b65</member>
@@ -208,12 +208,12 @@
 			<title>
 				<de>Kunst am Arsch der Welt</de>
 				<en>Arts at the Arse End of Nowhere</en>
-				<pl></pl>
+				<pl>Sztuka na zadupiu donikąd</pl>
 			</title>
 			<description>
 				<de>[1|Full] bestaunt und berichtet von skurrilen Kunstwerken und Künstlern aus einer Gebirgsregion mit ungewöhnlichem Namen.</de>
 				<en>[1|Full] marvels at and reports on whimsical artwork and artists from a remote mountainous region with an unusual name.</en>
-				<pl></pl>
+				<pl>[1|Full] zachwyca się i relacjonuje kapryśne dzieła sztuki i artystów z odległego górskiego regionu o niezwykłej nazwie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">cebd1a68-cf97-4b93-b3f9-ac34bda4bdcc</member>
@@ -227,12 +227,12 @@
 			<title>
 				<de>Landung auf dem Mars</de>
 				<en>Landing on Mars</en>
-				<pl></pl>
+				<pl>Lądowanie na Marsie</pl>
 			</title>
 			<description>
 				<de>Die Solaris-Crew hat es geschafft: ein Amerikaner, ein Russe und der Papst landen auf dem Mars!</de>
 				<en>The Solaris crew has done it: an American, a Russian and the Pope land on Mars!</en>
-				<pl></pl>
+				<pl>Załoga Solaris dokonała tego: Amerykanin, Rosjanin i papież lądują na Marsie!</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">5b52221c-10f6-4ad8-b818-c89c304e9ea0</member>
@@ -248,12 +248,12 @@
 			<title>
 				<de>Lolcat: Da lacht die Katz'!</de>
 				<en>Lolcat: Here's where the cat laughs!</en>
-				<pl></pl>
+				<pl>Lolcat: Tutaj kot się śmieje!</pl>
 			</title>
 			<description>
 				<de>Kulturelle Erörterung eines jungen Internet-Phänomes: humoristische Katzen-Bilder.</de>
 				<en>Cultural exploration of a young Internet phenomenon: humorous cat pictures.</en>
-				<pl></pl>
+				<pl>Kulturowa eksploracja młodego zjawiska internetowego: humorystyczne zdjęcia kotów.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">682d65b5-9ff7-475a-8d50-a4ded9eefa9e</member>
@@ -266,12 +266,12 @@
 			<title>
 				<de>Mal rückwärts!</de>
 				<en>Try in reverse!</en>
-				<pl></pl>
+				<pl>Spróbuj w odwrotnej kolejności!</pl>
 			</title>
 			<description>
 				<de>Wissenschaftler erklären satanische Hetzsprüche, die beim Rückwärts-Abspielen populärer Schallplatten zu hören sind.</de>
 				<en>Scientists explain satanic diatribes heard when playing popular records in reverse.</en>
-				<pl></pl>
+				<pl>Naukowcy wyjaśniają satanistyczne diatryby słyszane podczas odtwarzania popularnych płyt w odwrotnej kolejności.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">24967622-b169-4413-90df-6dc574464b65</member>
@@ -287,12 +287,12 @@
 			<title>
 				<de>Reiseziel Molwanîen</de>
 				<en>Destination Molvanîa</en>
-				<pl></pl>
+				<pl>Miejsce docelowe Molvanîa</pl>
 			</title>
 			<description>
 				<de>Molwanîen, das Land wo die Zahnärzte offen für Individualität plädieren. Reporter [0|Last] zeigt ein verschlafenes Land.</de>
 				<en>Molvanîa, the country where dentists openly advocate for individuality. Reporter [0|Last] shows a sleepy country.</en>
-				<pl></pl>
+				<pl>Molvanîa - kraj, w którym dentyści otwarcie opowiadają się za indywidualizmem. Reporter [0|Last] pokazuje senny kraj.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">878b0a3f-dd01-4d01-994a-30fd38eece00</member>
@@ -307,12 +307,12 @@
 			<title>
 				<de>Talk um 10</de>
 				<en>Talk at 10</en>
-				<pl></pl>
+				<pl>Rozmowy o 10</pl>
 			</title>
 			<description>
 				<de>[1|Full] erwartet wie jeden Abend einen Gast, oft Star am Literaturhimmel, und bespricht dessen neues Buch.</de>
 				<en>As every evening, [1|Full] expects a guest, often a star in the realm of literature, and discusses his or her new book.</en>
-				<pl></pl>
+				<pl>Jak co wieczór, [1|Full] spodziewa się gościa, często gwiazdy w dziedzinie literatury, i omawia zaproszonego autora nową książkę.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">55bada42-a893-4c3c-8bc4-5b51d599a042</member>
@@ -326,12 +326,12 @@
 			<title>
 				<de>Talk um 10 Spezial</de>
 				<en>Talk at 10 Special</en>
-				<pl></pl>
+				<pl>Rozmowa specjalna o 10</pl>
 			</title>
 			<description>
 				<de>Diesmal erwartet der Star-Buchkritiker [1|Last] nicht wie sonst nur einen Gast. Ganze Fünf kritisieren sich diesmal gegenseitig und bringen Würze in die Diskussionsrunde.</de>
 				<en>This time, star book critic [1|Last] is not expecting just one guest as usual. A total of five criticize each other this time and spice up the discussion round.</en>
-				<pl></pl>
+				<pl>Tym razem krytyk [1|Last] nie oczekuje tylko jednego gościa, jak zwykle. Tym razem aż pięć osób krytykuje się nawzajem i urozmaica rundę dyskusyjną.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">55bada42-a893-4c3c-8bc4-5b51d599a042</member>
@@ -345,12 +345,12 @@
 			<title>
 				<de>TED am Morgen</de>
 				<en>TED in the morning</en>
-				<pl></pl>
+				<pl>TED o poranku</pl>
 			</title>
 			<description>
 				<de>Der Teledialog befragt Zuschauer zu brisanten Themen. Meinungsbildend und Gewinnbringend.</de>
 				<en>The teledialogue surveys viewers to topics of high significance. Opinion-forming and gainful.</en>
-				<pl></pl>
+				<pl>Teledialog ankietuje widzów na tematy o dużym znaczeniu. Opiniotwórcze i zyskowne.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">11c74211-662a-4817-b5b5-ec2c635d0158</member>
@@ -363,12 +363,12 @@
 			<title>
 				<de>TED am Abend</de>
 				<en>TED in the evening</en>
-				<pl></pl>
+				<pl>TED wieczorem</pl>
 			</title>
 			<description>
 				<de>Der Teledialog befragt Zuschauer zu brisanten Themen. Meinungsbildend und Gewinnbringend.</de>
 				<en>The teledialogue surveys viewers to topics of high significance. Opinion-forming and gainful.</en>
-				<pl></pl>
+				<pl>Teledialog ankietuje widzów na tematy o dużym znaczeniu. Opiniotwórcze i zyskowne.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">11c74211-662a-4817-b5b5-ec2c635d0158</member>
@@ -381,12 +381,12 @@
 			<title>
 				<de>Tschüssikowski A4</de>
 				<en>Tschüssi-kowski A4</en>
-				<pl></pl>
+				<pl>Pa pa kowski A4</pl>
 			</title>
 			<description>
 				<de>Diskussion um den Wert der deutschen Autobahn heute und dessen Nutzen nach Erschöpfung der Ölquellen.</de>
 				<en>Discussion of the value of the German autobahn today and its usefulness after oil wells are depleted.</en>
-				<pl></pl>
+				<pl>Dyskusja na temat wartości niemieckiej autostrady dzisiaj i jej przydatności po wyczerpaniu szybów naftowych.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8af76be0-b50c-4236-9275-e0cecd6594b0</member>
@@ -402,12 +402,12 @@
 			<title>
 				<de>VHS im Test</de>
 				<en>Folk High Schools under Test</en>
-				<pl></pl>
+				<pl>Testowane uniwersytety ludowe</pl>
 			</title>
 			<description>
 				<de>Eine Generation die „Lehre“ mit „Leere“ um- und be- und schreibt. Keine Arbeit und Moos für alle!</de>
-				<en>A generatio<pl></pl>n that (re)writes and describes "the long hall" with "the long haul". No jobs and moolah for all!</en>
-
+				<en>A generation that (re)writes and describes "the long hall" with "the long haul". No jobs and moolah for all!</en>
+				<pl>Pokolenie, które (ponownie) pisze i opisuje "życia" za pomocą "tycia". Brak pracy i pieniędzy dla wszystkich!</pl>	
 			</description>
 			<staff>
 				<member index="0" function="1">f14d6ba0-0db5-4a76-a4d3-daba1603e4f6</member>
@@ -422,12 +422,12 @@
 			<title>
 				<de>Wasser-Theremin, Klickphone &amp; Achselgeige: Musikgeschmack im Grenzbereich</de>
 				<en>Water Theremin, Clickphone &amp; Armpit Fiddle: Music Taste on the Fringe</en>
-				<pl></pl>
+				<pl>Muzyczne smaki na marginesie</pl>
 			</title>
 			<description>
 				<de>Spannende Dokumentation über den Experimentalmusiker [1|Full], seine faszinierenden Instrumente und seine kakophonischen Klangwelten.</de>
 				<en>Exciting documentary about the experimental musician [1|Full], his fascinating instruments and his cacophonous soundscapes.</en>
-				<pl></pl>
+				<pl>Ekscytujący dokument o muzyku eksperymentalnym: [1|Full]. Jego fascynujące instrumenty i kakofoniczne pejzaże dźwiękowe.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">003bbc46-ee54-43ea-bd2b-230f0feb051f</member>
@@ -441,7 +441,7 @@
 			<title>
 				<de>Wer wird Pleitegeier?</de>
 				<en>Who'll be the Buster?</en>
-				<pl></pl>
+				<pl>Kto zostanie Busterem?</pl>
 			</title>
 			<description>
 				<de>Moderator [1|Full] spielt mit 5 Kandidaten, allesamt am Rande des Ruins. Der Verlierer der Quizshow, übernimmt die Schulden der anderen.
@@ -450,7 +450,9 @@ Spannende Unterhaltung und knifflige Fragen.</de>
 				<en>Host [1|Full] plays with 5 candidates, all on the brink of ruin. The loser of the quiz show takes over the debts of the others.
 
 Exciting entertainment and brain-teasing trivia questions.</en>
-<pl></pl>
+				<pl>Gospodarz - [1|Full] gra z 5 kandydatami, z których każdy jest na skraju ruiny. Przegrany teleturnieju przejmuje długi pozostałych.
+
+Ekscytująca rozrywka i łamiące mózg pytania.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">5c93b075-3f35-4ef7-8ef7-e0e99af0ad48</member>
@@ -464,12 +466,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 			<title>
 				<de>BBWr - Best-Of Bolivian Wrestling</de>
 				<en>BBWr - Best-Of Bolivian Wrestling</en>
-				<pl></pl>
+				<pl>NBWr - Najlepszy boliwijski wrestling</pl>
 			</title>
 			<description>
 				<de>[0|Last] - Härter - bolivianisches Wrestling. Schlechte Schauspieler und echtes Blut entzücken Fans weltweit.</de>
 				<en>[0|Last] - Harder - Bolivian Wrestling. Lousy actors and genuine blood delight fans around the world.</en>
-				<pl></pl>
+				<pl>[0|Last] - Twardy - Boliwijski wrestling. Nędzni aktorzy i prawdziwa krew zachwycają fanów na całym świecie.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">c9784ca1-3c3a-4d15-a6c9-493e45d03559</member>
@@ -488,12 +490,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>[0|Last] - [1|Last]</de>
 						<en>[0|Last] - [1|Last]</en>
-						<pl></pl>
+						<pl>[0|Last] - [1|Last]</pl>
 					</title>
 					<description>
 						<de>Ein spannendes Match von 1987, in dem [1|Last] seinem Widersacher [0|Last] zeigt, wo der Hammer hängt.</de>
 						<en>An exciting match from 1987 in which [1|Last] shows his opponent [0|Last] who's wearing the pants.</en>
-						<pl></pl>
+						<pl>Ekscytujący mecz z 1987 roku, w którym [1|Last] pokazuje swojemu przeciwnikowi [0|Last], kto nosi majtki.</pl>
 					</description>
 					<ratings critics="27" speed="27" />
 				</programme>
@@ -501,12 +503,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Der neue wird eingewiesen</de>
 						<en>The New One is Briefed</en>
-						<pl></pl>
+						<pl>The New One is Briefed</pl>
 					</title>
 					<description>
 						<de>Die neuen Moderatoren [0|Full] und [1|Full] weisen den Neuling, [5|First] '[5|Nick]' [5|Last] ein... mit Stühlen auf dem Rücken.</de>
 						<en>The new hosts [0|Full] and [1|Full] are briefing the newbie, [5|First] '[5|Nick]' [5|Last]... with chairs against his back.</en>
-						<pl></pl>
+						<pl>Nowi gospodarze [0|Full] i [1|Full] odprawiają nowicjusza, [5|First] '[5|Nick]' [5|Last]... z krzesłami opartymi o jego plecy.</pl>
 					</description>
 					<staff>
 						<member index="0" function="1">1cac5a80-97dc-46f6-8c34-761c4fe43db5</member>
@@ -517,12 +519,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>[2|Last] - [4|Nick]</de>
 						<en>[2|Last] - [4|Nick]</en>
-						<pl></pl>
+						<pl>[2|Last] - [4|Nick]</pl>
 					</title>
 					<description>
 						<de>Wer macht das Rennen? Der Amateur '[2|Nick]' aus Ostsachsen gegen den BWr-Champion [4|First] '[4|Nick]' [4|Last]. Ein bissiger Kampf ist garantiert!</de>
 						<en>Who will bring home the bacon? The amateur '[2|Nick]' from East Saxony against the BWr champion [4|First] '[4|Nick]' [4|Last]. A gritty fight is guaranteed!</en>
-						<pl></pl>
+						<pl>Kto przywiezie do domu bekon? Amator '[2|Nick]' ze Wschodniej Saksonii przeciwko mistrzowi BWr [4|First] '[4|Nick]' [4|Last]. Zacięta walka gwarantowana!</pl>
 					</description>
 					<ratings critics="15" speed="39" />
 				</programme>
@@ -530,12 +532,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>[3|Last] - [5|Last]</de>
 						<en>[3|Last] - [5|Last]</en>
-						<pl></pl>
+						<pl>[3|Last] - [5|Last]</pl>
 					</title>
 					<description>
 						<de>Schlägt der [3|Last] auf Granit oder schafft er es dem Altmeister [5|First] '[5|Nick]' [5|Last] zu schlagen? Nur für hartgesottene Zuschauer, hier wurde der Weltrekord im Blutweitspritzen von 5.3m aufgestellt.</de>
 						<en>Does [3|Last] hit granite or does he manage to beat the old master [5|First] '[5|Nick]' [5|Last]? Only for the tough spectators, here the world record in long-range blood-splatter was set to 5.3 meters.</en>
-					<pl></pl>
+						<pl>Czy [3|Last] trafi w granit, czy uda mu się pokonać starego mistrza [5|First] '[5|Nick]' [5|Last]? Tylko dla twardych widzów, tutaj rekord świata w dalekim rozbryzgu krwi został ustanowiony na 5,3 metra.</pl>
 					</description>
 					<staff>
 						<member index="0" function="1">1cac5a80-97dc-46f6-8c34-761c4fe43db5</member>
@@ -546,12 +548,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Tag-Team-Match</de>
 						<en>Tag Team Match</en>
-						<pl></pl>
+						<pl>Pojedynek Tag Team</pl>
 					</title>
 					<description>
 						<de>Die Moderatoren nach Jahren wieder im Ring. [0|Last] und [1|Last] im Team mit [3|Last] gegen die bolivianische Muskelpracht verstärkt durch den deutschen [2|Last].</de>
 						<en>The hosts back in the ring after years. [0|Last] and [1|Last] teaming up with [3|Last] against the splendid Bolivian display of muscles supported by the German [2|Last].</en>
-					<pl></pl>
+						<pl>Gospodarze wracają na ring po latach. [0|Last] i [1|Last] w parze z [3|Last] przeciwko wspaniałemu boliwijskiemu pokazowi mięśni wspieranemu przez Niemca [2|Last].</pl>
 					</description>
 					<ratings critics="16" speed="51" />
 				</programme>
@@ -561,12 +563,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 			<title>
 				<de>Ronny hilft...</de>
 				<en>Ronny assists...</en>
-				<pl></pl>
+				<pl>Ronny asystuje...</pl>
 			</title>
 			<description>
 				<de>Der ehemalige Programmierer [0|Full] versucht Anrufern bei deren Problemen zu helfen - live am Telefon.</de>
 				<en>The former programmer [0|Full] tries to help people calling in with their problems - live on the phone.</en>
-				<pl></pl>
+				<pl>Były programista [0|Full] próbuje pomóc ludziom dzwoniącym ze swoimi problemami - na żywo przez telefon.</pl>
 			</description>
 			<staff>
 				<member index="0" function="2">9104f9c1-7a0f-4bc0-a34c-389ce282eebf</member>
@@ -579,12 +581,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Marios Wohnzimmer</de>
 						<en>Mario's living room</en>
-						<pl></pl>
+						<pl>Pokój dzienny Mario</pl>
 					</title>
 					<description>
 						<de>Mario benötigt Einrichtungstipps für die neue Wohnung. Ronny und sein Team stehen beratend zur Seite.</de>
 						<en>Mario needs furnishing tips for the new apartment. Ronny and his team are there to advise.</en>
-						<pl></pl>
+						<pl>Mario potrzebuje wskazówek dotyczących wyposażenia nowego mieszkania. Ronny i jego zespół służą radą.</pl>
 					</description>
 					<ratings critics="6" speed="3" />
 				</programme>
@@ -592,12 +594,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Sandros Handyvertrag</de>
 						<en>Sandro's cell phone contract</en>
-						<pl></pl>
+						<pl>Umowa na telefon komórkowy Sandro</pl>
 					</title>
 					<description>
 						<de>Sandro aus Wernigerode hat sich einen Handyvertrag für 1000 Euro im Monat aufschwatzen lassen. Ronny hilft...</de>
 						<en>Sandro from Wernigerode has been talked into a cell phone contract for 1000 euros a month. Ronny helps...</en>
-						<pl></pl>
+						<pl>Sandro z Wernigerode dał się namówić na umowę na telefon komórkowy za 1000 euro miesięcznie. Ronny pomaga...</pl>
 					</description>
 					<ratings critics="5" speed="4" />
 				</programme>
@@ -605,12 +607,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Ok, OP...</de>
 						<en>Ok, Op...</en>
-						<pl></pl>
+						<pl>Ok, Op...</pl>
 					</title>
 					<description>
 						<de>Die Brustimplantate von Isolde aus Regensburg müssen erneuert werden. Ronny gibt ihr telefonisch Tipps zur Größe.</de>
 						<en>Isolde from Regensburg needs her breast implants to be renewed. Ronny advises her on sizing over the phone.</en>
-						<pl></pl>
+						<pl>Isolde z Regensburga potrzebuje wymiany implantów piersi. Ronny doradza jej w doborze rozmiaru przez telefon.</pl>
 					</description>
 					<ratings critics="6" speed="3" />
 				</programme>
@@ -618,11 +620,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>...sich selbst</de>
 						<en>...himself</en>
+						<pl>...siebie</pl>
 					</title>
 					<description>
 						<de>Das schier unglaubliche geschieht in dieser Ausgabe: Ronny telefoniert mit sich selbst und gibt Tipps als Showmaster.</de>
 						<en>The almost unbelievable happens in this episode: Ronny makes a phone call to himself and gives advice how to be a show host.</en>
-						<pl></pl>
+						<pl>W tym odcinku dzieje się coś prawie niewiarygodnego: Ronny wykonuje telefon do samego siebie i udziela rad, jak być gospodarzem show.</pl>
 					</description>
 					<ratings critics="6" speed="8" />
 				</programme>
@@ -632,11 +635,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 			<title>
 				<de>Aus dem Leben gegriffen</de>
 				<en>Taken From Real Life</en>
+				<pl>Zaczerpnięte z prawdziwego życia</pl>
 			</title>
 			<description>
 				<de>Brisantes von der Mittelschicht. Reality-Doku-Soap-Format der Billigklasse.</de>
 				<en>Edgy stuff from the middle class. Reality-docu-soap format of the budget range.</en>
-				<pl></pl>
+				<pl>Ostre rzeczy z klasy średniej. Format reality-docu-mydlany w przedziale budżetowym.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">8f93af7f-ac58-4573-bfae-ddf4698059bb</member>
@@ -650,11 +654,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Der Malocher</de>
 						<en>The Slogger</en>
+						<pl>Robotnik</pl>
 					</title>
 					<description>
 						<de>Er ist fleißiger Klempner und dauernd auf Achse doch dann erfährt Jörgs Frau, bei wem er alles Rohre verlegt.</de>
 						<en>He is a hard-working plumber and constantly on the road, but then Jörg's wife finds out where else he is laying pipes.</en>
-						<pl></pl>
+						<pl>Jest ciężko pracującym hydraulikiem i ciągle w drodze, ale wtedy żona Jörga dowiaduje się, gdzie jeszcze kładzie rury.</pl>
 					</description>
 					<ratings critics="3" speed="7" />
 				</programme>
@@ -662,12 +667,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Frivole Liebschaften</de>
 						<en>Frivolous Liaisons</en>
-						<pl></pl>
+						<pl>Frywolne związki</pl>
 					</title>
 					<description>
 						<de>Bärbel ist nicht nur Hausfrau aus Leidenschaft. Der Nebendienst ermöglicht ihrer jungen Familie täglich warme Mahlzeiten. Als Ihr Mann davon erfährt muss sie sich entscheiden.</de>
 						<en>Bärbel is not only a housewife of passion. Her part-time job provides her young family with daily warm meals. When her husband finds out, she has to make a decision.</en>
-					<pl></pl>
+						<pl>Bärbel jest nie tylko gospodynią domową z pasji. Praca na pół etatu zapewnia jej młodej rodzinie codzienne ciepłe posiłki. Kiedy jej mąż dowiaduje się o tym, musi podjąć decyzję.</pl>
 					</description>
 					<ratings critics="5" speed="10" />
 				</programme>
@@ -675,12 +680,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Nachbars Nebenberuf</de>
 						<en>Neighbor's Side Job</en>
-						<pl></pl>
+						<pl>Praca na boku u sąsiada</pl>
 					</title>
 					<description>
 						<de>Seine Pizzen sind die beliebtesten in Marions Schule. Bis ihre Mutter hinter das Geheimnis der Wunder-Funghis kommt.</de>
 						<en>His pizzas are the most popular in Marion's school. Until her mother finds out about the secret of the Miracle-Funghi.</en>
-						<pl></pl>
+						<pl>Jego pizze są najpopularniejsze w szkole Marion. Do czasu, gdy jej matka dowiaduje się o tajemnicy Miracle-Funghi.</pl>
 					</description>
 					<ratings critics="3" speed="9" />
 				</programme>
@@ -688,12 +693,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Ohne Schulabschluss</de>
 						<en>Without Graduation</en>
-						<pl></pl>
+						<pl>Bez ukończenia szkoły</pl>
 					</title>
 					<description>
 						<de>Mariusz und Katja sind ein Paar und das schon seit der 7. Klasse. Als Katja erfährt, dass sie schwanger ist, will sie noch vor der Prüfung die Schule abbrechen...</de>
 						<en>Mariusz and Katja are a couple and have been since 7th grade. When Katja finds out that she is pregnant, she wants to drop out of school before the exam...</en>
-						<pl></pl>
+						<pl>Mariusz i Katja są parą od siódmej klasy. Kiedy Katja dowiaduje się, że jest w ciąży, chce rzucić szkołę przed egzaminem...</pl>
 					</description>
 					<ratings critics="5" speed="10" />
 				</programme>
@@ -701,12 +706,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Der fiese Chef</de>
 						<en>The Nasty Boss</en>
-						<pl></pl>
+						<pl>Paskudny szef</pl>
 					</title>
 					<description>
 						<de>Jedes falsche Wort legt Berts Chef auf die Goldwaage, und nie kommt ein Lob über die Lippen. Als er seinen Boss dann noch in flagranti mit seiner Frau erwischt, dreht Bert durch.</de>
 						<en>Bert's boss weighs every wrong word and never praises him. When he then catches his boss in flagrante with his wife, Bert freaks out.</en>
-						<pl></pl>
+						<pl>Szef Berta waży każde złe słowo i nigdy go nie chwali. Kiedy przyłapuje szefa na gorącym uczynku z żoną, Bert wpada w szał.</pl>
 					</description>
 					<ratings critics="11" speed="16" />
 				</programme>
@@ -714,12 +719,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Der Drogenkurier</de>
 						<en>The Drug Courier</en>
-						<pl></pl>
+						<pl>Kurier narkotykowy</pl>
 					</title>
 					<description>
 						<de>Hans G. ist gelernter Maurer, doch des Nachts fährt er Touren für den fiesen Achim J. Als seine Frau davon Wind bekommt, will sie die Scheidung - bis sie erfährt warum ihr Mann dies tut...</de>
 						<en>Hans G. is a trained bricklayer, but at night he drives tours for the nasty Achim J. When his wife gets wind of it she wants a divorce - until she finds out why her husband is doing this...</en>
-					<pl></pl>
+						<pl>Hans G. jest z wykształcenia murarzem, ale w nocy jeździ na wycieczki dla paskudnego Achima J. Kiedy jego żona dowiaduje się o tym, chce rozwodu - dopóki nie dowie się, dlaczego jej mąż to robi....</pl>
 					</description>
 					<staff>
 						<member index="0" function="1">ab17d747-426e-4a3c-ae6b-ac27587f7563</member>
@@ -732,12 +737,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 			<title>
 				<de>Ein Päuschen zum Gewinn</de>
 				<en>A Little Break For the Win</en>
-				<pl></pl>
+				<pl>Mała przerwa na zwycięstwo</pl>
 			</title>
 			<description>
 				<de>Schnelle Raterunden für debile Anrufer. Gestellt werden Fragen zu aktuell erschienen Schundromanen.</de>
 				<en>Short quiz sessions for dimwitted callers. The questions asked are about currently published pulp novels.</en>
-				<pl></pl>
+				<pl>Krótkie sesje quizowe dla przygłupich rozmówców. Zadawane pytania dotyczą aktualnie publikowanych powieści.</pl>
 			</description>
 			<staff>
 				<member index="0" function="1">474ae0d7-8233-47bb-bba9-2d3d3df61919</member>
@@ -751,12 +756,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Leichte Gewinne</de>
 						<en>Easy Profit</en>
-						<pl></pl>
+						<pl>Łatwy zysk</pl>
 					</title>
 					<description>
 						<de>Um ein Stammpublikum einzurichten, werden in der ersten Folge die Lösungen gleich mit eingeblendet.</de>
 						<en>In order to establish a regular audience in the first episode, the solutions are displayed with the questions straight away.</en>
-						<pl></pl>
+						<pl>Aby zdobyć stałych widzów w pierwszym odcinku, rozwiązania są wyświetlane od razu z pytaniami.</pl>
 					</description>
 					<ratings critics="3" speed="28" />
 				</programme>
@@ -764,12 +769,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Harte Brocken</de>
 						<en>Tough Nut</en>
-						<pl></pl>
+						<pl>Twardy orzech</pl>
 					</title>
 					<description>
 						<de>Der Moderator suggeriert schwere Fragen, dabei sind es die gleichen wie in der Premierensendung.</de>
 						<en>The presenter insinuates difficult questions, but they are the same as in the premiere show.</en>
-						<pl></pl>
+						<pl>Prowadzący insynuuje trudne pytania, ale są one takie same jak w premierowym programie.</pl>
 					</description>
 					<ratings critics="3" speed="20" />
 				</programme>
@@ -777,12 +782,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Genie gesucht</de>
 						<en>Genius wanted</en>
-						<pl></pl>
+						<pl>Poszukiwany geniusz</pl>
 					</title>
 					<description>
 						<de>In der diesigen Ausgabe sollen die Anrufer die Frage nach dem Sinn des Lebens beantworten. Gewinnern spendiert die Sendung eine Reise zum Mond.</de>
 						<en>In this episode, callers are asked to answer the question of the meaning of life. The show gives winners a trip to the moon.</en>
-						<pl></pl>
+						<pl>W tym odcinku dzwoniący mają odpowiedzieć na pytanie o sens życia. Zwycięzcy programu otrzymują wycieczkę na Księżyc.</pl>
 					</description>
 					<ratings critics="3" speed="25" />
 				</programme>
@@ -790,12 +795,12 @@ Exciting entertainment and brain-teasing trivia questions.</en>
 					<title>
 						<de>Dürft ich Fragen?</de>
 						<en>May I ask?</en>
-						<pl></pl>
+						<pl>Mogę zapytać?</pl>
 					</title>
 					<description>
 						<de>Der Moderator stellt unangenehme Fragen, die alle Anrufer über sich ergehen lassen müssen, um zu gewinnen.</de>
 						<en>The moderator asks unpleasant questions that all callers have to endure in order to win.</en>
-						<pl></pl>
+						<pl>Moderator zadaje nieprzyjemne pytania, które wszyscy rozmówcy muszą znieść, aby wygrać.</pl>
 					</description>
 					<ratings critics="5" speed="22" />
 				</programme>
