@@ -141,8 +141,8 @@ Type TNewsEventSport_Soccer Extends TNewsEventSport
 			Next
 
 
-			Local teams:TNewsEventSportTeam[]
-			For Local i:Int = 0 Until cityNames.length
+			local teams:TNewsEventSportTeam[] = New TNewsEventSportTeam[ cityNames.length ]
+			For local i:int = 0 until cityNames.length
 				'use predefined data if possible
 				Local predefinedTeamData:TData = predefinedLeagueData.GetData("team"+(i+1), emptyData)
 
@@ -152,9 +152,10 @@ Type TNewsEventSport_Soccer Extends TNewsEventSport
 				                  predefinedTeamData.GetString("name", ""), ..
 				                  predefinedTeamData.GetString("nameInitials", "") ..
 				                 )
-				teams :+ [team]
 				'give them some basic attributes
 				team.RandomizeBasicStats(leagueIndex)
+				'tell the team what sport it is doing
+				team.AssignSport(self.GetID())
 
 'print "league="+(leagueIndex+1)+"  team="+(i+1)+"  name=" + team.name+"  city="+team.city+"  nameInitials="+team.nameInitials+"  clubName="+team.clubName+"  clubNameInitials="+team.clubNameInitials
 
@@ -163,14 +164,23 @@ Type TNewsEventSport_Soccer Extends TNewsEventSport
 					If RandRange(0, 10) < 3 Then cCode = countryCodes[ RandRange(0, countryCodes.length-1) ]
 
 					Local p:TPersonGeneratorEntry = GetPersonGenerator().GetUniqueDataset(cCode, TPersonGenerator.GENDER_MALE)
-					Local member:TNewsEventsportTeamMember = New TNewsEventsportTeamMember.Init( p.firstName, p.lastName, p.countryCode, p.gender, True)
+					Local member:TPersonBase = New TPersonBase( p.firstName, p.lastName, p.countryCode, p.gender, True)
+					'assume 50% are not interested in TV shows / custom productions
+					If RandRange(0, 100) < 50
+						member.SetFlag(TVTPersonFlag.CASTABLE, False)
+					EndIf
+					'give the person sports specific data (team assignment is done separately)
+					member.AddData("sports_" + self.name, New TPersonSportBaseData)
+
 					If j <> 0
 						team.AddMember( member )
 					Else
 						team.SetTrainer( member )
 					EndIf
 				Next
+				teams[i] = team
 			Next
+			GetNewsEventSportCollection().AddTeams( teams )
 			
 
 			Local league:TNewsEventSportLeague_Soccer = New TNewsEventSportLeague_Soccer
@@ -198,6 +208,10 @@ Type TNewsEventSport_Soccer Extends TNewsEventSport
 
 			AddLeague( league )
 		Next
+	End Method
+
+	Method GenerateRandomTeamMembers:Int(team:TNewsEventSportTeam) override
+		GenerateRandomTeamMembers(team, 11, 3)
 	End Method
 End Type
 
@@ -261,26 +275,21 @@ End Type
 
 
 Type TNewsEventSportMatch_Soccer Extends TNewsEventSportMatch
-	Method New()
-		sportName = "SOCCER"
-	End Method
-	
-
 	Function CreateMatch:TNewsEventSportMatch_Soccer()
 		Return New TNewsEventSportMatch_Soccer
 	End Function
 
 
-	Method GetReport:String()
+	Method GetReport:String() override
 		Local matchText:String = GetLocale("SPORT_TEAMREPORT_MATCHRESULT")
 
 		'make first char uppercase
-		matchText = StringHelper.UCFirst( ReplacePlaceholders(matchText) )
+		matchText = StringHelper.UCFirst( matchText )
 		Return matchText
 	End Method
 
 
-	Method GetLiveReportShort:String(mode:String="", time:Long=-1)
+	Method GetLiveReportShort:String(mode:String="", time:Long=-1) override
 		Local matchTime:Int = GetMatchTimeGone(time)
 		
 		Local usePoints:Int[] = GetMatchScore(matchTime)
@@ -306,7 +315,7 @@ Type TNewsEventSportMatch_Soccer Extends TNewsEventSportMatch
 	End Method
 	
 
-	Method GetReportShort:String(mode:String="")
+	Method GetReportShort:String(mode:String="") override
 		Local result:String
 
 		For Local i:Int = 0 Until points.length

@@ -617,6 +617,17 @@ Type TPersonBase Extends TGameObject
 	End Method
 
 
+	Method New(firstName:String, lastName:String, countryCode:String, gender:Int, isFictional:Int)
+		self.firstName = firstName
+		self.lastName = lastName
+		self.countryCode = countryCode
+		self.gender = gender
+		self.SetFlag(TVTPersonFlag.FICTIONAL, isFictional)
+		self.SetFlag(TVTPersonFlag.BOOKABLE, True)
+		self.SetFlag(TVTPersonFlag.CAN_LEVEL_UP, True)
+	End Method
+	
+
 	Method SetFirstName:Int(firstName:String)
 		Self.firstName = firstName
 	End Method
@@ -1939,6 +1950,21 @@ Type TPersonProductionBaseData Extends TPersonBaseData
 End Type
 
 
+'for sports men
+Type TPersonSportBaseData Extends TPersonBaseData
+	Field teamID:Int
+	Field sportID:Int
+	'TODO: power, skill, ... attributes?
+
+	Method SetSport(sportID:Int)
+		Self.sportID = sportID
+	End Method
+
+	Method SetTeam(teamID:Int)
+		Self.teamID = teamID
+	End Method
+End Type
+
 
 'role/function a person had in a movie/series
 Type TPersonProductionJob
@@ -1958,8 +1984,10 @@ Type TPersonProductionJob
 	'1=job from parent, only reset role on parent reset
 	'2=job overridden in child, reset role also on child reset
 	Field randomRole:Int = 0
-	
-	
+	'GUID or variable evaluating to GUID
+	Field preselectCast:String = ""
+
+
 	Method Init:TPersonProductionJob(personID:Int, job:Int, gender:Int=0, country:String="", roleID:Int=0)
 		Self.personID = personID
 		Self.job = job
@@ -1972,6 +2000,9 @@ Type TPersonProductionJob
 	End Method
 	
 	
+	'copy is used for making a script out of a template
+	'randomRole value not needed and hence not copied
+	'preselectCast is set explicitly
 	Method Copy:TPersonProductionJob()
 		Return New TPersonProductionJob.Init(personID, job, gender, country, roleID)
 	End Method
@@ -1982,7 +2013,9 @@ Type TPersonProductionJob
 		       job + "::" +..
 		       gender + "::" +..
 		       StringHelper.EscapeString(country, ":") + "::" + ..
-		       roleID
+		       roleID + "::" + ..
+		       randomRole + "::" + ..
+		       StringHelper.EscapeString(preselectCast, ":")
 	End Method
 
 
@@ -1993,6 +2026,8 @@ Type TPersonProductionJob
 		If vars.length > 2 Then gender = Int(vars[2])
 		If vars.length > 3 Then country = StringHelper.UnEscapeString(vars[3])
 		If vars.length > 4 Then roleID = Int(vars[4])
+		If vars.length > 5 Then randomRole = Int(vars[5])
+		If vars.length > 6 Then preselectCast = StringHelper.UnEscapeString(vars[6])
 	End Method
 
 

@@ -515,8 +515,8 @@ function SignRequisitedContracts:SignMatchingContracts(requisition, guessedAudie
 			self:LogDebug("ignoring contract with too many blocks")
 		elseif spotsLeft <= 0 then
 			doSign = true
---		elseif veryhard == true and maxTopBlocks < 8 then
---			self:LogDebug("ignoring very hard contracts with spots left over")
+		elseif veryhard == true and self.Player.coverage > 0.9 then
+			self:LogDebug("ignoring very hard contracts on high coverage")
 		elseif neededSpotCount == 1 and requisition.Priority < 3 then
 			self:LogDebug("ignore requisition - only one spot with low priority")
 		else
@@ -658,10 +658,13 @@ function SignContracts:Tick()
 	local signedContracts = TaskAdAgency.GetAllAdContracts()
 	--count penalty for failed contracts as fixed costs
 	local fixedCosts = 0
-	if getPlayer().hour > 19 then
+	local player = getPlayer()
+	if player.hour > 19 or player.coverage > 0.9 then
+		local threshold = 0
+		if player.coverage > 0.9 then threshold = 1 end
 		for key, contract in pairs(signedContracts) do
 			if contract ~= nil then
-				if contract:GetDaysLeft(-1) == 0 then fixedCosts = fixedCosts + contract.getPenalty(TVT.ME) end
+				if contract:GetDaysLeft(-1) <= threshold then fixedCosts = fixedCosts + contract.getPenalty(TVT.ME) end
 			end
 		end
 	end
@@ -736,6 +739,7 @@ function SignContracts:ShouldSignContract(contract)
 				if targetGroup > 0 and spotCount > 3 then return 0 end
 				if self.player.blocksCount < 48 and spotCount > 2 then return 0 end
 				if (self.player.maxTopicalityBlocksCount < 4 or self.player.money < 500000) and spotCount > 1 then return 0 end
+				if self.player.coverage > 0.75 and spotMinAudience > self.maxAudience * 0.11 then return 0 end
 				--TODO few max top too many spots ->no
 			end
 			if targetGroup == 32 and achieved < spotCount then return 0 end

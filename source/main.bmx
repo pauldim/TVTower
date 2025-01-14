@@ -162,7 +162,7 @@ Include "game.menu.escapemenu.bmx"
 
 '===== Globals =====
 VersionDate = LoadText("incbin::source/version.txt").Trim()
-VersionString = "v0.8.2"
+VersionString = "v0.8.3.1"
 CopyrightString = "by Ronny Otto & Team"
 
 Global APP_NAME:String = "TVTower"
@@ -2105,7 +2105,7 @@ Type TSaveGame Extends TGameState
 	Field _Time_timeGone:Long = 0
 	Field _Entity_globalWorldSpeedFactor:Float =  0
 	Field _Entity_globalWorldSpeedFactorMod:Float =  0
-	Const SAVEGAME_VERSION:int = 21
+	Const SAVEGAME_VERSION:int = 23
 	Const MIN_SAVEGAME_VERSION:Int = 13
 	Global messageWindow:TGUIModalWindow
 	Global messageWindowBackground:TImage
@@ -2401,6 +2401,99 @@ Type TSaveGame Extends TGameState
 
 	Global _nilNode:TNode = New TNode._parent
 	Function RepairData(savegameVersion:Int, savegameConverter:TSavegameConverter = null)
+		If savegameVersion < 23
+			'mark news events of the past as "happening processed"
+			Local neChangeCount:Int
+			For Local ne:TNewsEvent = EachIn GetNewsEventCollection().newsEvents.Values()
+				If ne.HasHappened() 
+					ne.SetFlag(TVTNewsFlag.HAPPENING_PROCESSED, True)
+					neChangeCount :+ 1
+				EndIf
+			Next
+			'print "Marked " + neChangeCount + " news events as happening_processed."
+		EndIf
+			
+		If savegameVersion < 22
+			'create leagueID map
+			For Local league:TNewsEventSportLeague = EachIn GetNewsEventSportCollection().leagues.Values()
+				GetNewsEventSportCollection().AddLeague(league)
+			Next
+
+			'repair sportsdata 
+			For local data:TSportsProgrammeData = EachIn GetProgrammeDataCollection().entries.Values()
+				Local leagueGUID:String = String(savegameConverter.temporaryData.ValueForKey(data.GetID() + "_leagueguid"))
+				Local matchGUID:String = String(savegameConverter.temporaryData.ValueForKey(data.GetID() + "_matchguid"))
+				'in our case match guids are "entitybase-MATCHID" so we can simply extract the match id from there..
+				Local matchID:Int = Int( matchGUID[matchGUID.Find("-") + 1 ..] )
+
+				Local league:TNewsEventSportLeague = GetNewsEventSportCollection().GetLeague(leagueGUID)
+				If Not league Then Throw "cannot repair TSportsProgrammeData: " + data.title.get()
+
+				Local sport:TNewsEventSport = league.GetSport()
+				If Not sport Then Throw "cannot repair TSportsProgrammeData - no sport to retrieve via league: " + league.name
+
+				Local match:TNewsEventSportMatch = GetNewsEventSportCollection().GetMatch(matchID)
+				If match
+					data.matchID = match.GetID()
+				EndIf
+
+				data.leagueID = league.GetID()
+				data.sportID = sport.GetID()
+			Next
+
+			Local teams:TIntMap = New TIntMap
+			'add all teams found in known leagues
+			'also make all base persons "sportsmen" again
+			For local league:TNewsEventSportLeague = EachIn GetNewsEventSportCollection().leagues.Values()
+				For local team:TNewsEventSportTeam = EachIn league.nextSeasonTeams
+					GetNewsEventSportCollection().AddTeam(team)
+					teams.Insert(team.GetID(), team)
+				Next
+				If league.currentSeason
+					For local team:TNewsEventSportTeam = EachIn league.currentSeason.data.teams
+						GetNewsEventSportCollection().AddTeam(team)
+						teams.Insert(team.GetID(), team)
+					Next
+				EndIf
+				For local seasonData:TNewsEventSportSeasonData = EachIn league.pastSeasons
+					For local team:TNewsEventSportTeam = EachIn seasonData.teams
+						GetNewsEventSportCollection().AddTeam(team)
+						teams.Insert(team.GetID(), team)
+					Next
+				Next
+
+				For local team:TNewsEventSportTeam = EachIn teams.Values()
+					'convert leagueGUID to leagueID
+					Local leagueGUID:String = String(savegameConverter.temporaryData.ValueForKey(team.GetID() + "_leagueguid"))
+					Local league:TNewsEventSportLeague = GetNewsEventSportCollection().GetLeague(leagueGUID)
+					team.leagueID = league.GetID()
+					
+					Local sport:TNewsEventSport = league.GetSport()
+					team.sportID = sport.GetID()
+
+					'assume 50% are not interested in TV shows / custom productions
+					If RandRange(0, 100) < 50
+						team.trainer.SetFlag(TVTPersonFlag.CASTABLE, False)
+					EndIf
+					team.SetTrainer(team.trainer)
+
+					Local membersCopy:TPersonBase[] = team.members
+					team.members = New TPersonBase[0]
+
+					For local member:TPersonBase = EachIn membersCopy
+						If RandRange(0, 100) < 50
+							member.SetFlag(TVTPersonFlag.CASTABLE, False)
+						EndIf
+						'give the person sports specific data (team assignment is done separately)
+						member.AddData("sports_" + sport.name, New TPersonSportBaseData)
+						'adding the member hires them and sets sport id etc.
+						team.AddMember(member)
+						'print "Add " + sport.name+"-sport-data to person: " + member.GetFullName()
+					Next
+				Next
+			Next
+		EndIf
+
 		If savegameVersion < 21
 			If Not GetDatabaseLocalizer().persons.Contains("de")
 				TDatabaseLoader.LoadDatabaseLocalizations("res/database/Default")
@@ -2410,8 +2503,19 @@ Type TSaveGame Extends TGameState
 			'their "strings" contain old script expressions
 			Local migratedScriptExpression:Int
 			Local migratedScriptExpressionCount:Int
+			Local migratedVariables:Int
+
+			migratedScriptExpressionCount = 0
+			migratedVariables = 0
+			For local data:TProgrammeData = EachIn GetProgrammeDataCollection().entries.Values()
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(data.title, migratedScriptExpression)
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(data.description, migratedScriptExpression)
+			Next
+			'print "########## MIGRATED SCRIPT EXPRESSIONS IN PROGRAMME DATA: " + migratedScriptExpressionCount +" data #############"
+
 			
 			migratedScriptExpressionCount = 0
+			migratedVariables = 0
 			For local net:TNewsEventTemplate = EachIn GetNewsEventTemplateCollection().allTemplates.Values()
 				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(net.title, migratedScriptExpression)
 				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(net.description, migratedScriptExpression)
@@ -2419,25 +2523,68 @@ Type TSaveGame Extends TGameState
 				If net.availableScript
 					net.availableScript = TDatabaseLoader.ConvertOldAvailableScript(net.availableScript)
 				EndIf
+				
+				migratedVariables :+ TDatabaseLoader.ConvertOldScriptExpression(net.templateVariables, migratedScriptExpression)
 			Next
-			'print "########## MIGRATED SCRIPT EXPRESSIONS IN NEWSEVENT TEMPLATES: " + migratedScriptExpressionCount +" #############"
+			'print "########## MIGRATED SCRIPT EXPRESSIONS IN NEWSEVENT TEMPLATES: " + migratedScriptExpressionCount +" templates, " + migratedVariables + " variables #############"
+
 
 			migratedScriptExpressionCount = 0
+			migratedVariables = 0
+			For local ne:TNewsEvent = EachIn GetNewsEventCollection().allNewsEvents.Values()
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(ne.title, migratedScriptExpression)
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(ne.description, migratedScriptExpression)
+
+				migratedVariables :+ TDatabaseLoader.ConvertOldScriptExpression(ne.templateVariables, migratedScriptExpression)
+			Next
+			'print "########## MIGRATED SCRIPT EXPRESSIONS IN NEWSEVENTS: " + migratedScriptExpressionCount +" events, " + migratedVariables + " variables #############"
+
+
+			migratedScriptExpressionCount = 0
+			migratedVariables = 0
 			For local st:TScriptTemplate = EachIn GetScriptTemplateCollection().entries.Values()
 				'local oldCount:int = migratedScriptExpressionCount
 				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(st.title, migratedScriptExpression)
 				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(st.description, migratedScriptExpression)
-				'if oldCount <> migratedScriptExpressionCount
-				'	print st.title.toString()
-				'	print st.description.ToString()
-				'	print "----"
-				'endif
 
 				If st.availableScript
 					st.availableScript = TDatabaseLoader.ConvertOldAvailableScript(st.availableScript)
 				EndIf
+
+				migratedVariables :+ TDatabaseLoader.ConvertOldScriptExpression(st.templateVariables, migratedScriptExpression)
+
+				If st.subScripts
+					For local subSt:TScriptTemplate = EachIn st.subScripts
+						migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(subSt.title, migratedScriptExpression)
+						migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(subSt.description, migratedScriptExpression)
+						If subSt.availableScript
+							subSt.availableScript = TDatabaseLoader.ConvertOldAvailableScript(subSt.availableScript)
+						EndIf
+
+						migratedVariables :+ TDatabaseLoader.ConvertOldScriptExpression(subSt.templateVariables, migratedScriptExpression)
+					Next
+				Endif
 			Next
-			'print "########## MIGRATED SCRIPT EXPRESSIONS IN SCRIPT TEMPLATES: " + migratedScriptExpressionCount +" #############"
+			'print "########## MIGRATED SCRIPT EXPRESSIONS IN SCRIPT TEMPLATES: " + migratedScriptExpressionCount +" templates, " + migratedVariables + " variables #############"
+
+
+			migratedScriptExpressionCount = 0
+			migratedVariables = 0
+			For local s:TScriptBase = EachIn GetScriptCollection().entries.Values()
+				'local oldCount:int = migratedScriptExpressionCount
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(s.title, migratedScriptExpression)
+				migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(s.description, migratedScriptExpression)
+				
+				If s.subScripts
+					For local subS:TScriptBase = EachIn s.subScripts
+						migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(subS.title, migratedScriptExpression)
+						migratedScriptExpressionCount :+ TDatabaseLoader.ConvertOldScriptExpression(subS.description, migratedScriptExpression)
+					Next
+				Endif
+			Next
+			'print "########## MIGRATED SCRIPT EXPRESSIONS IN SCRIPTS: " + migratedScriptExpressionCount +" scripts #############"
+
+
 
 			For local ac:TAdContractBase = EachIn GetAdContractBaseCollection().entries.Values()
 				If ac.availableScript
@@ -3134,24 +3281,50 @@ Type TSavegameConverter
 	End Method
 	
 	
-	Method GetCurrentTypeName:Object(typeName:String)
-		Select typeName.ToLower()
+	'return the type name to use for a given (no longer existing)
+	'type
+	Method GetRenamedTypeName:Object(typeName:String, parentPath:String)
+		Local result:String = typeName
+		'strip an array indicator so only base type name is compared 
+		Local typeNameBase:String = typeName.replace("[]", "")
+		
+		'specific changes (type in a field changed)
+		'(attention to only add "compatible" types)
+		If parentPath
+			Select (parentPath + ":" + typeNameBase).ToLower()
+				'Example: a certain type is replaced with TExtObj instead of TBaseObj
+				'while the field itself is defined to use "TBaseObj"
+				'Case "TMyType.children:TOldClass".ToLower()
+				'	Return "TExtObj"
+			End Select
+		EndIf
+
+		'generic changes (no longer existing types)
+		Select typeNameBase.ToLower()
 			Rem
 			'example
 			Case "TMyClassOld".ToLower()
 				Return "TMyClassNew"
 			EndRem
 
+			'v0.8.3: Sportsmen are now TPerson, no custom type
+			Case "TNewsEventSportTeamMember".ToLower()
+				result = "TPersonBase"
+
 			'v0.8.3: StationMap cleanup
 			Case "TStation".ToLower()
-				Return "TStationAntenna"
+				result = "TStationAntenna"
 			
 			Case "TPersonPersonalityAttribute".ToLower()
-				Return "TRangedFloat"
-			Default
-				print "TSavegameConverter.GetCurrentTypeName(): unsupported but no longer known type ~q"+typeName+"~q requested."
-				Return typeName
+				result = "TRangedFloat"
 		End Select
+
+		'add the array indicator back if required
+		If typeNameBase <> typeName
+			Return result + "[]"
+		Else
+			Return result
+		EndIf
 	End Method
 
 
@@ -3165,6 +3338,16 @@ Type TSavegameConverter
 		sb.Append(fieldTypeName)
 		Local handle:String = sb.ToLower().ToString()
 		Select handle
+			'v0.8.3: TNewsEventSportCollection.matches:TMap -> TNewsEventSportCollection.matchesByID:TIntMap
+			case "TNewsEventSportCollection.matches:TMap".ToLower()
+				Local map:TMap = TMap(fieldObject)
+				Local collection:TNewsEventSportCollection = TNewsEventSportCollection(parent)
+				For local match:TNewsEventSportMatch = EachIn map.Values()
+					collection.AddMatch(match)
+				Next
+				'alternative would be to save the map and process it in "repairdata"
+				'self.temporaryData.insert("TNewsEventSportCollection_matches", map)
+
 			'v0.8.1: TEntityCollection cleanup: TEntityCollection became TLongMap + TStringMap
 			case "TFigureCollection.entries:TMap".ToLower()
 				Local fc:TFigureCollection = TFigureCollection(parent)
@@ -3216,10 +3399,18 @@ Type TSavegameConverter
 		
 		Return Null
 	End Method
-	
+
+
+	'Deserialize no longer known types from a XML node into a now valid object
+	'ATTENTION: the nodes can have an attribute "id" - these need to be
+	'           stored with the object nodes ... for "refs" handling
+	Method DeserializeUnknownType:Object(obj:Object, oldTypeName:String, newTypeName:String, nodeObj:Object)
+		Return New TPersistError("DeserializeUnknownType - unhandled")
+	End Method
+
 	
 	'handling stuff like different types used in a field ("list:TList -> list:TMap")
-	Method DeSerializeUnknownProperty:Object(oldType:String, newType:String, obj:Object, parentObj:Object)
+	Method DeserializeToType:Object(obj:Object, oldType:String, newType:String, parentObj:Object)
 		'Print "DeSerializeUnknownProperty: " + oldType + " > " + newType
 		Local convert:String = (oldType+">"+newType).ToLower()
 		Select convert
@@ -3228,16 +3419,7 @@ Type TSavegameConverter
 				'room(base)collection?
 				if parentObj and TTypeID.ForObject(parentObj).name().ToLower() = "TStationMapSection".ToLower()
 					local old:TVec2D = TVec2D(obj)
-					return new TVec2I(int(old.x + 0.5), int(old.y + 0.5))
-				EndIf
-
-			'v0.7.2 -> "TStationMapSection.uplinkPos:TVec2D to :TVec2I
-			case "TVec2D>TVec2I".ToLower()
-				'room(base)collection?
-				if parentObj and TTypeID.ForObject(parentObj).name().ToLower() = "TStationMapSection".ToLower()
-					local old:TVec2D = TVec2D(obj)
-					print "old: " + old.ToString()
-					return new TVec2I(int(old.x + 0.5), int(old.y + 0.5))
+					Return New TVec2I(int(old.x + 0.5), int(old.y + 0.5))
 				EndIf
 
 			'v0.7.1 -> 0.7.2: "TStationMapcollection.sections - TList to TStationMapSection[]"
@@ -3266,62 +3448,9 @@ Type TSavegameConverter
 					Next
 					Return res
 				EndIf
-
-rem
-			'v0.6.2 -> BroadcastStatistics from TMap to TIntMap
-			Case "TMap>TIntMap".ToLower()
-				Local old:TMap = TMap(obj)
-				If old
-					Local res:TIntMap = New TIntMap
-					For Local oldV:String = EachIn old.Keys()
-						res.Insert(Int(oldV), old.ValueForKey(oldV))
-					Next
-					Return res
-				EndIf
-endrem
-			Rem
-			Case "TIntervalTimer>TBuildingIntervalTimer".ToLower()
-				Local old:TIntervalTimer = TIntervalTimer(obj)
-				If old
-					Local res:TBuildingIntervalTimer = New TBuildingIntervalTimer
-					res.Init(old.interval, 0, old.randomnessMin, old.randomnessMax)
-
-					Return res
-				EndIf
-
-			Case "TProgrammeLicenceFilter>TProgrammeLicenceFilterGroup".ToLower()
-				If parentObj And TTypeId.ForObject(parentObj).name().ToLower() = "RoomHandler_MovieAgency".ToLower()
-					Return RoomHandler_MovieAgency.GetInstance().filterAuction
-				EndIf
-			Case "TMap>TAudienceAttraction[]".ToLower()
-				If parentObj And TTypeId.ForObject(parentObj).name().ToLower() = "TAudienceMarketCalculation".ToLower()
-					Local oldMap:TMap = TMap(obj)
-					Local newArr:TAudienceAttraction[]
-					For Local att:TAudienceAttraction = EachIn oldMap.Values()
-						newArr :+ [att]
-					Next
-					Return newArr
-				EndIf
-
-			case "TList>TIntMap".ToLower()
-				'room(base)collection?
-				if parentObj and TTypeID.ForObject(parentObj).name().ToLower() = "TRoomCollection".ToLower()
-					local list:TList = TList(obj)
-					if list
-						local intMap:TIntMap = new TIntMap
-						For local r:TRoomBase = EachIn list
-							intMap.Insert(r.id, r)
-						Next
-
-						if TRoomBaseCollection(parentObj)
-							TRoomBaseCollection(parentObj).count = list.Count()
-						endif
-						return intMap
-					endif
-				endif
-			endrem
 		End Select
-		Return Null
+
+		Return New TPersistError("DeserializeToType - unhandled " + convert)
 	End Method
 End Type
 
@@ -4550,9 +4679,12 @@ Type GameEvents
 					GetGame().SendSystemMessage("No news with GUID ~q"+newsGUID+"~q found.")
 					Return False
 				EndIf
+				
+				'let the event happen
+				news.ProcessHappening(GetWorldTime().GetTimeGone())
 
 				'announce that news
-				GetNewsAgency().AnnounceNewsEventToPlayers(news, 0, announceNow)
+				GetNewsAgency().AnnounceNewsEventToPlayers(news, TVTNewsFlag.SEND_IMMEDIATELY)
 				GetGame().SendSystemMessage("News with GUID ~q"+newsGUID+"~q announced.")
 
 			Case "givelicence"
@@ -6429,14 +6561,16 @@ endrem
 			Next
 
 		Next
-		'NEWSEVENTS
-		'remove old news events - wait a bit more than "plan time"
-		'this also gets rid of "one time" news events which should
-		'have been "triggered" then
-		Local daysToKeep:Int = 3
-		GetNewsEventCollection().RemoveOutdatedNewsEvents(daysToKeep)
-		'remove from collection (reuse if possible)
-		GetNewsEventCollection().RemoveEndedNewsEvents()
+		If hour mod 24 = 3
+			'NEWSEVENTS
+			'remove old news events - wait a bit more than "plan time"
+			'this also gets rid of "one time" news events which should
+			'have been "triggered" then
+			Local daysToKeep:Int = 5
+			GetNewsEventCollection().RemoveOutdatedNewsEvents(daysToKeep)
+			'remove from collection (reuse if possible)
+			GetNewsEventCollection().RemoveEndedNewsEvents()
+		EndIf
 
 		If GameConfig.autoSaveIntervalHours > 0 And Not TSaveGame.autoSaveNow and TSaveGame.lastSaveTime > 0 and time - TSaveGame.lastSaveTime > GameConfig.autoSaveIntervalHours * TWorldTime.HOURLENGTH
 			TSaveGame.autoSaveNow = True

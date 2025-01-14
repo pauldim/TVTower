@@ -179,7 +179,7 @@ function JobAnalyseStationMarket:Tick()
 	TVT.audiencePredictor.RefreshMarkets()
 	player.LastStationMapMarketAnalysis = player.WorldTicks
 	local blocks = player.blocksCount
-	player.totalReceivers = TVT:of_getPlayerReceivers(TVT.ME) --alternative is the player specific TVT:getReceivers()
+	player.totalReceivers = TVT:getReceivers()
 	self.Task.maxReceiverIncrease = 99000000
 
 	--movie prices do not increas so much anymore...
@@ -206,7 +206,10 @@ function JobAnalyseStationMarket:Tick()
 	end
 
 	--TODO if coverage is high enough, use random positions rather than systematicall "all possible"
-	if player.coverage > 0.9 then
+	if player.coverage > 0.15 and blocks < 96 then
+		--player bankrupt - do not by stations too fast
+		self.Task.maxReceiverIncrease = -1
+	elseif player.coverage > 0.9 then
 		self.Task.maxReceiverIncrease = -1
 	elseif self.Task.intendedAntennaPositions == nil or table.count(self.Task.intendedAntennaPositions) < 7 then
 		self:determineIntendedPositions()
