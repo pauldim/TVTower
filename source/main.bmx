@@ -2105,8 +2105,8 @@ Type TSaveGame Extends TGameState
 	Field _Time_timeGone:Long = 0
 	Field _Entity_globalWorldSpeedFactor:Float =  0
 	Field _Entity_globalWorldSpeedFactorMod:Float =  0
-	Const SAVEGAME_VERSION:int = 23
-	Const MIN_SAVEGAME_VERSION:Int = 13
+	Const SAVEGAME_VERSION:int = 24
+	Const MIN_SAVEGAME_VERSION:Int = 23
 	Global messageWindow:TGUIModalWindow
 	Global messageWindowBackground:TImage
 	Global messageWindowLastUpdate:Long
@@ -2401,6 +2401,15 @@ Type TSaveGame Extends TGameState
 
 	Global _nilNode:TNode = New TNode._parent
 	Function RepairData(savegameVersion:Int, savegameConverter:TSavegameConverter = null)
+		If savegameVersion < 24
+			For local ac:TAdContractBase = EachIn GetAdContractBaseCollection().entries.Values()
+				If ac.forbiddenProgrammeFlag > 0 And ac.forbiddenProgrammeFlag & TVTProgrammeDataFlag.CULT
+					ac.forbiddenProgrammeFlag = ac.forbiddenProgrammeFlag & ~TVTProgrammeDataFlag.CULT
+				EndIf
+			Next
+		EndIf
+
+Rem
 		If savegameVersion < 23
 			'mark news events of the past as "happening processed"
 			Local neChangeCount:Int
@@ -2758,7 +2767,7 @@ Type TSaveGame Extends TGameState
 				Next
 			Next
 		endif
-		Rem
+
 			would "break" unfinished series productions with re-ordered
 			production orders (1,3,2) and missing episodes ([1,null,3])
 
@@ -5184,7 +5193,7 @@ endrem
 		If player.isLocalAI()
 			player.PlayerAI.AddEventObj( New TAIEvent.SetID(TAIEvent.OnBossCalls).AddLong(latestTime))
 			'player.playerAI.CallOnBossCalls(latestTime)
-		Else
+		ElseIf player = GetPlayer()
 			'send out a toast message
 			Local toastGUID:String = "toastmessage-playerboss-callplayer"+player.playerID
 			'try to fetch an existing one
@@ -6756,17 +6765,17 @@ endrem
 			headerFont = GetBitmapFontManager().Copy("default", "headerFont", 20, BOLDFONT)
 			headerFont.SetCharsEffectFunction(1, Font_AddGradient, gradientSettings)
 			headerFont.SetCharsEffectFunction(2, Font_AddShadow, shadowSettings)
-			headerFont.InitFont()
+			headerFont.ApplyCharsEffects()
 
 			headerFont = GetBitmapFont("headerFont", 20, ITALICFONT)
 			headerFont.SetCharsEffectFunction(1, Font_AddGradient, gradientSettings)
 			headerFont.SetCharsEffectFunction(2, Font_AddShadow, shadowSettings)
-			headerFont.InitFont()
+			headerFont.ApplyCharsEffects()
 
 			headerFont = GetBitmapFont("headerFont", 20)
 			headerFont.SetCharsEffectFunction(1, Font_AddGradient, gradientSettings)
 			headerFont.SetCharsEffectFunction(2, Font_AddShadow, shadowSettings)
-			headerFont.InitFont()
+			headerFont.ApplyCharsEffects()
 		EndIf
 	End Function
 

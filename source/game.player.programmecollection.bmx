@@ -818,7 +818,9 @@ Type TPlayerProgrammeCollection extends TOwnedGameObject {_exposeToLua="selected
 		DestroyProductionConceptsByScript(script)
 
 		'a series becomes tradeable only if it is completely produced (or the script is thrown away)
-		if script.isSeries() And script.usedInProgrammeID
+		if Not GetPlayerProgrammeCollection(currentOwner)
+			TLogger.Log("RemoveScript()", "Trying to remove script not in player possession anymore - "+script.GetTitle(), LOG_ERROR)
+		elseif script.isSeries() And script.usedInProgrammeID
 			local licence:TProgrammeLicence = GetPlayerProgrammeCollection(currentOwner).GetProgrammeLicence(script.usedInProgrammeID)
 			If licence
 				if not licence.hasLicenceFlag(TVTProgrammeLicenceFlag.TRADEABLE)
@@ -1283,25 +1285,28 @@ Type TPlayerProgrammeCollection extends TOwnedGameObject {_exposeToLua="selected
 
 	Method GetProgrammeLicences:TList() {_exposeToLua}
 		if not _programmeLicences
-			_programmeLicences = CreateList()
+			Local tmpLicences:TList = CreateList()
 			local lists:TList[] = [singleLicences, seriesLicences, collectionLicences]
 
 			For local list:TList = EachIn lists
 				For local l:TProgrammeLicence = EachIn list
-					'add single elements (movies, documentations)
-					if l.GetSubLicenceCount() = 0
-						_programmeLicences.AddLast(l)
-					'add episodes
-					else
-						'add header of series/collection too!
-						_programmeLicences.AddLast(l)
-
-						For local subL:TProgrammeLicence = EachIn l.subLicences
-							_programmeLicences.AddLast(subL)
-						Next
+					if l
+						'add single elements (movies, documentations)
+						if l.GetSubLicenceCount() = 0
+							tmpLicences.AddLast(l)
+						'add episodes
+						else
+							'add header of series/collection too!
+							tmpLicences.AddLast(l)
+	
+							For local subL:TProgrammeLicence = EachIn l.subLicences
+								tmpLicences.AddLast(subL)
+							Next
+						endif
 					endif
 				Next
 			Next
+			_programmeLicences = tmpLicences
 		endif
 		return _programmeLicences
 	End Method

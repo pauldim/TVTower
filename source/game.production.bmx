@@ -227,11 +227,15 @@ Type TProduction Extends TOwnedGameObject
 
 
 		'it is important to set the production priority according
-		'to the genre
-		value :* 1.0 + 0.4 * (effectiveFocusPointsMod - 0.4)
+		'to the genre, modifier can be negative and has maximum 1
+		'studio manager now gives actual feedback for distribution
+		'so you can prevent really bad results
+		'for perfect distribution 20% "bonus" is possible
+		value :* 1.0 + 0.4 * (effectiveFocusPointsMod - 0.5)
 
 		'more spent focus points "always" leads to a better product
-		value :+ 0.01 * productionConcept.GetEffectiveFocusPoints()
+		Local p:Float = productionConcept.GetEffectiveFocusPoints()
+		value :+ p * 0.099^p
 
 
 		Return value
@@ -590,7 +594,7 @@ Type TProduction Extends TOwnedGameObject
 			'series: remove parent if it is finished now
 			If productionConcept.script.HasParentScript()
 				Local parentScript:TScript = productionConcept.script.GetParentScript()
-				If parentScript.IsProduced()
+				If parentScript And parentScript.IsProduced()
 					GetPlayerProgrammeCollection(owner).RemoveScript(parentscript, False)
 				EndIf
 			EndIf
@@ -858,11 +862,39 @@ Type TProduction Extends TOwnedGameObject
 		EndIf
 		
 		'=== 3.2 PROGRAMME PRODUCTION PROPERTIES ===
-		pd.review = MathHelper.Clamp(productionValueMod * productionConcept.script.review *scriptPotentialMod, 0, 1.0)
-		pd.speed = MathHelper.Clamp(productionValueMod * productionConcept.script.speed *scriptPotentialMod, 0, 1.0)
-		pd.outcome = MathHelper.Clamp(productionValueMod * productionConcept.script.outcome *scriptPotentialMod, 0, 1.0)
+		Local baseQuality:Float = (productionConcept.script.speed + productionConcept.script.outcome + productionConcept.script.review) / 3.0
+		'productionValueMod is between 0 and 1
+		Local prodMod:Float = productionValueMod
+		'make prodMod affect low quality programmes much less - they have very low factors anyway
+		'the higher the quality, the higher the effect of the modifier
+		'function qualtiy->modifier
+		'0->1, 1->prodMod, added value decreases rapidly (main impact by last exponent)
+		prodMod = prodMod + (1-baseQuality) * (1-prodMod)/(1+baseQuality)^4
+
+		'scriptPotentialMod is greater than 1, positive effect on the outcome depending on cast experience
+		Local potentialMod:Float = scriptPotentialMod
+		'subtract a value based on the script quality 
+		'so that better scripts need much higher cast experience
+		'to achieve the same potential modifier
+		potentialMod:- Max(0, baseQuality - productionConcept.script.GetPotential() * 0.5)^1.5
+		'limit the negative effect due to inexperienced cast in higher quality programmes
+		potentialMod = Max(0.9, potentialMod)
+
+		pd.review = MathHelper.Clamp(prodMod * productionConcept.script.review *potentialMod, 0, 1.0)
+		pd.speed = MathHelper.Clamp(prodMod * productionConcept.script.speed *potentialMod, 0, 1.0)
+		pd.outcome = MathHelper.Clamp(prodMod * productionConcept.script.outcome *potentialMod, 0, 1.0)
 		'modify outcome by castFameMod ("attractors/startpower")
 		pd.outcome = MathHelper.Clamp(pd.outcome * castFameMod, 0, 1.0)
+
+rem
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "Title        : " + _designatedProgrammeLicence.GetTitle(), LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "prod modifier: " + prodMod + "; old "+productionValueMod, LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "potential    : " + potentialMod + "; old "+scriptPotentialMod, LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "fame modifier: " + castFameMod + " (only for outcome)", LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "review       : " + productionConcept.script.review + " in script -> final " + pd.review + "; old "+ productionValueMod * productionConcept.script.review * scriptPotentialMod, LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "speed        : " + productionConcept.script.speed + " in script -> final " + pd.speed, LOG_DEBUG)
+		TLogger.Log("TProduction.FixProgrammeDataValues()", "outcome      : " + productionConcept.script.outcome + " in script -> final " + pd.outcome, LOG_DEBUG)
+endrem
 	End Method
 	
 	
@@ -950,7 +982,7 @@ endrem
 
 		'=== 1.2.2 MODIFY PRODUCTION VALUE ===
 		effectiveFocusPoints = productionConcept.CalculateEffectiveFocusPoints(True)
-		effectiveFocusPointsMod = 1.0 + productionConcept.GetEffectiveFocusPointsRatio(True)
+		effectiveFocusPointsMod = productionConcept.GetEffectiveFocusPointsDistribution(True)
 
 rem
 		TLogger.Log("TProduction.FixProductionValues()", "scriptGenreFit:           " + scriptGenreFit, LOG_DEBUG)

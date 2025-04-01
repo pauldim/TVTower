@@ -907,11 +907,14 @@ Type RoomHandler_Studio Extends TRoomHandler
 				Local productionCompanyQuality:Float = 0
 				If pc.productionCompany Then productionCompanyQuality = pc.productionCompany.GetQuality()
 				Local effectiveFocusPoints:Int = pc.CalculateEffectiveFocusPoints()
-				Local effectiveFocusPointsRatio:Float = pc.GetEffectiveFocusPointsRatio()
+				Local effectiveFocusPointsDistribution:Float = pc.GetEffectiveFocusPointsDistribution(True)
 
 				text = GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_INTRO_FOR_TITLEX").Replace("%TITLE%", pc.GetTitle()) + "~n~n"
 
-
+Rem
+				'TODO fit semantics has changed - only speed/review ratio counts
+				'so 0.1+0.1 has the same fit as 0.9+0.9 - but the latter will result
+				'in much higher quality values - this should be reflected here
 				If scriptGenreFit < 0.30
 					text :+ GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_SCRIPT_GENRE_BAD")
 				ElseIf scriptGenreFit > 0.70
@@ -920,7 +923,7 @@ Type RoomHandler_Studio Extends TRoomHandler
 					text :+ GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_SCRIPT_GENRE_AVERAGE")
 				EndIf
 				text :+ "~n"
-
+EndRem
 
 				Local castSympathyKey:String
 				If castSympathy < - 0.10
@@ -953,9 +956,9 @@ Type RoomHandler_Studio Extends TRoomHandler
 				EndIf
 
 
-				If effectiveFocusPointsRatio < 0.30
+				If effectiveFocusPointsDistribution < 0.55
 					text :+ GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_EFFECTIVEFOCUSPOINTSRATIO_BAD")
-				ElseIf effectiveFocusPointsRatio> 0.70
+				ElseIf effectiveFocusPointsDistribution > 0.85
 					text :+ GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_EFFECTIVEFOCUSPOINTSRATIO_GOOD")
 				Else
 					text :+ GetRandomLocale("DIALOGUE_STUDIO_CONCEPT_EFFECTIVEFOCUSPOINTSRATIO_AVERAGE")
@@ -1299,8 +1302,6 @@ Type RoomHandler_Studio Extends TRoomHandler
 
 
 	Method onUpdateRoom:Int( triggerEvent:TEventBase )
-		TFigure(GetPlayerBase().GetFigure()).fromroom = Null
-
 		'no interaction for other players rooms
 		If Not IsPlayersRoom(TRoom(triggerEvent.GetSender())) Then Return False
 

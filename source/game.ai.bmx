@@ -281,19 +281,19 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 	EndRem
 
 	Method _PlayerInRoom:Int(roomname:String) {_private}
-		'If checkFromRoom
-			'from room has to be set AND inroom <> null (no building!)
-		'	GetPlayer(Self.ME).isComingFromRoom(roomname) and GetPlayer(Self.ME).isInRoom()
-		'Else
-			Return GetPlayerBase(Self.ME).isInRoom(roomname)
-		'EndIf
+		Return GetPlayerBase(Self.ME).isInRoom(roomname)
 	End Method
 
 
 	Method _PlayerOwnsRoom:Int() {_private}
 		Local figure:TFigure = TFigure(GetPlayerBase(Self.ME).GetFigure())
-		If figure and figure.inRoom and figure.inRoom.owner = Self.ME
-			Return True
+		If figure 
+			Local room:TRoomBase = figure.inRoom
+			if room and room.owner = Self.ME
+				Return True
+			Else
+				Return False
+			EndIf
 		Else
 			Return False
 		EndIF
@@ -470,7 +470,12 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 
 	Method getPlayerTargetRoom:Int()
 		Local roomDoor:TRoomDoor = TRoomDoor(GetPlayerBase(Self.ME).GetFigure().GetTargetObject())
-		If roomDoor And roomDoor.GetRoom() Then Return roomDoor.GetRoom().id
+		If roomDoor 
+			local room:TRoomBase = roomDoor.GetRoom()
+			If room and room.id
+				Return room.id
+			EndIf
+		EndIf
 
 		Return Self.RESULT_NOTFOUND
 	End Method
@@ -551,9 +556,11 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 
 	Method canLeaveRoom:Int()
 		Local f:TFigure = TFigure(GetPlayerBase(Self.ME).GetFigure())
-		If f.inRoom = Null Then Return Self.RESULT_WRONGROOM
+		'cache inRoom (in case of concurrent modification)
+		Local inRoom:TRoomBase = f.inRoom
+		If Not inRoom Then Return Self.RESULT_WRONGROOM
 		
-		If f.CanLeaveRoom(f.inRoom)
+		If f.CanLeaveRoom(inRoom)
 			Return Self.RESULT_OK
 		Else
 			Return Self.RESULT_NOTALLOWED
@@ -568,19 +575,19 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 
 
 	Method isRoomUnused:Int(roomId:Int = 0)
-		Local Room:TRoom = GetRoomCollection().Get(roomId)
-		If Not Room Then Return Self.RESULT_NOTFOUND
-		If Not Room.hasOccupant() Then Return Self.RESULT_OK
+		Local room:TRoom = GetRoomCollection().Get(roomId)
+		If Not room Then Return Self.RESULT_NOTFOUND
+		If Not room.hasOccupant() Then Return Self.RESULT_OK
 
-		If Room.isOccupant( GetPlayerBase(Self.ME).GetFigure() ) Then Return -1
+		If room.isOccupant( GetPlayerBase(Self.ME).GetFigure() ) Then Return -1
 		Return Self.RESULT_INUSE
 	End Method
 
 
 	Method isRoomPotentialStudio:Int(roomId:Int = 0)
-		Local Room:TRoom = GetRoomCollection().Get(roomId)
-		If Not Room Then Return Self.RESULT_NOTFOUND
-		If Room.IsUsableAsStudio() And Room.getNameRaw() <> "studio"
+		Local room:TRoom = GetRoomCollection().Get(roomId)
+		If Not room Then Return Self.RESULT_NOTFOUND
+		If room.IsUsableAsStudio() And room.getNameRaw() <> "studio"
 			Return Self.RESULT_OK
 		EndIf
 		Return Self.RESULT_FAILED
@@ -786,17 +793,17 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 		Return TProgrammeLicence[](obj)
 	End Method
 
-	'required until brl.reflection correctly handles "float parameters" 
-	'in debug builds (same as "doubles" for 32 bit builds)
-	'GREP-key: "brlreflectionbug"
-	Method CopyBasicAudienceAttractionString:TAudienceAttraction(attraction:TAudienceAttraction, multiplyFactor:String)
-		Return CopyBasicAudienceAttraction(attraction, Float(multiplyFactor))
-	End Method
-
 
 	'helper to allow modification of a predicted audience attraction
 	'without affecting the original one
-	Method CopyBasicAudienceAttraction:TAudienceAttraction(attraction:TAudienceAttraction, multiplyFactor:Float)
+	'ATTENTION:
+	' multiplyFactorAsString read as "string" instead of as "float"
+	' required until brl.reflection correctly handles "float parameters" 
+	' in release and debug builds)
+	' GREP-key: "brlreflectionbug"
+	Method CopyBasicAudienceAttraction:TAudienceAttraction(attraction:TAudienceAttraction, multiplyFactorAsString:String)
+		Local multiplyFactor:Float = Float(multiplyFactorAsString)
+
 		If Not attraction Then Return Null
 		Local copyAttraction:TAudienceAttraction = attraction.CopyStaticBaseAttraction()
 		If multiplyFactor <> 1.0 Then copyAttraction.MultiplyAttrFactor(multiplyFactor)
@@ -896,8 +903,13 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 
 
 	Method GetProgrammeLicenceAtIndex:TProgrammeLicence(arrayIndex:Int=-1)
-		Local obj:TProgrammeLicence = GetPlayerProgrammeCollection(Self.ME).GetProgrammeLicenceAtIndex(arrayIndex)
-		If obj Then Return obj Else Return Null
+		Try
+			Local obj:TProgrammeLicence = GetPlayerProgrammeCollection(Self.ME).GetProgrammeLicenceAtIndex(arrayIndex)
+			If obj Then Return obj
+		Catch ex:Object
+			TLogger.Log("AI", "GetProgrammeLicenceAtIndex exception", LOG_ERROR)
+		End Try
+		Return Null
 	End Method
 
 
@@ -958,16 +970,19 @@ endrem
 
 	Method of_GetRandomAntennaCoordinateInPlayerSections:TVec2I()
 		If Not _PlayerInRoom("office") Then Return Null
+		
 		Return new TVec2I.CopyFrom(_GetPlayerStationMap().GetRandomAntennaCoordinateInPlayerSections())
 	End Method
 
 	Method of_GetRandomAntennaCoordinateInSections:TVec2I(sectionNames:string[], allowSectionCrossing:Int = True)
 		If Not _PlayerInRoom("office") Then Return Null
+		
 		Return new TVec2I.CopyFrom(_GetPlayerStationMap().GetRandomAntennaCoordinateInSections(sectionNames, allowSectionCrossing))
 	End Method
 
 	Method of_GetRandomAntennaCoordinateInSection:TVec2I(sectionName:string, allowSectionCrossing:Int = True)
 		If Not _PlayerInRoom("office") Then Return Null
+
 		Return new TVec2I.CopyFrom(_GetPlayerStationMap().GetRandomAntennaCoordinateInSection(sectionName, allowSectionCrossing))
 	End Method
 
@@ -1021,6 +1036,7 @@ endrem
 
 	Method of_GetStationCosts:Int()
 		If Not _PlayerInRoom("office") Then Return Self.RESULT_WRONGROOM
+
 		Return _GetPlayerStationMap().CalculateStationCosts()
 	End Method
 
@@ -1112,7 +1128,6 @@ endrem
 	Method of_buySatelliteStation:Int(satelliteIndex:Int)
 		If Not _PlayerInRoom("office") Then Return Self.RESULT_WRONGROOM
 		
-
 		Local satellite:TStationMap_Satellite = GetStationMapCollection().GetSatelliteAtIndex(satelliteIndex)
 		If Not satellite Then Return Self.RESULT_FAILED
 
@@ -1202,12 +1217,14 @@ endrem
 
 	Method of_getMapPopulation:Int()
 		If Not _PlayerInRoom("office") Then Return Self.RESULT_WRONGROOM
+
 		Return GetStationMapCollection().GetPopulation()
 	End Method
 
 
 	Method of_getMapReceivers:Int()
 		If Not _PlayerInRoom("office") Then Return Self.RESULT_WRONGROOM
+
 		Return GetStationMapCollection().GetReceivers()
 	End Method
 
@@ -1237,10 +1254,21 @@ endrem
 	End Method
 
 
+	'return all broadcastmaterials within the defined timespan
 	Method of_GetBroadcastMaterialInTimeSpan:TLuaFunctionResult(objectType:Int=0, dayStart:Int=-1, hourStart:Int=-1, dayEnd:Int=-1, hourEnd:Int=-1, includeStartingEarlierObject:Int=True, requireSameType:Int=False)
 		If Not _PlayerInRoom("office") Then Return TLuaFunctionResult.Create(Self.RESULT_WRONGROOM, Null)
 
 		Local bm:TBroadcastMaterial[] = GetPlayerProgrammePlan(Self.ME).GetObjectsInTimeSpan(objectType, dayStart, hourStart, dayEnd, hourEnd, includeStartingEarlierObject, requireSameType)
+		Return TLuaFunctionResult.Create(Self.RESULT_OK, bm)
+	End Method
+
+
+	'return an array with broadcastmaterial (or null on outages!) for each
+	'time slot within the defined timespan! 
+	Method of_GetBroadcastMaterialSlotsInTimeSpan:TLuaFunctionResult(objectType:Int=0, dayStart:Int=-1, hourStart:Int=-1, dayEnd:Int=-1, hourEnd:Int=-1)
+		If Not _PlayerInRoom("office") Then Return TLuaFunctionResult.Create(Self.RESULT_WRONGROOM, Null)
+
+		Local bm:TBroadcastMaterial[] = GetPlayerProgrammePlan(Self.Me).GetObjectSlotsInTimeSpan(objectType, dayStart, hourStart, dayEnd, hourEnd)
 		Return TLuaFunctionResult.Create(Self.RESULT_OK, bm)
 	End Method
 
@@ -1515,7 +1543,9 @@ endrem
 
 		'It does not matter if a player has a master key for the room,
 		'only observing is allowed for them
-		If Self.ME <> TFigure(player.GetFigure()).inRoom.owner Then Return Self.RESULT_WRONGROOM
+		're-check inRoom (in case of concurrent modification)
+		Local inRoom:TRoomBase = TFigure(player.GetFigure()).inRoom
+		If Not inRoom or Self.ME <> inRoom.owner Then Return Self.RESULT_WRONGROOM
 
 
 		Local newsObject:TNews
@@ -1542,7 +1572,9 @@ endrem
 
 		'It does not matter if a player has a master key for the room,
 		'only observing is allowed for them
-		If Self.ME <> TFigure(player.GetFigure()).inRoom.owner Then Return Self.RESULT_WRONGROOM
+		're-check inRoom (in case of concurrent modification)
+		Local inRoom:TRoomBase = TFigure(player.GetFigure()).inRoom
+		If Not inRoom or Self.ME <> inRoom.owner Then Return Self.RESULT_WRONGROOM
 
 
 		'news has to be in collection, not plan
@@ -1767,7 +1799,14 @@ endrem
 
 	'plan all potential productions; handle already planned productions gracefully
 	'Returns result-ID: WRONGROOM / OK / FAILED / NOT_FOUND
-	Method sm_PlanProduction:Int(budget:Int, oneBlockBudgetFactor:Float)
+	'ATTENTION:
+	' oneBlockBudgetFactor read as "string" instead of as "float"
+	' required until brl.reflection correctly handles "float parameters" 
+	' in release and debug builds)
+	' GREP-key: "brlreflectionbug"
+	Method sm_PlanProduction:Int(budget:Int, oneBlockBudgetFactorAsString:String)
+		Local oneBlockBudgetFactor:Float = Float(oneBlockBudgetFactorAsString)
+
 		If Not _PlayerInRoom("supermarket") Then Return Self.RESULT_WRONGROOM
 		Local result:Int = Self.RESULT_NOTFOUND
 		Local producer:TProgrammeProducer = new TProgrammeProducer
