@@ -56,12 +56,12 @@ Type TDatasheetSkin
 		skin.textColorBad = new SColor8(80,10,10)
 		skin.defaultFont = GetBitmapFontManager().baseFont
 
-		skin.fontNormal = GetBitmapFontManager().baseFont
-		skin.fontBold = GetBitmapFontManager().baseFontBold
+		skin.fontNormal = GetBitmapFontManager().Get("default", 11)
+		skin.fontBold = GetBitmapFontManager().Get("default", 12, BOLDFONT)
 		skin.fontSmall = GetBitmapFontManager().Get("default", skin.fontNormal.FSize-1)
 		skin.fontSemiBold = GetBitmapFontManager().Get("defaultThin", -1, BOLDFONT)
-		skin.fontCaption = GetBitmapFontManager().Get("default", 13, BOLDFONT)
-		skin.fontSmallCaption = GetBitmapFontManager().Get("default", 12, BOLDFONT)
+		skin.fontCaption = GetBitmapFontManager().Get("default", 12, BOLDFONT)
+		skin.fontSmallCaption = GetBitmapFontManager().Get("default", 11, BOLDFONT)
 
 		'use content-params from sprite
 		skin.contentPadding.CopyFrom( skin.spriteBorder.GetNinePatchInformation().contentBorder )
@@ -127,7 +127,7 @@ Type TDatasheetSkin
 			font.DrawBox( ..
 				value, ..
 				x + border.GetLeft(), ..
-				y + border.GetTop() - 1, ..
+				y + border.GetTop() - 2, ..
 				w - (border.GetRight() + border.GetLeft()),  ..
 				h - (border.GetTop() + border.GetBottom() - 4), ..
 				new SVec2F(valueAlign.x, valueAlign.y), GetTextColor(fontColorStyle), drawTextEffect.data)
@@ -198,11 +198,11 @@ Type TDatasheetSkin
 		local barW:int = w - cb.GetLeft() - cb.GetRight()
 		if secondProgress > progress
 			SetAlpha GetAlpha()*0.25
-			spriteBarFilled.DrawArea(x + cB.GetLeft(), y, barW, h, -1, 0, new TRectangle.Init(x + cB.GetLeft() + progress*barW, y, barW*(secondProgress-progress), h))
+			spriteBarFilled.DrawArea(x + cB.GetLeft(), y, barW, h, -1, 0, True, New SRectI(Int(x + cB.GetLeft() + progress*barW), Int(y), Int(barW*(secondProgress-progress)), Int(h)))
 			SetAlpha GetAlpha()*4.0
 		endif
 		if progress > 0
-			spriteBarFilled.DrawArea(x + cB.GetLeft(), y, barW, h, -1, 0, new TRectangle.Init(x + cB.GetLeft(), y, barW*progress, h))
+			spriteBarFilled.DrawArea(x + cB.GetLeft(), y, barW, h, -1, 0, True, New SRectI(Int(x + cB.GetLeft()), Int(y), Int(barW*progress), Int(h)))
 		endif
 	End Method
 

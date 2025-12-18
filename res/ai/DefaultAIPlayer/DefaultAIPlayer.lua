@@ -117,9 +117,18 @@ function DefaultAIPlayer:initParameters()
 		self.gameDay = TVT:GetDaysRun() + 1
 		self.minutesGone = TVT:GetTimeGoneInMinutes()
 	end
+	--station map, boss, news, archive should be visited if the player is on his own floor anyway
+	self.onOwnFloor = true
 	if self.coverage == nil then self.coverage = 0 end
+	if self.coverages == nil then
+		self.coverages = {}
+		for i = 1, 4 do
+			self.coverages[i] = 0
+		end
+	end
 	if self.maxStudioSize == nil then self.maxStudioSize = 1 end
 	self.money = TVT:GetMoney()
+	self.image = TVT:GetImage(TVT.ME)
 
 	if (self.Ventruesome == nil or self.Ventruesome <= 0) then
 		--Waghalsigkeit 3-8
@@ -127,7 +136,7 @@ function DefaultAIPlayer:initParameters()
 	end
 	if (self.NewsPriority == nil or self.NewsPriority <= 0) then
 		--Interesse an News/Geldausgabe fuer News
-		self.NewsPriority = math.random(3,8)
+		self.NewsPriority = math.random(4,8)
 	end
 	if (self.ExpansionPriority == nil or self.ExpansionPriority <= 0) then
 		self.ExpansionPriority = math.random(3,8)
@@ -137,12 +146,13 @@ function DefaultAIPlayer:initParameters()
 		self.BrainSpeed = math.random(4,6)
 	end
 	--eagerness to start the next task
+	--randomizing this value only once is an extreme handicap for players with high values 
 	if (self.startTaskAtPriority == nil or self.startTaskAtPriority <= 0) then
-		self.startTaskAtPriority = math.random(17,25)
+		self.startTaskAtPriority = 19 --math.random(17,25)
 	end
 
 	--for checking that the same parameters are still used after loading a saved game
-	self:LogDebug("initializing ".. self.Ventruesome.. " ".. self.NewsPriority .." ".. self.ExpansionPriority .." " .. self.BrainSpeed)
+	self:LogDebug("initializing venturesome ".. self.Ventruesome.. " news ".. self.NewsPriority .." expansion ".. self.ExpansionPriority .." speed " .. self.BrainSpeed.." taskPrio "..self.startTaskAtPriority)
 end
 
 function DefaultAIPlayer:initializePlayer()
@@ -303,6 +313,7 @@ end
 function DefaultAIPlayer:OnDayBegins()
 	--ensure money value is correct for all onDayBegins-calls
 	self.money = TVT:GetMoney()
+	self.image = TVT:GetImage(TVT.ME)
 	self.difficulty = MY.difficultyGUID
 	--just in case we missed a "OnGameBegins"
 	self.Strategy:Start(self)
@@ -1013,16 +1024,38 @@ function OnMinute(number)
 		end
 	end
 
-	-- on xx:06 check if there is an unsatisfiable ad planned for this
-	-- hour
 	if minute == 6 then
 		local task = player.TaskList[_G["TASK_SCHEDULE"]]
 		if task then
+			--no base priority for scheduling
+			--activate task every hour (without force)
+			--as a consequence ads for the current programme should always be "optimal"
+			task.SituationPriority = 300
+
+--[[
+			-- on xx:06 check if there is an unsatisfiable ad planned for this hour
 			if TVT:CurrentAdvertisementRequirementsPassed() == TVT.RESULT_FAILED then
 				--debugMsg("#recognized failing ad")
 				task.SituationPriority = 200
 				if player.CurrentTask ~= nil and player.CurrentTask.typename() ~= task.typename() then
 					player:ForceNextTask()
+				end
+			--the following block was never active
+			--idea: if audience is higher than guessed, try rescheduling (better ad)
+			--however impact will be small - guessed audience is less relevant than
+			--audience required by ad (reschedule if there is a better ad available)
+			elseif task.guessedAudienceHour ~= nil then
+				local guessed = task.guessedAudienceHour[player.hour]
+				if guessed ~= nil then
+					local actualSum = TVT.GetCurrentProgrammeAudienceResult().Audience.GetTotalSum()
+					local guessedSum = guessed.GetTotalSum()
+					if actualSum > guessedSum * 1.25 then
+						debugMsg("#recognized higher audience")
+						task.SituationPriority = 200
+						if player.CurrentTask ~= nil and player.CurrentTask.typename() ~= task.typename() then
+							player:ForceNextTask()
+						end
+					end
 				end
 			end
 
@@ -1030,6 +1063,7 @@ function OnMinute(number)
 			--local broadcast = TVT.GetCurrentAdvertisement()
 			--if broadcast ~= nil then...
 			--if broadcast.isType(TVT.Constants.BroadcastMaterialType.ADVERTISEMENT) == 1 then
+--]]
 		end
 	end
 end

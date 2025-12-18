@@ -1113,6 +1113,12 @@ endrem
 			Next
 		EndIf
 
+		'initialize caches in particular for AI threads
+		For Local map:TStationMap = EachIn _instance.stationMaps
+			map._antennasLayer = Null
+			map._GetAllAntennasLayer()
+		Next
+
 		Return True
 	End Function
 
@@ -2750,17 +2756,22 @@ Type TStationMap Extends TOwnedGameObject {_exposeToLua="selected"}
 
 	Method _GetAllAntennasLayer:TStationMapAntennaLayer()
 		If Not _antennasLayer
-			Local mapInfo:TStationMapInfo = GetStationMapCollection().mapInfo
-
-			'place antenna directly over densityData (offset = 0)
-			_antennasLayer = New TStationMapAntennaLayer(GetStationMapCollection().surfaceData, 0, 0)
-
-			'fill in all currently existing antennas
-			For Local antenna:TStationAntenna = EachIn stations
-				If antenna.IsActive()
-					_antennasLayer.AddAntenna(antenna.x, antenna.y, antenna.radius)
-				EndIf
-			Next
+			If CurrentThread() <> MainThread()
+				throw "TStationMap._GetAllAntennasLayer: cache was not initialized by the main thread"
+			Else
+				Local mapInfo:TStationMapInfo = GetStationMapCollection().mapInfo
+	
+				'place antenna directly over densityData (offset = 0)
+				Local tmp:TStationMapAntennaLayer = New TStationMapAntennaLayer(GetStationMapCollection().surfaceData, 0, 0)
+	
+				'fill in all currently existing antennas
+				For Local antenna:TStationAntenna = EachIn stations
+					If antenna.IsActive()
+						tmp.AddAntenna(antenna.x, antenna.y, antenna.radius)
+					EndIf
+				Next
+				_antennasLayer=tmp
+			EndIf
 		EndIf
 		
 		Return _antennasLayer

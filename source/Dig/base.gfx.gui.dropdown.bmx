@@ -239,16 +239,20 @@ Type TGUIDropDown Extends TGUIInput
 
 
 	Method GetEntryByPos:TGUIObject(itemPos:Int=0)
-		Local item:TGUIObject = TGUIObject(list.entries.ValueAtIndex(itemPos))
-		If Not item Then Return Null
-
-		Return Item
+		If itemPos >= 0 And list.entries.count() > itemPos
+			Return TGUIObject(list.entries.ValueAtIndex(itemPos))
+		EndIf
+		Return Null
 	End Method
 
 
 	Method GetEntryPos:Int(entry:TGUIObject)
 		If Not entry Then Return -1
-		For Local i:Int = 0 Until list.entries.count()
+
+		Local entryCount:Int = list.entries.count()
+		If entryCount = 0 Then Return -1
+
+		For Local i:Int = 0 Until entryCount
 			If entry = TGUIObject(list.entries.ValueAtIndex(i)) Then Return i
 		Next
 		Return -1
@@ -468,13 +472,15 @@ Type TGUIDropDownItem Extends TGUISelectListItem
 		Local upperParent:TGUIObject = TGUIListBase.FindGUIListBaseParent(Self)
 		upperParent.RestrictContentViewPort()
 
+		Local scrRect:TRectangle = GetScreenRect()
 		If isHovered()
+			SetAlpha (oldColA * 0.75)
 			SetColor 250,210,100
-			DrawRect(GetScreenRect().x, GetScreenRect().y, GetScreenRect().w, GetScreenRect().h)
+			DrawRect(scrRect.x, scrRect.y, scrRect.w, scrRect.h)
 		ElseIf isSelected()
-			SetAlpha oldcolA*0.5
+			SetAlpha (oldColA * 0.5)
 			SetColor 250,210,100
-			DrawRect(GetScreenRect().GetX(), GetScreenRect().GetY(), GetScreenRect().GetW(), GetScreenRect().GetH())
+			DrawRect(scrRect.x, scrRect.y, scrRect.w, scrRect.h)
 		EndIf
 
 		upperParent.ResetViewPort()

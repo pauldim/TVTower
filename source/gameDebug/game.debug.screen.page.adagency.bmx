@@ -56,7 +56,7 @@ Type TDebugScreenPage_Adagency extends TDebugScreenPage
 	Method Update()
 		Local playerID:Int = GetShownPlayerID()
 
-		UpdateBlock_AdAgencyOffers(playerID, position.x + 5, position.y + 3, 250, 230)
+		UpdateBlock_AdAgencyOffers(playerID, position.x + 5, position.y + 3, 300, 230)
 
 		For Local b:TDebugControlsButton = EachIn buttons
 			b.Update()
@@ -65,26 +65,26 @@ Type TDebugScreenPage_Adagency extends TDebugScreenPage
 
 
 	Method UpdateBlock_AdAgencyOffers(playerID:Int, x:Int, y:Int, w:Int = 200, h:Int = 150)
+		Local adAgency:RoomHandler_AdAgency = RoomHandler_AdAgency.GetInstance()
+
 		'reset
 		offerHightlight = null
 
-		Local textX:Int = x + 5
-		Local textY:Int = y + 5
-		Local adAgency:RoomHandler_AdAgency = RoomHandler_AdAgency.GetInstance()
-		textY :+ 12 + 10 + 5
+		Local textX:Int = x + 2
+		Local textY:Int = y + 20 + 2
 
 		Local adLists:TAdContract[][] = [adAgency.listNormal, adAgency.listCheap]
 		Local entryPos:Int = 0
 		For Local listNumber:Int = 0 Until adLists.length
 			Local ads:TAdContract[] = adLists[listNumber]
-			textY :+ 10
+			textY :+ 12
 			For Local i:Int = 0 Until ads.length
-				If THelper.MouseIn(textX, textY, 240, 10)
+				If THelper.MouseIn(textX, textY, 290, 11)
 					offerHightlight = ads[i]
 					Exit
 				EndIf
 
-				textY :+ 10
+				textY :+ 11
 				entryPos :+ 1
 			Next
 			If offerHightlight Then Exit
@@ -95,9 +95,9 @@ Type TDebugScreenPage_Adagency extends TDebugScreenPage
 	Method Render()
 		Local playerID:Int = GetShownPlayerID()
 
-		RenderBlock_AdAgencyOffers(playerID, position.x + 5, position.y + 3, 250, 230)
+		RenderBlock_AdAgencyOffers(playerID, position.x + 5, position.y + 3, 300, 230)
 		'RenderBlock_AdAgencyInformation(playerID, position.x + 5 + 250 + 5, position.y + 3)
-		RenderBlock_PlayerAdContractInformation(playerID, position.x + 5 + 250 + 5, position.y + 3)
+		RenderBlock_PlayerAdContractInformation(playerID, position.x + 5 + 300 + 5, position.y + 3)
 
 		DrawBorderRect(position.x + 510, 13, 160, 83)
 		For Local i:Int = 0 Until buttons.length
@@ -105,34 +105,64 @@ Type TDebugScreenPage_Adagency extends TDebugScreenPage
 		Next
 
 		If offerHightlight
-			offerHightlight.ShowSheet(position.x + 5 + 250, position.y + 3, 0, TVTBroadcastMaterialType.ADVERTISEMENT, playerID, null)
+			offerHightlight.ShowSheet(position.x + 5 + 300, position.y + 3, 0, TVTBroadcastMaterialType.ADVERTISEMENT, playerID, null)
 		EndIf
 	End Method
 
 
 	Method RenderBlock_PlayerAdContractInformation(playerID:Int, x:Int, y:Int, w:Int = 170, h:Int = 180)
-		DrawBorderRect(x, y, w, h)
-		Local textX:Int = x + 5
-		Local textY:Int = y + 5
-		titleFont.Draw("Player contracts", textX, textY)
-		textY :+ 12
+		Local contentRect:SRectI = DrawWindow(x, y, w, h, "Player contracts")
+		Local textX:Int = contentRect.x
+		Local textY:Int = contentRect.y
+
+		Local oldAlpha:Float = GetAlpha()
+		Local oldCol:SColor8; GetColor(oldCol)
+
+		textY :+ textFontBold.Draw("Normal", textX, textY).y
+		textY :+ 2
+		
 		Local slot:Int = 1
 		For Local adContract:TAdContract = EachIn GetPlayerProgrammeCollection(playerID).adContracts
-			textFont.Draw(slot, textX, textY)
+			If slot Mod 2 = 0
+				SetColor 0,0,0
+			Else
+				SetColor 60,60,60
+			EndIf
+			SetAlpha 0.75 * oldAlpha
+			DrawRect(textX, textY + 1, contentRect.w, 11)
+
+			SetColor oldCol
+			SetAlpha oldAlpha
+
+			textFont.Draw(slot + ":", textX, textY)
 			textFont.Draw(adContract.GetTitle(), textX + 15, textY)
 			slot :+ 1
-			textY :+ 10
+			textY :+ 11
 		Next
 
-		textY :+ 20
+		textY :+ 10
+
+		textY :+ textFontBold.Draw("Suitcase", textX, textY).y
+		textY :+ 2
 
 		Local suitCasePos:Int = 1
 		For Local adContract:TAdContract = EachIn GetPlayerProgrammeCollection(playerID).suitcaseAdContracts
-			textFont.Draw(slot, textX, textY)
+			If suitCasePos Mod 2 = 0
+				SetColor 0,0,0
+			Else
+				SetColor 60,60,60
+			EndIf
+			SetAlpha 0.75 * oldAlpha
+			DrawRect(textX, textY + 1, contentRect.w, 11)
+
+			SetColor oldCol
+			SetAlpha oldAlpha
+
+			textFont.Draw(suitCasePos + ":", textX, textY)
 			textFont.Draw(adContract.GetTitle(), textX + 15, textY)
 			suitCasePos :+ 1
 			slot :+ 1
-			textY :+ 10
+			textY :+ 11
 		Next
 	End Method
 
@@ -170,16 +200,11 @@ endrem
 
 
 	Method RenderBlock_AdAgencyOffers(playerID:Int, x:Int, y:Int, w:Int = 200, h:Int = 150)
-		DrawBorderRect(x, y, w, h)
-		Local textX:Int = x + 5
-		Local textY:Int = y + 5
 		Local adAgency:RoomHandler_AdAgency = RoomHandler_AdAgency.GetInstance()
 
-		titleFont.draw("AdAgency", textX, textY - 1)
-		textY :+ 12
-		textFont.Draw("Refilled on figure visit.", textX, textY - 1)
-		textY :+ 10
-		textY :+ 5
+		Local contentRect:SRectI = DrawWindow(x, y, w, h, "Adagency offers", "(Refilled on figure visit)")
+		Local textX:Int = contentRect.x
+		Local textY:Int = contentRect.y + 5
 
 		Local adlistTitle:String[] = ["Normal", "Cheap"]
 		Local adLists:TAdContract[][] = [adAgency.listNormal, adAgency.listCheap]
@@ -189,7 +214,7 @@ endrem
 			Local ads:TAdContract[] = adLists[listNumber]
 
 			textFontBold.Draw(adListTitle[listNumber] + ":", textX, textY - 1)
-			textY :+ 10
+			textY :+ 12
 			For Local i:Int = 0 Until ads.length
 				If entryPos Mod 2 = 0
 					SetColor 0,0,0
@@ -197,7 +222,7 @@ endrem
 					SetColor 60,60,60
 				EndIf
 				SetAlpha 0.75 * oldAlpha
-				DrawRect(textX, textY, 240, 10)
+				DrawRect(textX, textY, 290, 11)
 
 				SetColor 255,255,255
 				SetAlpha oldAlpha
@@ -205,7 +230,7 @@ endrem
 				If ads[i] And ads[i] = offerHightlight
 					SetAlpha 0.25 * oldAlpha
 					SetBlend LIGHTBLEND
-					DrawRect(textX, textY, 240, 10)
+					DrawRect(textX, textY, 290, 11)
 					SetAlpha oldAlpha
 					SetBlend ALPHABLEND
 				EndIf
@@ -215,16 +240,16 @@ endrem
 					textFont.DrawBox(": " + ads[i].GetTitle(), textX + 15, textY - 1, 110, 15, sALIGN_LEFT_TOP, SColor8.White)
 					textFont.DrawSimple(MathHelper.DottedValue(ads[i].GetMinAudience(playerID)), textX + 15 + 120, textY - 1)
 					If ads[i].GetLimitedToTargetGroup() > 0
-						textFont.DrawBox(ads[i].GetLimitedToTargetGroupString(), textX + 15 + 120, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
+						textFont.DrawBox(ads[i].GetLimitedToTargetGroupString(), textX + 15 + 170, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
 					Else
 						SetAlpha 0.5
-						textFont.DrawBox("no limit", textX + 15 + 120, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
+						textFont.DrawBox("no limit", textX + 15 + 170, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
 						SetAlpha oldAlpha
 					EndIf
 				Else
 					textFont.DrawSimple(": -", textX + 15, textY - 1)
 				EndIf
-				textY :+ 10
+				textY :+ 11
 
 				entryPos :+ 1
 			Next

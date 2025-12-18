@@ -127,7 +127,8 @@ function BudgetManager:AllocateBudgetToTasks(money)
 	local safetyNet = 0
 	if player.coverage ~= nil then
 		if player.coverage > 0.6 then safetyNet = allFixedCostsSavings * 0.3 end
-		if player.coverage > 0.8 then safetyNet = allFixedCostsSavings * 0.6 end
+		--if player.coverage > 0.8 then safetyNet = allFixedCostsSavings * 0.6 end
+		if player.coverage > 0.9 and player.image > 75 then safetyNet = allFixedCostsSavings end
 	end
 	allFixedCostsSavings = safetyNet + math.round(allFixedCostsSavings * hourPart)
 
@@ -203,11 +204,12 @@ function BudgetManager:OnMoneyChanged(value, reason, reference)
 
 
 	if renewBudget == true then
-		local budgetNow = getPlayer().money
+		local player = getPlayer()
+		local budgetNow = player.money
 
-		--update budget when at least 15.000 Euro difference since last
-		--adjustment
-		if math.abs(self.BudgetOnLastUpdateBudget - budgetNow) > 15000 then
+		--update budget when at least 15.000 Euro difference since last adjustment
+		--or early in the day (station budget)
+		if player.hour < 4 or math.abs(self.BudgetOnLastUpdateBudget - budgetNow) > 15000 then
 			self:UpdateBudget(budgetNow)
 
 			self.BudgetOnLastUpdateBudget = budgetNow

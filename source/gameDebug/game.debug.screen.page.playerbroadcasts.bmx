@@ -282,7 +282,7 @@ Type TDebugWidget_ProgrammePlanInfo
 		Local adSlotX:Int = programmeSlotX + programmeSlotWidth + slotPadding
 		programmeForHover = null
 
-		Local font:TBitmapFont = GetBitmapFont("default", 10)
+		Local font:TBitmapFont = GetBitmapFont("default", 9)
 
 		'statistic for the shown day
 		Local dailyBroadcastStatistic:TDailyBroadcastStatistic = GetDailyBroadcastStatistic(dayShown, True)
@@ -303,7 +303,7 @@ Type TDebugWidget_ProgrammePlanInfo
 
 
 		Local s:String = "|color=200,255,200|PRED|/color|/|color=200,200,255|GUESS|/color|/|color=255,220,210|REAL|/color|"
-		GetBitmapFont("default", 10).DrawBox( s, programmeSlotX, y + -1*lineHeight + lineTextDY, programmeSlotWidth, lineTextHeight, sALIGN_RIGHT_TOP, SColor8.White)
+		font.DrawBox( s, programmeSlotX, y + -1*lineHeight + lineTextDY, programmeSlotWidth, lineTextHeight, sALIGN_RIGHT_TOP, SColor8.White)
 
 
 		For Local hour:Int = 0 Until daysProgramme.length
@@ -782,7 +782,7 @@ Type TDebugWidget_ProgrammeCollectionInfo
 		Local lineWidth:Int = 160
 		Local adLineWidth:Int = 145
 		Local adLeftX:Int = 165
-		Local font:TBitmapFont = GetBitmapFont("default", 10)
+		Local font:TBitmapFont = GetBitmapFont("default", 8)
 		Local initialY:Int = y
 		programmeForHover = null
 		contractForHover = null
@@ -831,8 +831,14 @@ Type TDebugWidget_ProgrammeCollectionInfo
 			Local adString1b:String = "R: "+(a.GetDaysLeft())+"D"
 			If a.GetDaysLeft() = 1
 				adString1b = "|color=220,180,50|"+adString1b+"|/color|"
-			ElseIf a.GetDaysLeft() = 0
-				adString1b = "|color=220,80,80|"+adString1b+"|/color|"
+			ElseIf a.GetDaysLeft() <= 0
+				If a.state = a.STATE_OK
+					adString1b = "|color=0,255,0|"+adString1b+"|/color|"
+				ElseIf a.state = a.STATE_FAILED
+					adString1b = "|color=255,0,0|"+adString1b+"|/color|"
+				Else
+					adString1b = "|color=220,80,80|"+adString1b+"|/color|"
+				EndIf
 			EndIf
 			Local adString2a:String = "Min: " +MathHelper.DottedValue(a.GetMinAudience())
 			If a.GetLimitedToTargetGroup() > 0 Or a.GetLimitedToProgrammeGenre() > 0  Or a.GetLimitedToProgrammeFlag() > 0

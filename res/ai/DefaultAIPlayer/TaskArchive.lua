@@ -21,7 +21,8 @@ end
 
 function TaskArchive:getStrategicPriority()
 	self:LogTrace("TaskArchive:getStrategicPriority")
-	if getPlayer().hour > 17 then
+	local player = getPlayer()
+	if player.hour > 17 or not player.onOwnFloor then
 		return 0.0
 	end
 	return 1.0
@@ -120,7 +121,7 @@ function JobSellMovies:Tick()
 						self:LogInfo("  placing "..vm.Title.." (max topicality "..vm.maxTopicality.. ", times run " ..vm.timesRun ..") into suitcase for selling")
 						table.insert(case, vm)
 					end
-				else
+				elseif vm.timesRun > 0 then
 					table.insert(movies,vm)
 				end
 			end
@@ -136,7 +137,7 @@ function JobSellMovies:Tick()
 	end
 
 	local receivers = self.Task.Player.totalReceivers
-	local performanceThreshold = 0.15
+	local performanceThreshold = 0.17
 	local minLicenceCount = 50
 	if receivers == nil then
 		-- should not happen
@@ -212,7 +213,7 @@ end
 function JobSellMovies:getLowPerformanceLicenceToSell(movies, threshold)
 	local performanceStats = getPlayer().Stats.PerformanceData
 	if performanceStats~=nil then
-		local worstQuote = 10
+		local worstQuote = 25
 		local worstLicence = nil
 		for i=1, #movies do
 			local movie = movies[i]

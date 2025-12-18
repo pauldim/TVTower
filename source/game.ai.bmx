@@ -777,6 +777,11 @@ Type TLuaFunctions Extends TLuaFunctionsBase {_exposeToLua}
 		Return GetPlayerFinance(Self.ME, -1).money
 	End Method
 
+	Method getImage:Int(player:Int)
+		Return GetPublicImage(player).GetAverageImage()
+	End Method
+
+
 	Method convertToAdContract:TAdContract(obj:Object)
 		Return TAdContract(obj)
 	End Method
@@ -1750,17 +1755,19 @@ endrem
 
 		local room:Int = getPlayerRoom()
 		local script:TScript = RoomHandler_Studio.GetInstance().GetCurrentStudioScript(room)
+		Local pcc:TProductionConceptCollection = TProductionConceptCollection.GetInstance()
+		'"remove" script from studio if all pre-productions are started - new production is possible
+		If script And isLiveAndAllProductionsStarted(script, pcc)
+			GetPlayerProgrammeCollection(Self.ME).MoveScriptFromStudioToSuitcase(script, true)
+			script = null
+		EndIf
 
 		If not script
 			local scripts:TList = GetPlayerProgrammeCollection(Self.ME).suitcaseScripts
-			'TODO may be more than one - choose most suitable - consider room size and potential
-			If Not scripts.IsEmpty()
-				script:TScript = TScript(scripts.first())
-			EndIf
+			script = getScriptToProduce(scripts, pcc, room)
 		EndIf
 
 		If script
-			Local pcc:TProductionConceptCollection = TProductionConceptCollection.GetInstance()
 			Local rh:RoomHandler_Studio = RoomHandler_Studio.GetInstance()
 			rh.SetCurrentStudioScript(script, room, False)
 
@@ -1769,12 +1776,78 @@ endrem
 					Local subScript:TScript = TScript(script.GetSubScriptAtIndex(i))
 					If pcc.CanCreateProductionConcept(subScript) then rh.CreateProductionConcept(Self.ME, subScript)
 				Next
+			ElseIf script.GetProductionLimit() > 0 And script.GetProductionsCount() < 3
+				'for multi-productions, 3 concepts the first time (before possibly choosing next script)
+				For Local i:Int = 1 To 3
+					If pcc.CanCreateProductionConcept(script) then rh.CreateProductionConcept(Self.ME, script)
+				Next
 			Else
 				If pcc.CanCreateProductionConcept(script) then rh.CreateProductionConcept(Self.ME, script)
 			EndIf
 			Return Self.RESULT_OK
 		EndIf
+		'indicator no script found, new script can be bought
 		Return Self.RESULT_NOTFOUND
+
+		Function isLiveAndAllProductionsStarted:Int(script:TScript, pcc:TProductionConceptCollection)
+			If Not script.IsLive() Then Return False
+			Local concepts:TProductionConcept[]=pcc.GetProductionConceptsByScript(script,True)
+			If Not concepts Or concepts.length = 0 Then return False
+
+			For Local c:TProductionConcept = Eachin concepts
+				If Not c.IsProductionStarted() Then Return False
+			Next
+			Return True
+		EndFunction
+
+		Function getScriptToProduce:TScript(scripts:TList, pcc:TProductionConceptCollection, roomID:Int)
+			Local roomSize:Int = GetRoomCollection().Get(roomId).GetSize()
+			If scripts And Not scripts.IsEmpty()
+				Local multiProdQuality:Float = 0.0
+				Local multiProdQualityMax:Float = 0.0
+				Local multiProdQualityMin:Float = 100.0
+				Local multiProdSkipChance:Int
+				Local multiProdCount:Int = 0
+				Local worstMultiProd:TScript
+				For Local s:TScript = EachIn scripts
+					If roomSize < s.requiredStudioSize Then Continue
+					If Not isLiveAndAllProductionsStarted(s, pcc)
+						'prefer non-multi-productions
+						If s.GetProductionLimit() <= 1
+							Return s
+						Else
+							multiProdCount:+1
+							multiProdQuality = s.GetReview() + s.GetSpeed()
+							If multiProdQuality > multiProdQualityMax Then multiProdQualityMax = multiProdQuality
+							If multiProdQuality < multiProdQualityMin
+								multiProdQualityMin = multiProdQuality
+								worstMultiProd = s
+							EndIf
+							'produce at least once
+							If s.GetProductionsCount() < 1 Then Return s
+						EndIf
+					EndIf
+				Next
+				'if there are too many multi-productions, throw away the worst
+				If multiProdCount > 3 and worstMultiProd
+					scripts.remove(worstMultiProd)
+					GetPlayerProgrammeCollection(worstMultiProd.owner).RemoveScript(worstMultiProd, False)
+				EndIf
+				'at this point the only choice should be among multi productions
+				For Local s:TScript = EachIn scripts
+					If Not isLiveAndAllProductionsStarted(s, pcc)
+						'skip already produced script sometimes
+						If s.GetProductionLimit() > 1 And s.GetProductionsCount() > 2
+							multiProdSkipChance = 60
+							If s.GetReview() + s.GetSpeed() < multiProdQualityMax then multiProdSkipChance = 80
+							If RandRange(1,100) < multiProdSkipChance Then Continue
+						EndIf
+						Return s
+					EndIf
+				Next
+			EndIf
+			Return null
+		EndFunction
 	End Method
 
 	'Start a production
@@ -1819,20 +1892,42 @@ endrem
 					Local budgetToUse:Int = budget
 					result = Self.RESULT_FAILED
 					If pc.script.GetBlocks() = 1 then budgetToUse = budgetToUse * oneBlockBudgetFactor
+					If pc.script.GetProductionBroadcastLimit() > 0 And pc.script.GetProductionBroadcastLimit() < 3 then budgetToUse = budgetToUse * oneBlockBudgetFactor
 					producer.budget = budgetToUse
-					producer.experience = 50
-					If budgetToUse < 300000 then producer.preferCelebrityCastRateSupportingRole = 60
+					producer.experience = 60
+					If budgetToUse < 400000 then producer.preferCelebrityCastRateSupportingRole = 60
+					Local maxCost:Int = 0
+					Local pcCost:Int=-1
 					For Local i:Int = 1 To 15
 						producer.ChooseProductionCompany(pc, pc.script)
 						producer.ChooseCast(pc, pc.script)
 						producer.ChooseFocusPoints(pc, pc.script)
+						pcCost = pc.GetTotalCost()
+						'print budgetToUse +" "+pc.GetCastCost() +" "+pc.GetProductionCost()
+						If pcCost <= budgetToUse and pcCost > maxCost Then maxCost = pcCost
 						'in order to inspect the concept, do not pay the deposit and do not return OK
 						'then you can send the AI to the supermarket multiple times
-						If pc.GetTotalCost() <= budgetToUse and pc.PayDeposit() = True
+
+						'If the costs are (much) below budget, maybe more money can't be spent
+						'do another round trying to reach the maximum budget used so far
+						If pcCost >= budgetToUse * 0.75 and pcCost <= budgetToUse and pc.PayDeposit() = True
 							result = Self.RESULT_OK
 							Exit
 						EndIf
 					Next
+					If maxCost > 0 and result <> Self.RESULT_OK
+						'producer.experience = 90
+						For Local i:Int = 1 To 15
+							producer.ChooseProductionCompany(pc, pc.script)
+							producer.ChooseCast(pc, pc.script)
+							producer.ChooseFocusPoints(pc, pc.script)
+							pcCost = pc.GetTotalCost()
+							If pcCost>= maxCost * 0.8 and pcCost <= maxCost * 1.25 and pc.PayDeposit() = True
+								result = Self.RESULT_OK
+								Exit
+							EndIf
+						Next
+					EndIf
 				EndIf
 			EndIf
 		Next

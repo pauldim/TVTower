@@ -16,7 +16,8 @@ _G["TaskSchedule"] = class(AITask, function(c)
 	c.Id = _G["TASK_SCHEDULE"]
 	c.TargetRoom = TVT.ROOM_OFFICE_PLAYER_ME
 	c.BudgetWeight = 0
-	c.BasePriority = 10
+	--no priortiy for scheduling; default player sets situation priority at xx:06
+	c.BasePriority = 0
 
 	--no budget to spare
 	c.RequiresBudgetHandling = false
@@ -43,6 +44,9 @@ _G["TaskSchedule"] = class(AITask, function(c)
 	--we run more than one AdScheduleJob
 	c.adScheduleJobIndex = 0
 	c.lastScheduleHour = -1
+
+	--guessed audience for an hour for comparison with actual audience
+	c.guessedAudienceHour = {}
 
 	-- basic audience statistics
 	-- this value can then be adjusted for each hour in a long term
@@ -121,6 +125,7 @@ end
 
 
 function TaskSchedule:GetNextJobInTargetRoom()
+	self.Player.onOwnFloor = true
 	if (self.AnalyzeEnvironmentJob.Status ~= JOB_STATUS_DONE) then
 		return self.AnalyzeEnvironmentJob
 	elseif (self.PreAnalyzeScheduleJob.Status ~= JOB_STATUS_DONE) then
@@ -162,7 +167,7 @@ function TaskSchedule:GetNextJobInTargetRoom()
 	--when done invalidate cache of available licences
 	self.availableProgrammes = nil
 
-	local taskTime = getPlayer().minutesGone - self.StartTask
+	local taskTime = self.Player.minutesGone - self.StartTask
 	if taskTime < 7 then
 		self:SetIdle(7-taskTime)
 	else
@@ -303,7 +308,8 @@ end
 
 
 -- return the individual audience riskyness
-function TaskSchedule:GetGuessedAudienceRiskyness(day, hour, broadcast, block, playerHour)
+function TaskSchedule:GetGuessedAudienceRiskyness(day, hour, broadcast, block, player)
+	local playerHour = player.hour
 	-- 1.0 means assuming to get all
 	--local baseRiskyness = 0.90
 
@@ -317,8 +323,8 @@ function TaskSchedule:GetGuessedAudienceRiskyness(day, hour, broadcast, block, p
 		local factor = 1
 		--guess for the next day, topicality regain not considered in quess
 		if hour < playerHour then factor = 1.1 end
-		if self.useMaxTopicalityOnly == true then
-			return 1.1*factor
+		if self.useMaxTopicalityOnly == true or player.coverage > 0.9 then
+			return factor
 		else
 			return 1.3*factor
 		end
@@ -357,18 +363,32 @@ end
 function TaskSchedule:GetMostAttractiveLicence(licenceList, day, hour)
 	local fixedDay, fixedHour = FixDayAndHour(day, hour)
 	local result = nil
+	local second = nil
 	local resultWeight = 0
 	local currentWeight = 0
+	local bestBroadcasted = nil
+	local bestBroadcasedWeight = 0
 	if (table.count(licenceList) > 0) then
 		for k,v in pairs(licenceList) do
 			currentWeight = AITools:GetBroadcastAttraction(v.licence, fixedDay, fixedHour)
 			if currentWeight > resultWeight then
 				resultWeight = currentWeight
+				second = result
 				result=v
+			end
+			if fixedHour < 2 and v.timesRun ~=nil and currentWeight > bestBroadcasedWeight then
+				bestBroadcasedWeight = currentWeight
+				bestBroadcasted = v
 			end
 		end
 	end
 
+	--try not to waste first broadcast when fewer people are watching
+	if hour < 19 and second ~=nil and getPlayer().coverage > 0.9 then
+		return second
+	elseif fixedHour < 2 and bestBroadcasted ~=nil then
+		return bestBroadcasted
+	end
 	return result
 end
 
@@ -460,6 +480,7 @@ end
 -- fetch only once per task, then use cached list
 function TaskSchedule:GetAllProgrammeLicences(forbiddenIDs)
 	local allLicences = {}
+	local licenceCount = TVT.of_getProgrammeLicenceCount()
 	if self.availableProgrammes == nil then
 		local player = getPlayer()
 		local ignoreLicences = player.licencesToSell
@@ -470,6 +491,7 @@ function TaskSchedule:GetAllProgrammeLicences(forbiddenIDs)
 		if player.blocksCount ~=nil then
 			if player.blocksCount > 60 then maxTopThreshold = 0.6 end
 			if player.blocksCount > 100 then maxTopThreshold = 0.7 end
+			if player.blocksCount > 150 then maxTopThreshold = 0.8 end
 		end
 		local tl = {} --top licences
 		self.availableProgrammes = {}
@@ -496,24 +518,29 @@ function TaskSchedule:GetAllProgrammeLicences(forbiddenIDs)
 			t.title = licence.GetTitle()
 			t.Id = licence.GetID()
 			t.refId = licence:GetReferenceID()
-			t.blocks = licence.data.GetBlocks(0);
+			t.blocks = licence.data.GetBlocks(2);
 			t.relativeTopicality = licence.GetRelativeTopicality()
 			t.topicality = licence:GetTopicality()
 			t.maxTopicality = licence.GetMaxTopicality()
 			t.quality = licence:GetQuality()
 			t.exceedingBroadcastLimit = licence.isExceedingBroadcastLimit()
 			t.xrated = licence.GetData().IsXRated()
-			t.qualityLevel = AITools:GetBroadcastQualityLevel(licence) -- TODO optimize
+			t.qualityLevel = AITools:GetBroadcastQualityLevel(licence, licenceCount) -- TODO optimize
+			if t.qualityLevel == 5 and licence.GetGenre() == TVT.Constants.ProgrammeGenre.Animation then
+				t.qualityLevel = 4
+			end
+			--increase probability custom live productions are broadcasted
+			if t.maxTopicality > 0.95 and licence.IsAlwaysLive() > 0 then t.qualityLevel = math.random(4, 5) end
 --TODO!!!
 --			t.sentAndPlanned = TVT.of_GetBroadcastMaterialInProgrammePlanCount(licence.GetID(), fixedDay, 1, 1, 0)
 --			t.planned = licence.isPlanned()
 --			t.quality = licence.GetQualityRaw() * t.maxTopicality
---			t.timesRun = licence:GetTimesBroadcasted(TVT.ME)
+			t.timesRun = licence:GetTimesBroadcasted(TVT.ME)
 			t.licence = licence
 			return t;
 		end
 
-		for i=0,TVT.of_getProgrammeLicenceCount()-1 do
+		for i=0,licenceCount-1 do
 			local licence = TVT.of_getProgrammeLicenceAtIndex(i)
 			local luaLicence
 			if (licence ~= nil) then
@@ -525,7 +552,12 @@ function TaskSchedule:GetAllProgrammeLicences(forbiddenIDs)
 
 				if ( addIt == true ) then
 					luaLicence = newLuaLicence(licence)
-					table.insert(self.availableProgrammes, luaLicence)
+					if licenceCount > 70 and luaLicence.relativeTopicality < 1 and (luaLicence.relativeTopicality > 0.85 or luaLicence.maxTopicality > 0.6) then
+						--if many licences and almost full topicality - do not add
+					else
+						table.insert(self.availableProgrammes, luaLicence)
+					end
+					--self:LogInfo(";"..luaLicence.title .. ";"..luaLicence.blocks..";"..luaLicence.licence.GetQualityRaw()..";"..luaLicence.maxTopicality .. ";"..luaLicence.topicality .. ";"..luaLicence.quality .. ";"..luaLicence.qualityLevel)
 
 					--statistics
 					if not table.contains(ignoreLicences, luaLicence.refId) then
@@ -551,8 +583,9 @@ function TaskSchedule:GetAllProgrammeLicences(forbiddenIDs)
 		end
 		--TODO check if max topicality blocks should be used for scheduling
 		if lowMaxTopBlocks > 20 then self.useMaxTopicalityOnly = true end
-		if maxTopicalityBlocks > 10 then tl={} end
+		if maxTopicalityBlocks > 15 then tl={} end
 		self.primeLicenceIds = tl
+		self:LogInfo("licences: "..licenceCount.." blocks: "..totalBlocks.." maxTopBlocks: "..player.maxTopicalityBlocksCount)
 	end
 	if forbiddenIDs == nil or #forbiddenIDs == 0 then
 		allLicences = table.copy(self.availableProgrammes)
@@ -673,18 +706,22 @@ function TaskSchedule:GetProgrammeLicencesForBlock(day, hour, level, forbiddenID
 	local filteredLicences = self:FilterProgrammeLicencesByBroadcastableState(allLicences, fixedDay, fixedHour, forbiddenIDs)
 
 	local player = getPlayer()
+
+--using only max topicality licences did not cause good available licences
+--to be used for early day programme
+--[[
 	if self.useMaxTopicalityOnly == true then
 		--self:LogDebug("using only maxTop licences for hour "..fixedHour)
 		local maxTop = {}
 		for k,luaLicence in pairs(filteredLicences) do
-			if luaLicence.relativeTopicality > 0.99 then
+			if luaLicence.relativeTopicality > 0.995 then
 				table.insert(maxTop, luaLicence)
 			end
 		end
 		if level < 4 then return self:GetMaxTopicalityLicences(maxTop, level) end
 		filteredLicences = maxTop
 	end
-
+--]]
 	local allLicenceCount = table.count(allLicences)
 
 	local minLevel = level
@@ -702,11 +739,22 @@ function TaskSchedule:GetProgrammeLicencesForBlock(day, hour, level, forbiddenID
 
 	--try to find a programme of the given quality/level
 
+	--late in the game, do not distinguish between levels 1, 2 and 3
+	if player.coverage > 0.9 then
+		if level < 4 then
+			maxLevel = 3
+		elseif level == 4 and hour < 22 then
+			maxLevel = 5
+		end
+	end
+
 	--exact fit?
 	licenceList = self:GetFilteredProgrammeLicenceList(minLevel, maxLevel, maxReruns, fixedDay, fixedHour, filteredLicences, forbiddenIDs)
 	--check for some worse/better quality program - if selection is too small
-	local minSelectionSize = 1 -- allLicenceCount/4
-	if level <= 3 then
+	--once a certail level is achieved, look only for better licences
+	local minSelectionSize = 3 -- allLicenceCount/4
+	if player.coverage > 0.3 then minSelectionSize = 15 end
+	if level <= 3 and player.coverage < 0.25 then
 		if (table.count(licenceList) < minSelectionSize) then licenceList = self:GetFilteredProgrammeLicenceList(minLevel-1, maxLevel, maxReruns + 1, fixedDay, fixedHour, filteredLicences, forbiddenIDs) end
 	else
 		if (table.count(licenceList) < minSelectionSize) then licenceList = self:GetFilteredProgrammeLicenceList(minLevel, maxLevel+1, maxReruns, fixedDay, fixedHour, filteredLicences, forbiddenIDs) end
@@ -1090,7 +1138,7 @@ function TaskSchedule:GuessedAudienceForHour(day, hour, broadcast, block, guessC
 --	local globalPercentageByHour = AITools:GetMaxAudiencePercentage(fixedDay, fixedHour)
 --	local exclusiveMaxAudience = TVT.getExclusiveMaxAudience()
 --	local sharedMaxAudience = MY.getReceivers() - exclusiveMaxAudience
-	local riskyness = self:GetGuessedAudienceRiskyness(day, hour, broadcast, block, player.hour)
+	local riskyness = self:GetGuessedAudienceRiskyness(day, hour, broadcast, block, player)
 --	self.log["GuessedAudienceForHour"] = "GUESSED: Hour=" .. hour .. "  Lvl=" .. level .. "  Audience: guess=" .. math.round(guessedAudience.GetTotalSum()) .. "  atTV=".. math.round(MY.getReceivers()*globalPercentageByHour) .. "  avgQ="..avgQuality .. "  statQ="..statQuality1.."/"..statQuality2.."/"..statQuality3.."/"..statQuality4 .. "   riskyness="..riskyness
 --	self:LogDebug( self.log["GuessedAudienceForHour"] )
 
@@ -1829,7 +1877,10 @@ function JobAdSchedule:FillSlot(day, hour, guessedAudience)
 --	self:LogDebug("Fill ad slot " .. (fixedDay - TVT.GetStartDay()) .. "/" .. string.format("%02d", fixedHour) .. ":55. guessedAudienceSum=" .. math.floor(guessedAudienceSum))
 
 	-- add for debug screen - do not overwrite, if it is not a guessed but the real audience
-	if fixedHour ~= getPlayer().hour then MY.SetAIData("guessedaudience_" .. fixedDay .."_".. fixedHour, guessedAudience) end
+	if fixedHour ~= getPlayer().hour then
+		self.Task.guessedAudienceHour[fixedHour] = guessedAudience
+		MY.SetAIData("guessedaudience_" .. fixedDay .."_".. fixedHour, guessedAudience) 
+	end
 
 	-- send a trailer:
 	-- ===============
@@ -2154,7 +2205,7 @@ function JobProgrammeSchedule:Tick()
 					local response = TVT.of_getProgrammeSlot(fixedDay, fixedHour)
 					if (response.result == TVT.RESULT_OK) then
 						-- skip other still occupied slots
-						self.plannedHours = self.plannedHours + (response.data.GetBlocks(0)-1)
+						self.plannedHours = self.plannedHours + (response.data.GetBlocks(2)-1)
 					end
 					--]]
 				else
@@ -2410,7 +2461,7 @@ function JobProgrammeSchedule:FillSlot(day, hour)
 		if currentBroadcastMaterial ~= nil then
 			--self:LogDebug("PlanProgrammeSchedule: Skip placing broadcast \"" .. currentBroadcastMaterial.GetTitle() .. "\" source for "..fixedDay .."/" .. fixedHour .. ":05. Already placed")
 			-- skip other still occupied slots
-			adjustedBlocks = currentBroadcastMaterial.GetBlocks(0) - myProgrammePlan.GetProgrammeBlock(fixedDay, fixedHour)
+			adjustedBlocks = currentBroadcastMaterial.GetBlocks(2) - myProgrammePlan.GetProgrammeBlock(fixedDay, fixedHour)
 		else
 			--self:LogDebug("JobProgrammeSchedule:FillSlot "..fixedDay .."/" .. string.format("%02d", fixedHour) .. ":05. Found no suitable broadcast to avoid outage.")
 		end
@@ -2423,7 +2474,7 @@ function JobProgrammeSchedule:FillSlot(day, hour)
 			if ((response.result ~= TVT.RESULT_WRONGROOM) and (response.result ~= TVT.RESULT_NOTFOUND)) then
 --				self:LogDebug("JobProgrammeSchedule:FillSlot "..fixedDay .."/" .. string.format("%02d", fixedHour) .. ":05. " .. chosenBroadcastLog)
 				-- skip other now occupied slots
-				adjustedBlocks = response.data.GetBlocks(0)
+				adjustedBlocks = response.data.GetBlocks(2)
 
 				currentBroadcastMaterial = response.data
 			end

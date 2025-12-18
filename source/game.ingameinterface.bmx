@@ -78,6 +78,7 @@ Type TInGameInterface
 	Field hoveredMenuButtonPos:TVec2D = new TVec2D(0,0)
 	'did text values change?
 	Field valuesChanged:int = True
+	Field customImageDirExists:Int = False
 
 	Field chat:TGUIGameChat
 
@@ -168,20 +169,24 @@ Type TInGameInterface
 		spriteInterfaceAudienceTVOverlay = GetSpriteFromRegistry("gfx_interface_audience_tv_overlay")
 		spriteInterfaceAudienceAreaOverlay = GetSpriteFromRegistry("gfx_interface_audience_area_overlay")
 
-		_interfaceFont = GetBitmapFont("Default", 12, BOLDFONT)
-		_interfaceAudienceFont = GetBitmapFont("Default", 12)
-		_interfaceBigFont = GetBitmapFont("Default", 16, BOLDFONT)
+		_interfaceFont = GetBitmapFont("Default", 10, BOLDFONT)
+		_interfaceAudienceFont = GetBitmapFont("Default", 11)
+		_interfaceBigFont = GetBitmapFont("Default", 14, BOLDFONT)
 		_interfaceTVfamily = new TWatchingFamily().Init()
+
+		If FileType("res/images") = FILETYPE_DIR
+			customImageDirExists = True
+		EndIf
 
 		moneyColor = new SColor8(200,230,200)
 		audienceColor = new SColor8(200,200,230)
 		bettyLovecolor = new SColor8(220,200,180)
 		channelImageColor = new SColor8(200,220,180)
-		currentDaycolor = new SColor8(180,180,180)
-		marketShareColor = new SColor8(170,170,200)
-		negativeProfitColor = new SColor8(200,170,170)
-		neutralProfitColor = new SColor8(170,170,170)
-		positiveProfitColor = new SColor8(170,200,170)
+		currentDaycolor = new SColor8(180,180,180, 200)
+		marketShareColor = new SColor8(180,180,210, 200)
+		negativeProfitColor = new SColor8(200,170,170, 200)
+		neutralProfitColor = new SColor8(170,170,170, 200)
+		positiveProfitColor = new SColor8(170,200,170, 200)
 
 		'set space "left" when subtracting the genre image
 		'so we know how many pixels we can move that image to simulate animation
@@ -249,6 +254,85 @@ Type TInGameInterface
 		If Not _interfaceTVfamily Then _interfaceTVfamily = New TWatchingFamily().Init()
 	End Method
 
+	Method getCustomSprite:TSprite(obj:TBroadcastMaterial)
+		If customImageDirExists
+			Local image:TImage
+			If TProgramme(obj)
+				Local programme:TProgramme = TProgramme(obj)
+				If programme.licence
+					If Not programme.licence.data.customImagePresent
+						image = getImage(programme.licence.data.GUID)
+						'episode head
+						If Not image And programme.licence.IsEpisode()
+							image = getImage(programme.licence.GetParentLicence().data.GUID)
+						EndIf
+						'for custom production use template 
+						If Not image And programme.licence.data.IsCustomProduction()
+							If programme.licence.data.extra
+								Local scriptId:Int = programme.licence.data.extra.GetInt("scriptID")
+								If scriptId
+									Local script:TScript= GetScriptCollection().GetById(scriptId)
+									If script
+										Local template:TScriptTemplate = GetScriptTemplateCollection().GetById(script.basedOnScriptTemplateID)
+										If template
+											image = getImage(template.GUID)
+											'parent in case of episode
+											If Not image And template.parentScriptID Then template = template.GetParentScript()
+											If template Then image = getImage(template.GUID)
+										EndIf
+									EndIF
+								EndIf
+							EndIf
+						EndIf
+						If image
+							programme.licence.data.customImagePresent = 1
+							'TODO scaling
+							programme.licence.data.customSprite = new TSprite.InitFromImage(image, programme.licence.data.GUID)
+						Else
+							programme.licence.data.customImagePresent = -1
+						EndIf
+					EndIf
+					
+					If programme.licence.data.customImagePresent > 0
+						Return programme.licence.data.customSprite
+					EndIf
+				EndIf
+			ElseIf TAdvertisement(obj)
+				Local contract:TAdContract =  TAdvertisement(obj).contract
+				If contract and contract.base
+					If Not contract.base.customImagePresent
+						image = getImage(contract.base.GUID)
+						If image
+							contract.base.customImagePresent = 1
+							'TODO scaling
+							contract.base.customSprite = new TSprite.InitFromImage(image, contract.base.GUID)
+						Else
+							contract.base.customImagePresent = -1
+						EndIf
+					EndIf
+					If contract.base.customImagePresent > 0
+						Return contract.base.customSprite
+					EndIf
+				EndIf
+			EndIf
+		EndIf
+		Return Null
+
+		Function getImage:TImage(guid:String)
+			Local imagePath:String = "res/images/" + guid + ".png"
+			Local image:TImage
+			If FileType(imagePath) = FILETYPE_FILE
+				image= LoadImage(imagePath, 0)
+				If image Then return image
+			EndIf
+			imagePath:String = "res/images/" + guid + ".jpg"
+			If FileType(imagePath) = FILETYPE_FILE
+				image= LoadImage(imagePath, 0)
+				If image Then return image
+			EndIf
+			Return Null
+		EndFunction
+	EndMethod
 
 	Method Update(deltaTime:Float=1.0)
 		local programmePlan:TPlayerProgrammePlan = GetPlayerProgrammePlan(ShowChannel)
@@ -303,15 +387,16 @@ Type TInGameInterface
 			if programmePlan	'similar to "ShowChannel<>0"
 				If GetWorldTime().GetDayMinute() >= 55
 					Local obj:TBroadcastMaterial = programmePlan.GetAdvertisement()
+					CurrentProgramme = getCustomSprite(obj)
 					_interfaceTVfamily.Update(ShowChannel, programmePlan.GetProgramme())
 					If obj
-						CurrentProgramme = spriteProgrammeAds
+						If Not CurrentProgramme Then CurrentProgramme = spriteProgrammeAds
 						'real ad
 						If TAdvertisement(obj)
 							CurrentProgrammeToolTip.TitleBGtype = 1
 							CurrentProgrammeText = GetLocale("ADVERTISMENT") + ": " + obj.GetTitle()
 						Else
-							If(TProgramme(obj))
+							If Not CurrentProgramme And TProgramme(obj)
 								CurrentProgramme = GetSpriteFromRegistry("gfx_interface_tv_programme_genre_" + TVTProgrammeGenre.GetAsString(TProgramme(obj).data.GetGenre()), "gfx_interface_tv_programme_none")
 							EndIf
 							CurrentProgrammeOverlay = spriteProgrammeTrailerOverlay
@@ -325,33 +410,35 @@ Type TInGameInterface
 						CurrentProgrammeText = getLocale("BROADCASTING_OUTAGE")
 					EndIf
 				ElseIf GetWorldTime().GetDayMinute() < 5
+					'TODO custom sprite for news?
 					CurrentProgramme = spriteProgrammeNews
 					CurrentProgrammeToolTip.TitleBGtype	= 3
 					CurrentProgrammeText = getLocale("NEWS")
 					_interfaceTVfamily.Update(ShowChannel, programmePlan.GetNewsShow())
 				Else
 					Local obj:TBroadcastMaterial = programmePlan.GetProgramme()
+					CurrentProgramme = getCustomSprite(obj)
 					_interfaceTVfamily.Update(ShowChannel, obj)
 					If obj
-						CurrentProgramme = spriteProgrammeNone
 						CurrentProgrammeToolTip.TitleBGtype	= 0
 						'real programme
 						If TProgramme(obj)
 							Local programme:TProgramme = TProgramme(obj)
 							contentPrefix = programme.licence.GetGenresLine() + "~n"
-							CurrentProgramme = GetSpriteFromRegistry("gfx_interface_tv_programme_genre_" + TVTProgrammeGenre.GetAsString(programme.data.GetGenre()), "gfx_interface_tv_programme_none")
+							If Not CurrentProgramme Then CurrentProgramme = GetSpriteFromRegistry("gfx_interface_tv_programme_genre_" + TVTProgrammeGenre.GetAsString(programme.data.GetGenre()), "gfx_interface_tv_programme_none")
 							If (programme.IsSeriesEpisode() or programme.IsCollectionElement()) and programme.licence.parentLicenceGUID
 								CurrentProgrammeText = programme.licence.GetParentLicence().GetTitle() + " ("+ programme.GetEpisodeNumber() + "/" + programme.GetEpisodeCount()+"): " + programme.GetTitle() + " (" + getLocale("BLOCK") + " " + programmePlan.GetProgrammeBlock() + "/" + programme.GetBlocks() + ")"
 							Else
 								CurrentProgrammeText = programme.GetTitle() + " (" + getLocale("BLOCK") + " " + programmePlan.GetProgrammeBlock() + "/" + programme.GetBlocks() + ")"
 							EndIf
 						ElseIf TAdvertisement(obj)
-							CurrentProgramme = spriteProgrammeAds
+							If Not CurrentProgramme Then CurrentProgramme = spriteProgrammeAds
 							CurrentProgrammeOverlay = spriteProgrammeInfomercialOverlay
 							CurrentProgrammeText = GetLocale("PROGRAMME_PRODUCT_INFOMERCIAL")+": "+obj.GetTitle() + " (" + getLocale("BLOCK") + " " + programmePlan.GetProgrammeBlock() + "/" + obj.GetBlocks() + ")"
 						ElseIf TNews(obj)
 							CurrentProgrammeText = GetLocale("SPECIAL_NEWS_BROADCAST")+": "+obj.GetTitle() + " (" + getLocale("BLOCK") + " " + programmePlan.GetProgrammeBlock() + "/" + obj.GetBlocks() + ")"
 						EndIf
+						If Not CurrentProgramme Then CurrentProgramme = spriteProgrammeNone
 					Else
 						CurrentProgramme = spriteProgrammeNone
 						CurrentProgrammeToolTip.TitleBGtype	= 2
@@ -499,18 +586,15 @@ Type TInGameInterface
 				CurrentProgrammeToolTip.Hover()
 			EndIf
 			If THelper.MouseIn(309,412,178,32)
-				MoneyToolTip.title = getLocale("MONEY")
+				MoneyToolTip.SetTitle(getLocale("MONEY") + ": " + GetFormattedCurrency(GetPlayerBase().GetMoney()))
 				local content:String = ""
-				content	= "|b|"+getLocale("MONEY")+":|/b| "+GetFormattedCurrency(GetPlayerBase().GetMoney())
 				if GetPlayerBase().GetCredit() > 0
-					content	:+ "~n"
 					content	:+ "|b|"+getLocale("DEBT")+":|/b| |color=200,100,100|"+ GetFormattedCurrency(GetPlayerBase().GetCredit()) +"|/color|"
 				else
-					content	:+ "~n"
 					content	:+ "|b|"+getLocale("DEBT")+":|/b| |color=0,200,100|" + GetFormattedCurrency(0)+"|/color|"
 				endif
 
-				local profit:int = GetPlayerFinance(GetPlayerBase().playerID).GetCurrentProfit()
+				local profit:long = GetPlayerFinance(GetPlayerBase().playerID).GetCurrentProfit()
 				if profit > 0
 					content	:+ "~n"
 					content	:+ "|b|"+getLocale("FINANCES_TODAYS_INCOME")+":|/b| |color=100,200,100|+"+ GetFormattedCurrency(profit) +"|/color|"
@@ -872,8 +956,19 @@ Type TInGameInterface
 
 		'=== INTERFACE TEXTS ===
 
-		_interfaceBigFont.DrawBox(GetPlayerBase().getMoneyFormatted(), 357, 413, 130, 32, sALIGN_CENTER_TOP, moneyColor, EDrawTextEffect.Shadow, 0.5)
+		'player money / current days financial win/loss
+		_interfaceBigFont.DrawBox(GetPlayerBase().getMoneyFormatted(), 357, 414, 130, 29, sALIGN_CENTER_TOP, moneyColor, EDrawTextEffect.Shadow, 0.5)
+		local profit:long = GetPlayerFinance(playerID).GetCurrentProfit()
+		if profit > 0
+			_interfaceFont.DrawBox("+"+MathHelper.DottedValue(profit), 357, 414, 130, 29, sALIGN_CENTER_BOTTOM, positiveProfitColor, EDrawTextEffect.Shadow, 0.5)
+		elseif profit = 0
+			_interfaceFont.DrawBox(0, 357, 414, 130, 29, sALIGN_CENTER_BOTTOM, neutralProfitColor, EDrawTextEffect.Shadow, 0.5)
+		else
+			_interfaceFont.DrawBox(MathHelper.DottedValue(profit), 357, 414, 130, 29, sALIGN_CENTER_BOTTOM, negativeProfitColor, EDrawTextEffect.Shadow, 0.5)
+		endif
 
+
+		' audience / market share
 		Local audienceStr:String = "0"
 		Local audiencePercentageStr:String = "0"
 		Local audienceResult:TAudienceResult = GetBroadcastManager().GetAudienceResult( playerID )
@@ -881,31 +976,16 @@ Type TInGameInterface
 			audienceStr = TFunctions.convertValue(audienceResult.audience.GetTotalSum(), 2)
 			audiencePercentageStr = MathHelper.NumberToString(audienceResult.GetAudienceQuotePercentage() * 100, 2)
 		EndIf
-		_interfaceBigFont.DrawBox(audienceStr, 357, 448, 130, 32, sALIGN_CENTER_TOP, audienceColor, EDrawTextEffect.Shadow, 0.5)
+		_interfaceBigFont.DrawBox(audienceStr, 357, 449, 130, 29, sALIGN_CENTER_TOP, audienceColor, EDrawTextEffect.Shadow, 0.5)
+		_interfaceFont.DrawBox(audiencePercentageStr+"%", 357, 449, 130, 29, sALIGN_CENTER_BOTTOM, marketShareColor, EDrawTextEffect.Shadow, 0.5)
 
 
-		'=== DRAW SECONDARY INFO ===
-'			local oldAlpha:Float = GetAlpha()
-		SetAlpha oldAlpha*0.75
+		' current time / day
+		_interfaceBigFont.DrawBox(GetWorldTime().getFormattedTime() + " "+GetLocale("OCLOCK"), 357, 540, 130, 29, sALIGN_CENTER_TOP, new SColor8(220,220,220), EDrawTextEffect.Shadow, 0.5)
+		_interfaceFont.DrawBox((GetWorldTime().GetDaysRun()+1) + ". "+GetLocale("DAY"), 357, 540, 130, 29, sALIGN_CENTER_BOTTOM, currentDayColor, EDrawTextEffect.Shadow, 0.5)
+		
 
-		'current days financial win/loss
-		local profit:int = GetPlayerFinance(playerID).GetCurrentProfit()
-		if profit > 0
-			_interfaceFont.DrawBox("+"+MathHelper.DottedValue(profit), 357, 413, 130, 32, sALIGN_CENTER_BOTTOM, positiveProfitColor, EDrawTextEffect.Shadow, 0.5)
-		elseif profit = 0
-			_interfaceFont.DrawBox(0, 357, 413, 130, 32, sALIGN_CENTER_BOTTOM, neutralProfitColor, EDrawTextEffect.Shadow, 0.5)
-		else
-			_interfaceFont.DrawBox(MathHelper.DottedValue(profit), 357, 413, 130, 32, sALIGN_CENTER_BOTTOM, negativeProfitColor, EDrawTextEffect.Shadow, 0.5)
-		endif
-
-		'market share
-		_interfaceFont.DrawBox(audiencePercentageStr+"%", 357, 448, 130, 32, sALIGN_CENTER_BOTTOM, marketShareColor, EDrawTextEffect.Shadow, 0.5)
-
-		'current day
-		_interfaceFont.DrawBox((GetWorldTime().GetDaysRun()+1) + ". "+GetLocale("DAY"), 357, 539, 130, 32, sALIGN_CENTER_BOTTOM, currentDayColor, EDrawTextEffect.Shadow, 0.5)
-
-		SetAlpha oldAlpha
-
+		' betty love bar / label
 		local bettyLove:Float = Min(Max(GetBetty().GetInLovePercentage( playerID ), 0.0),1.0)
 		local bettyLoveText:String = MathHelper.NumberToString(bettyLove*100, 2)+"%"
 		if bettyLove * 116 >= 1
@@ -915,8 +995,10 @@ Type TInGameInterface
 			Setcolor 255,255,255
 			SetAlpha oldAlpha
 		endif
-		_interfaceFont.DrawBox(bettyLoveText, 363, 487, 118, 18, sALIGN_CENTER_CENTER, bettyLoveColor, EDrawTextEffect.Shadow, 0.5)
+		_interfaceFont.DrawBox(bettyLoveText, 363, 488-1, 118, 18, sALIGN_CENTER_CENTER, bettyLoveColor, EDrawTextEffect.Shadow, 0.5)
+		
 
+		' channel image bar / label
 		local channelImage:Float = Min(Max(GetPublicImageCollection().Get( playerID ).GetAverageImage()/100.0, 0.0),1.0)
 		local channelImageText:String = MathHelper.NumberToString(channelImage*100, 2)+"%"
 		if channelImage * 120 >= 1
@@ -926,13 +1008,10 @@ Type TInGameInterface
 			Setcolor 255,255,255
 			SetAlpha oldAlpha
 		endif
-		_interfaceFont.DrawBox(channelImageText, 363, 515, 118, 18, sALIGN_CENTER_CENTER, channelImageColor, EDrawTextEffect.Shadow, 0.5)
+		_interfaceFont.DrawBox(channelImageText, 363, 516-1, 118, 18, sALIGN_CENTER_CENTER, channelImageColor, EDrawTextEffect.Shadow, 0.5)
+
 
 		'DrawText(GetBetty().GetLoveSummary(),358, 535)
-
-		SetBlend ALPHABLEND
-
-		_interfaceBigFont.DrawBox(GetWorldTime().getFormattedTime() + " "+GetLocale("OCLOCK"), 357, 539, 130, 32, sALIGN_CENTER_TOP, new SColor8(220,220,220), EDrawTextEffect.Shadow, 0.5)
 
 
 		'=== DRAW HIGHLIGHTED CURRENT SPEED ===

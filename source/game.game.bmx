@@ -86,8 +86,8 @@ Type TGame Extends TGameBase {_exposeToLua="selected"}
 
 
 		'=== SETUP TOOLTIPS ===
-		TTooltip.UseFontBold = GetBitmapFontManager().baseFontBold
-		TTooltip.UseFont = GetBitmapFontManager().baseFont
+		TTooltip.UseFontBold = GetBitmapFont("default", 12, BOLDFONT)
+		TTooltip.UseFont = GetBitmapFont("default", 11)
 		TTooltip.ToolTipIcons = GetSpriteFromRegistry("gfx_building_tooltips")
 		TTooltip.TooltipHeader = GetSpriteFromRegistry("gfx_tooltip_header")
 
@@ -354,9 +354,19 @@ endrem
 
 		'load the most current official achievements, so old savegames
 		'get the new ones / adjustments too
+		'also ensure remake producer exists
 		If Not startNewGame
 			TLogger.Log("Game.PrepareStart()", "loading most current (official) achievements", LOG_DEBUG)
 			LoadDB(["database_achievements.xml"])
+
+			Local addRemakeProducer:Int = True
+			For local prod:TGameObject = EachIn GetProgrammeProducerCollection().entries.Values()
+				If TProgrammeProducerRemake(prod) Then addRemakeProducer = False
+			Next
+			If addRemakeProducer
+				GetProgrammeProducerCollection().Add( TProgrammeProducerRemake.GetInstance().Initialize() )
+				TLogger.Log("Game.PrepareStart()", "Generated remake producer (id=" + TProgrammeProducerRemake.GetInstance().id+").", LOG_DEBUG)
+			EndIf
 		EndIf
 
 
@@ -595,6 +605,13 @@ endrem
 			'delete corresponding concept too
 			GetProductionConceptCollection().Remove(p.productionConcept)
 			TLogger.Log("ResetPlayer()", "Stopped production: "+p.productionConcept.getTitle(), LOG_DEBUG)
+		Next
+
+		'free additional studios, code adapted from debug kick renter
+		For Local studio:TRoom = EachIn GetRoomCollection().GetAllByDetails("studio","", playerID)
+			If GetRoomAgency().CancelRoomRental(studio, -1)
+				studio.SetUsedAsStudio(False)
+			EndIf
 		Next
 
 		'=== SELL ALL SCRIPTS ===
@@ -1485,6 +1502,8 @@ endrem
 		'if there is only ONE producer for special stuff - add this way
 		GetProgrammeProducerCollection().Add( TProgrammeProducerSport.GetInstance().Initialize() )
 		TLogger.Log("PrepareNewGame()", "Generated sport programme producer (id=" + TProgrammeProducerSport.GetInstance().id+").", LOG_DEBUG)
+		GetProgrammeProducerCollection().Add( TProgrammeProducerRemake.GetInstance().Initialize() )
+		TLogger.Log("PrepareNewGame()", "Generated remake producer (id=" + TProgrammeProducerRemake.GetInstance().id+").", LOG_DEBUG)
 		'GetProgrammeProducerCollection().Add( TProgrammeProducerMorningShows.GetInstance().Initialize() )
 		'TLogger.Log("PrepareNewGame()", "Generated morning show programme producer.", LOG_DEBUG)
 
@@ -1788,7 +1807,7 @@ endrem
 			If Not finance Then Throw "ComputeDailyIncome failed: finance = null."
 
 			If finance.money > 0
-				finance.EarnBalanceInterest( Long(finance.money * Player.getDifficulty().interestRatePositiveBalance) )
+				finance.EarnBalanceInterest( Min(1000000, Long(finance.money * Player.getDifficulty().interestRatePositiveBalance)) )
 			Else
 				'attention: multiply current money * -1 to make the
 				'negative value an "positive one" - a "positive expense"

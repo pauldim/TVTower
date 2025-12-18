@@ -41,10 +41,21 @@ function TaskAdAgency:Activate()
 
 	self.SpotsInAgency = {}
 	--self.LogLevel = LOG_TRACE
+
+	self.highRisk = true
+	local player = getPlayer()
+	if player.coverages ~=nil then
+		for i = 1, 4 do
+			if i ~= TVT.ME then
+				if player.coverages[i] < 0.9 then self.highRisk = false end
+			end
+		end
+	end
 end
 
 
 function TaskAdAgency:GetNextJobInTargetRoom()
+	getPlayer().onOwnFloor = false
 	if (MY.GetProgrammeCollection().GetAdContractCount() >= TVT.Rules.adContractsPerPlayerMax) then
 		self:SetDone()
 		return nil
@@ -354,9 +365,17 @@ end
 function SignRequisitedContracts:Prepare(pParams)
 	self.CurrentSpotIndex = 0
 	self.maxAudience = MY.GetChannelReceivers()
-	self.highAudienceFactor = 0.08
-	self.avgAudienceFactor = 0.045
-	self.lowAudienceFactor = 0.003
+	if self.Task.highRisk then
+		self.veryHighAudienceFactor = 0.08
+		self.highAudienceFactor = 0.07
+		self.avgAudienceFactor = 0.035
+		self.lowAudienceFactor = 0.003
+	else
+		self.veryHighAudienceFactor = 0.105
+		self.highAudienceFactor = 0.08
+		self.avgAudienceFactor = 0.045
+		self.lowAudienceFactor = 0.003
+	end
 
 	self.Player = getPlayer()
 	if self.Player.blocksCount < 72 then self.lowAudienceFactor = 0.0025 end
@@ -468,7 +487,7 @@ function SignRequisitedContracts:SignMatchingContracts(requisition, guessedAudie
 --]]
 	--TODO do not sign really low audience contracts!
 	--raise min audience to certain level or prevent requisition
-	local veryHighAudience = self.maxAudience * 0.105
+	local veryHighAudience = self.maxAudience * self.veryHighAudienceFactor
 	local highAudience = self.maxAudience * self.highAudienceFactor
 	local avgAudience = self.maxAudience * self.avgAudienceFactor
 	local lowAudience = self.maxAudience * self.lowAudienceFactor
@@ -513,6 +532,8 @@ function SignRequisitedContracts:SignMatchingContracts(requisition, guessedAudie
 			self:LogDebug("ignoring contract with genre limit")
 		elseif blocks < 72 and easy ~= true and spotCount > 4 then
 			self:LogDebug("ignoring contract with too many blocks")
+		elseif veryhard == true and self.Player.coverage > 0.9 and spotCount > 1 then
+			self:LogDebug("ignoring very hard contracts on high coverage")
 		elseif spotsLeft <= 0 then
 			doSign = true
 		elseif veryhard == true and self.Player.coverage > 0.9 then
@@ -539,11 +560,11 @@ function SignRequisitedContracts:SignMatchingContracts(requisition, guessedAudie
 					if spotsLeft < 3 and spotsLeft < daysToFinish then doSign = true end
 				end
 			elseif avg == true then
-				if spotsLeft < 4 and spotsLeft < daysToFinish * 1.5 then doSign = true end
+				if spotsLeft < 4 and spotsLeft < daysToFinish then doSign = true end
 				--if spotsLeft <= achievedPerDayGoodFit then doSign = true end
 			else
 				--TODO even for easy contracs too many spots left may be harmful
-				if spotsLeft < 4 and spotsLeft < daysToFinish * 2 then doSign = true end
+				if spotsLeft < 4 and spotsLeft < daysToFinish * 1.5 then doSign = true end
 				--if spotsLeft <= achievedPerDayGoodFit then doSign = true end
 			end
 		end
@@ -661,10 +682,10 @@ function SignContracts:Tick()
 	local player = getPlayer()
 	if player.hour > 19 or player.coverage > 0.9 then
 		local threshold = 0
-		if player.coverage > 0.9 then threshold = 1 end
+--		if player.coverage > 0.9 then threshold = 1 end
 		for key, contract in pairs(signedContracts) do
 			if contract ~= nil then
-				if contract:GetDaysLeft(-1) <= threshold then fixedCosts = fixedCosts + contract.getPenalty(TVT.ME) end
+				if contract:GetDaysLeft(-1) <= threshold then fixedCosts = fixedCosts + contract.getPenalty(TVT.ME)/2 end
 			end
 		end
 	end
@@ -674,7 +695,7 @@ function SignContracts:Tick()
 	--otherwise good average audience contracts cannot be signed without requisition
 	if openSpots < 18 and contractsAllowed > 0 then
 		-- do not be too risky and avoid a non achieveable audience requirement
-		local filteredList = FilterAdContractsByMinAudience(self.Task.SpotsInAgency,  0.0025 * self.maxAudience, 0.15 * self.maxAudience, forbiddenIDs)
+		local filteredList = FilterAdContractsByMinAudience(self.Task.SpotsInAgency,  0.002 * self.maxAudience, 0.1 * self.maxAudience, forbiddenIDs)
 		-- sort it
 		filteredList = TaskAdAgency.SortAdContractsByAttraction(filteredList, self.Task.Penalties)
 
@@ -740,6 +761,7 @@ function SignContracts:ShouldSignContract(contract)
 				if self.player.blocksCount < 48 and spotCount > 2 then return 0 end
 				if (self.player.maxTopicalityBlocksCount < 4 or self.player.money < 500000) and spotCount > 1 then return 0 end
 				if self.player.coverage > 0.75 and spotMinAudience > self.maxAudience * 0.11 then return 0 end
+				if self.Task.highRisk and spotMinAudience > self.maxAudience * 0.0875 then return 0 end
 				--TODO few max top too many spots ->no
 			end
 			if targetGroup == 32 and achieved < spotCount then return 0 end

@@ -3,7 +3,6 @@ Import brl.pngloader
 Import "Dig/base.util.rectangle.bmx"
 Import "Dig/base.util.input.bmx"
 Import "Dig/base.util.localization.bmx"
-Import "Dig/base.util.virtualgraphics.bmx"
 Import "Dig/base.util.xmlhelper.bmx"
 Import "Dig/base.util.helper.bmx"
 Import "Dig/base.util.string.bmx"
@@ -182,6 +181,27 @@ Type TFunctions
 		DrawLine(x, y + h -1, x, y, 0)
 	End Function
 
+
+	Function DrawOutlineRect:Int(x:Int, y:Int, w:Int, h:Int, outlineColor:SColor8, inlineColor:SColor8)
+		Local oldCol:SColor8; GetColor(oldCol)
+		Local oldA:Float; oldA = GetAlpha()
+		SetColor outlineColor
+		SetAlpha oldA * outlineColor.a/255.0
+		DrawLine(x, y, x + w-1, y, 0)
+		DrawLine(x + w - 1 , y, x + w - 1, y + h - 1, 0)
+		DrawLine(x + w - 1, y + h -1, x, y + h - 1, 0)
+		DrawLine(x, y + h -1, x, y, 0)
+
+		' is there something to draw despite the border?
+		If w > 2 and h > 2
+			SetColor inlineColor
+			SetAlpha oldA * inlineColor.a/255.0
+			DrawRect(x + 1, y + 1, w - 2, h - 2)
+		EndIf
+	
+		SetColor(oldCol)
+		SetAlpha(oldA)
+	End Function
 
 	Function CreateEmptyImage:TImage(width:Int, height:Int, flags:Int=DYNAMICIMAGE | FILTEREDIMAGE)
 		if width < 0 or height < 0 then Throw "CreateEmptyImage() called with invalid dimensions. Width="+width+", height="+height+"."
