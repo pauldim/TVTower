@@ -1120,13 +1120,13 @@ function AIJobGoToRoom:Prepare(pParams)
 	elseif ((self.Status == JOB_STATUS_NEW) or (self.Status == TASK_STATUS_PREPARE) or (self.Status == JOB_STATUS_REDO)) then
 		self:LogTrace("DoGoToTarget: " .. self.TargetRoom .. " => " .. self.Status)
 		local goToRoomResult = TVT.DoGoToTarget(self.TargetID)
-		if goToRoomResult <= 0 then
-			self:LogTrace("DoGoToRoom: failed, eg. not allowed to do so.")
-		elseif self.Status ~= JOB_STATUS_REDO and self.TargetRoom > 0 and TVT.isRoomUnused(self.TargetRoom) == -1 then
+		if goToRoomResult < 0 and self.TargetRoom > 0 and TVT.isRoomUnused(self.TargetRoom) == -1 then
 			--task was possibly started when already being in the target room
 			--isRoomUnused has the special return value -1 for being in the room yourself
 			self:LogTrace("Already in target room.")
 			self.Status = JOB_STATUS_DONE
+		elseif goToRoomResult <= 0 then
+			self:LogTrace("DoGoToRoom: failed, eg. not allowed to do so.")
 		else
 			self.Status = JOB_STATUS_RUN
 		end
