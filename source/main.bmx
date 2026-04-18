@@ -2802,6 +2802,18 @@ Type TSaveGame Extends TGameState
 
 	Global _nilNode:TNode = New TNode._parent
 	Function RepairData(savegameVersion:Int, savegameConverter:TSavegameConverter = null)
+		If savegameVersion <= 25
+			Local n:TNewsEventTemplate= GetNewsEventTemplateCollection().GetByGUID("aa4b86ff-092d-4442-b212-691d910a3602")
+			If n And n.templateVariables
+				Local v:TTemplateVariables = n.templateVariables
+				'print v.GetVariablesAsText()
+				Local s:TLocalizedString = TLocalizedString(v.variables.valueForKey("chucknorris_or_scottadkins"))
+				If s and s.valueLangIDs and s.valueLangIDs[0]
+					s.set("${.lte:currentyear:2025:~qf9886d56-43a6-4584-950e-d62ecf41e62a~q:~q3a43dbc8-d4f6-4478-aab5-f7048d2d23f9~q}",s.valueLangIDs[0])
+				EndIf
+				'print v.GetVariablesAsText()
+			EndIf
+		EndIf
 		If savegameVersion < 24
 			For local ac:TAdContractBase = EachIn GetAdContractBaseCollection().entries.Values()
 				If ac.forbiddenProgrammeFlag > 0 And ac.forbiddenProgrammeFlag & TVTProgrammeDataFlag.CULT
