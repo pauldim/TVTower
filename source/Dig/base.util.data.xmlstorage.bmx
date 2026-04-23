@@ -51,8 +51,11 @@ Type TDataXmlStorage
 
 
 	Method Load:TData(file:string)
-		local helper:TXmlHelper = TXmlHelper.Create(file)
-		local configNode:TXmlNode = helper.FindElementNodeLS(null, rootNodeKey)
+		'if file does not exist, return null (not a new TData)
+		If FileType(file) = 0 Then Return Null
+		
+		local helper:TXmlHelper = TXmlHelper.Create(file, "", False) 'False: do not create if missing!
+		local configNode:TXmlNode = helper.FindElementNode(null, rootNodeKey.orig)
 		'if no configuration was found, return null (not a new TData)
 		if not configNode then return null
 
@@ -66,7 +69,7 @@ Type TDataXmlStorage
 	Method Save:int(file:string, settingsData:TData)
 		'make sure we get a new file
 		deleteFile(file)
-		local helper:TXmlHelper = TXmlHelper.Create(file, rootNodeKey.orig)
+		local helper:TXmlHelper = TXmlHelper.Create(file, rootNodeKey.orig, True) 'True: create if missing
 
 		helper.GetRootNode().SetAttribute("saved", Time.GetSystemTime("%d.%m.%Y %H:%M"))
 
@@ -83,10 +86,12 @@ Type TDataXmlStorage
 		local value:object
 
 		'loop through children of node
-		For local node:TXmlNode = eachin xmlHelper.GetNodeChildElements(startingNode)
+		Local node:TXmlNode = TXmlNode(startingNode.GetFirstChild())
+		While node
 			key = node.GetName()
 
-			If xmlHelper.GetNodeChildElements(node).Count() > 0
+			'has at least a child - load children, else load direct value
+			If node.GetFirstChild()
 				local subData:TData = new TData
 				_LoadValueFromXml(xmlHelper, node, subData)
 				value = subData
@@ -98,7 +103,9 @@ Type TDataXmlStorage
 				EndIf
 			EndIf
 			data.Add(key, value)
-		Next
+			
+			node = node.NextSibling()
+		Wend
 	End Method
 	
 
@@ -111,7 +118,7 @@ Type TDataXmlStorage
 		if not startingNode then return False
 
 		'check if node exists already, if not create it (if  allowed)
-		local node:TXmlNode = xmlHelper.FindElementNodeLS(startingNode, key)
+		local node:TXmlNode = xmlHelper.FindElementNode(startingNode, key.orig)
 		if not node
 			'skip entry if the key starts with a forbidden phrase
 			'-> eg. to skip writing "Default-Dev-Values" to user settings
@@ -155,17 +162,17 @@ Type TDataXmlStorage
 		if writeAttribute
 			if TDoubleData(value)
 				if TDoubleData(value).value = int(TDoubleData(value).value)
-					xmlHelper.FindElementNodeLS(node, key).setAttribute("value", int(TDoubleData(value).value))
+					xmlHelper.FindElementNode(node, key.orig).setAttribute("value", int(TDoubleData(value).value))
 				elseif TDoubleData(value).value = long(TDoubleData(value).value)
-					xmlHelper.FindElementNodeLS(node, key).setAttribute("value", long(TDoubleData(value).value))
+					xmlHelper.FindElementNode(node, key.orig).setAttribute("value", long(TDoubleData(value).value))
 				else
-					xmlHelper.FindElementNodeLS(node, key).setAttribute("value", TDoubleData(value).value)
+					xmlHelper.FindElementNode(node, key.orig).setAttribute("value", TDoubleData(value).value)
 				endif
 			else
-				xmlHelper.FindElementNodeLS(node, key).setAttribute("value", string(value))
+				xmlHelper.FindElementNode(node, key.orig).setAttribute("value", string(value))
 			endif
 		else
-			xmlHelper.FindElementNodeLS(node, key).setContent(string(value))
+			xmlHelper.FindElementNode(node, key.orig).setContent(string(value))
 		endif
 	End Method
 

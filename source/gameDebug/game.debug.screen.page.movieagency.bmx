@@ -4,9 +4,10 @@ Import "../game.roomhandler.movieagency.bmx"
 
 Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 	Global _instance:TDebugScreenPage_MovieAgency
-	Field offerHightlight:TProgrammeLicence
-	Field offerHightlightOffset:Int
+	Field offerHighlight:TProgrammeLicence
+	Field offerHighlightOffset:Int
 	Field auctions:TProgrammeLicence[] = new TProgrammeLicence[0]
+	Field crapList:TObjectList
 
 
 	Method New()
@@ -48,15 +49,17 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 
 
 	Method Reset()
-		offerHightlight = Null
+		offerHighlight = Null
 	End Method
 
 
 	Method Activate()
+		crapList = Null
 	End Method
 
 
 	Method Deactivate()
+		crapList = Null
 	End Method
 
 
@@ -64,6 +67,20 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 		Local playerID:Int = GetShownPlayerID()
 
 		UpdateBlock_Offers(playerID, position.x + 5, position.y + 3, 410, 230)
+
+		If Not offerHighlight And MOUSEMANAGER.GetX() > position.x + 495 And crapList
+			offerHighlightOffset = -100
+			Local textX:Int = position.x + 495
+			Local textY:Int = position.y + 85 + 11
+			For Local p:TProgrammeLicence = EachIn crapList
+				textY:+11
+				If THelper.MouseIn(textX, textY, 200, 11)
+					offerHighlight = p
+					Exit
+				EndIf
+				If textY > 600 Then Exit
+			Next
+		EndIf
 
 		For Local b:TDebugControlsButton = EachIn buttons
 			b.Update()
@@ -73,8 +90,8 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 
 	Method UpdateBlock_Offers(playerID:Int, x:Int, y:Int, w:Int = 200, h:Int = 150)
 		'reset
-		offerHightlight = null
-		offerHightlightOffset = 0
+		offerHighlight = null
+		offerHighlightOffset = 0
 
 		Local textX:Int = x + 2
 		Local textY:Int = y + 20 + 2
@@ -90,7 +107,7 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 			If listNumber = 2
 				textY = textYStart
 				textX :+ barWidth + 15
-				offerHightlightOffset = -365
+				offerHighlightOffset = -365
 			EndIf
 
 
@@ -98,14 +115,14 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 			textY :+ 11
 			For Local i:Int = 0 Until licences.length
 				If THelper.MouseIn(textX, textY, barWidth, 11)
-					offerHightlight = licences[i]
+					offerHighlight = licences[i]
 					Exit
 				EndIf
 
 				textY :+ 11
 				entryPos :+ 1
 			Next
-			If offerHightlight Then Exit
+			If offerHighlight Then Exit
 
 			textY :+ 5
 		Next
@@ -125,8 +142,8 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 			buttons[i].Render()
 		Next
 
-		If offerHightlight
-			offerHightlight.ShowSheet(position.x + 5 + 250 + offerHightlightOffset, position.y + 3, 0, TVTBroadcastMaterialType.PROGRAMME, playerID)
+		If offerHighlight
+			offerHighlight.ShowSheet(position.x + 5 + 250 + offerHighlightOffset, position.y + 3, 0, TVTBroadcastMaterialType.PROGRAMME, playerID)
 		EndIf
 	End Method
 
@@ -135,23 +152,53 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 	Method RenderBlock_NoLongerAvailable(playerID:Int, x:Int, y:Int, w:Int = 200, h:Int = 300)
 		Local movieVendor:RoomHandler_MovieAgency = RoomHandler_MovieAgency.GetInstance()
 
-		Local contentRect:SRectI = DrawWindow(x, y, w, h, "Crap-Filtered")
+		If Not crapList
+			crapList = new TObjectList
+			For Local pl:TProgrammeLicence = EachIn GetProgrammeLicenceCollection()._GetParentLicences().values()
+				If Not pl.IsReleased() Then Continue
+	'			If pl.GetMaxTopicality() > 0.15 Then Continue
+	'			If Not (movieVendor.filterMoviesCheap.DoesFilter(pl) Or movieVendor.filterMoviesGood.DoesFilter(pl) Or movieVendor.filterSeries.DoesFilter(pl)) Then Continue
+				If Not movieVendor.filterCrap.DoesFilter(pl) Then Continue
+				crapList.addLast(pl)
+			Next
+			crapList.sort(False, CrapSort)
+		EndIf
+
+		Local contentRect:SRectI = DrawWindow(x, y, w, h, "Crap-Filtered ("+crapList.size+")")
 
 		Local textX:Int = contentRect.x
 		Local textY:Int = contentRect.y
+		Local oldAlpha:Float = GetAlpha()
 
-		For Local pl:TProgrammeLicence = EachIn GetProgrammeLicenceCollection()._GetParentLicences().values()
-			If Not pl.IsReleased() Then Continue
-'			If pl.GetMaxTopicality() > 0.15 Then Continue
-'			If Not (movieVendor.filterMoviesCheap.DoesFilter(pl) Or movieVendor.filterMoviesGood.DoesFilter(pl) Or movieVendor.filterSeries.DoesFilter(pl)) Then Continue
-			If Not movieVendor.filterCrap.DoesFilter(pl) Then Continue
-
-			textFont.DrawBox(pl.GetTitle(), textX + 10, textY - 1, 110, 15, sALIGN_LEFT_TOP, SColor8.White)
-			textFont.DrawBox(MathHelper.DottedValue(pl.GetPriceForPlayer(playerID)), textX + 10 + 110, textY - 1, 50, 15, sALIGN_RIGHT_TOP, SColor8.White)
-			textFont.DrawBox(MathHelper.NumberToString(pl.GetMaxTopicality()*100,2)+"%", textX + 10 + 110 + 50 -5 + 130, textY - 1, 40, 15, sALIGN_RIGHT_TOP, SColor8.White)
+		For Local pl:TProgrammeLicence = EachIn crapList
+			textFont.DrawBox(pl.GetTitle(), textX , textY - 1, 110, 15, sALIGN_LEFT_TOP, SColor8.White)
+			textFont.DrawBox(TFunctions.LocalizedDottedValue(pl.GetPriceForPlayer(playerID)), textX  + 110, textY - 1, 50, 15, sALIGN_RIGHT_TOP, SColor8.White)
+			'textFont.DrawBox(TFunctions.LocalizedNumberToString(pl.GetMaxTopicality()*100,2)+"%", textX + 110 + 50 -5 + 130, textY - 1, 40, 15, sALIGN_RIGHT_TOP, SColor8.White)
+			If pl And pl = offerHighlight
+				SetAlpha 0.25 * oldAlpha
+				SetBlend LIGHTBLEND
+				DrawRect(textX , textY, 160, 11)
+				SetAlpha oldAlpha
+				SetBlend ALPHABLEND
+			EndIf
 			textY :+ 11
+			If textY > 600 Then Exit 'do not render all
 		Next
+
 	End Method
+
+	Function CrapSort:Int(o1:Object, o2:Object)
+		Local a1:TProgrammeLicence = TProgrammeLicence(o1)
+		Local a2:TProgrammeLicence = TProgrammeLicence(o2)
+		If a1 And a2 And a1.GetData() And a2.GetData()
+			If a1.GetData().GetReleaseTime() > a2.GetData().GetReleaseTime()
+				Return 1
+			Else
+				Return -1
+			EndIf
+		endif
+		return 0
+	End Function
 
 
 	Method RenderBlock_Information(playerID:Int, x:Int, y:Int, w:Int = 180, h:Int = 150)
@@ -182,7 +229,7 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 			nextBid[index] = auction.GetNextBid(playerID)
 			If auction.bestBid > 0
 				Local bestBidder:TPlayer = GetPlayer(auction.bestBidder)
-				textFont.DrawBox(MathHelper.DottedValue(auction.bestBid), textX + 410, textY + bidOffset + index * 11, 60, 15, sALIGN_RIGHT_TOP, bestBidder.color.ToSColor8())
+				textFont.DrawBox(TFunctions.LocalizedDottedValue(auction.bestBid), textX + 410, textY + bidOffset + index * 11, 60, 15, sALIGN_RIGHT_TOP, bestBidder.color.ToSColor8())
 			Else
 				textFont.DrawBox("---", textX + 410, textY + bidOffset + index * 11, 60, 15, sALIGN_RIGHT_TOP, New SColor8(200,200,200, 200))
 			EndIf
@@ -216,7 +263,7 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 				SetColor 255,255,255
 				SetAlpha oldAlpha
 
-				If licences[i] And licences[i] = offerHightlight
+				If licences[i] And licences[i] = offerHighlight
 					SetAlpha 0.25 * oldAlpha
 					SetBlend LIGHTBLEND
 					DrawRect(textX, blockY, barWidth, 11)
@@ -233,7 +280,7 @@ Type TDebugScreenPage_MovieAgency extends TDebugScreenPage
 					Else
 						price = licences[i].GetPriceForPlayer(playerID)
 					EndIf
-					textFont.DrawBox(MathHelper.DottedValue(price), textX + 10 + 115, textY, 50, 20, sALIGN_RIGHT_TOP, SColor8.White)
+					textFont.DrawBox(TFunctions.LocalizedDottedValue(price), textX + 10 + 115, textY, 50, 20, sALIGN_RIGHT_TOP, SColor8.White)
 					textFont.DrawBox(licences[i].data.GetYear(), textX + 10 + 115 + 53 - 5, textY, barWidth - (10 + 115 + 50), 20, sALIGN_RIGHT_TOP, New SColor8(200,200,200))
 				Else
 					textFont.DrawSimple(": ---", textX + 15, textY)

@@ -75,6 +75,32 @@ Type TScriptCollection Extends TGameObjectCollection
 		Local script:TScript = TScript(obj)
 		If Not script Then Return False
 
+		'remove unused random roles
+		If Not script.HasParentScript()
+			Local prodCount:Int = script.usedInProductionsCount
+			Local roleIDs:Int[] = []
+			For Local subScript:TScript = EachIn script.subScripts
+				prodCount:+subscript.usedInProductionsCount
+				For Local job:TPersonProductionJob = EachIn subscript.GetJobs()
+					If job And job.RoleId Then roleIDs:+[job.RoleId]
+				Next
+			Next
+			For Local job:TPersonProductionJob = EachIn script.GetJobs()
+				If job And job.RoleId Then roleIDs:+[job.RoleId]
+			Next
+			'for simplicity keep all roles of partially create series - will not happen often
+			If prodCount = 0 And  roleIDs.length > 0
+				Local prc:TProgrammeRoleCollection = GetProgrammeRoleCollection()
+				For Local index:Int = 0 Until roleIDs.length
+					Local role:TProgrammeRole = prc.GetById(roleIDs[index])
+					If role And role.GetGUID().startsWith("randomprogrammerole-")
+						prc.remove(role)
+					EndIf
+				Next
+				'print "role count " + prc.GetCount()
+			EndIf
+		EndIf
+
 		_InvalidateCaches()
 		'remove child scripts too
 		For Local subScript:TScript = EachIn script.subScripts
@@ -434,10 +460,8 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 		script.requiredStudioSize = template.GetStudioSize()
 
 		script.mainGenre = template.mainGenre
-		'add genres
-		For Local subGenre:Int = EachIn template.subGenres
-			script.subGenres :+ [subGenre]
-		Next
+		'append genres
+		script.subGenres :+ template.subGenres
 
 		If template.effects
 			script.effects=template.effects.Copy()
@@ -457,6 +481,7 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 				For Local subTemplate:TScriptTemplate = EachIn template.GetSubTemplateSubset(mainTemplateEpisodeCount, forceIncludePilot)
 					Local subScript:TScript = TScript.CreateFromTemplate(subTemplate, False)
 					If subScript
+						_calculateLiveTime(subScript, subTemplate)
 						If template.programmeDataModifiers
 							if not subScript.programmeDataModifiers Then subScript.programmeDataModifiers = New TData
 							subScript.programmeDataModifiers.Append(template.programmeDataModifiers)
@@ -476,6 +501,7 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 						For Local i:Int = 0 until episodesCount
 							Local subScript:TScript = TScript.CreateFromTemplate(subTemplate, False)
 							If subScript
+								_calculateLiveTime(subScript, subTemplate)
 								If template.programmeDataModifiers
 									if not subScript.programmeDataModifiers Then subScript.programmeDataModifiers = New TData
 									subScript.programmeDataModifiers.Append(template.programmeDataModifiers)
@@ -523,7 +549,6 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 						script.SetFlag(TVTProgrammeDataFlag.LIVE, True)
 					EndIF
 
-					_calculateLiveTime(subScript, template)
 					If not subScript.CanBeXRated()
 						subScript.SetFlag(TVTProgrammeDataFlag.XRATED, False)
 					EndIf
@@ -598,7 +623,7 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 			Local liveTime:Long = 0
 			If Not alwaysLive
 				If template And template.liveDateCode
-					Local liveDateCodeParams:Int[] = StringHelper.StringToIntArray(template.liveDateCode, ",")
+					Local liveDateCodeParams:Int[] = StringHelper.StringToIntArray(template.liveDateCode, Asc(","))
 					If liveDateCodeParams.length > 0 And liveDateCodeParams[0] > 0
 						Local useParams:Int[] = [-1,-1,-1,-1,-1,-1,-1,-1]
 						For Local i:Int = 1 Until liveDateCodeParams.length
@@ -818,8 +843,8 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 		For Local langID:Int = EachIn text.GetLanguageIDs()
 			Local valueOld:String = text.Get(langID)
 			Local context:SScriptExpressionContext = new SScriptExpressionContext(self, langID, Null)
-			Local valueNew:TStringBuilder = GameScriptExpression.ParseLocalizedText(valueOld, context)
-			If valueOLD <> valueNew.Hash()
+			Local valueNew:TStringBuilder = GetGameScriptExpression().ParseLocalizedText(valueOld, context)
+			If valueOLD.HashCode() <> valueNew.HashCode() 'only create new string if required
 				result.Set(valueNew.ToString(), langID)
 			EndIf
 		Next
@@ -828,11 +853,15 @@ Type TScript Extends TScriptBase {_exposeToLua="selected"}
 	End Method
 
 
-	Function _EnsureRole:TProgrammeRole(actor:TPersonProductionJob)
+	Function _EnsureRole:TProgrammeRole(actor:TPersonProductionJob, script:TScript = Null)
 		Local roleID:Int = actor.roleID
 		If roleID <> 0 Then return GetProgrammeRoleCollection().GetByID(roleID)
+		Local country:String = actor.country
+		If country And country.Contains("$")
+			country = GetGameScriptExpression().ParseLocalizedText(country, new SScriptExpressionContext(script, 0, Null)).ToString()
+		EndIf
 		'TODO reuse previous role? - see inactive code in TScriptTemplate#GetFinalJobs
-		Local role:TProgrammeRole = GetProgrammeRoleCollection().CreateRandomRole(actor.country, actor.gender)
+		Local role:TProgrammeRole = GetProgrammeRoleCollection().CreateRandomRole(country, actor.gender)
 		actor.roleID = role.id
 		return role
 	End Function
@@ -1515,9 +1544,9 @@ endrem
 		EndIf
 		'price
 		If canAfford
-			skin.RenderBox(contentX + 5 + 194, contentY, contentW - 10 - 194 +1, -1, MathHelper.DottedValue(GetPrice()), "money", EDatasheetColorStyle.Neutral, skin.fontBold, ALIGN_RIGHT_CENTER)
+			skin.RenderBox(contentX + 5 + 194, contentY, contentW - 10 - 194 +1, -1, TFunctions.LocalizedDottedValue(GetPrice()), "money", EDatasheetColorStyle.Neutral, skin.fontBold, ALIGN_RIGHT_CENTER)
 		Else
-			skin.RenderBox(contentX + 5 + 194, contentY, contentW - 10 - 194 +1, -1, MathHelper.DottedValue(GetPrice()), "money", EDatasheetColorStyle.Neutral, skin.fontBold, ALIGN_RIGHT_CENTER, EDatasheetColorStyle.Bad)
+			skin.RenderBox(contentX + 5 + 194, contentY, contentW - 10 - 194 +1, -1, TFunctions.LocalizedDottedValue(GetPrice()), "money", EDatasheetColorStyle.Neutral, skin.fontBold, ALIGN_RIGHT_CENTER, EDatasheetColorStyle.Bad)
 		EndIf
 		contentY :+ boxH
 
@@ -1536,11 +1565,11 @@ endrem
 
 			skin.fontBold.DrawBox("Drehbuch: "+GetTitle(), contentX + 5, contentY, contentW - 10, 28, sALIGN_LEFT_TOP, SColor8.White)
 			contentY :+ 28
-			skin.fontNormal.DrawSimple("Tempo: "+MathHelper.NumberToString(GetSpeed(), 4), contentX + 5, contentY)
+			skin.fontNormal.DrawSimple("Tempo: "+TFunctions.LocalizedNumberToString(GetSpeed(), 4), contentX + 5, contentY)
 			contentY :+ 12
-			skin.fontNormal.DrawSimple("Kritik: "+MathHelper.NumberToString(GetReview(), 4), contentX + 5, contentY)
+			skin.fontNormal.DrawSimple("Kritik: "+TFunctions.LocalizedNumberToString(GetReview(), 4), contentX + 5, contentY)
 			contentY :+ 12
-			skin.fontNormal.DrawSimple("Potential: "+MathHelper.NumberToString(GetPotential(), 4), contentX + 5, contentY)
+			skin.fontNormal.DrawSimple("Potential: "+TFunctions.LocalizedNumberToString(GetPotential(), 4), contentX + 5, contentY)
 			contentY :+ 12
 			skin.fontNormal.DrawSimple("Preis: "+GetPrice(), contentX + 5, contentY)
 			contentY :+ 12

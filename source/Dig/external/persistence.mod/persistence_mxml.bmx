@@ -44,7 +44,9 @@ ModuleInfo "History: Initial Release"
 endrem
 Import Text.xml
 Import BRL.Reflection
+Import Collections.IntMap
 Import BRL.Map
+Import Collections.ObjectList
 Import "../../base.util.longmap.bmx"
 Import BRL.Stream
 
@@ -78,15 +80,15 @@ Type TPersist
 	'- DeSerializeTTypeNameFromString()
 	Field serializer:Object
 	Field serializerTypeID:TTypeId
+	Field progressCallback:Int(progress:String, userData:Object)
 
+	Field _sb:TStringBuilder = New TStringBuilder
 
 	Rem
 	bbdoc: Serialized formatting.
 	about: Set to True to have the data formatted nicely. Default is False - off.
 	End Rem
 	Global format:Int = False
-
-	Global maxDepth:Int = 0
 
 ?ptr64
 	Global bbEmptyString:String = Base36(Long(bbEmptyStringPtr()))
@@ -267,6 +269,15 @@ Type TPersist
 		End If
 
 		Local fieldType:TTypeId = f.TypeId()
+
+		'Ronny: inform someone about this specific field?
+		If progressCallback
+			Local metaProgress:String = f.MetaData("progress")
+			If metaProgress
+				progressCallback(metaProgress, f.Name())
+			EndIf
+		EndIf
+
 		Local fieldNode:TxmlNode = CreateSerializedFieldNode(f, node)
 
 		Local t:String
@@ -311,21 +322,23 @@ Type TPersist
 					Else
 						t = "array:" + t
 					End If
+					
+					Local fObj:Object = f.Get(obj)
 
-					dims = fieldType.ArrayDimensions(f.Get(obj))
+					dims = fieldType.ArrayDimensions(fObj)
 					If dims > 1 Then
 						Local scales:String
 						For Local i:Int = 0 Until dims - 1
-							scales :+ (fieldType.ArrayLength(f.Get(obj), i) / fieldType.ArrayLength(f.Get(obj), i + 1))
+							scales :+ (fieldType.ArrayLength(fObj, i) / fieldType.ArrayLength(fObj, i + 1))
 							scales :+ ","
 						Next
 
-						scales:+ fieldType.ArrayLength(f.Get(obj), dims - 1)
+						scales:+ fieldType.ArrayLength(fObj, dims - 1)
 
 						fieldNode.setAttribute("scales", scales)
 					End If
 
-					ProcessArray(f.Get(obj), fieldType.ArrayLength(f.Get(obj)), fieldNode, fieldType)
+					ProcessArray(fObj, fieldType.ArrayLength(fObj), fieldNode, fieldType)
 
 				Else
 					Local fieldObject:Object = f.Get(obj)
@@ -591,6 +604,14 @@ Type TPersist
 	Method DeserializeByType:Object(objType:TTypeId, node:TxmlNode)
 		'Ronny: skip loading elements having "nosave" metadata
 		If objType.MetaData("nosave") And Not objType.MetaData("doload") Then Return Null
+		'specific type interest?
+		If progressCallback
+			Local metaProgress:String = objType.MetaData("progress")
+			If metaProgress
+				progressCallback(metaProgress, objType.Name())
+			EndIf
+		EndIf
+
 
 		Local serializer:TXMLSerializer = TXMLSerializer(serializers.ValueForKey(objType.Name()))
 		If serializer Then
@@ -699,17 +720,21 @@ Type TPersist
 	End Method
 	
 
+	global specialCount:Int
 	Method DeserializeFields(objType:TTypeId, obj:Object, node:TxmlNode)
 		' does the node contain child nodes?
-		If node.getChildren() <> Null Then
-			For Local fieldNode:TxmlNode = EachIn node.getChildren()
+		Local childNodes:TObjectList = node.getChildren()
+
+		If childNodes
+			Local parentName:String = node.getAttribute("name")
+			If not parentName and objType then parentName = objType.Name()
+
+			For Local fieldNode:TxmlNode = EachIn childNodes
 				' this should be a field
 				If fieldNode.GetName() = "field" Then
 					Local fieldName:String = fieldNode.getAttribute("name")
 					Local fieldObj:TField = objType.FindField(fieldName)
 					Local fieldType:String = fieldNode.getAttribute("type")
-					Local parentName:String = node.getAttribute("name")
-					If not parentName and objType then parentName = objType.Name()
 					
 					' Ronny: skip unknown fields (no longer existing in the type)
 					' or redirect to a different field if renamed
@@ -751,6 +776,13 @@ Type TPersist
 					'Ronny: skip loading elements having "nosave" metadata
 					If fieldObj.MetaData("nosave") And Not fieldObj.MetaData("doload") Then Continue
 
+					'Ronny: inform someone about this specific field?
+					If progressCallback
+						Local metaProgress:String = fieldObj.MetaData("progress")
+						If metaProgress
+							progressCallback(metaProgress, fieldName)
+						EndIf
+					EndIf
 
 					' Ronny: check if the current code knows the stored
 					' but no longer known type under a different name.
@@ -784,33 +816,57 @@ Type TPersist
 					local isStoredPrimitive:Int = False
 					local isFieldPrimitive:Int = False
 					Select fieldType
-						Case "byte", "short", "int", "long", "float", "double"
+						Case "byte", "short", "int", "long", "uint", "ulong", ..
+						     "longint", "ulongint", "sizet", "float", "double"
 							isStoredPrimitive = True
 					End Select
 					' only check field if stored is also a primitive
 					' (both need to be true ...)
 					If isStoredPrimitive
-						Select fieldObj.TypeID().name().ToLower()
-							Case "byte", "short", "int", "long", "float", "double"
-								isFieldPrimitive = True
-						End Select
+						Local fieldTypeName:String = fieldObj.TypeID().name()
+						' assume stored and defined are same (should be
+						' almost always the case)
+						If storedFieldTypeID = targetFieldTypeID
+							isFieldPrimitive = True
+						Else
+							Select fieldTypeName.ToLower()
+								Case "int", "float", "double", "long", "byte", ..
+								     "short", "sizet", "uint", "ulong", "longint", "ulongint"
+									isFieldPrimitive = True
+							End Select
+						EndIf
 					EndIf
 
 					' primitives can be kind of "casted" (albeit with loss)
 					if isStoredPrimitive and isFieldPrimitive
+						_sb.SetLength(0)
+						
 						Select fieldType
 							Case "byte", "short", "int"
-								fieldObj.SetInt(obj, fieldNode.GetContent().toInt())
+								fieldObj.SetInt(obj, fieldNode.GetContent(_sb).toInt())
 							Case "long"
-								fieldObj.SetLong(obj, fieldNode.GetContent().toLong())
+								fieldObj.SetLong(obj, fieldNode.GetContent(_sb).toLong())
 							Case "float"
-								fieldObj.SetFloat(obj, fieldNode.GetContent().toFloat())
+								fieldObj.SetFloat(obj, fieldNode.GetContent(_sb).toFloat())
 							Case "double"
-								fieldObj.SetDouble(obj, fieldNode.GetContent().toDouble())
+								fieldObj.SetDouble(obj, fieldNode.GetContent(_sb).toDouble())
+							Case "uint"
+								fieldObj.SetUInt(obj, fieldNode.GetContent(_sb).toUInt())
+							Case "sizet"
+								fieldObj.SetSizeT(obj, fieldNode.GetContent(_sb).toSizeT())
+							Case "ulong"
+								fieldObj.SetULong(obj, fieldNode.GetContent(_sb).toULong())
+							Case "longint"
+								fieldObj.SetLongInt(obj, LongInt(fieldNode.GetContent(_sb).toLongInt())) ' FIXME : why do we need to cast here?
+							Case "ulongint"
+								fieldObj.SetULongInt(obj, fieldNode.GetContent(_sb).toULongInt())
 						End Select
 					Else
 						Select fieldType
-							Case "byte", "short", "int", "long", "float", "double"
+							'Ronny: Field is primitive, but serialized value is not
+							Case "byte", "short", "int", "long", "uint", "ulong", ..
+								 "longint", "ulongint", "sizet", "float", "double"
+
 								Local convertedObject:Object = obj
 								If DelegateDeserializationToType(convertedObject, fieldNode.getAttribute("name"), fieldType, fieldObj.TypeId().name(), fieldNode.GetContent())
 									fieldObj.Set(obj, convertedObject)
@@ -822,66 +878,291 @@ Type TPersist
 									Local arrayType:TTypeId = fieldObj.TypeId()
 									Local arrayElementType:TTypeId = arrayType.ElementType()
 
+
 									Local scalesi:Int[]
-									Local scales:String[] = fieldNode.getAttribute("scales").split(",")
+									Local scales:Int[] = fieldNode.getAttribute("scales", _sb).SplitInts(",")
 									If scales.length > 1 Then
-										scalesi = New Int[scales.length]
-										For Local i:Int = 0 Until scales.length
-											scalesi[i] = Int(scales[i])
-										Next
+										scalesi = scales
 									End If
 
+
+									' for file Version 1+
 									Select arrayElementType
-										Case ByteTypeId, ShortTypeId, IntTypeId, LongTypeId, FloatTypeId, DoubleTypeId
+										Case FloatTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
 
-											Local arrayList:String[]
-											Local content:String = fieldNode.GetContent().Trim()
-
-											If content Then
-												arrayList = content.Split(" ")
-											Else
-												arrayList = New String[0]
+											Local values:Float[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitFloats(" ")
 											End If
 
-											Local arrayObj:Object = arrayType.NewArray(arrayList.length, scalesi)
-											fieldObj.Set(obj, arrayObj)
-
-											For Local i:Int = 0 Until arrayList.length
-												arrayType.SetArrayElement(arrayObj, i, arrayList[i])
-											Next
-
-										Default
-											Local arrayList:TList = fieldNode.getChildren()
-
-											If arrayList ' Birdie
-												Local arrayObj:Object = arrayType.NewArray(arrayList.Count(), scalesi)
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
 												fieldObj.Set(obj, arrayObj)
 
-												Local i:Int
-												For Local arrayNode:TxmlNode = EachIn arrayList
-
-													Select arrayElementType
-														Case StringTypeId
-															arrayType.SetArrayElement(arrayObj, i, arrayNode.GetContent())
-														Default
-															' file version 5 ... array cells can contain references
-															' is this a reference?
-															Local ref:String = arrayNode.getAttribute("ref")
-															If ref Then
-																Local objRef:Object = objectMap.ValueForKey(ref)
-																If objRef Then
-																	arrayType.SetArrayElement(arrayObj, i, objRef)
-																Else
-																	Throw "[Array] Reference not mapped yet : " + ref
-																End If
-															Else
-																arrayType.SetArrayElement(arrayObj, i, DeSerializeObject("", arrayNode))
-															End If
-													End Select
-
-													i:+ 1
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
 												Next
-											EndIf
+											End If
+
+										Case DoubleTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Double[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitDoubles(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case ByteTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Byte[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitBytes(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case ShortTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Short[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitShorts(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+										
+										Case IntTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Int[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitInts(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+											
+										Case LongTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Long[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitLongs(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case UIntTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:UInt[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitUInts(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case ULongTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:ULong[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitULongs(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+										
+										Case LongIntTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:LongInt[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitLongInts(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case ULongIntTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:ULongInt[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitULongInts(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+										Case SizeTTypeId
+											_sb.SetLength(0)
+											fieldNode.GetContent(_sb).Trim()
+
+											Local values:Size_T[]
+											If _sb.Length() > 0 Then
+												values = _sb.SplitSizeTs(" ")
+											End If
+
+											' Fast path for 1-dimensional arrays
+											If scalesi.length = 0 Then
+												fieldObj.Set(obj, values)
+											Else
+												' Multi-dimensional array - create and copy
+												Local arrayObj:Object = arrayType.NewArray(values.length, scalesi)
+												fieldObj.Set(obj, arrayObj)
+
+												For Local i:Int = 0 Until values.length
+													arrayType.SetArrayElement(arrayObj, i, values[i])
+												Next
+											End If
+
+
+									Default
+										Local arrayList:TObjectList = fieldNode.getChildren()
+
+										If arrayList ' Birdie
+											Local arrayObj:Object = arrayType.NewArray(arrayList.Count(), scalesi)
+											fieldObj.Set(obj, arrayObj)
+
+											Local i:Int
+											For Local arrayNode:TxmlNode = EachIn arrayList
+
+												Select arrayElementType
+													Case StringTypeId
+														arrayType.SetArrayElement(arrayObj, i, arrayNode.GetContent())
+													Default
+														' file version 5 ... array cells can contain references
+														' is this a reference?
+														Local ref:String = arrayNode.getAttribute("ref")
+														If ref Then
+															Local objRef:Object = objectMap.ValueForKey(ref)
+															If objRef Then
+																arrayType.SetArrayElement(arrayObj, i, objRef)
+															Else
+																Throw "[Array] Reference not mapped yet : " + ref
+															End If
+														Else
+															arrayType.SetArrayElement(arrayObj, i, DeSerializeObject("", arrayNode))
+														End If
+												End Select
+
+												i:+ 1
+											Next
+										EndIf
 									End Select
 								Else
 									If fieldType = "string" And fileVersion < 8 Then
@@ -895,7 +1176,7 @@ Type TPersist
 												fieldObj.Set(obj, objRef)
 											'empty string - fileVersion >= 8 uses "String", not "string" ?
 											'ElseIf fieldType = "String" and objectMap.Contains(ref)
-											ElseIf fieldType.ToLower() = "string" and objectMap.Contains(ref)
+											ElseIf fieldType.Equals("string", False) and objectMap.Contains(ref)
 												fieldObj.Set(obj, "")
 											Else
 												Throw "[Field] Reference not mapped yet : " + ref
@@ -944,7 +1225,7 @@ Type TPersist
 		local m:TMethod = converterTypeID.FindMethod("GetRenamedTypeName")
 		If not m Then Throw "Unknown function. Create function ~qGetRenamedTypeName:TTypeID(typeName:String, parentPath:String)~q in type ~q" + converterTypeID.name() +"~q."
 
-  		local newTypeName:String = String( m.Invoke(converterType, [object(typeName), object(parentPath)]) )
+		local newTypeName:String = String( m.Invoke(converterType, [object(typeName), object(parentPath)]) )
  		if newTypeName and newTypeName <> typeName
 			If parentPath
 				print "[INFORMATION] TPersistence: Renamed type ~q" + parentPath + ":" + typeName + "~q to ~q" + parentPath + ":" + newTypeName + "~q."
@@ -1104,15 +1385,13 @@ Type TPersist
 
 		Local mth:TMethod
 		Local deserializationResult:Object = Null
-
+		
 		' serialized data in attribute?
-		If node.HasAttribute("serialized")
-			'serialized might be "" (eg. an empty TLowerString)
-			Local serialized:String = node.GetAttribute("serialized")
-
+		'serialized might be "" (eg. an empty TLowerString)
+		Local serialized:String
+		If node.tryGetAttribute("serialized", serialized)
 			'check if there is a special "DeSerialize[classname]FromString" Method
-			'defined for the object
-
+			
 			'check if a common serializer wants to handle it
 			If serializer
 				If Not serializerTypeID Then serializerTypeID = TTypeId.ForObject(serializer)
@@ -1143,7 +1422,7 @@ Type TPersist
 			'check if the type itself wants to handle it
 			If Not deserializationResult Or Not serializer
 				deserializationResult = obj
-				mth = objType.FindMethod("DeSerialize"+objType.Name()+"FromString")
+				mth = objType.FindMethod("DeSerialize"+objType.Name()+"FromNode")
 				If mth Then mth.Invoke(deserializationResult, [node])
 			EndIf
 		EndIf
@@ -1260,13 +1539,12 @@ endrem
 							Next
 
 						Default
-							Local arrayList:TList = node.getChildren()
+							Local arrayList:TObjectList = node.getChildren()
 
 							If arrayList
 
 								Local i:Int
 								For Local arrayNode:TxmlNode = EachIn arrayList
-
 									Select arrayElementType
 										Case StringTypeId
 											objType.SetArrayElement(obj, i, arrayNode.GetContent())
@@ -1592,8 +1870,9 @@ Type TMapXMLSerializer Extends TXMLSerializer
 	Method Deserialize:Object(objType:TTypeId, node:TxmlNode)
 		Local map:TMap = TMap(CreateObjectInstance(objType, node))
 
-		If node.getChildren() Then
-			For Local mapNode:TxmlNode = EachIn node.getChildren()
+		Local childNodes:TObjectList = node.getChildren()
+		If childNodes Then
+			For Local mapNode:TxmlNode = EachIn childNodes
 				Local key:Object = DeserializeObject(TxmlNode(mapNode.getFirstChild()))
 				Local value:Object = DeserializeObject(TxmlNode(mapNode.getLastChild()))
 
@@ -1695,7 +1974,7 @@ Type TIntMapXMLSerializer Extends TXMLSerializer
 		Local map:TIntMap = TIntMap(obj)
 
 		If map Then
-			For Local mapNode:TIntNode = EachIn map
+			For Local mapNode:TIntKeyValue = EachIn map
 				Local v:TxmlNode = node.addChild("e")
 				If mapNode.Value() Then
 					SerializeObject(mapNode.Value(), v)
@@ -1735,7 +2014,7 @@ Type TStringMapXMLSerializer Extends TXMLSerializer
 		Local map:TStringMap = TStringMap(obj)
 
 		If map Then
-			For Local mapNode:TStringNode = EachIn map
+			For Local mapNode:TStringKeyValue = EachIn map
 				Local n:TxmlNode = node.addChild("n")
 				SerializeObject(mapNode.Key(), n.addChild("k"))
 				SerializeObject(mapNode.Value(), n.addChild("v"))

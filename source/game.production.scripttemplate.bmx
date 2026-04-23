@@ -221,7 +221,7 @@ Type TScriptTemplate Extends TScriptBase
 
 		'a special script expression defines custom rules for adcontracts
 		'to be available or not
-		if availableScript and not GameScriptExpression.ParseToTrue(availableScript, self)
+		if availableScript and not GetGameScriptExpression().ParseToTrue(availableScript, self)
 			return False
 		endif
 
@@ -377,18 +377,25 @@ Type TScriptTemplate Extends TScriptBase
 		'template jobs)
 		For local i:int = 0 until result.length
 			If result[i].randomRole And result[i].roleId = 0
-				Local role:TProgrammeRole = GetProgrammeRoleCollection().CreateRandomRole(result[i].country, result[i].gender)
+				Local country:String = result[i].country
+				If country And country.Contains("$")
+					country = GetGameScriptExpression().ParseLocalizedText(country, new SScriptExpressionContext(self, 0, Null)).ToString()
+				EndIf
+				Local role:TProgrammeRole = GetProgrammeRoleCollection().CreateRandomRole(country, result[i].gender)
 				result[i].roleID = role.id
 			EndIf
 			Local personString:String = result[i].preselectCast
 			If personString And Not result[i].personID
 				If personString.Contains("$")
-					Local context:SScriptExpressionContext = new SScriptExpressionContext(self, -1, Null)
-					Local valueNew:TStringBuilder = GameScriptExpression.ParseLocalizedText(personString, context)
+					Local context:SScriptExpressionContext = new SScriptExpressionContext(self, 0, Null)
+					Local valueNew:TStringBuilder = GetGameScriptExpression().ParseLocalizedText(personString, context)
 					personString = valueNew.ToString()
 				EndIf
 				Local person:TPersonBase = GetPersonBaseCollection().GetByGUID(personString)
-				If person Then result[i].personID = person.GetId()
+				If person
+					If person.GetPersonalityData() And person.GetPersonalityData().isDead() Then person = Null
+					If person Then result[i].personID = person.GetId()
+				EndIf
 			EndIf
 			result[i] = result[i].Copy()
 			'mark job as "cast preselected"

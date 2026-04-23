@@ -8,7 +8,7 @@ Rem
 EndRem
 SuperStrict
 
-Import "Dig/base.util.math.bmx"
+Import "basefunctions.bmx"
 
 Global VersionDate:String = "unknown"
 Global VersionString:String = ""
@@ -16,16 +16,12 @@ Global CopyrightString:String = ""
 
 Global TVTPlayerCount:Int = 4
 
-Const CURRENCYSIGN:String = Chr(8364) 'eurosign
-
-
 Global TVTDebugInfo:Int = False
 Global TVTGhostBuildingScrollMode:Int = False
 
+'delegate - replace GetFormattedCurrency by TFunctions.GetFormattedCurrency
 Function GetFormattedCurrency:String(money:Long)
-	'160 is the "no breaking space" code
-	'8239 is the "narrow no breaking space" code
-	return MathHelper.DottedValue(money) + Chr(160) + CURRENCYSIGN
+	Return TFunctions.GetFormattedCurrency(money)
 EndFunction
 
 'collection of all constants types (so it could be exposed
@@ -79,6 +75,7 @@ Type TVTGameConstants {_exposeToLua}
 	Field RoomFlag:TVTRoomFlag = new TVTRoomFlag
 	Field RoomDoorFlag:TVTRoomDoorFlag = new TVTRoomDoorFlag
 	Field BuildingTargetType:TVTBuildingTargetType = new TVTBuildingTargetType
+	Field FigureTargetFlag:TVTFigureTargetFlag = New TVTFigureTargetFlag
 End Type
 Global GameConstants:TVTGameConstants = New TVTGameConstants
 
@@ -573,12 +570,17 @@ End Type
 
 'to ease access to "comparisons" without knowing
 'the licence object itself
+'main usages: 
+' * FixOutcome if outcome not defined in database (TV vs all other)
+' * Programme sheet localization box office (cinema) vs viewers
+' -> no real impact of video, stream...
 Type TVTProgrammeDistributionChannel {_exposeToLua}
 	Const UNKNOWN:Int    = 0
 	Const CINEMA:Int     = 1
 	Const TV:Int         = 2 'produced for TV
 	Const VIDEO:Int      = 3 'direct to video/dvd/br... (often B-Movies)
-	Const count:Int      = 3
+	Const STREAM:INt     = 4
+	Const count:Int      = 4
 
 
 	Function GetAtIndex:Int(index:Int = 0)
@@ -591,6 +593,7 @@ Type TVTProgrammeDistributionChannel {_exposeToLua}
 			Case CINEMA      Return "cinema"
 			Case TV          Return "tv"
 			Case VIDEO       Return "video"
+			Case STREAM      Return "stream"
 			Default          Return "unknown"
 		End Select
 	End Function
@@ -1416,6 +1419,15 @@ Type TVTBuildingTargetType
 	Const DOOR:Int = 1
 	Const HOTSPOT:Int = 2
 End Type
+
+
+Type TVTFigureTargetFlag
+	Const NONE:Int = 0
+	Const SET_FIGURE_UNCONTROLLABLE:Int = 1
+	Const MUST_BE_IN_BUILDING_TO_START:Int = 2
+	Const CREATED_BY_DEVSHORTCUT:Int = 4
+End Type
+
 
 
 Type TVTProgrammeLifecycleFlag

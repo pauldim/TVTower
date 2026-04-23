@@ -191,7 +191,7 @@ rem
 					Case 5	title = "Bester Spieler (Tag):~t"
 					Case 6	title = "Bester Spieler (Prime):"
 				End Select
-				GetBitmapFont("default", 12).Draw(title+"~tMinAudience = " + MathHelper.NumberToString(100 * filter.minAudienceMin,2)+"% - "+ MathHelper.NumberToString(100 * filter.minAudienceMax,2)+"%", 20, y)
+				GetBitmapFont("default", 12).Draw(title+"~tMinAudience = " + TFunctions.LocalizedNumberToString(100 * filter.minAudienceMin,2)+"% - "+ TFunctions.LocalizedNumberToString(100 * filter.minAudienceMax,2)+"%", 20, y)
 				If filterNum Mod 2 = 0 Then y :+ 4
 				y:+ 13
 			Next
@@ -210,6 +210,7 @@ endrem
 		Local adLists:TAdContract[][] = [adAgency.listNormal, adAgency.listCheap]
 		Local entryPos:Int = 0
 		Local oldAlpha:Float = GetAlpha()
+		Local ad:TAdContract
 		For Local listNumber:Int = 0 Until adLists.length
 			Local ads:TAdContract[] = adLists[listNumber]
 
@@ -226,8 +227,8 @@ endrem
 
 				SetColor 255,255,255
 				SetAlpha oldAlpha
-
-				If ads[i] And ads[i] = offerHightlight
+				ad = ads[i]
+				If ad And ad = offerHightlight
 					SetAlpha 0.25 * oldAlpha
 					SetBlend LIGHTBLEND
 					DrawRect(textX, textY, 290, 11)
@@ -236,11 +237,11 @@ endrem
 				EndIf
 
 				textFont.DrawSimple(RSet(i, 2).Replace(" ", "0"), textX, textY - 1)
-				If ads[i]
-					textFont.DrawBox(": " + ads[i].GetTitle(), textX + 15, textY - 1, 110, 15, sALIGN_LEFT_TOP, SColor8.White)
-					textFont.DrawSimple(MathHelper.DottedValue(ads[i].GetMinAudience(playerID)), textX + 15 + 120, textY - 1)
-					If ads[i].GetLimitedToTargetGroup() > 0
-						textFont.DrawBox(ads[i].GetLimitedToTargetGroupString(), textX + 15 + 170, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
+				If ad
+					textFont.DrawBox(": " + ad.GetTitle(), textX + 15, textY - 1, 110, 15, sALIGN_LEFT_TOP, SColor8.White)
+					textFont.DrawSimple(TFunctions.LocalizedDottedValue(ad.GetMinAudience(playerID)), textX + 15 + 120, textY - 1)
+					If ad.GetLimitedToTargetGroup() > 0
+						textFont.DrawBox(ad.GetLimitedToTargetGroupString(), textX + 15 + 170, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
 					Else
 						SetAlpha 0.5
 						textFont.DrawBox("no limit", textX + 15 + 170, textY - 1, 100, 15, sALIGN_RIGHT_TOP, SColor8.White)
